@@ -1,4 +1,4 @@
-competitor,competitor_products_scraped,competitor_products_in_stock,product_lines_in_stock,lines_matched_to_vos,missing_products,missing_product_flavours,missing_variants,missing_variants_not_listed,missing_variants_vos_out_of_stock
-ninja-vapes.co.uk,3068,2748,1367,868,499,2476,1831,1763,68
-vampirevape.co.uk,1588,1542,1004,523,481,475,256,254,2
-vapeshop.co.uk,2093,1731,425,226,199,518,301,299,2
+competitor,reviewed_moved_to_matched,missing_products_not_on_vos,missing_products_unsure,missing_products_vos_out_of_stock,competitor_products_scraped,competitor_products_in_stock,product_lines_in_stock,lines_matched_to_vos,missing_products,missing_product_flavours,missing_variants,missing_variants_not_listed,missing_variants_vos_out_of_stock
+ninja-vapes.co.uk,240,231,23,5,3068,2748,1367,1108,259,1127,2260,2190,70
+vampirevape.co.uk,109,356,11,5,1588,1542,1004,632,372,309,372,370,2
+vapeshop.co.uk,34,159,4,2,2093,1731,425,260,165,315,342,340,2

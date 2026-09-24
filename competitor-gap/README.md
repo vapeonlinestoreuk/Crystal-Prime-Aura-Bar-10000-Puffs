@@ -49,12 +49,15 @@ Known weak spots:
 - Where a competitor uses an odd flavour name the matcher could not recognise (mostly Vampire Vape's own e-liquid names), the flavour may stay inside the product name and appear as its own line instead of grouping.
 - Pack sizes (1 pack vs 2 pack) are ignored on purpose, so a 2-pack on a competitor and a 1-pack on VOS count as the same product.
 
-## Results (2026-09-24)
+## Results (2026-09-24, after human-style review of every "missing product" row)
 
-| Competitor | Products scraped | In stock | Product lines (in stock) | Lines matched to VOS | Missing products (lines) | Flavours inside those missing lines | Missing variants | of which VOS lists but has 0 stock |
-|---|---|---|---|---|---|---|---|---|
-| ninja-vapes.co.uk | 3068 | 2748 | 1367 | 868 | 499 | 2476 | 1831 | 68 |
-| vampirevape.co.uk | 1588 | 1542 | 1004 | 523 | 481 | 475 | 256 | 2 |
-| vapeshop.co.uk | 2093 | 1731 | 425 | 226 | 199 | 518 | 301 | 2 |
+| Competitor | Products scraped | In stock | Product lines (in stock) | Matched to VOS (auto) | Moved to matched by review | Missing products, confirmed not on VOS | Unsure (check) | On VOS but out of stock | Missing variants | of which VOS lists but has 0 stock |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ninja-vapes.co.uk | 3068 | 2748 | 1367 | 868 | 240 | 231 | 23 | 5 | 2260 | 70 |
+| vampirevape.co.uk | 1588 | 1542 | 1004 | 523 | 109 | 356 | 11 | 5 | 372 | 2 |
+| vapeshop.co.uk | 2093 | 1731 | 425 | 226 | 34 | 159 | 4 | 2 | 342 | 2 |
 
 "Product lines" groups per-flavour listings into one product, so counts are lower than raw product counts.
+
+### Review pass
+Every row the automatic matcher called "missing" was re-checked by a reviewer who saw the competitor listing next to all VOS products of that brand plus the closest look-alikes, with the instruction to judge like a buyer: same brand, model, generation and form counts as the same product regardless of naming or pack size. Rows the reviewer confirmed VOS sells were moved into `matched_products` (confidence `reviewed`) and their flavour/colour gaps now appear in `missing_variants`. The `status` column in `missing_products` records the outcome: `not on VOS (reviewed)`, `unsure - possible VOS match, check` (with the candidate in `vos_product_url`), or `listed on VOS but out of stock`.
