@@ -53,8 +53,8 @@ Known weak spots:
 
 | Competitor | Products scraped | In stock | Product lines (in stock) | Lines matched to VOS | Missing products (lines) | Flavours inside those missing lines | Missing variants | of which VOS lists but has 0 stock |
 |---|---|---|---|---|---|---|---|---|
-| ninja-vapes.co.uk | 3068 | 2748 | 1368 | 867 | 501 | 2476 | 1830 | 68 |
-| vampirevape.co.uk | 1588 | 1542 | 1005 | 524 | 481 | 475 | 256 | 2 |
+| ninja-vapes.co.uk | 3068 | 2748 | 1367 | 868 | 499 | 2476 | 1831 | 68 |
+| vampirevape.co.uk | 1588 | 1542 | 1004 | 523 | 481 | 475 | 256 | 2 |
 | vapeshop.co.uk | 2093 | 1731 | 425 | 226 | 199 | 518 | 301 | 2 |
 
 "Product lines" groups per-flavour listings into one product, so counts are lower than raw product counts.
