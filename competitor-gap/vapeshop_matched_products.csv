@@ -1,6 +1,7 @@
 competitor,competitor_product,vos_product,vos_url,score,confidence,competitor_url
 vapeshop.co.uk,Velo Pouches,velo nicotine pouches,https://vapeonlinestore.co.uk/products/velo-nicotine-pouches,1.0,high,https://vapeshop.co.uk/products/smooth-papaya-velo-nicotine-pouches
 vapeshop.co.uk,oxva vprime 2 kit,oxva vprime 2 pod kit,https://vapeonlinestore.co.uk/products/oxva-vprime-2,1.0,high,https://vapeshop.co.uk/products/oxva-vprime-2-kit
+vapeshop.co.uk,Fumi Pouches,fumi nicotine pouches,https://vapeonlinestore.co.uk/products/fumi-nicotine-pouches,1.0,high,https://vapeshop.co.uk/products/fiery-mint-fumi-nicotine-pouches
 vapeshop.co.uk,Ske Bar 15000 Refill Pods,ske bar 15000 puff prefilled refill pods,https://vapeonlinestore.co.uk/products/ske-bar-15000-puff-refill-pod,1.0,high,https://vapeshop.co.uk/products/strawberry-hubbla-bubbla-ske-bar-15k-refill-pack
 vapeshop.co.uk,Voopoo Pnp X Coils,Voopoo Pnp Coils,https://vapeonlinestore.co.uk/products/voopoo-pnp-replacement-coils,1.0,high,https://vapeshop.co.uk/products/voopoo-pnp-x-coils
 vapeshop.co.uk,feoba pro plus 10k pods,feoba pro plus 10k prefilled pods,https://vapeonlinestore.co.uk/products/feoba-pro-plus-10k-pods,1.0,high,https://vapeshop.co.uk/products/foeba-pro-plus-10k-pods
@@ -29,7 +30,6 @@ vapeshop.co.uk,Lost Mary Bm6000 Refill Pods,Lost Mary Bm6000 Refill Pods,https:/
 vapeshop.co.uk,vaporesso xros mini retro kit,vaporesso xros mini retro pod kit,https://vapeonlinestore.co.uk/products/vaporesso-xros-mini-retro-pod-kit,1.0,high,https://vapeshop.co.uk/products/vaporesso-xros-mini-retro-kit
 vapeshop.co.uk,Vampire Vape Max Nic Salt,vampire vape max 10ml nic salts,https://vapeonlinestore.co.uk/products/vampire-vape-max-10ml,1.0,high,https://vapeshop.co.uk/products/orange-pineapple-vampire-vape-max-nic-salt
 vapeshop.co.uk,elfbar elfx 2.0 pods,elf bar elfx 2.0 replacement pods,https://vapeonlinestore.co.uk/products/elf-bar-elfx-2-pods,1.0,high,https://vapeshop.co.uk/products/elfbar-elfx-2-0-pods
-vapeshop.co.uk,Fumi Pouches,fumi nicotine pouches,https://vapeonlinestore.co.uk/products/fumi-nicotine-pouches,1.0,high,https://vapeshop.co.uk/products/chilled-cherry-fumi-nicotine-pouches
 vapeshop.co.uk,Vuse Go Reload 1000 Kit,vuse go reload 1000 puffs pod kit,https://vapeonlinestore.co.uk/products/vuse-go-reload-1000-pod-kit,1.0,high,https://vapeshop.co.uk/products/cherry-ice-vuse-go-reload-1000-kit
 vapeshop.co.uk,voopoo argus g4 mini kit,voopoo argus g4 mini vape kit,https://vapeonlinestore.co.uk/products/voopoo-argus-g4-mini-vape-kit,1.0,high,https://vapeshop.co.uk/products/voopoo-argus-g4-mini-kit
 vapeshop.co.uk,voopoo argus g4 kit,voopoo argus g4 vape kit,https://vapeonlinestore.co.uk/products/voopoo-argus-g4-vape-kit,1.0,high,https://vapeshop.co.uk/products/voopoo-argus-g4-kit
@@ -203,6 +203,7 @@ vapeshop.co.uk,ivg smart max kit,Ivg Smart Max 10000 Reusable Vape Kit,https://v
 vapeshop.co.uk,voopoo argus v2 pods,voopoo argus top-fill v2 pod cartridges,https://vapeonlinestore.co.uk/products/voopoo-argus-top-fill-v2-pod-cartridges,0.7,medium,https://vapeshop.co.uk/products/voopoo-argus-v2-pods
 vapeshop.co.uk,oxva nexlim series vape kit,oxva nexlim pod vape kit,https://vapeonlinestore.co.uk/products/oxva-nexlim-pod-vape-kit,0.7,medium,https://vapeshop.co.uk/products/oxva-nexlim-series-vape-kit
 vapeshop.co.uk,ivg pro 12 vape kit,Ivg Pro 12 10000 Prefilled Pods Kit,https://vapeonlinestore.co.uk/products/ivg-pro-10000,0.7,medium,https://vapeshop.co.uk/products/ivg-pro-12-vape-kit
+vapeshop.co.uk,For Iqos Iluma,iqos iluma one kit,https://vapeonlinestore.co.uk/products/iqos-iluma-one-kit,0.7,medium,https://vapeshop.co.uk/products/abora-pearl-for-iqos-iluma
 vapeshop.co.uk,oxva xlim v3 replacement pods,oxva xlim v3 (top fill) replacement pod cartridges,https://vapeonlinestore.co.uk/products/oxva-xlim-v3-pods,0.7,medium,https://vapeshop.co.uk/products/oxva-xlim-v3-pods
 vapeshop.co.uk,vaporesso luxe q/qs replacement pods (pack of 4),vaporesso luxe q mesh 2ml replacement pod,https://vapeonlinestore.co.uk/products/luxe-q-replacement-pods-by-vaporesso,0.7,medium,https://vapeshop.co.uk/products/vaporesso-luxe-q-and-qs-replacement-pods-pack-of-4
 vapeshop.co.uk,voopoo tpp replacement mesh coils (pack of 3),tpp replacement coils by voopoo,https://vapeonlinestore.co.uk/products/tpp-replacement-coils-by-voopoo,0.7,medium,https://vapeshop.co.uk/products/voopoo-tpp-replacement-mesh-coils-pack-of-3

@@ -48,3 +48,13 @@ Known weak spots:
 - A product VOS sells under a very different name will show up as a missing product. The `closest_vos_product` column is there to catch these.
 - Where a competitor uses an odd flavour name the matcher could not recognise (mostly Vampire Vape's own e-liquid names), the flavour may stay inside the product name and appear as its own line instead of grouping.
 - Pack sizes (1 pack vs 2 pack) are ignored on purpose, so a 2-pack on a competitor and a 1-pack on VOS count as the same product.
+
+## Results (2026-09-24)
+
+| Competitor | Products scraped | In stock | Product lines (in stock) | Lines matched to VOS | Missing products (lines) | Flavours inside those missing lines | Missing variants | of which VOS lists but has 0 stock |
+|---|---|---|---|---|---|---|---|---|
+| ninja-vapes.co.uk | 3068 | 2748 | 1368 | 867 | 501 | 2476 | 1830 | 68 |
+| vampirevape.co.uk | 1588 | 1542 | 1005 | 524 | 481 | 475 | 256 | 2 |
+| vapeshop.co.uk | 2093 | 1731 | 425 | 226 | 199 | 518 | 301 | 2 |
+
+"Product lines" groups per-flavour listings into one product, so counts are lower than raw product counts.
