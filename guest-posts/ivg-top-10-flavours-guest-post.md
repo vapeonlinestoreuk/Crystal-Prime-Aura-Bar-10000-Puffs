@@ -1,16 +1,14 @@
-# Top 10 Best IVG Vape Flavours: We Ranked 6,000 Real IVG Pod Sales
+# Top 10 Best IVG Vape Flavours, Ranked by What People Actually Buy
 
 *By Vape Online Store*
 
-Ask ten vapers for the best IVG flavours and you'll get ten opinions. So we stopped asking and started counting. Over the last 90 days, more than 6,000 IVG Pro 12 and IVG Smart Max pods and kits went out of our warehouse, and every one of them tells us what British vapers actually reach for when it's their own money on the line.
+Every vape shop has a "best IVG flavours" list, and nearly all of them are somebody's opinion. Ours isn't. We sell IVG every day, so rather than argue about it in the office we pulled the sales sheet for the last three months and let the numbers settle it.
 
-The first surprise? Britain's number one IVG flavour isn't a fruit.
+A bit over 6,000 IVG Pro 12 and IVG Smart Max pods and kits went out the door between early July and early October 2026. We added up every flavour across every nicotine strength and ranked them. Mix boxes were taken out, because one trade customer ordering fifty of the same box would have wrecked the chart. The [IVG Pro 12 10K Kit](https://vapeonlinestore.co.uk/products/ivg-pro-10000), the IVG Pro 12 refill pods, the IVG Smart Max vape kit and the IVG Smart Max refill pods are all in there.
 
-## How we ranked the best IVG flavours
+Some of the results we expected. One or two we didn't.
 
-This isn't a "staff favourites" list. We pulled sales for the [IVG Pro 12 10K Kit](https://vapeonlinestore.co.uk/products/ivg-pro-10000), the IVG Pro 12 refill pods, the IVG Smart Max vape kit and the IVG Smart Max refill pods from our UK store between July and October 2026, added up every nicotine strength (0mg, 10mg and 20mg), and ranked each IVG flavour by units sold. Mix boxes and multi-packs were left out so a single bulk order couldn't skew the chart.
-
-In total that's 6,075 IVG pods and kits. The ten IVG vape flavours below took 2,680 of them, which is 44% of everything sold. All ten are available on both devices.
+## The top 10 IVG vape flavours
 
 | Rank | IVG flavour | IVG Pro 12 | IVG Smart Max | Total sold |
 |---|---|---|---|---|
@@ -25,51 +23,63 @@ In total that's 6,075 IVG pods and kits. The ten IVG vape flavours below took 2,
 | 9 | IVG Mixed Berry | 136 | 39 | 175 |
 | 10 | IVG Lemon Lime | 120 | 53 | 173 |
 
-## The top 10 best IVG vape flavours, ranked
+Those ten account for 2,680 of the 6,075 units, so a bit under half of everything. Every one of them is available on both the IVG Pro 12 and the IVG Smart Max, which is handy, because it means the list works whichever kit you've got.
 
 ### 1. IVG Classic Menthol
 
-Nothing else comes close. IVG Classic Menthol outsold the number two flavour by 160 units and is the best seller on both the IVG Pro 12 and the IVG Smart Max. It's a clean, cold menthol with no sweetener and no fruit, which is exactly why it works. Ex-smokers want something that feels familiar, and an IVG menthol vape gives them that without any of the sugary edge. If you only try one IVG flavour, this is it. Buy it as [IVG Pro 12 Pods](https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods) or as an IVG Smart Max pod, in 20mg, 10mg or zero nicotine.
+We knew menthol would do well. We didn't expect it to win by this much. IVG Classic Menthol sold 538 units, 160 clear of second place, and it was the number one flavour on each device separately as well.
+
+It is exactly what it says. Cold, clean menthol with nothing sweet in it. Most people buying it used to smoke menthol cigarettes, and an IVG menthol vape is about the closest thing left on the UK market since those went. It's also the only flavour in the top three that sells in real numbers at 10mg and 0mg, not just 20mg. You can get it as [IVG Pro 12 Pods](https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods) or as an IVG Smart Max pod.
+
+One thing worth knowing: on the 20mg IVG Pro 12 pods it slipped to fourth over the last 30 days. More on that further down.
 
 ### 2. IVG Blue Sour Raspberry
 
-The sharp one. IVG Blue Sour Raspberry is the fruit flavour people buy on repeat, and it's a runaway hit on IVG Pro pods in particular. Think blue raspberry sweets with the sour sugar coating still on. It's bold, slightly tart and very moreish, and once you add up every nicotine strength it's the second most popular IVG Pro flavour we stock.
+If you've vaped at all in the last few years you'll know this one. Blue raspberry with the sour sugar coating, like the sweets. IVG's version is sharper than most, and it's the fruit flavour people re-order most often, which is the real test of any flavour. Once you add every strength together, IVG Blue Sour Raspberry is the second most popular IVG Pro flavour we sell. It also does well on IVG Pro pods in zero nicotine.
 
 ### 3. IVG Blue Raspberry Ice
 
-Same berry, different mood. IVG Blue Raspberry Ice swaps the sour kick for a cold finish, so it sits between the two flavours above: fruity like number two, chilled like number one. It's a strong seller on the IVG Smart Max vape kit itself, where it's the second most bought starter flavour behind menthol. If IVG Blue Sour Raspberry is too sharp for you, this is the one to switch to.
+Yes, two blue raspberries in the top three. They're different enough that people pick a side. IVG Blue Raspberry Ice drops the sour hit and adds a cold finish, so it's smoother and a touch less sweet. It's noticeably stronger on the IVG Smart Max vape kit than on the IVG Pro 12. On the Smart Max kit it's the second best-selling flavour after menthol.
 
 ### 4. IVG Fizzy Cherry
 
-IVG Fizzy Cherry tastes like cherryade, with a fizz on the inhale and a sweet cherry finish. It punches above its weight on the IVG Smart Max, where it's the second best-selling flavour overall, and it's one of only a handful of IVG flavours that sells well in 10mg as well as 20mg. Good choice if you want fruit without ice. Available as [IVG Smart Max Pods](https://vapeonlinestore.co.uk/products/ivg-smart-max-pods) and IVG Pro 12 pods.
+Cherryade, basically, with a bit of fizz on the inhale. IVG Fizzy Cherry is the second best-selling flavour on the IVG Smart Max overall, and it's one of the few fruit flavours that sells properly in 10mg. Our guess is that a lot of people are using it to step down. Available as [IVG Smart Max Pods](https://vapeonlinestore.co.uk/products/ivg-smart-max-pods) and on the IVG Pro 12.
 
 ### 5. IVG Strawberry Raspberry Cherry
 
-Three red fruits in one pod. IVG Strawberry Raspberry Cherry is the most balanced flavour on this list: sweet strawberry up front, raspberry in the middle and a cherry tail. It's also the biggest seller among IVG zero nicotine pods on the IVG Pro 12 kit, which tells you a lot about who's buying it. People who vape for flavour, not for a nicotine hit, pick this one.
+Three red fruits, none of them shouting over the others. This is the quiet seller of the range. It's never the headline flavour but it ticks over on both devices, and it's the most popular choice among IVG zero nicotine pods on the IVG Pro 12 kit. Our reading is that people who vape without nicotine care more about taste, and this is the one that tastes most like actual fruit.
 
 ### 6. IVG Pineapple Ice
 
-The tropical pick. IVG Pineapple Ice is sweet, juicy pineapple with a cool finish that stops it getting sickly. It's the single most popular flavour for people buying their first IVG Pro 12 kit, which suggests it's the one new vapers are drawn to on the shelf.
+The most popular flavour for a first IVG Pro 12 kit, by some distance. Sweet pineapple with a chill on the end. If you don't like pineapple you'll hate it, and that's fine. Everyone else seems to buy it once and come back for it.
 
 ### 7. IVG Strawberry Ice
 
-Simple and reliable. IVG Strawberry Ice is a ripe strawberry with a light chill, and it's the kind of flavour you can vape all day without getting bored of it. On the IVG Pro 12 refill pods it sells almost as well in zero nicotine as it does in 20mg.
+Plain strawberry, light ice. Not an exciting flavour, but there's a reason it's in the top ten: it doesn't get boring. On the IVG Pro 12 refill pods it sells nearly as many in zero nicotine as it does in 20mg, which hardly any flavour manages.
 
 ### 8. IVG Banana Ice
 
-Divisive on paper, consistent in the numbers. IVG Banana Ice is creamy banana with a menthol edge and it sells steadily on both devices, with a slight lean towards the IVG Smart Max. If you like dessert-style flavours, this is the closest thing to one in the top ten.
+We'll be honest, banana isn't a favourite in the office. The customers disagree. IVG Banana Ice is creamy rather than sweet, with a menthol edge, and it sells week in, week out on both devices, with a slight lean towards the IVG Smart Max. It's the nearest thing to a dessert flavour in the top ten.
 
 ### 9. IVG Mixed Berry
 
-IVG Mixed Berry is a blend of dark berries, blackcurrant-forward with a soft sweetness. It's a strong IVG Pro refill flavour, especially in 10mg, and it's the pick for anyone who finds blue raspberry too artificial.
+Dark berries, mostly blackcurrant, not too sweet. IVG Mixed Berry does particularly well as an IVG Pro refill flavour in 10mg. If you find blue raspberry a bit artificial, try this instead.
 
 ### 10. IVG Lemon Lime
 
-Rounding out the ten, IVG Lemon Lime is a citrus sherbet: zesty, sharp and refreshing. It sells evenly across both devices and all nicotine strengths, which makes it the most "safe bet" flavour on the list. A good second pod to pair with a menthol or a berry.
+Lemon sherbet with lime behind it. IVG Lemon Lime sold almost exactly the same on both devices and in every strength, which makes it the safest pod to pick if you're buying for someone else and don't know what they like.
 
-## IVG Pro 12 vs IVG Smart Max: which device for which flavour?
+## What's moving right now
 
-Both are rechargeable pod kits that use a 2ml prefilled pod plus a built-in 10ml refill, giving up to 10,000 puffs per pod. The difference is the flavour range and the strengths on offer.
+The three-month chart is one picture. The last 30 days on the IVG Pro 12 pods tell a slightly different story.
+
+IVG Pro Cola Frost has gone from around 30 pods a month to 91 in the last month, and it's now our best-selling IVG Pro 12 refill, ahead of menthol. We haven't promoted it, so we're putting that down to word of mouth. IVG Pink Lemonade has nearly tripled its monthly rate too.
+
+Going the other way, IVG Grape Ice and IVG Peach Ice both sold fewer pods in the last month than the month before, even though our overall IVG sales were up by about half. If we were rewriting this list in January, we'd expect IVG Pro Cola Frost to be in the top five.
+
+## IVG Pro 12 or IVG Smart Max?
+
+Both are rechargeable pod kits. Each pod is a 2ml prefilled chamber with a 10ml refill built into it, which is how they get to 10,000 puffs. The real difference is the flavour list and the strengths you can get.
 
 | | IVG Pro 12 | IVG Smart Max |
 |---|---|---|
@@ -79,44 +89,47 @@ Both are rechargeable pod kits that use a 2ml prefilled pod plus a built-in 10ml
 | Flavour range | 38+ | 30 |
 | Pods interchangeable? | No | No |
 
-**Flavours only on the IVG Pro 12:** IVG Tobacco (190 sold, the fourth best IVG Pro 12 flavour overall), IVG Pro Cola Frost (168 sold) and IVG Strawberry Watermelon (157 sold, mostly in zero nicotine). IVG Hub Blast, the mystery flavour people keep searching for, is currently IVG Pro only too.
+Flavours you'll only find on the IVG Pro 12: IVG Tobacco, which sold 190 units and is the fourth best IVG Pro 12 flavour overall, IVG Pro Cola Frost (168) and IVG Strawberry Watermelon (157, and most of those were zero nicotine). IVG Hub Blast, the mystery flavour people keep searching for, is currently IVG Pro only as well.
 
-**Flavours only on the IVG Smart Max:** IVG Triple Mango (86 sold, the Smart Max's best-selling fruit pod), IVG Polar Mint (85 sold) and IVG Cola Ice (71 sold).
+Flavours you'll only find on the IVG Smart Max: IVG Triple Mango, which sold 86 and is the Smart Max's best-selling fruit pod, IVG Polar Mint (85) and IVG Cola Ice (71).
 
-So if you want tobacco or zero nicotine, you want the IVG Pro 12. If you want mango or a sharper mint, you want the IVG Smart Max.
+So if you want tobacco or zero nicotine, it's the IVG Pro 12. If you want mango or a sharper mint, it's the IVG Smart Max. Oddly, the IVG Pro 12 range has no mango at all in its top twenty.
 
-## Three things the numbers told us
+## A few things the numbers told us
 
-**Menthol beats every fruit.** IVG Classic Menthol alone is almost 9% of all IVG 10k flavours sold. Add IVG Fresh Mint, IVG Polar Mint, IVG Spearmint and IVG Fresh Menthol Mojito and mint-family flavours are about one in seven of every IVG pod sold.
+Menthol beats every fruit, and it isn't close. IVG Classic Menthol alone is nearly 9% of all IVG 10k flavours sold. Put IVG Fresh Mint, IVG Polar Mint, IVG Spearmint and IVG Fresh Menthol Mojito with it and the mint family is about one in seven of every pod.
 
-**Ice splits the room.** Five of the top ten IVG vape flavours have a cooling finish and five don't. The UK is evenly divided between iced and un-iced fruit, so IVG covers both.
+Ice is a coin flip. Five of the top ten have a cooling finish and five don't. We'd assumed iced flavours dominated. They don't.
 
-**Zero nicotine buyers have different taste.** IVG zero nicotine pods skew sweet: IVG Strawberry Watermelon sells more than twice as many units in 0mg as it does in 20mg. Nicotine-free vapers are buying flavour, not habit.
+Zero nicotine buyers have different taste. IVG zero nicotine pods skew sweet. IVG Strawberry Watermelon sells more than twice as many pods at 0mg as it does at 20mg. People vaping without nicotine are buying a flavour they like, not a habit.
 
-## FAQs about IVG flavours
+## Questions we get asked about IVG flavours
 
-**What IVG flavours are there?**
-The IVG Pro 12 range has 38+ IVG Pro 12 flavours and there are 30 IVG Smart Max flavours. Between them they cover menthol, tobacco, berries, tropical fruit, citrus, cola and dessert styles. You can browse the full [IVG Vapes](https://vapeonlinestore.co.uk/collections/ivg-disposable-vape-bars) range to see every option in stock.
+### What IVG flavours are there?
 
-**Which IVG flavour is best?**
-By sales, IVG Classic Menthol. By fruit, IVG Blue Sour Raspberry. If you want one flavour that pleases most people, IVG Strawberry Raspberry Cherry is the safest all-rounder.
+There are 38+ IVG Pro 12 flavours and 30 IVG Smart Max flavours. Between the two you've got menthol, tobacco, berries, tropical fruit, citrus, cola and a couple of dessert-style options. The full [IVG Vapes](https://vapeonlinestore.co.uk/collections/ivg-disposable-vape-bars) range is on our site if you want to see everything in stock.
 
-**Are IVG vapes banned in the UK?**
-Single-use disposables were banned in the UK from June 2025. The IVG Pro 12 and IVG Smart Max are rechargeable pod kits with replaceable IVG refill pods, so they remain legal to sell and buy.
+### Which IVG flavour is best?
 
-**Do IVG Pro 12 pods fit the IVG Smart Max?**
-No. IVG Pro 12 pods and IVG Smart Max pods are different shapes and only fit their own device. Check which kit you own before buying IVG pods.
+By sales, IVG Classic Menthol. By fruit, IVG Blue Sour Raspberry. If you want one pod that most people will get on with, IVG Strawberry Raspberry Cherry is the safe all-rounder.
 
-## Where to buy the best IVG flavours
+### Are IVG vapes banned in the UK?
 
-Every flavour in this list is stocked in 20mg, and most in 10mg and 0mg, at Vape Online Store, an [Online Vape Shop UK](https://vapeonlinestore.co.uk) customers rate for next-day delivery and the full IVG Pro 12 and IVG Smart Max range. Start with the top three, find your favourite, then work down the list.
+Single-use disposables have been banned in the UK since June 2025. The IVG Pro 12 and IVG Smart Max are rechargeable kits with replaceable IVG refill pods, so they're still legal to sell and buy.
+
+### Do IVG Pro 12 pods fit the IVG Smart Max?
+
+No. IVG Pro 12 pods and IVG Smart Max pods are different shapes and only fit their own kit. Check which one you've got before you order IVG pods.
+
+## Where to buy
+
+Everything on this list is stocked in 20mg, and most of it in 10mg and 0mg, at Vape Online Store, an [Online Vape Shop UK](https://vapeonlinestore.co.uk) customers use for next-day delivery and the full IVG Pro 12 and IVG Smart Max range. Our advice is to start with the top three, work out which side of the menthol-or-fruit line you're on, and go from there.
 
 *Vape products are for adults aged 18 and over only. Nicotine is an addictive substance.*
 
 ---
 
-*About the author: Vape Online Store is a UK online vape retailer stocking the full IVG range. The sales figures in this article are taken directly from the store's own order data for the 90 days to 6 October 2026.*
-
+*About the author: Vape Online Store is a UK online vape retailer stocking the full IVG range. The sales figures in this article are taken from the store's own order data for the 90 days to 6 October 2026.*
 
 ---
 
