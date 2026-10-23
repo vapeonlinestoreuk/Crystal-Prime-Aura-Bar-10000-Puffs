@@ -1,0 +1,207 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "heading",
+   "level": 3,
+   "children": [
+    {
+     "type": "text",
+     "value": "Frequently Asked Questions"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "How long do Vaporesso LUXE X pods last?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "A Vaporesso LUXE X Dual Mesh Pod usually lasts "
+    },
+    {
+     "type": "text",
+     "value": "one to two weeks",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " of moderate vaping before flavour drops off. Low power, nic salts and 50/50 liquid in the 0.6Ω pod stretch that; sweet shortfills at high power in the 0.4Ω pod shorten it. Change the pod at the first burnt or muted hit."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "What pods are compatible with the Vaporesso LUXE X?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "The Vaporesso LUXE X takes three pod types: these "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso LUXE X Dual Mesh Pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", the standard Vaporesso LUXE X mesh pods from 0.3Ω to 0.8Ω, and the empty Vaporesso LUXE XR pods with a GTX coil. All share one magnetic base and also fit the LUXE X2, X3 and XR Max kits."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "Do all Vaporesso pods fit the same?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "No. Vaporesso pods are platform specific. LUXE X series pods, including the Vaporesso LUXE X Dual Mesh Pods, fit "
+    },
+    {
+     "type": "text",
+     "value": "LUXE X, X2, X3, X Pro and XR kits only",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". Vaporesso LUXE Q, XROS and GTX pods use different bases and will not seat in a LUXE X kit. See all "
+    },
+    {
+     "type": "link",
+     "url": "https://vapeonlinestore.co.uk/collections/vaporesso-pods",
+     "title": "Vaporesso replacement pods",
+     "children": [
+      {
+       "type": "text",
+       "value": "Vaporesso replacement pods"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "value": "."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "What is the difference between the 0.4Ω and 0.6Ω Vaporesso LUXE X Dual Mesh Pods?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Resistance decides the draw. The "
+    },
+    {
+     "type": "text",
+     "value": "0.4Ω",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " Vaporesso LUXE X Dual Mesh Pod runs at higher power for a looser restricted lung draw and warmer vapour. The "
+    },
+    {
+     "type": "text",
+     "value": "0.6Ω",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " pod runs cooler for a tighter mouth-to-lung draw, uses less battery and e-liquid, and suits nic salts. Both pods fit the same kits."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "What is the difference between 0.6 and 0.8 Vaporesso pods?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "The 0.6Ω Vaporesso LUXE X Dual Mesh Pod gives a medium, slightly open mouth-to-lung draw with more vapour, while the 0.8Ω standard Vaporesso LUXE X mesh pod is tighter and cooler, closest to a cigarette. "
+    },
+    {
+     "type": "text",
+     "value": "There is no 0.8Ω dual mesh pod",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": "; for that draw choose the standard Vaporesso LUXE X 0.8Ω mesh pod."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "Why does my Vaporesso LUXE X Dual Mesh Pod taste burnt?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "A burnt hit on a new Vaporesso LUXE X Dual Mesh Pod almost always means it was not primed. Fill it, "
+    },
+    {
+     "type": "text",
+     "value": "wait at least 10 minutes",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", and start on low power. On a used pod, a burnt taste with e-liquid still inside means the mesh has gummed up with sweetener, so replace the pod."
+    }
+   ]
+  }
+ ]
+}
