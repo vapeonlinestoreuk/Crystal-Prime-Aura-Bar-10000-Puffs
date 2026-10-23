@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-23",
+ "handle": "its-caffeine-pouches",
+ "product_id": "gid://shopify/Product/15318404989177",
+ "writer": "Claude (vos-product-description, adapted for caffeine pouches)",
+ "tier": "Run Tier: new draft, empty description (nothing to back up)",
+ "word_count": 1189,
+ "primary_keyword": "caffeine pouches (3,600/mo GB, KD 3, AI Overview + PAA + Shopping)",
+ "secondary_keywords": [
+  "caffeine pouches uk (350)",
+  "energy pouches (600)",
+  "nicotine free pouches (600)",
+  "caffeine snus (400)",
+  "caffeine pouch (200)",
+  "caffeine pouches vs nicotine pouches (150)",
+  "are caffeine pouches safe (100)"
+ ],
+ "paa_used": [
+  "Do caffeine pouches actually work?",
+  "Are caffeine pouches legal in the UK?",
+  "Are caffeine pouches healthier than coffee?",
+  "Do caffeine pouches give a buzz?"
+ ],
+ "faq_count": 9,
+ "meta_title": "it's Caffeine Pouches UK | 50mg & 100mg Caffeine, £5.99",
+ "meta_description": "Buy it's caffeine pouches UK: 50mg or 100mg caffeine per pouch, 20 a can, zero sugar, nicotine free energy pouches in 6 flavours. £5.99 a can, 18+ only.",
+ "tags_count": 54,
+ "internal_links": [
+  "/collections/nicotine-pouches",
+  "/products/velo-nicotine-pouches",
+  "/collections/coffee-vape",
+  "/collections/nicotine-free-vape"
+ ],
+ "sources": [
+  "itspouch.com (via search summary: flavours, £5.99, upper lip, 50mg/100mg, sugar-free)",
+  "snusboys.co.uk listing (via search summary: 100mg, 20 per can, made in UK)",
+  "VOS custom.product_specifications metafield (ingredients, Tough Code Ltd)",
+  "FSA/FSS caffeine guidance 400mg adult / 200mg pregnancy (via search summary)",
+  "Ahrefs overview, matching-terms, serp-overview, gsc-keywords"
+ ],
+ "unverified": [
+  "20 pouches per can and made in UK: retailer + VOS metafield, not read on brand site",
+  "ingredient list (mannitol, sucralose, cellulose, alginate, VG/PG): VOS metafield only",
+  "20-30 minute use time: category norm, brand publishes no figure we could read"
+ ],
+ "ahrefs_units": 2688,
+ "backup": "nothing to back up (description was empty)",
+ "positioning_flag": "Caffeine, nicotine-free. Must not be listed or tagged as a nicotine pouch."
+}
