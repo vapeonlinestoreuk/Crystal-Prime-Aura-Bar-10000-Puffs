@@ -1,0 +1,69 @@
+{
+ "date": "2026-10-23",
+ "handle": "wow-exp-100ml-e-liquid",
+ "product_id": "gid://shopify/Product/9290027401465",
+ "writer": "Claude (vos-product-description adapted for 100ml shortfill)",
+ "tier": "B equivalent: branded term has 0 volume, page anchored on category terms; new draft, empty description (nothing to back up)",
+ "word_count": 1195,
+ "primary_keyword": "Wow Exp 100ml E Liquid (0/mo GB, branded)",
+ "anchor_keywords": [
+  "100ml e liquid (350/mo, KD 0, AI Overview + PAA)",
+  "100ml shortfill (70/mo, KD 0)",
+  "100ml vape juice (800/mo, KD 0)",
+  "shortfill e liquid (700/mo, KD 1)"
+ ],
+ "secondary_keywords": [
+  "70/30 e liquid (50)",
+  "nicotine shots (700)",
+  "e liquid uk 100ml (250)",
+  "3mg e liquid 100ml (40)",
+  "6mg e liquid 100ml (30)",
+  "cotton candy e liquid (20)",
+  "tropical e liquid (70)",
+  "100ml e liquid with nicotine (30)"
+ ],
+ "paa_used": [
+  "How long does 100ml of vape liquid last?",
+  "How many puffs is 100ml of e-liquid?",
+  "How much nicotine is in 100ml shortfill?",
+  "Can you buy nic salts in 100ml?"
+ ],
+ "problem_terms_used": [
+  "how to add nic shot to shortfill (90)",
+  "can you use shortfill without nicotine (90)",
+  "how to open a shortfill bottle (70)",
+  "which shortfill vg/pg ratio is best for sub-ohm? (10)"
+ ],
+ "faq_count": 9,
+ "meta_title": "Wow Exp 100ml E Liquid | 0mg 70/30 Soda Shortfill UK",
+ "meta_description": "Wow Exp 100ml E Liquid shortfill: 0mg 70VG/30PG in a 120ml bottle, room for 2 nic shots, 5 fizzy soda flavours for sub-ohm DTL kits. UK stock, TPD ready.",
+ "tags_count": 59,
+ "internal_links": [
+  "/collections/100ml-e-liquid",
+  "/products/nicotine-shots",
+  "/products/vaporesso-vape-kit-gen-200",
+  "/collections/dtl-vape-tanks",
+  "/products/hayati-pro-max-100ml",
+  "/products/super-juice-100ml-shortfill-e-liquid"
+ ],
+ "sources": [
+  "VOS custom.product_specifications metafield (120ml bottle, 100ml, 0mg, 2 x 10ml shot space, 70VG/30PG, sub-ohm, childproof cap, tamper seal, TPD)",
+  "UK retailer listings via WebSearch snippets: revape.co.uk, vape.co.uk, smkd.com, maxxeliquids.co.uk, vape360.co.uk, eBay (range name Wow That's What I Call Soda, 70VG/30PG, 0mg, 2 shots = 120ml at 3mg, retailer prices £8 to £12.99)",
+  "Ahrefs: keywords-explorer-overview, matching-terms (terms + questions), search-suggestions, serp-overview x2, gsc-keywords, site-explorer-organic-keywords x2",
+  "POTV forum thread snippets via WebSearch (nic shot maths)"
+ ],
+ "unverified": [
+  "No brand or manufacturer site found; all specs are retailer + VOS metafield, none brand-site",
+  "'Exp' in the title does not appear in any retailer listing; retailers sell the range as Wow That's What I Call Soda",
+  "Cotton Candy Sweet appears to belong to the Wow Sweets range, not Soda",
+  "6mg variant: mixing maths does not reach 6mg with 2 x 18mg shots; shot count for that option unknown",
+  "Made in UK claim (eBay only) left off the page"
+ ],
+ "price_flag": "Live variant price £2.49 is implausible for a 100ml shortfill (VOS siblings £6.99 to £12.99; retailers £8 to £12.99). Price not printed on page or meta.",
+ "ahrefs_units": 4317,
+ "backup": "nothing to back up (description, seo title and seo description were empty)",
+ "named_stores": [],
+ "price_checked": "2026-10-23 (internal VOS prices only)",
+ "recheck_due": "2026-11-20",
+ "history": []
+}
