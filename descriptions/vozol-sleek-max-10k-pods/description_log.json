@@ -1,0 +1,37 @@
+{
+  "run_date": "2026-10-23",
+  "skill": "vos-product-description",
+  "handle": "vozol-sleek-max-10k-pods",
+  "page_role": "refill pods (razor-and-blades sibling of vozol-sleek-max-10k)",
+  "primary_keyword": "vozol sleek max 10k pods",
+  "primary_volume_gb": 0,
+  "anchor_keywords": {
+    "vozol pods": 20,
+    "vozol refill pods": 10,
+    "prefilled vape pods": 350,
+    "pre filled vape pods": 350,
+    "replacement vape pods": 300,
+    "vozol 10000": 50
+  },
+  "body_words": 1191,
+  "faq_count": 10,
+  "faq_source": "Ahrefs PAA (prefilled vape pods, vozol 10000) + compatibility/problem questions",
+  "best_flavours": [
+    "Fresh Mint",
+    "Strawberry Raspberry Cherry",
+    "Blueberry Sour Raspberry"
+  ],
+  "best_flavour_basis": "ShopifyQL 365d Vozol-range variant sales (Sleek Max itself: 2 units)",
+  "spec_sources": {
+    "2ml pod + 8ml container = 10ml": "VOS metafield + live kit page + retailer snippet (vapes-bars)",
+    "20mg": "MHRA notification snippet + VOS metafield",
+    "15 flavours": "VOS variants + retailer snippet",
+    "coil dual mesh": "VOS kit metafield only"
+  },
+  "metafield_fix": "custom.product_specifications 12ml total corrected to 10ml total",
+  "competitor_prices": "omitted (not live-verifiable this run)",
+  "ahrefs_units": 3171,
+  "backup": "nothing to back up (description was empty)",
+  "seo_recheck_tag": "seo-recheck-2026-11",
+  "audit": "deferred to publish (draft)"
+}
