@@ -1,0 +1,690 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>prefilled vape pod</strong> stocked at Vape Online Store is on this page: the sealed 2ml pod plus 10ml refill container that keeps a Hayati, Lost Mary, IVG, Crystal Pro, SKE, Elf Bar, RELX or Vozol kit running, from <strong>£1.49 a pod</strong> as of October 2026, with current-generation big-puff pods from £2.79.</p>
+<p>Prices are live, every pod is a single pack unless the title says otherwise, and the table lists the top 30 by what sold in the last four months, with the kit each pod fits beside it. The five product sections cover the best seller from each of the five biggest device families.</p>
+<div class="vos-tip-box">
+<p><strong>&#128204; One format, every brand</strong></p>
+<p>Since the UK single-use vape ban on <strong>1 June 2025</strong>, prefilled pods have settled on one layout: a 2ml pod with the coil built in, fed by a 10ml container behind it, for 12ml a pod. Twin packs such as the Hayati Pro Ultra Plus carry two of each. The only thing that changes between brands is the shape of the pod, which is why nothing here is cross-compatible.</p>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 1 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Hayati-Pro-Ultra-Plus-25000-Puffs-Replacement-Pods.jpg?v=1757861301" alt="Hayati Pro Ultra Plus 25000 prefilled pods twin pack, two 2ml pods with 10ml refill containers" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Hayati Pro Ultra Plus 25000 Prefilled Pods (Twin Pack)</h3>
+<div class="vos-price-tag">£7.99 per pack &bull; £4.00 per pod &bull; 33p per ml</div>
+<div class="vos-sale-badge">&#127942; Best seller: 11,346 packs in 120 days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/hayati-pro-ultra-plus-pods" rel="noopener" title="hayati pro ultra plus prefilled pods" target="_blank"><strong>Hayati Pro Ultra Plus 25000 Replacement Refill Pods</strong></a> are the biggest-selling product on the whole site: <strong>11,346 packs</strong> in four months and <strong>121 reviews at 4.59 stars</strong>. A pack holds two 2ml pods, each with its own 10ml container, so 24ml and the kit's full 25,000-puff rating.</p>
+<p><strong>Who's it for?</strong> Owners of the <a href="https://vapeonlinestore.co.uk/products/hayati-pro-ultra" rel="noopener" title="hayati pro ultra plus 25000 kit" target="_blank"><strong>Hayati Pro Ultra Plus 25000 kit</strong></a>. The twist head runs two flavours at once, so pods ship as single-flavour pairs or combinations such as Blue Razz Cherry with Blueberry Raspberry. They fit the Pro Ultra Plus only, not the Pro Max Plus or Rubik.</p>
+<p><strong>What's in the box?</strong> 2 x 2ml prefilled pods, 2 x 10ml refill containers, 24ml in total.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> Up to 25,000 per pack</li>
+<li>
+<strong>E-liquid:</strong> 24ml (2 x 2ml pods + 2 x 10ml containers)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt, 50/50 VG/PG</li>
+<li>
+<strong>Coil:</strong> 1.1 ohm mesh, one per pod</li>
+<li>
+<strong>Draw:</strong> Inhale activated, MTL</li>
+<li>
+<strong>Flavours:</strong> 50 single and dual options</li>
+<li>
+<strong>Fits:</strong> Hayati Pro Ultra Plus 25000 kit only</li>
+</ul>
+<div class="vos-tip-box">&#128161; <strong>Value maths:</strong> £7.99 for 24ml is <strong>£3.33 per 10ml</strong>, the lowest of the top five. The product page runs 3 for £21, or £3.50 a pod.</div>
+<a href="https://vapeonlinestore.co.uk/products/hayati-pro-ultra-plus-pods" class="vos-cta-button" rel="noopener" target="_blank">View Hayati Pro Ultra Plus Pods</a> <a href="https://vapeonlinestore.co.uk/products/hayati-pro-ultra" class="vos-cta-button" rel="noopener" target="_blank">View the Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/hayati-pro-max-plus-refill-pods.webp?v=1790920785" alt="Hayati Pro Max Plus 6000 prefilled pod pack showing the 2ml pod and 10ml refill container" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Hayati Pro Max Plus 6000 Prefilled Pods</h3>
+<div class="vos-price-tag">From £6.99 per pod &bull; 58p per ml</div>
+<div class="vos-sale-badge">&#128293; Second best seller: 8,889 pods in 120 days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/hayati-pro-max-plus-6000-replacement-pods" rel="noopener" title="hayati pro max plus prefilled pods" target="_blank"><strong>Hayati Pro Max Plus 6000 Replacement Refill Pods</strong></a> are the reorder behind the UK's best-known 6,000-puff kit: <strong>8,889 pods</strong> in four months, <strong>84 reviews at 4.51 stars</strong>, and the deepest flavour list here, with 60+ flavours in 20mg and separate 10mg, 5mg and 0mg listings.</p>
+<p><strong>Who's it for?</strong> Owners of the <a href="https://vapeonlinestore.co.uk/products/hayati-pro-max-plus-6000" rel="noopener" title="hayati pro max plus 6000 kit" target="_blank"><strong>Hayati Pro Max Plus 6000 kit</strong></a>. One pod drops in and feeds itself from the 10ml container; the 1.2 ohm mesh coil gives a tighter MTL draw than the Ultra Plus. Not compatible with the Pro Ultra Plus 25000 or Pro Max Plus 4000.</p>
+<p><strong>What's in the box?</strong> 1 x 2ml prefilled pod with 10ml refill container, 12ml in total.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> Up to 6,000 per pod</li>
+<li>
+<strong>E-liquid:</strong> 12ml (2ml pod + 10ml container)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt; 10mg, 5mg and 0mg listed separately</li>
+<li>
+<strong>Coil:</strong> 1.2 ohm mesh</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Flavours:</strong> 60+ in 20mg</li>
+<li>
+<strong>Fits:</strong> Hayati Pro Max Plus 6000 kit only</li>
+</ul>
+<div class="vos-tip-box">&#128161; <strong>Value maths:</strong> £6.99 for 12ml is <strong>£5.83 per 10ml</strong>; the 3 for £18 offer on the product page brings a pod to £6.00.</div>
+<a href="https://vapeonlinestore.co.uk/products/hayati-pro-max-plus-6000-replacement-pods" class="vos-cta-button" rel="noopener" target="_blank">View Hayati Pro Max Plus Pods</a> <a href="https://vapeonlinestore.co.uk/products/hayati-pro-max-plus-6000" class="vos-cta-button" rel="noopener" target="_blank">View the Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Crystal-Pro-CP-10K-Prefilled-Pods.jpg?v=1749657607" alt="Crystal Pro CP 10K prefilled pod with 10ml refill container, 20mg nic salt" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Crystal Pro CP 10K Prefilled Pods</h3>
+<div class="vos-price-tag">£4.99 per pod &bull; 42p per ml</div>
+<div class="vos-sale-badge">&#11088; Highest rated of the top five: 4.71 from 56 reviews</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/crystal-pro-cp-10k-pods" rel="noopener" title="crystal pro cp 10k prefilled pods" target="_blank"><strong>Crystal Pro CP 10K Pods</strong></a> are the cheapest of the big three lines at <strong>£4.99 for 12ml</strong> and the best reviewed: <strong>4.71 stars from 56 reviews</strong> on 6,820 pods sold. Rated at 10,000 puffs, so the per-puff cost sits below the Hayati Pro Max Plus.</p>
+<p><strong>Who's it for?</strong> Owners of the <a href="https://vapeonlinestore.co.uk/products/crystal-pro-cp-10k" rel="noopener" title="crystal pro cp 10k kit" target="_blank"><strong>Crystal Pro CP 10K kit</strong></a> who want a mesh coil MTL pod at the low end of the price range. 46 flavour options including a Best Flavour mix. Fits the CP 10K only; the Crystal Pro Switch 30K and CP 15K use their own pods.</p>
+<p><strong>What's in the box?</strong> 1 x 2ml prefilled pod plus 10ml refill container, 12ml in total.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> Up to 10,000 per pod</li>
+<li>
+<strong>E-liquid:</strong> 12ml (2ml pod + 10ml container)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> Mesh</li>
+<li>
+<strong>Draw:</strong> Draw activated, MTL</li>
+<li>
+<strong>Flavours:</strong> 46 options</li>
+<li>
+<strong>Fits:</strong> Crystal Pro CP 10K kit only</li>
+</ul>
+<div class="vos-tip-box">&#128161; <strong>Value maths:</strong> £4.99 for 12ml is <strong>£4.16 per 10ml</strong>, about 5p per 100 puffs at the rated 10,000.</div>
+<a href="https://vapeonlinestore.co.uk/products/crystal-pro-cp-10k-pods" class="vos-cta-button" rel="noopener" target="_blank">View Crystal Pro CP 10K Pods</a> <a href="https://vapeonlinestore.co.uk/products/crystal-pro-cp-10k" class="vos-cta-button" rel="noopener" target="_blank">View the Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Pro_Refills.jpg?v=1776513170" alt="IVG Pro 12 10K prefilled refill pods in 20mg, 10mg and 0mg nic salt" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. IVG Pro 12 10K Prefilled Pods</h3>
+<div class="vos-price-tag">£5.99 per pod &bull; 50p per ml</div>
+<div class="vos-sale-badge">&#127798; Stocked in 20mg, 10mg and 0mg</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" rel="noopener" title="ivg pro 12 prefilled pods" target="_blank"><strong>IVG Pro 12 10K Refill Pods</strong></a> sold <strong>3,829 pods</strong> in four months with <strong>38 reviews at 4.53 stars</strong>. IVG answers the 10mg question on this page: the same pod comes in 20mg, <a href="https://vapeonlinestore.co.uk/products/ivg-pro-prefilled-10mg-pods" rel="noopener" title="ivg pro 12 10mg prefilled pods" target="_blank"><strong>10mg</strong></a> and <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-zero-nicotine-refill-pods" rel="noopener" title="ivg pro 12 zero nicotine pods" target="_blank"><strong>0mg</strong></a>, so you can step down without changing kit.</p>
+<p><strong>Who's it for?</strong> Owners of the <a href="https://vapeonlinestore.co.uk/products/ivg-pro-10000" rel="noopener" title="ivg pro 12 10000 kit" target="_blank"><strong>IVG Pro 12 10000 kit</strong></a>. 95 variants cover the full IVG flavour list plus a Best Flavour mix. These fit the Pro 12 only; IVG Smart Max, XL 35K and Air pods are different shapes.</p>
+<p><strong>What's in the box?</strong> 1 x 2ml prefilled pod with 10ml refill container, 12ml in total.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> Up to 10,000 per pod</li>
+<li>
+<strong>E-liquid:</strong> 12ml (2ml pod + 10ml container)</li>
+<li>
+<strong>Nicotine:</strong> 20mg, 10mg or 0mg nic salt</li>
+<li>
+<strong>Coil:</strong> Mesh</li>
+<li>
+<strong>Flavours:</strong> 95 variant options</li>
+<li>
+<strong>Fits:</strong> IVG Pro 12 10000 kit only</li>
+</ul>
+<div class="vos-tip-box">&#128161; <strong>Value maths:</strong> £5.99 for 12ml is <strong>£4.99 per 10ml</strong>; the 3 for £15 offer takes a pod to £5.00.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" class="vos-cta-button" rel="noopener" target="_blank">View IVG Pro 12 Pods</a> <a href="https://vapeonlinestore.co.uk/products/ivg-pro-10000" class="vos-cta-button" rel="noopener" target="_blank">View the Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/lost-mary-nera-15k-puffs-prefilled-replacement-pods.jpg?v=1785468335" alt="Lost Mary Nera 15K prefilled replacement pod, 15,000 puffs, 20mg nic salt" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Lost Mary Nera 15K Prefilled Pods</h3>
+<div class="vos-price-tag">£5.99 per pod &bull; 50p per ml</div>
+<div class="vos-sale-badge">&#11088; Best-selling Lost Mary pod: 2,851 in 120 days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/lost-mary-nera-15k-puffs-prefilled-replacement-pods" rel="noopener" title="lost mary nera 15k prefilled pods" target="_blank"><strong>Lost Mary Nera 15K Prefilled Replacement Pods</strong></a> feed the Nera 30K Fullview kit, which runs two of them for its 30,000-puff rating. <strong>2,851 pods</strong> sold in four months with <strong>32 reviews at 4.5 stars</strong>, ahead of the Lost Mary BM6000 pod at 1,951.</p>
+<p><strong>Who's it for?</strong> Owners of the <a href="https://vapeonlinestore.co.uk/products/lost-mary-nera-30k" rel="noopener" title="lost mary nera 30k fullview kit" target="_blank"><strong>Lost Mary Nera 30K Fullview kit</strong></a>; 51 options cover the standard range and the clear-tank Pureview flavours. Not interchangeable with BM6000, Tappo or BM600 pods, each of which has its own listing here.</p>
+<p><strong>What's in the box?</strong> 1 x 2ml prefilled pod plus 10ml refill container, 12ml in total.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> Up to 15,000 per pod</li>
+<li>
+<strong>E-liquid:</strong> 12ml (2ml pod + 10ml container)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> Mesh</li>
+<li>
+<strong>Draw:</strong> MTL</li>
+<li>
+<strong>Flavours:</strong> 51 options, Pureview included</li>
+<li>
+<strong>Fits:</strong> Lost Mary Nera 30K Fullview kit only</li>
+</ul>
+<div class="vos-tip-box">&#128161; <strong>Value maths:</strong> £5.99 for 12ml is <strong>£4.99 per 10ml</strong>, or 4p per 100 puffs at the 15,000 rating, the lowest per-puff figure in the Lost Mary range.</div>
+<a href="https://vapeonlinestore.co.uk/products/lost-mary-nera-15k-puffs-prefilled-replacement-pods" class="vos-cta-button" rel="noopener" target="_blank">View Lost Mary Nera 15K Pods</a> <a href="https://vapeonlinestore.co.uk/products/lost-mary-nera-30k" class="vos-cta-button" rel="noopener" target="_blank">View the Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE --> <!-- ========================================= -->
+<h2>Vape Refill Pods Ranked by Sales, With the Kit Each One Fits</h2>
+<p>This table runs in <strong>sales order</strong>: units sold over the 120 days to 24 October 2026, best seller first. The collection holds 410 listings, most of them single-flavour variants of the same pod, so the table shows the <strong>top 30 pod packs</strong>. Check the Fits column before you buy; the per-unit column is the price of one pod.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Pod</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Fits</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. <a href="https://vapeonlinestore.co.uk/products/hayati-pro-ultra-plus-pods" rel="noopener" title="hayati pro ultra plus 25000 refill pods (twin pack)" target="_blank"><strong>Hayati Pro Ultra Plus 25000 Refill Pods (twin pack)</strong></a></td>
+<td>£7.99</td>
+<td>£4.00 per pod</td>
+<td>Hayati Pro Ultra Plus 25000</td>
+<td>&#9733; 4.6 (121)</td>
+</tr>
+<tr>
+<td>2. <a href="https://vapeonlinestore.co.uk/products/hayati-pro-max-plus-6000-replacement-pods" rel="noopener" title="hayati pro max plus 6000 refill pods" target="_blank"><strong>Hayati Pro Max Plus 6000 Refill Pods</strong></a></td>
+<td>From £6.99</td>
+<td>£6.99 per pod</td>
+<td>Hayati Pro Max Plus 6000</td>
+<td>&#9733; 4.5 (84)</td>
+</tr>
+<tr>
+<td>3. <a href="https://vapeonlinestore.co.uk/products/crystal-pro-cp-10k-pods" rel="noopener" title="crystal pro cp 10k pods" target="_blank"><strong>Crystal Pro CP 10K Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>Crystal Pro CP 10K</td>
+<td>&#9733; 4.7 (56)</td>
+</tr>
+<tr>
+<td>4. <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" rel="noopener" title="ivg pro 12 10k refill pods" target="_blank"><strong>IVG Pro 12 10K Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>IVG Pro 12 10000</td>
+<td>&#9733; 4.5 (38)</td>
+</tr>
+<tr>
+<td>5. <a href="https://vapeonlinestore.co.uk/products/lost-mary-nera-15k-puffs-prefilled-replacement-pods" rel="noopener" title="lost mary nera 15k prefilled pods" target="_blank"><strong>Lost Mary Nera 15K Prefilled Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>Lost Mary Nera 30K Fullview</td>
+<td>&#9733; 4.5 (32)</td>
+</tr>
+<tr>
+<td>6. <a href="https://vapeonlinestore.co.uk/products/solobar-30000-pods" rel="noopener" title="solo bar 15k refill pods" target="_blank"><strong>Solo Bar 15K Refill Pods</strong></a></td>
+<td>£2.79</td>
+<td>£2.79 per pod</td>
+<td>Solo Bar 30K</td>
+<td>&#9733; 4.3 (14)</td>
+</tr>
+<tr>
+<td>7. <a href="https://vapeonlinestore.co.uk/products/aladdin-pro-enjoy-x-10000-puffs-prefilled-replacement-pods" rel="noopener" title="aladdin pro enjoy x 10000 prefilled pod" target="_blank"><strong>Aladdin Pro Enjoy X 10000 Prefilled Pod</strong></a></td>
+<td>From £5.99</td>
+<td>£5.99 per pod</td>
+<td>Aladdin Pro Enjoy X 10000</td>
+<td>&#9733; 4.7 (25)</td>
+</tr>
+<tr>
+<td>8. <a href="https://vapeonlinestore.co.uk/products/relx-maxgo-pods" rel="noopener" title="relx maxgo replacement pods" target="_blank"><strong>RELX MaxGo Replacement Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>RELX MaxGo Combo 33000</td>
+<td>&#9733; 4.5 (25)</td>
+</tr>
+<tr>
+<td>9. <a href="https://vapeonlinestore.co.uk/products/hqd-glow-air-35k-pods" rel="noopener" title="hqd glow air 35k prefilled pods" target="_blank"><strong>HQD Glow Air 35K Prefilled Pods</strong></a></td>
+<td>£6.99</td>
+<td>£6.99 per pod</td>
+<td>HQD Glow Air 70K</td>
+<td>&#9733; 4.3 (25)</td>
+</tr>
+<tr>
+<td>10. <a href="https://vapeonlinestore.co.uk/products/al-fakher-hypermax-prime-50000-pods" rel="noopener" title="al fakher hypermax prime 50k refill pods" target="_blank"><strong>Al Fakher Hypermax Prime 50K Refill Pods</strong></a></td>
+<td>£7.99</td>
+<td>£7.99 per pod</td>
+<td>Al Fakher Hypermax Prime 50K</td>
+<td>&#9733; 4.6 (28)</td>
+</tr>
+<tr>
+<td>11. <a href="https://vapeonlinestore.co.uk/products/lost-mary-bm6000-prefilled-replacement-pods" rel="noopener" title="lost mary bm6000 refill pods" target="_blank"><strong>Lost Mary BM6000 Refill Pods</strong></a></td>
+<td>£6.49</td>
+<td>£6.49 per pod</td>
+<td>Lost Mary BM6000</td>
+<td>&#9733; 4.7 (21)</td>
+</tr>
+<tr>
+<td>12. <a href="https://vapeonlinestore.co.uk/products/sky-hunter-1300-prefilled-pods" rel="noopener" title="sky hunter 1300 vape pods" target="_blank"><strong>Sky Hunter 1300 Vape Pods</strong></a></td>
+<td>£2.99</td>
+<td>£2.99 per pod</td>
+<td>Sky Hunter 1300</td>
+<td>&#9733; 5.0 (3)</td>
+</tr>
+<tr>
+<td>13. <a href="https://vapeonlinestore.co.uk/products/jnr-aurora-30k-pods" rel="noopener" title="jnr aurora 30k refill pods" target="_blank"><strong>JNR Aurora 30K Refill Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>JNR Aurora 30K</td>
+<td>&#9733; 4.6 (9)</td>
+</tr>
+<tr>
+<td>14. <a href="https://vapeonlinestore.co.uk/products/aura-bar-crystal-prime-10000-pods" rel="noopener" title="aura bar crystal prime 10000 pods" target="_blank"><strong>Aura Bar Crystal Prime 10000 Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>Aura Bar Crystal Prime 10000</td>
+<td>&#9733; 3.0 (6)</td>
+</tr>
+<tr>
+<td>15. <a href="https://vapeonlinestore.co.uk/products/pixl-duo-12-replacement-pods" rel="noopener" title="pixl duo 12 replacement pods" target="_blank"><strong>PIXL Duo 12 Replacement Pods</strong></a></td>
+<td>£6.99</td>
+<td>£6.99 per pod</td>
+<td>PIXL Duo 12</td>
+<td>&#9733; 5.0 (6)</td>
+</tr>
+<tr>
+<td>16. <a href="https://vapeonlinestore.co.uk/products/aura-bar-twist-40k-pods" rel="noopener" title="aura bar twist 40k refill pods" target="_blank"><strong>Aura Bar Twist 40K Refill Pods</strong></a></td>
+<td>£5.49</td>
+<td>£5.49 per pod</td>
+<td>Aura Bar Twist 40K</td>
+<td>&#9733; 4.2 (15)</td>
+</tr>
+<tr>
+<td>17. <a href="https://vapeonlinestore.co.uk/products/vaporesso-dojo-blast-10k-pods" rel="noopener" title="vaporesso dojo blast 10k prefilled pods" target="_blank"><strong>Vaporesso Dojo Blast 10K Prefilled Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>Vaporesso Dojo Blast 10K</td>
+<td>&#9733; 4.3 (7)</td>
+</tr>
+<tr>
+<td>18. <a href="https://vapeonlinestore.co.uk/products/crystal-galaxy-focus-2-30k-refill-pods" rel="noopener" title="crystal galaxy focus 2 30k refill pods" target="_blank"><strong>Crystal Galaxy Focus 2 30K Refill Pods</strong></a></td>
+<td>From £5.99</td>
+<td>£5.99 per pod</td>
+<td>Crystal Galaxy Focus 2 30K</td>
+<td>&#9733; 4.2 (12)</td>
+</tr>
+<tr>
+<td>19. <a href="https://vapeonlinestore.co.uk/products/ivg-savr-prefilled-pods" rel="noopener" title="ivg savr prefilled pods" target="_blank"><strong>IVG SAVR Prefilled Pods</strong></a></td>
+<td>From £1.49</td>
+<td>£1.49 per pod</td>
+<td>IVG SAVR 3000</td>
+<td>&#9733; 5.0 (1)</td>
+</tr>
+<tr>
+<td>20. <a href="https://vapeonlinestore.co.uk/products/ske-600-pro-pre-filled-pods" rel="noopener" title="ske 600 pro prefilled pods" target="_blank"><strong>SKE 600 Pro Prefilled Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>SKE Crystal Pro 600</td>
+<td>&#9733; 3.8 (5)</td>
+</tr>
+<tr>
+<td>21. <a href="https://vapeonlinestore.co.uk/products/hayati-rubik-pods" rel="noopener" title="hayati rubik 7000 prefilled pods" target="_blank"><strong>Hayati Rubik 7000 Prefilled Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>Hayati Rubik 7000</td>
+<td>&#9733; 4.2 (5)</td>
+</tr>
+<tr>
+<td>22. <a href="https://vapeonlinestore.co.uk/products/hyola-ultra-30k-replacement-pods" rel="noopener" title="hyola ultra 30k replacement pods" target="_blank"><strong>Hyola Ultra 30K Replacement Pods</strong></a></td>
+<td>£7.99</td>
+<td>£7.99 per pod</td>
+<td>Hyola Ultra 30K</td>
+<td>&#9733; 5.0 (25)</td>
+</tr>
+<tr>
+<td>23. <a href="https://vapeonlinestore.co.uk/products/pyne-pod-click-10000-puffs-replacement-pods" rel="noopener" title="pyne pod click 10k refill pods" target="_blank"><strong>Pyne Pod Click 10K Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>Pyne Pod Click 10K</td>
+<td>&#9733; 4.5 (15)</td>
+</tr>
+<tr>
+<td>24. <a href="https://vapeonlinestore.co.uk/products/maxfel-ultra-pro-pods" rel="noopener" title="maxfel ultra pro prefilled pods" target="_blank"><strong>Maxfel Ultra Pro Prefilled Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>Maxfel Ultra Pro</td>
+<td>&#9733; 4.4 (7)</td>
+</tr>
+<tr>
+<td>25. <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-zero-nicotine-refill-pods" rel="noopener" title="ivg pro 12 zero nicotine refill pods" target="_blank"><strong>IVG Pro 12 Zero Nicotine Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>IVG Pro 12 10000</td>
+<td>&#9733; 4.0 (10)</td>
+</tr>
+<tr>
+<td>26. <a href="https://vapeonlinestore.co.uk/products/bloody-bar-60k-pods" rel="noopener" title="bloody bar 60k replacement pods" target="_blank"><strong>Bloody Bar 60K Replacement Pods</strong></a></td>
+<td>£3.59</td>
+<td>£3.59 per pod</td>
+<td>Bloody Bar 60K 4-in-1</td>
+<td>&#9733; 4.9 (8)</td>
+</tr>
+<tr>
+<td>27. <a href="https://vapeonlinestore.co.uk/products/feoba-treo-33000-pods" rel="noopener" title="feoba treo 33000 refill pods" target="_blank"><strong>Feoba Treo 33000 Refill Pods</strong></a></td>
+<td>£4.99</td>
+<td>£4.99 per pod</td>
+<td>Feoba Treo 33000</td>
+<td>&#9733; 5.0 (3)</td>
+</tr>
+<tr>
+<td>28. <a href="https://vapeonlinestore.co.uk/products/ske-crystal-cl6000-pods" rel="noopener" title="ske crystal cl6000 replacement pods" target="_blank"><strong>SKE Crystal CL6000 Replacement Pods</strong></a></td>
+<td>£5.49</td>
+<td>£5.49 per pod</td>
+<td>SKE Crystal CL6000</td>
+<td>&#9733; 5.0 (4)</td>
+</tr>
+<tr>
+<td>29. <a href="https://vapeonlinestore.co.uk/products/gold-bar-xl-10k-prefilled-pods" rel="noopener" title="gold bar xl 10k refill pods" target="_blank"><strong>Gold Bar XL 10K Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99 per pod</td>
+<td>Gold Bar XL 10K</td>
+<td>&#9733; 3.0 (6)</td>
+</tr>
+<tr>
+<td>30. <a href="https://vapeonlinestore.co.uk/products/hayati-finebar-pods" rel="noopener" title="hayati finebar prefilled pods" target="_blank"><strong>Hayati Finebar Prefilled Pods</strong></a></td>
+<td>£1.68</td>
+<td>£1.68 per pod</td>
+<td>Hayati Finebar</td>
+<td>&#9733; 3.0 (1)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Buying for a shop or a group? The <a href="https://vapeonlinestore.co.uk/collections/bulk-buy-pre-filled-pods-wholesale" rel="noopener" title="bulk buy prefilled pods wholesale" target="_blank"><strong>bulk buy prefilled pods</strong></a> page lists the same pods in boxes of 5 and 10, where a Hayati Pro Ultra Plus pack drops to £6.60.</p>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE --> <!-- ========================================= -->
+<h2>Best Prefilled Pod Vape Picks by the Numbers</h2>
+<div class="vos-guide-box">
+<p><strong>&#127942; The proven volume line: Hayati Pro Ultra Plus 25000 pods, £7.99</strong></p>
+<p>11,346 packs in four months, 121 reviews at 4.59 stars, and 24ml per pack. At £3.33 per 10ml it is also the cheapest big-brand pod per ml on the page. If you own the kit, there is no decision to make.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>&#128183; The budget pick: Solo Bar 15K pods, £2.79</strong></p>
+<p>23p per ml, 15,000 puffs rated, 4.29 stars from 14 reviews. The kit is £10.99 with a second one free, so a complete set-up with two spare pods costs under £17.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>&#127798; Best for stepping down: IVG Pro 12 pods, £5.99</strong></p>
+<p>The same pod in 20mg, 10mg and 0mg, 38 reviews at 4.53 stars, 3,829 sold. Buy the kit once and change strength by changing pod.</p>
+</div>
+<h3>How to Read the Per Unit Column and Price Per 10ml</h3>
+<p>Per unit is one pod. To compare lines fairly, divide by the liquid inside: most pods here hold 12ml, so £4.99 is £4.16 per 10ml and £6.99 is £5.83. The Hayati Pro Ultra Plus twin pack holds 24ml, which is why £7.99 is the best value in the top five. Puff ratings are the maker's figure at a light draw; a 10,000-puff pod and a 15,000-puff pod hold the same 12ml, so the higher number mostly reflects a lower-power coil.</p>
+<h3>Matching Prefilled Pods to the Kit: No Cross-Compatibility</h3>
+<p>Prefilled pods are keyed to one device. Hayati makes separate pods for the Pro Ultra Plus 25000, Pro Max Plus 6000, Pro Max Plus 4000, Rubik 7000 and Finebar, and none swap; Lost Mary runs the same way across Nera 15K, BM6000, Tappo and BM600. Read the model name on the base of your kit and match it to the Fits column. Brand pages go deeper: <a href="https://vapeonlinestore.co.uk/collections/hayati-prefilled-pods" rel="noopener" title="hayati prefilled pods" target="_blank"><strong>Hayati prefilled pods</strong></a> for the whole Hayati range and <a href="https://vapeonlinestore.co.uk/collections/elf-bar-pods" rel="noopener" title="elf bar pods" target="_blank"><strong>Elf Bar pods</strong></a> for Elfa, Elfa Pro, AF5500 and Mate P1. Kits themselves sit on the <a href="https://vapeonlinestore.co.uk/collections/pre-filled-pod-vape-kits" rel="noopener" title="prefilled pod vape kits" target="_blank"><strong>prefilled pod vape kits</strong></a> page, and refillable pods for open systems on the <a href="https://vapeonlinestore.co.uk/collections/pods" rel="noopener" title="replacement vape pods" target="_blank"><strong>replacement vape pods</strong></a> page.</p>
+<h3>When to Replace a Pod, and the Best Flavour Mix Option</h3>
+<p>Swap the pod when flavour drops or the draw turns dry, which happens as the 10ml container empties; pushing past that point burns the coil. Most listings carry a <strong>Best Flavour</strong> variant at the top of the dropdown: it sends the flavours selling fastest that week, the low-risk way to try a new line before committing to one flavour. For a shop, the mix boxes on the wholesale page do the same job at box scale.</p>
+<h3>Why Buy Prefilled Pods from Vape Online Store</h3>
+<p>Three plain reasons: the prices on this page are the prices you pay, with no account to open; every pod comes through authorised UK distribution; and orders over £40 ship free next day, so pods ordered this evening arrive tomorrow. The table above is built from real sales, not from what a supplier wants pushed.</p>
+<!-- ========================================= --> <!-- FAQ SECTION --> <!-- ========================================= -->
+<h2>Prefilled Pods Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>What are pre-filled vape pods?</h4>
+<p>Pre-filled vape pods are sealed 2ml pods of nic salt e-liquid that clip into a rechargeable pod kit. Since 1 June 2025 the UK format pairs the 2ml pod with a 10ml refill container, so one pod runs for thousands of puffs before you swap it. Every product here is that type.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Can I refill a prefilled vape pod?</h4>
+<p>No. Prefilled pods are sealed at the factory and the 10ml container feeds the 2ml pod on its own; there is no fill port. When the liquid runs out you replace the pod. If you want to fill your own, use the refillable pods on the replacement vape pods page.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which pre-filled pod vape is the best?</h4>
+<p>By sales, the Hayati Pro Ultra Plus 25000: 11,346 pod packs in the last four months and 121 reviews at 4.59 stars. By rating among the top five, the Crystal Pro CP 10K pod at 4.71 from 56 reviews. By price per ml, the Solo Bar 15K pod at 23p per ml.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How do I use a prefilled pod vape?</h4>
+<p>Pull the old pod out, unwrap the new one, remove the silicone bungs from the mouthpiece and base, and push it in until it clicks. Most kits are draw activated, so inhale and it fires. Charge the kit over USB-C when the light drops; the pod never needs charging.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Are prefilled vape pods being banned?</h4>
+<p>No. The UK ban that took effect on 1 June 2025 covered single-use disposable vapes. Prefilled pods for rechargeable kits are the format the market moved to and remain on sale, within the 2ml pod limit and 20mg nicotine cap that already applied. Everything here comes through authorised UK distribution.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Do Hayati pods fit a Lost Mary kit?</h4>
+<p>No, and no pod here fits a kit from another brand. Hayati Pro Ultra Plus pods fit the Pro Ultra Plus 25000 only, Lost Mary Nera 15K pods fit the Nera 30K only, and so on even within a brand. Use the Fits column and match the exact model name.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Are there 10mg prefilled vape pods?</h4>
+<p>Yes. IVG Pro 12 pods come in 10mg, Hayati Pro Max Plus 6000 pods have a separate 10mg listing, and Lost Mary BM6000 and Vaporesso Dojo Blast 10K pods are stocked in 10mg too. 20mg is the default on every top seller; 0mg exists for IVG Pro 12, Hayati Pro Max Plus and Lost Mary BM6000.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How long does a prefilled pod last?</h4>
+<p>A 12ml pod rated at 10,000 puffs lasts a typical pod-kit user one to two weeks; a 6,000-puff pod closer to a week. Replace it when the flavour fades or the draw turns harsh, which is the coil drying out as the container empties. The clear container on most kits shows the level.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is a prefilled pod kit?</h4>
+<p>A prefilled pod kit is the rechargeable battery body these pods clip into. It comes with one pod in the box and is reused; the pods are the consumable. Kits are listed on the prefilled pod vape kits page, and the Fits column above names the kit each pod belongs to.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Do you deliver prefilled pods next day?</h4>
+<p>Yes. Orders over £40 get free next day delivery, which five or six pods clear on their own. Smaller orders ship on the same tracked service at the rate shown at checkout. Stock is held in the UK, so there is no import wait on any pod listed here.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA --> <!-- ========================================= -->
+<h2>Pick the Pod That Matches Your Kit</h2>
+<p>Own a Hayati Pro Ultra Plus? The <strong>Hayati Pro Ultra Plus 25000 pods</strong> at £7.99 a twin pack are the obvious reorder. Running a Crystal Pro CP 10K, the <strong>Crystal Pro CP 10K pods</strong> at £4.99 are the best-reviewed pod in the top five. Testing the water, the <strong>Solo Bar 15K pods</strong> at £2.79 cost the least per ml of anything here. Every row in the table links to a live price.</p>
+</div>
