@@ -1,0 +1,183 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "heading",
+   "level": 3,
+   "children": [
+    {
+     "type": "text",
+     "value": "Frequently Asked Questions"
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "What are the differences between the Smok TFV12 and the Prince coils?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "They are two coil families for two different tanks. "
+    },
+    {
+     "type": "text",
+     "value": "Smok TFV12 coils (V12-T12, X4, Q4 and T6) fit the original Smok TFV12 Cloud Beast King",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". Smok TFV12 Prince coils (V12 Prince-T10, Q4, X6, M4 and Mesh) fit the Smok TFV12 Prince and P-Tank. Neither family fits the other tank, so check your old coil's marking."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "Why do Smok coils burn so fast?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Usually too much power too soon, or liquid that is too thin. "
+    },
+    {
+     "type": "text",
+     "value": "Prime a new Smok TFV12 coil, wait ten minutes, start at the bottom of its range and climb slowly",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". Use 70/30 or 80/20 shortfill, never 50/50 or nic salts, and pause between puffs so the cotton can re-soak before the next hit."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "Which Smok TFV12 coil gives the best flavour?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "The six-coil V12-T6 (0.17 ohm) and the quad-coil 0.15 ohm heads run at lower power and use less liquid, which suits flavour-first vaping at 120 to 180W. "
+    },
+    {
+     "type": "text",
+     "value": "The twelve-coil V12-T12 (0.12 ohm) is built for vapour volume first",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " and drinks e-liquid faster. Try the T6 if flavour matters more than cloud size."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "Do Smok TFV12 coils fit the TFV12 Prince, TFV8 or TFV16?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "No. "
+    },
+    {
+     "type": "text",
+     "value": "Smok TFV12 coils fit the Smok TFV12 Cloud Beast King tank only",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". The Smok TFV12 Prince takes V12 Prince coils, the Smok TFV8 takes V8 coils, the TFV8 Baby and TFV12 Baby Prince take V8 Baby coils, and the TFV16 and TFV18 take V16 and V18 coils."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "What wattage should I run Smok TFV12 coils at?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Stay inside the best ranges: "
+    },
+    {
+     "type": "text",
+     "value": "130 to 200W for the 0.12 ohm V12-T12, 120 to 180W for the 0.17 ohm V12-T6",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", and roughly 90 to 160W for the 0.15 ohm quad coil. Start 20 to 30W below the range on a fresh coil and raise it in 10W steps on a 200W-plus dual-battery mod."
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "children": [
+    {
+     "type": "text",
+     "value": "How long do Smok TFV12 coils last?"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "One to two weeks is typical on a clear 3mg high-VG shortfill with normal use. "
+    },
+    {
+     "type": "text",
+     "value": "Sweet or dark liquids and chain vaping above 180W can shorten that to a few days",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". Change the coil when flavour fades, hits taste burnt or the tank gurgles. See the current price on this page for your weekly cost."
+    }
+   ]
+  }
+ ]
+}
