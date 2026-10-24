@@ -8,6 +8,10 @@ All fifteen are written to Shopify: description, FAQ metafield, meta title and d
 (50 to 60 plus `seo-recheck-2026-11`), image alt text and the `vos_seo.description_log` metafield.
 Fourteen are still DRAFT; Pacha Mama 50ml was already ACTIVE and is now live with its new copy.
 
+**24 Oct 2026:** the "18+ only / addictive substance / keep out of reach" line was removed from the six
+pages that carried it (Pacha Mama 50ml, Mejusa, Wick Liq, Wow Exp, Vozol pods, caffeine pouches) and
+from the vos-product-description skill. No VOS description carries a compliance line from now on.
+
 | Product | Words | FAQs | Title changed |
 |---|---|---|---|
 | Innokin Plexus Go Pod Kit | 1,096 | 8 | no |
