@@ -1,0 +1,767 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p><strong>DTL vape kits</strong> are the box mods and high-power pod mods built for direct to lung vaping: sub ohm coils, 40W upwards, a warm open draw straight into the lungs. This page lists all 43 sub ohm vape kits in stock at Vape Online Store, from the cheapest DTL kit, the <a href="https://vapeonlinestore.co.uk/products/aspire-veynom-ex-vape-kit" rel="noopener" title="aspire veynom ex vape kit" target="_blank"><strong>Aspire Veynom EX Vape Kit</strong></a> at <strong>£19.99</strong> (prices as of October 2026), to the 220W Vaporesso Armour Max.</p>
+<p>Fifteen kits take external 18650 or 21700 batteries, sold separately; fifteen have a built-in cell; thirteen lower-power pod kits sit here too. Five best sellers first, then three tables in sales order, then the guide.</p>
+<div class="vos-tip-box">
+<p><strong>Check the battery line before you order.</strong> A box mod with no cell in it does nothing. The <a href="https://vapeonlinestore.co.uk/collections/vape-batteries-chargers" rel="noopener" title="vape batteries and chargers" target="_blank"><strong>vape batteries and chargers</strong></a> collection has matched pairs: two <a href="https://vapeonlinestore.co.uk/products/awt-18650-2900mah" rel="noopener" title="awt 18650 2900mah 40a battery" target="_blank"><strong>AWT 18650 2900mAh 40A</strong></a> cells cost £10.99, an <a href="https://vapeonlinestore.co.uk/products/awt-battery-21700-4800mah" rel="noopener" title="awt 21700 4800mah battery pack of 2" target="_blank"><strong>AWT 21700 4800mAh (pack of 2)</strong></a> pack is £10.99, checked 24 October 2026.</p>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 1: Vaporesso Armour Max Vape Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Armour-Max.jpg?v=1790917685" alt="Vaporesso Armour Max Vape Kit 220W dual battery box mod with iTank 2" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Vaporesso Armour Max Vape Kit</h3>
+<div class="vos-price-tag">£47.99 (was £72.99) | Save £25.00</div>
+<div class="vos-sale-badge">Best seller by units, last four months</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-max-vape-kit" rel="noopener" title="vaporesso armour max vape kit" target="_blank"><strong>Vaporesso Armour Max Vape Kit</strong></a> sold more than any other kit on this page in the last four months (<strong>10 kits</strong>). It runs <strong>5 to 220W</strong> from two 18650 or 21700 cells on the AXON chipset, through the iTank 2 on GTi mesh coils. Rated 3.0 from two reviews, so read both first.</p>
+<p><strong>Who's it for?</strong> Vapers who already own batteries and want a dual-cell mod that lasts a day at 60 to 80W.</p>
+<p><strong>What's in the box?</strong> Armour Max mod, iTank 2 with 2ml UK glass, GTi mesh coils, USB-C cable, manual. No batteries.</p>
+<ul>
+<li>
+<strong>Output:</strong> 5 to 220W, AXON chipset</li>
+<li>
+<strong>Batteries:</strong> 2 x 18650 or 21700, sold separately</li>
+<li>
+<strong>Screen:</strong> 0.96 inch TFT</li>
+<li>
+<strong>Tank:</strong> iTank 2, 2ml, top fill</li>
+<li>
+<strong>Coils:</strong> Vaporesso GTi mesh, 0.15 to 0.5 ohm</li>
+<li>
+<strong>Charging:</strong> USB-C, 5V/2A</li>
+</ul>
+<div class="vos-tip-box"><strong>Value maths:</strong> £47.99 plus two AWT 18650 cells at £10.99 the pair = <strong>£58.98 ready to vape</strong>. GTi coils £9.95 for five = <strong>£1.99 a coil</strong>.</div>
+<a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-max-vape-kit" class="vos-cta-button" rel="noopener" target="_blank">View Product</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Geekvape Aegis Legend 5 Vape Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Geekvape-Aegis-Legend-5-Vape-Kit.jpg?v=1756607207" alt="Geekvape Aegis Legend 5 Vape Kit 200W dual 18650 box mod with Z tank" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Geekvape Aegis Legend 5 Vape Kit</h3>
+<div class="vos-price-tag">£47.99 (was £54.99) | Save £7.00</div>
+<div class="vos-sale-badge">Second best seller by units</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-legend-5-vape-kit" rel="noopener" title="geekvape aegis legend 5 vape kit" target="_blank"><strong>Geekvape Aegis Legend 5 Vape Kit</strong></a> is the rugged pick: a <strong>200W dual 18650 mod</strong> with a 1.08 inch screen, A-Lock switch and the leak-proof Z top-airflow tank on Z series coils. Five sold here in four months. UK reviews list an IP68 rating.</p>
+<p><strong>Who's it for?</strong> Anyone who drops things or works outdoors, and anyone already running Geekvape Z coils.</p>
+<p><strong>What's in the box?</strong> Aegis Legend 5 mod, Z tank with 2ml glass, Z series coils (the fitted pair varies by edition; see the product page), USB-C cable, manual. No batteries.</p>
+<ul>
+<li>
+<strong>Output:</strong> up to 200W, five power modes</li>
+<li>
+<strong>Batteries:</strong> 2 x 18650, not included</li>
+<li>
+<strong>Screen:</strong> 1.08 inch TFT colour</li>
+<li>
+<strong>Tank:</strong> Z top-airflow, 2ml, leak-proof</li>
+<li>
+<strong>Coils:</strong> Geekvape Z series mesh</li>
+<li>
+<strong>Charging:</strong> USB-C</li>
+</ul>
+<div class="vos-tip-box"><strong>Value maths:</strong> £47.99 plus £10.99 for two AWT 18650 cells = <strong>£58.98</strong>. Zeus Z coils £12.99 for five = <strong>£2.60 a coil</strong>.</div>
+<a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-legend-5-vape-kit" class="vos-cta-button" rel="noopener" target="_blank">View Product</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: VooPoo Argus GT II Vape Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-GT-II-Kit.jpg?v=1790927462" alt="VooPoo Argus GT II Vape Kit 200W IP68 box mod with UFORCE-L tank" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. VooPoo Argus GT II Vape Kit</h3>
+<div class="vos-price-tag">£23.99 (was £49.99) | Save £26.00</div>
+<div class="vos-sale-badge">Biggest saving on the page: £26 off</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-argus-gt-2-kit" rel="noopener" title="voopoo argus gt ii vape kit" target="_blank"><strong>VooPoo Argus GT II Vape Kit</strong></a> is a <strong>200W dual 18650 box mod</strong> for £23.99, down from £49.99, the largest discount here. IP68 rated, 3A USB-C charging, and the UFORCE-L tank ships with two DTL coils: PnP-TW20 0.2 ohm (40 to 55W) and PnP-TW15 0.15 ohm (55 to 70W).</p>
+<p><strong>Who's it for?</strong> Pod vapers who want a first full box mod without box-mod money. Takes every VooPoo PnP coil.</p>
+<p><strong>What's in the box?</strong> Argus GT II mod, UFORCE-L tank with 2ml glass, PnP-TW20 and PnP-TW15 coils, USB-C cable, manual. No batteries.</p>
+<ul>
+<li>
+<strong>Output:</strong> 5 to 200W, GENE.TT 2.0 chip</li>
+<li>
+<strong>Batteries:</strong> 2 x 18650, not included</li>
+<li>
+<strong>Tank:</strong> UFORCE-L, 2ml, top airflow</li>
+<li>
+<strong>Coils:</strong> PnP-TW20 0.2 ohm and PnP-TW15 0.15 ohm</li>
+<li>
+<strong>Protection:</strong> IP68</li>
+<li>
+<strong>Charging:</strong> USB-C, 5V/3A</li>
+</ul>
+<div class="vos-tip-box"><strong>Value maths:</strong> £23.99 plus £10.99 for two AWT 18650 cells = <strong>£34.98 for a 200W setup</strong>. PnP TW coils £11.99 for five = <strong>£2.40 a coil</strong>.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-argus-gt-2-kit" class="vos-cta-button" rel="noopener" target="_blank">View Product</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: SMOK Mag V8 Mod Vape Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Smok-Mag-V8-Kit.jpg?v=1790927456" alt="SMOK Mag V8 Mod Vape Kit 70W semi-regulated mod with TFV-Mini V2 tank" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. SMOK Mag V8 Mod Vape Kit</h3>
+<div class="vos-price-tag">£24.99 (was £29.99) | Save £5.00</div>
+<div class="vos-sale-badge">No screen, no settings to learn</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/smok-mag-v8-vape-kit" rel="noopener" title="smok mag v8 mod vape kit" target="_blank"><strong>SMOK Mag V8 Mod Vape Kit</strong></a> has no display and no wattage buttons. It reads the coil and fires the matching power, <strong>up to 70W</strong>, from one 21700, 20700 or 18650 cell. The TFV-Mini V2 tank comes with two 0.15 ohm coils and an 18650 adapter.</p>
+<p><strong>Who's it for?</strong> Beginners stepping up from a pod who want DTL clouds without a menu.</p>
+<p><strong>What's in the box?</strong> Mag V8 mod, TFV-Mini V2 tank with 2ml glass, S1 0.15 ohm mesh coil (fitted), S2 0.15 ohm quad coil, 18650 adapter, USB cable, manual. One battery required, not included.</p>
+<ul>
+<li>
+<strong>Output:</strong> up to 70W, semi-regulated</li>
+<li>
+<strong>Battery:</strong> 1 x 21700, 20700 or 18650, not included</li>
+<li>
+<strong>Screen:</strong> none</li>
+<li>
+<strong>Tank:</strong> TFV-Mini V2, 2ml, top fill</li>
+<li>
+<strong>Coils:</strong> Mini V2 S1 and S2, both 0.15 ohm</li>
+<li>
+<strong>Draw:</strong> DTL only</li>
+</ul>
+<div class="vos-tip-box"><strong>Value maths:</strong> £24.99 plus one AWT 18650 cell at £5.99 = <strong>£30.98</strong>. Mini V2 coils £9.99 for three = <strong>£3.33 a coil</strong>, the dearest here.</div>
+<a href="https://vapeonlinestore.co.uk/products/smok-mag-v8-vape-kit" class="vos-cta-button" rel="noopener" target="_blank">View Product</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: Aspire Veynom EX Vape Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Aspire_Veynom_EX_Vape_Kit.webp?v=1791040786" alt="Aspire Veynom EX Vape Kit 100W single battery pod mod with BP coils" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Aspire Veynom EX Vape Kit</h3>
+<div class="vos-price-tag">£19.99 (was £21.99) | Save £2.00</div>
+<div class="vos-sale-badge">Lowest price DTL kit on the page</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/aspire-veynom-ex-vape-kit" rel="noopener" title="aspire veynom ex vape kit" target="_blank"><strong>Aspire Veynom EX Vape Kit</strong></a> is the cheapest DTL kit here at <strong>£19.99</strong>: a <strong>100W pod mod</strong> with a 0.96 inch colour screen, running on one 18650, 20700 or 21700 cell. The 2ml pod ships with a BP 0.15 ohm coil (60 to 80W) fitted and a 0.3 ohm (30 to 40W) spare.</p>
+<p><strong>Who's it for?</strong> First-time DTL vapers on a budget, and anyone who wants 21700 battery life in a slim body.</p>
+<p><strong>What's in the box?</strong> Veynom EX device, 2ml pod, BP 0.15 ohm and 0.3 ohm coils, USB-C cable, manual. One battery required, not included.</p>
+<ul>
+<li>
+<strong>Output:</strong> 1 to 100W, ASP chipset</li>
+<li>
+<strong>Battery:</strong> 1 x 18650, 20700 or 21700, not included</li>
+<li>
+<strong>Screen:</strong> 0.96 inch TFT colour</li>
+<li>
+<strong>Pod:</strong> 2ml, screw top fill</li>
+<li>
+<strong>Coils:</strong> Aspire BP 0.15 ohm (fitted) and 0.3 ohm</li>
+<li>
+<strong>Charging:</strong> USB-C, 2A</li>
+</ul>
+<div class="vos-tip-box"><strong>Value maths:</strong> £19.99 plus one AWT 18650 cell at £5.99 = <strong>£25.98, the cheapest DTL start on the page</strong>. BP coils £9.99 for five = <strong>£2.00 a coil</strong>.</div>
+<a href="https://vapeonlinestore.co.uk/products/aspire-veynom-ex-vape-kit" class="vos-cta-button" rel="noopener" target="_blank">View Product</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE 1: EXTERNAL BATTERY KITS --> <!-- ========================================= -->
+<h2>Sub Ohm Mod Kits With External Batteries, Best Sellers First</h2>
+<p>Every kit here needs 18650, 20700 or 21700 cells that are <strong>not in the box</strong>. Rows run in <strong>units sold over the last four months</strong>, then price low to high: the Armour Max (10) and Aegis Legend 5 (5) lead; the rest sold none in that window.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Kit</th>
+<th>Price</th>
+<th>Max power</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-max-vape-kit" rel="noopener" title="vaporesso armour max vape kit" target="_blank"><strong>Vaporesso Armour Max Vape Kit</strong></a></td>
+<td>£47.99</td>
+<td>220W</td>
+<td>3.0 (2)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-legend-5-vape-kit" rel="noopener" title="geekvape aegis legend 5 vape kit" target="_blank"><strong>Geekvape Aegis Legend 5 Vape Kit</strong></a></td>
+<td>£47.99</td>
+<td>200W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/aspire-veynom-ex-vape-kit" rel="noopener" title="aspire veynom ex vape kit" target="_blank"><strong>Aspire Veynom EX Vape Kit</strong></a></td>
+<td>£19.99</td>
+<td>100W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/uwell-aeglos-p1-pod-mod-kit" rel="noopener" title="uwell aeglos p1 pod mod kit" target="_blank"><strong>Uwell Aeglos P1 Pod Mod Kit</strong></a></td>
+<td>£19.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-gt-2-kit" rel="noopener" title="voopoo argus gt ii vape kit" target="_blank"><strong>VooPoo Argus GT II Vape Kit</strong></a></td>
+<td>£23.99</td>
+<td>200W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-mag-v8-vape-kit" rel="noopener" title="smok mag v8 mod vape kit" target="_blank"><strong>SMOK Mag V8 Mod Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>70W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-gs-pod-kit" rel="noopener" title="vaporesso armour gs pod vape kit" target="_blank"><strong>Vaporesso Armour GS Pod Vape Kit</strong></a></td>
+<td>£25.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-x2-kit" rel="noopener" title="voopoo drag x2 vape kit" target="_blank"><strong>Voopoo Drag X2 Vape Kit</strong></a></td>
+<td>£26.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/freemax-maxus-100w-vape-kit" rel="noopener" title="freemax maxus 100w vape kit" target="_blank"><strong>Freemax Maxus 100W Vape Kit</strong></a></td>
+<td>£29.99</td>
+<td>100W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/uwell-nunchaku-2-vape-kit" rel="noopener" title="uwell nunchaku 2 vape kit" target="_blank"><strong>Uwell Nunchaku 2 Vape Kit</strong></a></td>
+<td>£34.99</td>
+<td>100W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-x3-kit" rel="noopener" title="voopoo drag x3 kit" target="_blank"><strong>VooPoo Drag X3 Kit</strong></a></td>
+<td>£38.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/innokin-force-kroma-217-z-vape-kit" rel="noopener" title="innokin kroma 217 z force vape kit" target="_blank"><strong>Innokin Kroma 217 Z Force Vape Kit</strong></a></td>
+<td>£39.99</td>
+<td>100W</td>
+<td>5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-5-vape-kit" rel="noopener" title="voopoo drag 5 vape kit" target="_blank"><strong>VooPoo Drag 5 Vape Kit</strong></a></td>
+<td>£45.99</td>
+<td>177W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-scar-18-vape-kit" rel="noopener" title="smok scar 18 vape kit" target="_blank"><strong>SMOK Scar 18 Vape Kit</strong></a></td>
+<td>£47.19</td>
+<td>230W</td>
+<td>1.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-legend-3-kit" rel="noopener" title="geekvape aegis legend 3 kit" target="_blank"><strong>GeekVape Aegis Legend 3 Kit</strong></a></td>
+<td>£52.99</td>
+<td>200W</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE 2: BUILT-IN BATTERY DTL KITS --> <!-- ========================================= -->
+<p> </p>
+<h2>DTL Pod Vape Kits With Built-In Batteries</h2>
+<p>No cells to buy: charge over USB-C and go. None of these fifteen sold in the last four months, so the cheapest sits at the top. The <a href="https://vapeonlinestore.co.uk/products/voopoo-drag-6-vape-kit" rel="noopener" title="voopoo drag 6 vape kit" target="_blank"><strong>VooPoo Drag 6 Vape Kit</strong></a> is the newest, a 220W mod with a sealed 4400mAh battery on PnP X coils.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Kit</th>
+<th>Price</th>
+<th>Max power</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-nord-4-pod-kit" rel="noopener" title="smok nord 4 pod kit" target="_blank"><strong>Smok Nord 4 Pod Kit</strong></a></td>
+<td>£21.95</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pod-kit" rel="noopener" title="voopoo argus e40 pod vape kit" target="_blank"><strong>Voopoo Argus E40 Pod Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>40W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-nord-6-vape-kit" rel="noopener" title="smok nord 6 vape kit" target="_blank"><strong>Smok Nord 6 Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-boost-3-pod-vape-kit" rel="noopener" title="geekvape aegis boost 3 pod vape kit" target="_blank"><strong>Geekvape Aegis Boost 3 Pod Vape Kit</strong></a></td>
+<td>£25.99</td>
+<td>60W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-nord-5-vape-kit" rel="noopener" title="smok nord 5 vape kit" target="_blank"><strong>Smok Nord 5 Vape Kit</strong></a></td>
+<td>£26.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-digi-max-pod-mod-kit" rel="noopener" title="geekvape digi max pod mod kit" target="_blank"><strong>Geekvape Digi Max Pod Mod Kit</strong></a></td>
+<td>£27.49</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-force-vape-kit" rel="noopener" title="geekvape aegis force vape kit" target="_blank"><strong>Geekvape Aegis Force Vape Kit</strong></a></td>
+<td>£29.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-pro-2-pod-kit" rel="noopener" title="voopoo argus pro 2 pod vape kit" target="_blank"><strong>VooPoo Argus Pro 2 Pod Vape Kit</strong></a></td>
+<td>£29.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/oxva-v-prime-kit-pod-kit" rel="noopener" title="oxva v prime kit pod kit 2600mah" target="_blank"><strong>Oxva V Prime Kit Pod Kit 2600mAh</strong></a></td>
+<td>£29.99</td>
+<td>60W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-s2-pod-kit" rel="noopener" title="voopoo drag s2 pod vape kit" target="_blank"><strong>VooPoo Drag S2 Pod Vape Kit</strong></a></td>
+<td>£30.99</td>
+<td>60W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-luxe-xr-max-2-kit" rel="noopener" title="vaporesso luxe xr max 2 kit" target="_blank"><strong>Vaporesso LUXE XR Max 2 kit</strong></a></td>
+<td>£32.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/zelos-3-aspire-vape-kit" rel="noopener" title="aspire zelos 3 vape kit" target="_blank"><strong>Aspire Zelos 3 Vape kit</strong></a></td>
+<td>£37.99</td>
+<td>80W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/geekvape-aegis-mini-5" rel="noopener" title="geekvape aegis mini 5 vape kit" target="_blank"><strong>Geekvape Aegis Mini 5 Vape Kit</strong></a></td>
+<td>£44.99</td>
+<td>100W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-ultra-vape" rel="noopener" title="vaporesso armour ultra vape kit" target="_blank"><strong>Vaporesso Armour Ultra Vape Kit</strong></a></td>
+<td>£45.99</td>
+<td>100W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-6-vape-kit" rel="noopener" title="voopoo drag 6 vape kit" target="_blank"><strong>VooPoo Drag 6 Vape Kit</strong></a></td>
+<td>£46.99</td>
+<td>220W</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE 3: POD KITS ALSO IN THIS COLLECTION --> <!-- ========================================= -->
+<p> </p>
+<h2>Lower-Power Pod Kits Also Listed Here (16W to 60W)</h2>
+<p>These thirteen are mouth to lung and restricted direct lung pod kits. They outsell the mods (Vaporesso XROS Pro 26 units, Oxva Xlim Pro 2 20, XROS 4 18) but none is a true DTL kit. For a tight draw, the <a href="https://vapeonlinestore.co.uk/collections/best-mtl-vape-kit-for-beginners" rel="noopener" title="mtl pod kits for beginners" target="_blank"><strong>MTL pod kit guide</strong></a> and <a href="https://vapeonlinestore.co.uk/collections/rdl-vape-kits" rel="noopener" title="restricted direct lung kits" target="_blank"><strong>RDL kit guide</strong></a> cover them properly.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Kit</th>
+<th>Price</th>
+<th>Max power</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-xros-pro-pod-kit" rel="noopener" title="vaporesso xros pro pod vape kit" target="_blank"><strong>Vaporesso XROS PRO Pod Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>30W</td>
+<td>5.0 (3)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/oxva-xlim-pro-2-pod-vape-kit" rel="noopener" title="oxva xlim pro 2 pod vape kit" target="_blank"><strong>Oxva Xlim Pro 2 Pod Vape Kit</strong></a></td>
+<td>£19.99</td>
+<td>30W</td>
+<td>5.0 (2)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-xros-4-pod-kit" rel="noopener" title="vaporesso xros 4 pod kit" target="_blank"><strong>Vaporesso XROS 4 Pod Kit</strong></a></td>
+<td>From £17.95</td>
+<td>16W</td>
+<td>5.0 (2)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/oxva-xlim-go-pod-kit" rel="noopener" title="oxva xlim go pod starter kit" target="_blank"><strong>Oxva Xlim Go Pod Starter Kit</strong></a></td>
+<td>£10.99</td>
+<td>30W</td>
+<td>3.7 (3)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/oxva-xlim-classic-edition-pod-vape-kit" rel="noopener" title="oxva xlim classic edition pod vape kit" target="_blank"><strong>OXVA Xlim Classic Edition Pod Vape Kit</strong></a></td>
+<td>£14.99</td>
+<td>30W</td>
+<td>1.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/innokin-ez-watt-kit" rel="noopener" title="innokin ez.watt vape starter kit" target="_blank"><strong>Innokin EZ.Watt Vape Starter Kit</strong></a></td>
+<td>£24.99</td>
+<td>35W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/dovpo-ayce-pro-pod-kit" rel="noopener" title="dovpo ayce pro vape kit" target="_blank"><strong>Dovpo Ayce Pro Vape Kit</strong></a></td>
+<td>£18.99</td>
+<td>30W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/smok-rpm40-pod-vape-kit" rel="noopener" title="smok rpm40 pod vape kit" target="_blank"><strong>Smok RPM40 Pod Vape Kit</strong></a></td>
+<td>£21.99</td>
+<td>40W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/uwell-caliburn-g3-pro-pod-kit" rel="noopener" title="uwell caliburn g3 pro pod kit" target="_blank"><strong>Uwell Caliburn G3 Pro Pod Kit</strong></a></td>
+<td>£22.99</td>
+<td>35W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/argus-g2-pod-vape-kit" rel="noopener" title="voopoo argus g2 pod vape kit" target="_blank"><strong>VooPoo ARGUS G2 Pod Vape Kit</strong></a></td>
+<td>£23.99</td>
+<td>30W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-p2-vape-pod-kit" rel="noopener" title="voopoo argus p2 vape pod kit" target="_blank"><strong>Voopoo Argus P2 Vape Pod Kit</strong></a></td>
+<td>£24.99</td>
+<td>30W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/vaporesso-luxe-x-pro-vape-kit" rel="noopener" title="vaporesso luxe x pro vape kit" target="_blank"><strong>Vaporesso Luxe X Pro Vape Kit</strong></a></td>
+<td>£29.99</td>
+<td>40W</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/innokin-gozee-vape-kit" rel="noopener" title="innokin gozee vape kit" target="_blank"><strong>Innokin Gozee Vape Kit</strong></a></td>
+<td>£35.00</td>
+<td>60W</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- EXPERT GUIDE                              --> <!-- ========================================= -->
+<p> </p>
+<h2>Best Sub Ohm Vape Kit Picks: Three Ways to Choose</h2>
+<div class="vos-guide-box">
+<p><strong>The proven line: Vaporesso Armour Max, £47.99</strong></p>
+<p>Ten sold in four months, the only DTL kit here with real recent volume. 220W, iTank 2, £1.99 GTi coils. Read the two reviews (3.0 average) first.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>The budget pick: VooPoo Argus GT II, £23.99</strong></p>
+<p>£26 off list buys a 200W, IP68, dual-battery mod with two DTL coils in the box. With £10.99 of AWT 18650s the whole setup is £34.98.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>Best for beginners: SMOK Mag V8, £24.99, or Aspire Veynom EX, £19.99</strong></p>
+<p>The Mag V8 has no settings: fit a coil, fill, press fire. The Veynom EX is £5 cheaper with a screen and £2.00 coils against £3.33. SMOK if menus put you off, Aspire if you want to learn wattage.</p>
+</div>
+<p> </p>
+<h3>DTL vs MTL vs RDL: What Direct to Lung Means</h3>
+<p>Direct to lung (DTL) means you breathe the vapour straight into your lungs in one motion. Mouth to lung (MTL) is the cigarette-style pull: into the mouth, then inhaled. Restricted direct lung (RDL) sits between. DTL needs a coil under 0.5 ohm, open airflow and 40W or more; MTL pod kits stop at 16 to 30W. Coming from a disposable, you have been vaping MTL: try the Mag V8 or Veynom EX before a 200W mod.</p>
+<h3>DTL Vape Coils, Ohms and Wattage</h3>
+<p>Sub ohm means under 1.0 ohm; the DTL coils here run <strong>0.15 to 0.4 ohm</strong>, each with a wattage window printed on it: PnP-TW15 0.15 ohm at 55 to 70W, PnP-TW20 0.2 ohm at 40 to 55W, Aspire BP 0.15 ohm at 60 to 80W, BP 0.3 ohm at 30 to 40W. Lower resistance means more vapour, heat and liquid per puff. Stay inside the window: above it the cotton burns, below it the coil floods. The <a href="https://vapeonlinestore.co.uk/collections/coils" rel="noopener" title="replacement vape coils" target="_blank"><strong>replacement coils</strong></a> collection stocks every coil family named here.</p>
+<h3>External 18650 and 21700 Batteries Are Sold Separately</h3>
+<p>Dual-cell mods like the Armour Max, Aegis Legend 5 and Argus GT II need two matched 18650s, same brand and age, charged together. Single-cell mods like the Mag V8 and Veynom EX take one 18650, or a 21700 for roughly 60 percent more capacity. Use high-drain cells rated 30A or more and never mix old and new. The <a href="https://vapeonlinestore.co.uk/collections/vape-batteries-chargers" rel="noopener" title="vape batteries and chargers" target="_blank"><strong>vape batteries and chargers</strong></a> page lists AWT 18650 2900mAh 40A at £5.99 each or £10.99 a pair, AWT 21700 4800mAh at £10.99 for two, and chargers from £3.95.</p>
+<h3>Sub Ohm E Liquid and Running Cost Per Week</h3>
+<p>A DTL coil at 60W vaporises far more liquid per puff than a pod, so the nicotine must drop: use a <strong>70VG/30PG shortfill at 3mg or 6mg</strong>, never a 20mg nic salt. <a href="https://vapeonlinestore.co.uk/collections/50ml-e-liquid" rel="noopener" title="50ml shortfill e liquids" target="_blank"><strong>50ml shortfills</strong></a> start at £2.99 (Doozy Tropix) and <a href="https://vapeonlinestore.co.uk/collections/100ml-e-liquid" rel="noopener" title="100ml shortfill e liquids" target="_blank"><strong>100ml shortfills</strong></a> at £4.99 (DK Cakes, Chunky Monkey), both 70/30; one 10ml nic shot in a 50ml makes 3mg. At roughly 5 to 10ml a day, a week is 35 to 70ml, one 50ml bottle plus a shot or most of a 100ml. A coil lasts one to two weeks at £1.99 to £3.33. Call it <strong>£4 to £9 a week</strong> for liquid and coils; a dual-cell mod adds a £10.99 pair of cells every six to twelve months.</p>
+<h3>Why Buy DTL Kits From Vape Online Store</h3>
+<p>Every kit here is in stock from authorised UK distribution, the table prices are live, and orders over £40 get free next day delivery, which every dual-battery kit clears alone. <a href="https://vapeonlinestore.co.uk/collections/dtl-vape-tanks" rel="noopener" title="dtl vape tanks" target="_blank"><strong>DTL vape tanks</strong></a> has replacement sub ohm tanks for these mods; <a href="https://vapeonlinestore.co.uk/collections/vape-mods" rel="noopener" title="vape mods" target="_blank"><strong>vape mods</strong></a> lists bare mods without a tank.</p>
+<!-- ========================================= --> <!-- FAQ SECTION - 10 QUESTIONS                --> <!-- ========================================= -->
+<p> </p>
+<h2>DTL Vape Kit Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>What is DTL in vaping?</h4>
+<p>DTL stands for direct to lung: you inhale the vapour straight into your lungs in one breath instead of holding it in your mouth first. It uses sub ohm coils below 1.0 ohm, open airflow and 40W or more, giving a warm, dense cloud and using more liquid than a pod kit.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is it better to MTL or DTL?</h4>
+<p>Neither is better; they suit different people. MTL copies a cigarette draw, uses less liquid and works with 10mg or 20mg nic salts. DTL gives bigger vapour and fuller flavour at 3mg or 6mg but costs more in liquid and power. Most ex-disposable users start MTL.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is the best vape for DTL?</h4>
+<p>By sales on this page, the Vaporesso Armour Max at £47.99 (10 units in four months, 220W). By value, the VooPoo Argus GT II at £23.99 gives 200W and IP68 for half that. For a first DTL kit the SMOK Mag V8 needs no settings and the Aspire Veynom EX at £19.99 is the cheapest start.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is the best sub-ohm vape kit available in the UK?</h4>
+<p>The two best-selling sub ohm kits at Vape Online Store in the last four months were the Vaporesso Armour Max and the Geekvape Aegis Legend 5, both £47.99. Among built-in battery kits nothing moved, so price decides: the Smok Nord 6 and Voopoo Argus E40 are £24.99 each.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is sub-ohm vaping better?</h4>
+<p>Sub ohm vaping gives more vapour and a warmer, fuller flavour than a high-resistance coil, which is why DTL vapers choose it. It is not for everyone: it drains batteries faster, uses 5 to 10ml of liquid a day and needs 3mg or 6mg shortfill. For a tight, quiet draw, a 0.8 or 1.2 ohm pod kit suits you more.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is 0.6 or 0.8 ohm better for vape?</h4>
+<p>Both sit above the DTL range on this page. A 0.6 ohm coil gives a restricted direct lung draw at 20 to 30W with more vapour; a 0.8 ohm coil gives a mouth to lung draw at 12 to 18W with less liquid use. The box mods in the first two tables want 0.15 to 0.4 ohm coils.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What juice is best for sub-ohm vaping?</h4>
+<p>A 70VG/30PG shortfill at 3mg or 6mg. The high VG gives thick vapour and does not leak through wide-wicked coils, and the low nicotine stops a lung hit being harsh. Avoid 50/50 nic salts at 10mg or 20mg in any kit above 40W. VOS 50ml shortfills start at £2.99.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How do you DTL vape?</h4>
+<p>Open the airflow fully, set the wattage inside the window printed on the coil, then breathe in slowly and directly to your lungs for two to three seconds without pausing in the mouth, and exhale straight away. Start at the bottom of the coil's range and raise it in 5W steps until the vapour is warm but not harsh.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Do DTL vape kits come with batteries?</h4>
+<p>Fifteen of the 43 kits here do not: the Vaporesso Armour Max, Geekvape Aegis Legend 5, VooPoo Argus GT II, SMOK Mag V8 and Aspire Veynom EX all need 18650 or 21700 cells bought separately, from £5.99 each. Built-in kits such as the VooPoo Drag 6 and Smok Nord 6 charge over USB-C and need nothing extra.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Do these kits come with free e-liquid?</h4>
+<p>Only where the product listing says so. Some pod kits in the third table include a free 10ml bottle and state it in their title, for example the Oxva Xlim Pro 2 and Vaporesso XROS 4. The box mods and DTL pod mods in the first two tables are sold as the kit alone, so add a 70/30 shortfill to your order.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA                                 --> <!-- ========================================= -->
+<h2>Pick Your Direct to Lung Vape Kit</h2>
+<p>Go for the <a href="https://vapeonlinestore.co.uk/products/vaporesso-armour-max-vape-kit" rel="noopener" title="vaporesso armour max vape kit" target="_blank"><strong>Vaporesso Armour Max Vape Kit</strong></a> if you want the kit that sells, the <a href="https://vapeonlinestore.co.uk/products/voopoo-argus-gt-2-kit" rel="noopener" title="voopoo argus gt ii vape kit" target="_blank"><strong>VooPoo Argus GT II Vape Kit</strong></a> at £23.99 for the most mod for the money, and the <a href="https://vapeonlinestore.co.uk/products/smok-mag-v8-vape-kit" rel="noopener" title="smok mag v8 mod vape kit" target="_blank"><strong>SMOK Mag V8 Mod Vape Kit</strong></a> if you never want to see a menu. Put batteries, a 70/30 shortfill and coils in the same basket: free next day delivery over £40.</p>
+</div>
