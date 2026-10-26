@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "Hayati pod",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": prefilled refill pods for every Hayati kit and pod boxes of 5 and 10, from £1.68 a pod."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Ultra Plus 25000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99 a twin pack, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Max Plus 6000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " from £6.99 in 20mg, 10mg and 0mg, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Rubik 7000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.99, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Finebar pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £1.68, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Ultra Plus Shisha 30K pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £6.99, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Mini Ultra 1500 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £3.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Every pod is keyed to one Hayati kit. Genuine UK stock through UK distribution, next day delivery, free over £40. The guide below ranks every pod by sales and shows which kit each one fits."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo vape",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": Argus, Doric, Vinci and Vmate pod kits, Drag mods, replacement pods, PnP, PnP X and TPP coils and Woolo nic salts, from £2.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from the "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo Doric Q",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " kit at £7.99, "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo Argus Top-Fill V2 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99 for three, the "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo Drag X",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " 80W mod at £22.99, "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo ITO pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.99 for two, "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo PnP X coils",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £12.99 for five and "
+    },
+    {
+     "type": "text",
+     "value": "Voopoo Argus E40 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £6.99 for two."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Genuine Voopoo stock through UK distribution, next day delivery, free over £40. Below the products: every kit, pod and coil ranked by what sold most, which coil fits which kit, and what the Gene chip modes do."
+    }
+   ]
+  }
+ ]
+}

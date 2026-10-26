@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop the full "
+    },
+    {
+     "type": "text",
+     "value": "Uwell",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " range in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": Viscore prefilled kits and pods, Caliburn refillable pod kits, replacement pods, coils and tanks, from £2.49."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from the "
+    },
+    {
+     "type": "text",
+     "value": "Uwell Viscore Pro+ 40K",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £8.99 with "
+    },
+    {
+     "type": "text",
+     "value": "Viscore Pro+ pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.99, the "
+    },
+    {
+     "type": "text",
+     "value": "Uwell Caliburn A3S",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £12.99, "
+    },
+    {
+     "type": "text",
+     "value": "Caliburn A3 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £10.99 for four, the "
+    },
+    {
+     "type": "text",
+     "value": "Uwell Caliburn G5",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £14.99 with three pods in the box, and "
+    },
+    {
+     "type": "text",
+     "value": "Viscore 8000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £5.49."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Every product comes through UK distribution, so it is genuine Uwell stock, with next day delivery and free delivery over £40. Below the products you will find every kit, pod and coil ranked by what sold most, plus a map of which pod fits which Caliburn."
+    }
+   ]
+  }
+ ]
+}

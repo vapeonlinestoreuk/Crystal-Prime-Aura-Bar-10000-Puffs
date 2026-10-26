@@ -1,0 +1,690 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>Voopoo vape</strong> we stock is on this page: Argus, Doric, Vinci, Vmate and V.Thru pod kits, the Drag X, S and numbered Drag mods, Argus and ITO replacement pods, PnP, PnP X and TPP coils, tanks and the Woolo 10ml nic salt. Prices start at £2.99 for a 10ml Voopoo Woolo nic salt, £4.49 for a two-pack of Argus Air pods and £7.99 for the Voopoo Doric Q kit, as of October 2026.</p>
+<p>The six product sections below are the Voopoo lines that sold the most units here in the last four months. The three tables after them rank the 30 best sellers, split into kits, pods and coils, with a per-unit price. The guide covers which draw each family gives, which coil fits which kit and what the Gene chip modes do.</p>
+<div class="vos-problem-box">
+<p><strong>PnP and PnP X are two different coil sockets</strong></p>
+<p>Voopoo PnP coils fit the original Drag X, Drag S, Drag 2, Vinci, V.Suit and Argus Air pods. Voopoo PnP X coils fit the Drag X2, S2, X3, S3, Argus Pro 2 and Argus E40. Neither pushes into the other's pod, so check the kit name for a 2 or a 3 before you order coils.</p>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 1: Doric Q Pod Kit                 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-doric-q-pod-vape-kit-vos.jpg?v=1788491367" alt="Voopoo Doric Q pod vape kit, slim 800mAh pen with its 2ml ITO pod" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Voopoo Doric Q Pod Vape Kit</h3>
+<div class="vos-price-tag">£7.99 • 800mAh, 2ml ITO pod</div>
+<div class="vos-sale-badge">Best-selling Voopoo product: 54 sold in four months</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-doric-q-pod-vape-kit" rel="noopener" title="voopoo doric q pod vape kit" target="_blank"><strong>Voopoo Doric Q Pod Vape Kit</strong></a> outsold every other Voopoo product here over the last four months, <strong>54 units</strong>, with 4.4 stars from 7 reviews. A slim draw-activated pen: 800mAh battery, fixed 12W output, 2ml ITO pod with a 1.0Ω mesh coil built in.</p>
+<p><strong>Who's it for?</strong> MTL vapers on 10mg or 20mg nic salt who want a refillable kit at a disposable price. Seven colours. For adjustable power on the same tight draw, the Voopoo Argus G2 at £23.99 is the step up.</p>
+<p><strong>What's in the box?</strong> One Doric Q device with a 1.0Ω 2ml ITO pod fitted. Retailer reviews report no cable in the box, so keep a USB-C lead handy.</p>
+<ul>
+<li><strong>Battery:</strong> 800mAh built in, USB-C charging</li>
+<li><strong>Output:</strong> 12W fixed, draw activated</li>
+<li><strong>Pod:</strong> 2ml refillable ITO pod, 1.0Ω mesh</li>
+<li><strong>Replacement pods:</strong> Voopoo ITO pods, 0.7Ω, 1.0Ω or 1.2Ω</li>
+<li><strong>Draw:</strong> MTL</li>
+<li><strong>Body:</strong> aluminium alloy, PCTG pod</li>
+<li><strong>Colours:</strong> 7</li>
+</ul>
+<div class="vos-tip-box">Value maths: £7.99 for the kit and its first pod. Running cost after that is <strong>£2.50 per ITO pod</strong> (£4.99 for two) and £2.99 per 10ml of Voopoo Woolo nic salt.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-doric-q-pod-vape-kit" class="vos-cta-button" rel="noopener" target="_blank">View Doric Q Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Argus Top-Fill V2 Pods           --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_Top-Fill_V2_Pod_Cartridges.jpg?v=1790923566" alt="Voopoo Argus Top-Fill V2 pod cartridges, pack of three 2ml top-fill pods" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Voopoo Argus Top-Fill V2 Pod Cartridges</h3>
+<div class="vos-price-tag">£7.99 pack of 3 • £2.66 per pod</div>
+<div class="vos-sale-badge">Best-selling Voopoo pod: 23 packs sold</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-argus-top-fill-v2-pod-cartridges" rel="noopener" title="voopoo argus top-fill v2 pod cartridges" target="_blank"><strong>Voopoo Argus Top-Fill V2 Pod Cartridges</strong></a> sold <strong>23 packs</strong> in four months, more than any other Voopoo pod here. Each pod is 2ml, top filled under the mouthpiece, on a magnetic base with the mesh coil built in. No reviews on this listing yet.</p>
+<p><strong>Who's it for?</strong> Anyone on the Argus Pod family: Argus Pod, Pod SE, Z, Z2, G, G2, G2 Mini, G3, G3 Mini, P1, P1S, P2 and A. Voopoo's launch notice says the V2 cartridge fits the whole Argus Pod family. The 0.4Ω pod wants 18 to 30W, so use it on the 30W kits (G2, G3, P2, A) and keep the 0.7Ω and 1.0Ω for the 17W to 25W Z, P1 and P1S.</p>
+<p><strong>What's in the box?</strong> Three pods of one resistance.</p>
+<ul>
+<li><strong>Capacity:</strong> 2ml, top fill</li>
+<li><strong>Resistances:</strong> 0.4Ω (18 to 30W), 0.7Ω (14 to 18W), 1.0Ω (10 to 14W)</li>
+<li><strong>Coil:</strong> built-in mesh, magnetic base</li>
+<li><strong>Fits:</strong> the Argus Pod family listed above</li>
+<li><strong>Does not fit:</strong> Argus E40 (own pods), Argus Pro, GT and X (PnP or TPP)</li>
+<li><strong>Pack:</strong> 3</li>
+</ul>
+<div class="vos-tip-box">Value maths: <strong>£2.66 per pod</strong>. The older side-fill Voopoo Argus Replacement Pods are £5.99 for three, £2.00 per pod, and fit the Argus Pod, Z, G, P1 and P1S if you prefer side fill.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-argus-top-fill-v2-pod-cartridges" class="vos-cta-button" rel="noopener" target="_blank">View Argus Top-Fill V2 Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: Drag X Pod Kit                   --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-pnp-x-pod-kit.jpg?v=1774816364" alt="Voopoo Drag X pod mod kit with leather panel, 18650 cell and PnP pod" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Voopoo Drag X Pod Kit</h3>
+<div class="vos-price-tag">£22.99 • 80W, single 18650</div>
+<div class="vos-sale-badge">Best-selling Voopoo mod kit: 17 sold, 5.0 from 2 reviews</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-drag-x-pod-kit" rel="noopener" title="voopoo drag x pod kit" target="_blank"><strong>Voopoo Drag X Pod Kit</strong></a> moved <strong>17 units</strong> in four months, ahead of every other Drag. It is the original 80W Drag pod mod: GENE.TT chip, 0.96 inch colour screen, leather and alloy body, one 18650 cell not in the box, and a 2ml top-fill pod on the standard PnP coil series.</p>
+<p><strong>Who's it for?</strong> Direct lung vapers who want mod power without mod bulk, and MTL vapers who drop a 0.8Ω or 1.2Ω PnP coil into the same pod. Buy a 20A or higher 18650 with it. For a built-in battery at the same power, the Voopoo Argus Pro 2 at £29.99 carries 3000mAh.</p>
+<p><strong>What's in the box?</strong> One Drag X device, one 2ml PnP pod, a 0.15Ω and a 0.3Ω PnP coil, a USB-C cable and the manual.</p>
+<ul>
+<li><strong>Power:</strong> 5 to 80W, Smart and RBA modes</li>
+<li><strong>Battery:</strong> one 18650, sold separately, USB-C charging</li>
+<li><strong>Pod:</strong> 2ml top fill, infinite airflow</li>
+<li><strong>Coils in the box:</strong> PnP 0.15Ω (60 to 80W) and 0.3Ω (32 to 40W)</li>
+<li><strong>Compatible coils:</strong> the full PnP range, not PnP X</li>
+<li><strong>Size:</strong> 127.5 x 32.5 x 28mm</li>
+<li><strong>Resistance range:</strong> 0.1 to 3.0Ω</li>
+</ul>
+<div class="vos-tip-box">Value maths: £22.99 for the kit, then <strong>£2.80 per PnP coil</strong> (£13.99 for five) or £2.00 per TM coil for MTL. Add an 18650 cell before you can vape.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-drag-x-pod-kit" class="vos-cta-button" rel="noopener" target="_blank">View Drag X Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: ITO Replacement Pods             --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-replacement-pods-or-voopoo-ito-pod-vape-55943.jpg?v=1745793244" alt="Voopoo ITO replacement pods, pack of two 2ml pods for the Doric range" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. Voopoo ITO Replacement Pods</h3>
+<div class="vos-price-tag">£4.99 pack of 2 • £2.50 per pod</div>
+<div class="vos-sale-badge">Cheapest Voopoo pod per unit: £2.50</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-ito-replacement-pods" rel="noopener" title="voopoo ito pods" target="_blank"><strong>Voopoo ITO Replacement Pods</strong></a> sold <strong>16 packs</strong> in four months and are the refill for the Doric Q above, 5.0 stars from 1 review. Three fixed-coil options, 0.7Ω, 1.0Ω and 1.2Ω, plus a coil-less 2ml pod for the press-fit Voopoo ITO coils.</p>
+<p><strong>Who's it for?</strong> Doric Q, Doric 20, Doric 20 SE and Drag Q owners. The 1.0Ω matches the pod in the Doric Q box; the 1.2Ω tightens the draw for 20mg salts; the 0.7Ω is the warmer option on the 20W Doric 20.</p>
+<p><strong>What's in the box?</strong> Two pods of one resistance, or two empty pods if you pick the coil-less option.</p>
+<ul>
+<li><strong>Capacity:</strong> 2ml</li>
+<li><strong>Resistances:</strong> 0.7Ω, 1.0Ω, 1.2Ω, or coil-less for ITO coils</li>
+<li><strong>Liquid:</strong> 50/50 and nic salt</li>
+<li><strong>Fits:</strong> Voopoo Doric Q, Doric 20, Doric 20 SE, Drag Q</li>
+<li><strong>Draw:</strong> MTL</li>
+<li><strong>Pack:</strong> 2</li>
+</ul>
+<div class="vos-tip-box">Value maths: <strong>£2.50 per pod</strong>. The coil-less pod plus a five-pack of Voopoo ITO coils at £12.99 works out at £2.60 per coil change, so the fixed-coil pods are the simpler buy.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-ito-replacement-pods" class="vos-cta-button" rel="noopener" target="_blank">View ITO Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: PnP X Coils                      --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-x-replacement-coils-or-pack-of-5-30924.jpg?v=1745791821" alt="Voopoo PnP X replacement coils, pack of five push-fit mesh coils" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Voopoo PnP X Replacement Coils</h3>
+<div class="vos-price-tag">£12.99 pack of 5 • £2.60 per coil</div>
+<div class="vos-sale-badge">Best-selling Voopoo coil: 14 packs sold</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-x-replacement-coils" rel="noopener" title="voopoo pnp x coils" target="_blank"><strong>Voopoo PnP X Replacement Coils</strong></a> are the push-fit coil for the second-generation Drag pods, <strong>14 packs</strong> sold in four months. Four resistances cover MTL through to 80W direct lung. No reviews yet.</p>
+<p><strong>Who's it for?</strong> Owners of the Voopoo Drag X2, Drag S2, Drag X3, Drag S3, Argus Pro 2 and Argus E40, and anyone running the UForce-X Nano tank. The 0.6Ω at 18 to 23W is the MTL and restricted-lung coil; the 0.15Ω at 60 to 80W is for an 18650 mod on a 3mg shortfill.</p>
+<p><strong>What's in the box?</strong> Five coils of one resistance.</p>
+<ul>
+<li><strong>Resistances:</strong> 0.15Ω (60 to 80W), 0.2Ω (40 to 60W), 0.3Ω (32 to 40W), 0.6Ω (18 to 23W)</li>
+<li><strong>Style:</strong> 0.15Ω and 0.2Ω DTL; 0.3Ω and 0.6Ω RDL and MTL</li>
+<li><strong>Fit:</strong> push-fit into PnP X pods</li>
+<li><strong>Kits:</strong> Drag X2, S2, X3, S3, Argus Pro 2, Argus E40, UForce-X Nano</li>
+<li><strong>Does not fit:</strong> Drag X, Drag S, Drag 2 (use PnP coils)</li>
+<li><strong>Pack:</strong> 5</li>
+</ul>
+<div class="vos-tip-box">Value maths: <strong>£2.60 per coil</strong>. The standard PnP coil is £2.80 in a pack of five and the PnP DW60 is £2.20 to £2.40, but neither fits a PnP X pod.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-x-replacement-coils" class="vos-cta-button" rel="noopener" target="_blank">View PnP X Coils</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 6: Argus E40 Pods                   --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-e40-pods-or-pack-of-2-79896.jpg?v=1745791504" alt="Voopoo Argus E40 replacement pods, pack of two side-fill 2ml pods" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>6. Voopoo Argus E40 Pods</h3>
+<div class="vos-price-tag">£6.99 pack of 2 • £3.50 per pod</div>
+<div class="vos-sale-badge">Best-selling direct lung pod: 14 packs sold</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pods" rel="noopener" title="voopoo argus e40 pods" target="_blank"><strong>Voopoo Argus E40 Pods</strong></a> sold <strong>14 packs</strong> in four months. They are the side-fill 2ml pods for the 40W Argus E40 kit, supplied with the coil fitted in 0.3Ω, 0.45Ω or 0.6Ω; the E40 also accepts loose PnP X coils.</p>
+<p><strong>Who's it for?</strong> Argus E40 owners only; the pod does not fit the Argus Pod family or the Drag X2. Pair the 0.3Ω with a 70VG shortfill for direct lung, the 0.6Ω with a 50/50 for a restricted draw. The <a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pod-kit" rel="noopener" title="voopoo argus e40 pod kit" target="_blank"><strong>Voopoo Argus E40 Pod Kit</strong></a> itself is £24.99 with an 1800mAh battery.</p>
+<p><strong>What's in the box?</strong> Two pods of one resistance.</p>
+<ul>
+<li><strong>Capacity:</strong> 2ml, side fill</li>
+<li><strong>Resistances:</strong> 0.3Ω, 0.45Ω, 0.6Ω</li>
+<li><strong>Coil:</strong> mesh, fitted; PnP X coils also fit</li>
+<li><strong>Kit:</strong> Voopoo Argus E40, 5 to 40W</li>
+<li><strong>Draw:</strong> DTL and RDL</li>
+<li><strong>Pack:</strong> 2</li>
+</ul>
+<div class="vos-tip-box">Value maths: <strong>£3.50 per pod</strong> with the coil in. Keeping one pod and changing PnP X coils at £2.60 each is the cheaper long-run route.</div>
+<a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pods" class="vos-cta-button" rel="noopener" target="_blank">View Argus E40 Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: KITS                    --> <!-- ========================================= -->
+<h2>Voopoo Vape Price List: Kits and Mods by Units Sold</h2>
+<p>This collection holds 121 Voopoo listings, so the three tables cover the <strong>30 best sellers by units sold</strong> over the last four months, in sales order: 12 kits, 10 pods and 8 coils. Where two products tie on sales, the one with more stock is listed first. Every model is on the <a href="https://vapeonlinestore.co.uk/collections/voopoo-vape-kits" rel="noopener" title="voopoo vape kits" target="_blank"><strong>Voopoo vape kits</strong></a> page, and the <a href="https://vapeonlinestore.co.uk/collections/voopoo-tanks" rel="noopener" title="voopoo tanks" target="_blank"><strong>Voopoo tanks</strong></a> page lists the TPP, PnP, MAAT and UForce tanks separately.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-doric-q-pod-vape-kit" rel="noopener" title="voopoo doric q pod vape kit best price" target="_blank"><strong>Voopoo Doric Q Pod Vape Kit Best Price</strong></a></td>
+<td>£7.99</td>
+<td>£7.99 per kit</td>
+<td>★ 4.4 (7)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-x-pod-kit" rel="noopener" title="voopoo drag x pnp-x pod kit" target="_blank"><strong>VooPoo Drag X PnP-x Pod Kit</strong></a></td>
+<td>£22.99</td>
+<td>£22.99 per kit</td>
+<td>★ 5.0 (2)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vinci-pod-se-vape-kit" rel="noopener" title="voopoo vinci pod se vape kit" target="_blank"><strong>Voopoo Vinci Pod SE Vape Kit</strong></a></td>
+<td>£9.99</td>
+<td>£9.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vthru-pro-pod-kit" rel="noopener" title="voopoo vthru pro 25w pod kit" target="_blank"><strong>Voopoo Vthru Pro 25W Pod Kit</strong></a></td>
+<td>£12.99</td>
+<td>£12.99 per kit</td>
+<td>★ 1.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-g4-vape-kit" rel="noopener" title="voopoo argus g4 vape kit" target="_blank"><strong>VOOPOO Argus G4 Vape Kit</strong></a></td>
+<td>£17.99</td>
+<td>£17.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-z-pod-kit" rel="noopener" title="voopoo argus z pod vape kit" target="_blank"><strong>Voopoo Argus Z Pod Vape Kit</strong></a></td>
+<td>£13.99</td>
+<td>£13.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-6-vape-kit" rel="noopener" title="voopoo drag 6 vape kit" target="_blank"><strong>VooPoo Drag 6 Vape Kit</strong></a></td>
+<td>£46.99</td>
+<td>£46.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-drag-s-pod-kit" rel="noopener" title="voopoo drag s mod pod kit" target="_blank"><strong>Voopoo Drag S Mod Pod Kit</strong></a></td>
+<td>£24.99</td>
+<td>£24.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vinci-s-vape-pod-kit" rel="noopener" title="voopoo vinci s vape pod kit" target="_blank"><strong>Voopoo Vinci S Vape Pod Kit</strong></a></td>
+<td>£12.99</td>
+<td>£12.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-a-pod-vape-kit" rel="noopener" title="voopoo argus a pod vape kit" target="_blank"><strong>Voopoo Argus A Pod Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>£24.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pod-kit" rel="noopener" title="voopoo argus e40 pod vape kit" target="_blank"><strong>Voopoo Argus E40 Pod Vape Kit</strong></a></td>
+<td>£24.99</td>
+<td>£24.99 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-g3" rel="noopener" title="voopoo argus g3 pod vape kit" target="_blank"><strong>VooPoo Argus G3 Pod Vape Kit</strong></a></td>
+<td>£26.99</td>
+<td>£26.99 per kit</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: PODS                    --> <!-- ========================================= -->
+<p> </p>
+<h2>Replacement Pods for Voopoo Vapes, Best Sellers First</h2>
+<p>Pods are the repeat purchase. Per unit means per pod. The full list, including Vinci, Drag Nano and V.Thru pods, is on the <a href="https://vapeonlinestore.co.uk/collections/voopoo-pods" rel="noopener" title="voopoo pods" target="_blank"><strong>Voopoo pods</strong></a> page.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-top-fill-v2-pod-cartridges" rel="noopener" title="voopoo argus top-fill v2 pod cartridges pack of 3" target="_blank"><strong>VooPoo Argus Top-Fill V2 Pod Cartridges Pack of 3</strong></a></td>
+<td>£7.99</td>
+<td>£2.66 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-ito-replacement-pods" rel="noopener" title="voopoo ito replacement pods" target="_blank"><strong>VooPoo ITO Replacement Pods</strong></a></td>
+<td>£4.99</td>
+<td>£2.50 per pod</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-argus-e40-pods" rel="noopener" title="voopoo argus e40 pods" target="_blank"><strong>VooPoo Argus E40 Pods</strong></a></td>
+<td>£6.99</td>
+<td>£3.50 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/argus-replacement-pods-by-voopoo" rel="noopener" title="voopoo argus replacement pods" target="_blank"><strong>Voopoo Argus Replacement Pods</strong></a></td>
+<td>From £5.99</td>
+<td>£2.00 to £2.66 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-replacement-pods" rel="noopener" title="voopoo pnp replacement pods" target="_blank"><strong>VooPoo PNP Replacement Pods</strong></a></td>
+<td>£6.99</td>
+<td>£3.50 per pod</td>
+<td>★ 4.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vinci-replacement-pods" rel="noopener" title="voopoo vinci replacement pods" target="_blank"><strong>Voopoo Vinci Replacement Pods</strong></a></td>
+<td>From £7.99</td>
+<td>£2.66 to £3.00 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vthru-pods-pack-of-2" rel="noopener" title="voopoo vthru and vmate replacement pods" target="_blank"><strong>VooPoo Vthru and Vmate Replacement Pods</strong></a></td>
+<td>£7.99</td>
+<td>£4.00 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/pnp-x-replacement-pod-by-voopoo" rel="noopener" title="voopoo pnp-x replacement pod" target="_blank"><strong>Voopoo PnP-X Replacement Pod</strong></a></td>
+<td>£7.95</td>
+<td>£7.95 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-ito-x-pod" rel="noopener" title="voopoo ito x replacement pod" target="_blank"><strong>VooPoo ITO X Replacement Pod</strong></a></td>
+<td>£5.49</td>
+<td>£5.49 per pod</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-vinci-v2-refillable-pods" rel="noopener" title="voopoo vinci v2 refillable pods" target="_blank"><strong>Voopoo Vinci V2 Refillable Pods</strong></a></td>
+<td>£7.49</td>
+<td>£2.50 per pod</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: COILS                   --> <!-- ========================================= -->
+<p> </p>
+<h2>PnP, PnP X and TPP Coils for Voopoo Vapes by Units Sold</h2>
+<p>Per unit means per coil. Every coil platform we stock, including ITO, UForce N1 and DW, is on the <a href="https://vapeonlinestore.co.uk/collections/voopoo-coils" rel="noopener" title="voopoo coils" target="_blank"><strong>Voopoo coils</strong></a> page.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-x-replacement-coils" rel="noopener" title="voopoo pnp x replacement coils" target="_blank"><strong>VooPoo PnP X Replacement Coils</strong></a></td>
+<td>£12.99</td>
+<td>£2.60 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-tm-replacement-vape-coils" rel="noopener" title="voopoo tm replacement vape coils" target="_blank"><strong>VooPoo TM Replacement Vape Coils</strong></a></td>
+<td>£9.99</td>
+<td>£2.00 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-dw60-replacement-coils" rel="noopener" title="voopoo pnp dw60 replacement coils" target="_blank"><strong>Voopoo Pnp DW60 Replacement Coils</strong></a></td>
+<td>From £10.99</td>
+<td>£2.20 to £2.40 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-replacement-coils" rel="noopener" title="voopoo pnp replacement coils" target="_blank"><strong>VooPoo PnP Replacement Coils</strong></a></td>
+<td>£13.99</td>
+<td>£2.80 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-tpp-coils-pack-of-3" rel="noopener" title="all voopoo tpp replacement coils" target="_blank"><strong>All VooPoo TPP Replacement Coils</strong></a></td>
+<td>£9.99</td>
+<td>£3.33 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-pnp-tw-replacement-coil" rel="noopener" title="voopoo pnp tw replacement coils" target="_blank"><strong>Voopoo PnP TW Replacement Coils</strong></a></td>
+<td>£11.99</td>
+<td>£2.40 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/voopoo-n1-coils-pack-of-5" rel="noopener" title="voopoo uforce n1 mesh coil" target="_blank"><strong>Voopoo UForce N1 Mesh Coil</strong></a></td>
+<td>£16.59</td>
+<td>£3.32 per coil</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/tpp-replacement-coils-by-voopoo" rel="noopener" title="tpp replacement coils by voopoo" target="_blank"><strong>TPP Replacement Coils By Voopoo</strong></a></td>
+<td>£9.95</td>
+<td>£3.32 per coil</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>One liquid line belongs here: <a href="https://vapeonlinestore.co.uk/products/voopoo-woolo-10ml" rel="noopener" title="voopoo woolo 10ml nic salt" target="_blank"><strong>Voopoo Woolo 10ml Nic Salt E-Liquid</strong></a> is £2.99 a bottle in 10mg and 20mg and is the cheapest item in the collection.</p>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE                              --> <!-- ========================================= -->
+<h2>Which Voopoo Vape Is the Best? Three Picks From the Sales Data</h2>
+<div class="vos-guide-box">
+<p><strong>The proven volume line: Voopoo Doric Q Pod Vape Kit, £7.99</strong></p>
+<p>54 units in four months, 4.4 stars from 7 reviews, seven colours in stock. 800mAh, 12W, a 2ml ITO pod at £2.50 a refill. Nothing else in the Voopoo range here sells at half that rate.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>The budget mod: Voopoo Drag X Pod Kit, £22.99</strong></p>
+<p>17 sold, 5.0 from 2 reviews, 80W from one 18650 and the widest coil choice of any Voopoo pod, because every standard PnP coil from 1.2Ω MTL to 0.15Ω DTL drops into it. Cheapest route to a Drag by £4 over the Drag X2 at £26.99.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>Best for a 30W pod with a screen: Voopoo Argus G2 Pod Vape Kit, £23.99</strong></p>
+<p>1000mAh, 5 to 30W, 0.96 inch colour screen and the Argus Top-Fill V2 pods at £2.66 each. No reviews and no sales here in the last four months, so this pick rests on the spec and the pod price. The Voopoo Argus P2 at £24.99 is the same idea with an 1100mAh cell.</p>
+</div>
+<p>For a ranked list of the kits, read our <a href="https://vapeonlinestore.co.uk/blogs/vape-guide/best-voopoo-vapes" rel="noopener" title="best voopoo vapes" target="_blank"><strong>best Voopoo vapes guide</strong></a>, and for the mods, the <a href="https://vapeonlinestore.co.uk/blogs/vape-guide/5-best-voopoo-drag-vapes" rel="noopener" title="best voopoo drag vapes" target="_blank"><strong>best Voopoo Drag vapes guide</strong></a>.</p>
+<p> </p>
+<h3>Argus, Drag or Vmate: Which Draw, Which Battery</h3>
+<p><strong>Argus</strong> is the pod range: the Argus Pod family (Z, P1, P1S, P2, G2, G3, A) runs 17 to 30W on a built-in 800 to 1500mAh cell with fixed-coil pods, a tight MTL draw opening to restricted lung. The Argus Pro 2, E40, XT and MT are the 40 to 100W end of the same name, on replaceable PnP X or TPP coils. <strong>Drag</strong> is the mod range: the Drag X, X2 and X3 take one 18650 at 80W; the Drag S, S2 and S3 have a built-in 2500 to 3000mAh battery at up to 60W; the Drag 3, 4 and 5 are dual-18650 177W box mods; the Drag 6 at £46.99 has a sealed battery and 220W. <strong>Vmate</strong> is the small-pen range: 900mAh at 11 or 17W on the £12.99 Vmate, 1500mAh and up to 30W on the £14.99 Vmate i2, 1200mAh with an OLED screen on the £19.99 Vmate Max, all on the same 2ml Vmate pods at £4.00 each. Cigarette-style draw and no buttons: Vmate or Doric. The same draw with a screen: Argus. Coil changes and vapour: Drag.</p>
+<p> </p>
+<h3>PnP, PnP X and TPP: Which Coil Fits Which Voopoo Vape</h3>
+<p>Three replaceable coil platforms, two fixed-coil pod families. <strong>PnP</strong> (VM1, VM3, VM6, TM1, TM2, TR1, R1, R2, DW60, TW) fits the Drag X, Drag S, Drag 2, Vinci, Vinci X, V.Suit, Argus Air and Argus GT pods and the PnP pod tank, from 1.2Ω MTL to 0.15Ω DTL. <strong>PnP X</strong> fits the Drag X2, S2, X3, S3, Argus Pro 2, Argus E40, the UForce-X Nano tank and the Drag 5 kit's UForce-X tank. <strong>TPP</strong> (DM1 to DM4, 0.15 to 0.3Ω) fits the TPP, TPP 2 and TPP-X pod tanks, the MAAT tank on the Argus GT II and the UForce-L tank on the Argus XT and MT. <strong>Argus Top-Fill V2 and side-fill pods</strong> are fixed-coil and fit the Argus Pod family only; <strong>ITO</strong> pods and coils are the Doric and Drag Q family. The <a href="https://vapeonlinestore.co.uk/blogs/vape-guide/voopoo-pnp-pods-and-coils-guide-uk" rel="noopener" title="voopoo pnp pods and coils guide" target="_blank"><strong>Voopoo PnP pods and coils guide</strong></a> lists every PnP coil by wattage.</p>
+<p> </p>
+<h3>Voopoo Gene Chip Modes: Smart, RBA, ECO and TC</h3>
+<p>Every Drag and Argus mod runs a Gene chip: GENE.TT on the Drag X, GENE.TT 2.0 on the Drag X2 and Drag 5, GENE TT 3.0 on the Drag 6, and the lighter Gene.AI 1.2 on the Argus P1 and P1S. The modes are the same across them. <strong>Smart</strong> reads the coil resistance and locks the wattage inside that coil's rated range, so a 0.3Ω PnP cannot be fired at 80W by mistake; most people leave it on. <strong>RBA</strong> switches the limit off and gives the full 5 to 80W (177W on a dual-cell Drag) for rebuildable decks and setting power by hand. <strong>ECO</strong>, on the Drag 4 and E60, trims output and screen brightness to stretch a charge. <strong>TC</strong>, on the Drag 4, is temperature control for Ni200, titanium and stainless coils. <strong>Turbo</strong> is listed on the Argus GT II. Pod kits such as the Vinci S and Vmate i2 run Smart mode only and set their own wattage from the pod fitted.</p>
+<p> </p>
+<h3>18650 and 21700 Cells on Drag and Argus Mods</h3>
+<p>No Voopoo mod ships with batteries, apart from the Drag 4 mod variant here that bundles two 2800mAh 25A 18650 cells for £12 more. The Drag X, X2 and X Plus take one 18650. The Drag X3 and Argus XT take one 18650 or one 21700, the larger cell with more capacity. The Drag 3, 4, 5 and Argus GT II take two 18650s for 177W to 200W. Use a cell rated at 20A or higher above 60W, charge pairs together in an external charger, and never mix cells of different age in a dual-cell mod. To skip cells altogether, the Drag S2, S3, Argus Pro 2 and Drag 6 have the battery built in.</p>
+<p> </p>
+<h3>Why Buy Voopoo UK Stock From Vape Online Store</h3>
+<p>Three plain reasons. Stock arrives through authorised UK distribution, so every Argus, Drag and Doric here is the UK version with 2ml pods. Orders over £40 get free next day delivery. And the prices above are live, dated October 2026, with the units sold taken from our own order data rather than a guess.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION                               --> <!-- ========================================= -->
+<h2>Voopoo Vape Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>Are Voopoo vapes any good?</h4>
+<p>On our data, mostly yes: the Voopoo Doric Q has 4.4 stars from 7 reviews, the Drag X 5.0 from 2 and the ITO pods 5.0 from 1, though the V.Thru Pro, Vinci 3 and Drag H40 each carry one 1-star review. The Gene chip's Smart mode stops a new user burning a coil, which is the brand's main strength.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which Voopoo vape is the best?</h4>
+<p>By units sold here, the <strong>Voopoo Doric Q Pod Vape Kit</strong> at £7.99, 54 in four months. For a mod, the Voopoo Drag X at £22.99 with 17 sold and a 5.0 rating. For a 30W pod with a screen, the Argus G2 at £23.99. If you never want to change a coil, stay with Doric or the Argus Pod kits.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How much is a Voopoo vape?</h4>
+<p>From £7.99 for the Voopoo Doric Q refillable kit, £12.99 for the Vmate, Vinci S and V.Thru Pro, £22.99 for the Drag X mod kit, £29.99 for the Argus Pro 2, up to £46.99 for the Drag 6 and £49.99 for the Drag 5 sub ohm kit, as of October 2026. Bare mods run £29.99 to £47.99.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which is better, Voopoo or Vaporesso?</h4>
+<p>Neither wins outright. Voopoo has more power and more coil choice: the Drag X gives 80W from one cell and the PnP range covers 1.2Ω to 0.15Ω. Vaporesso XROS pods are cheaper at £2.25 each against £2.50 to £2.66 for ITO and Argus pods, and XROS kits sell more units here. Voopoo for a Drag, Vaporesso for a slim MTL pen.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How long do Voopoo pods last?</h4>
+<p>A fixed-coil Argus Top-Fill V2 or ITO pod lasts one to two weeks for a 10ml-a-week vaper on 50/50 nic salt, longer on a 1.0Ω or 1.2Ω pod at low power. A 0.15Ω DTL coil on sweet shortfill lasts nearer a week. Replace the pod when the flavour fades or every draw tastes dry.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How long do Voopoo coils last?</h4>
+<p>One to two weeks on a 0.6Ω to 1.2Ω PnP, TM or PnP X coil with 50/50 liquid; five to ten days on a 0.15Ω to 0.3Ω PnP X or TPP coil at 40W and above on 70VG shortfill. Prime a new coil with a few drops, fill, wait five minutes, and start at the bottom of the printed wattage range.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How do you turn on and unlock a Voopoo vape?</h4>
+<p>Button kits such as the Drag X, X2, S2 and Argus Pro 2 switch on with five quick presses of the fire button and lock or unlock with three. The Drag X3 fires by capacitive touch and the Argus XT has a side power lock switch. Draw-activated kits such as the Doric Q, Argus G2, Vmate and Vinci S have no button: fit a pod and inhale.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How do you refill a Voopoo vape?</h4>
+<p>Argus Top-Fill V2 and Vmate pods fill from the top: pull the mouthpiece off, fill the port to just below the line, refit it. Argus E40, PnP X and Drag X2 pods fill from the side through a silicone plug with the pod pulled off the device. Wait five minutes on a new pod or coil before the first draw.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Why is my Voopoo vape not working?</h4>
+<p>Check three things in order. The lock: five clicks turns a Drag on, three clicks unlocks it. The pod: pull it, wipe the magnetic contacts and reseat it, because the Gene chip will not fire on a poor connection. The coil: a PnP coil in a PnP X pod, or the reverse, will not read, and a flat 18650 in a Drag X stops output until charged.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How fast is delivery on Voopoo kits and pods?</h4>
+<p>Orders over £40 get free next day delivery; below that, next day delivery is available at checkout. A Voopoo Drag X plus a five-pack of PnP coils clears the £40 line on its own. Stock sits in our UK warehouse through authorised distribution, so there is no overseas wait.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA                                 --> <!-- ========================================= -->
+<h2>Voopoo Vapes UK: Pick Your Anchor Product</h2>
+<p>Start with the <strong>Voopoo Doric Q Pod Vape Kit</strong> at £7.99 if you want the line everyone else is buying, the <strong>Voopoo Drag X Pod Kit</strong> at £22.99 for 80W and the widest coil choice, and the <strong>Voopoo Argus Top-Fill V2 Pod Cartridges</strong> at £2.66 a pod to keep any Argus Pod kit running. Every table links to the live price.</p>
+</div>

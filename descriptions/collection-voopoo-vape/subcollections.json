@@ -1,0 +1,19 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "voopoo-vape-kits",
+  "voopoo-pods",
+  "voopoo-coils",
+  "voopoo-tanks",
+  "voopoo-argus",
+  "drag-vape"
+ ],
+ "gids": [
+  "gid://shopify/Collection/400077390073",
+  "gid://shopify/Collection/400073457913",
+  "gid://shopify/Collection/400073851129",
+  "gid://shopify/Collection/401862852857",
+  "gid://shopify/Collection/456338342137",
+  "gid://shopify/Collection/458915086585"
+ ]
+}

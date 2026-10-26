@@ -1,0 +1,2294 @@
+{
+ "generated": "2026-10-26",
+ "sales_window": "last 120 days, ShopifyQL net_items_sold by product_id",
+ "top30": [
+  {
+   "pid": "8050234523897",
+   "units": 54,
+   "title": "Voopoo Doric Q Pod Vape Kit Best Price | Voopoo Vape",
+   "handle": "voopoo-doric-q-pod-vape-kit",
+   "cat": "kit",
+   "inv": 6219,
+   "instock": 8,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": 4.43,
+   "rcount": 7,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-doric-q-pod-vape-kit-vos.jpg?v=1788491367",
+   "rank_overall": 1,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7670757392633",
+   "units": 17,
+   "title": "VooPoo Drag X PnP-x Pod Kit | Cheap Price",
+   "handle": "voopoo-drag-x-pod-kit",
+   "cat": "kit",
+   "inv": 16962,
+   "instock": 17,
+   "min": 22.99,
+   "max": 22.99,
+   "rating": 5.0,
+   "rcount": 2,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-pnp-x-pod-kit.jpg?v=1774816364",
+   "rank_overall": 3,
+   "compare": [
+    24.99
+   ]
+  },
+  {
+   "pid": "10144641089785",
+   "units": 6,
+   "title": "Voopoo Vinci Pod SE Vape Kit",
+   "handle": "voopoo-vinci-pod-se-vape-kit",
+   "cat": "kit",
+   "inv": 7999,
+   "instock": 8,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Vinci-Pod-SE-Kit.jpg?v=1790927472",
+   "rank_overall": 10,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "8056348279033",
+   "units": 5,
+   "title": "Voopoo Vthru Pro 25W Pod Kit | Free E-Liquid",
+   "handle": "voopoo-vthru-pro-pod-kit",
+   "cat": "kit",
+   "inv": 11983,
+   "instock": 12,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": 1.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vthru-pro-25w-pod-kit-or-free-e-liquid-63242.jpg?v=1745793028",
+   "rank_overall": 13,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "10127469215993",
+   "units": 5,
+   "title": "VOOPOO Argus G4 Vape Kit",
+   "handle": "voopoo-argus-g4-vape-kit",
+   "cat": "kit",
+   "inv": 8994,
+   "instock": 9,
+   "min": 17.99,
+   "max": 17.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VOOPOO-Argus-G4-Vape-Kit.jpg?v=1790926995",
+   "rank_overall": 14,
+   "compare": [
+    19.99
+   ]
+  },
+  {
+   "pid": "8418271854841",
+   "units": 5,
+   "title": "Voopoo Argus Z Pod Vape Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-z-pod-kit",
+   "cat": "kit",
+   "inv": 5984,
+   "instock": 6,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-z-pod-vape-kit-or-free-10ml-e-liquid-13565.jpg?v=1745791527",
+   "rank_overall": 15,
+   "compare": [
+    15.0
+   ]
+  },
+  {
+   "pid": "10112567771385",
+   "units": 4,
+   "title": "VooPoo Drag 6 Vape Kit",
+   "handle": "voopoo-drag-6-vape-kit",
+   "cat": "kit",
+   "inv": 7988,
+   "instock": 8,
+   "min": 46.99,
+   "max": 46.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Drag-6-Vape-Kit.jpg?v=1790926857",
+   "rank_overall": 16,
+   "compare": [
+    49.99
+   ]
+  },
+  {
+   "pid": "7662594294009",
+   "units": 4,
+   "title": "Voopoo Drag S Mod Pod Kit | Best Price",
+   "handle": "voopoo-drag-s-pod-kit",
+   "cat": "kit",
+   "inv": 1228,
+   "instock": 9,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-s-mod-pod-kit-or-best-price-20596.jpg?v=1745796345",
+   "rank_overall": 20,
+   "compare": []
+  },
+  {
+   "pid": "10119019725049",
+   "units": 3,
+   "title": "Voopoo Vinci S Vape Pod Kit",
+   "handle": "voopoo-vinci-s-vape-pod-kit",
+   "cat": "kit",
+   "inv": 8997,
+   "instock": 9,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Vinci-S-Vape-Pod-Kit.jpg?v=1790926893",
+   "rank_overall": 21,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "8622781726969",
+   "units": 3,
+   "title": "Voopoo Argus A Pod Vape Kit",
+   "handle": "voopoo-argus-a-pod-vape-kit",
+   "cat": "kit",
+   "inv": 7983,
+   "instock": 8,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-a-pod-vape-kit-or-free-e-liquid-included-10162.jpg?v=1790917948",
+   "rank_overall": 22,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "8418259894521",
+   "units": 3,
+   "title": "Voopoo Argus E40 Pod Vape Kit",
+   "handle": "voopoo-argus-e40-pod-kit",
+   "cat": "kit",
+   "inv": 6981,
+   "instock": 7,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-e40-pod-vape-kit-15477.jpg?v=1745791530",
+   "rank_overall": 23,
+   "compare": [
+    28.0
+   ]
+  },
+  {
+   "pid": "8869379145977",
+   "units": 3,
+   "title": "VooPoo Argus G3 Pod Vape Kit",
+   "handle": "voopoo-argus-g3",
+   "cat": "kit",
+   "inv": 3322,
+   "instock": 10,
+   "min": 26.99,
+   "max": 26.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-G3-Pod-Vape-Kit.jpg?v=1751727521",
+   "rank_overall": 25,
+   "compare": [
+    28.99
+   ]
+  },
+  {
+   "pid": "9008768516345",
+   "units": 23,
+   "title": "VooPoo Argus Top-Fill V2 Pod Cartridges Pack of 3",
+   "handle": "voopoo-argus-top-fill-v2-pod-cartridges",
+   "cat": "pod",
+   "inv": 1633,
+   "instock": 3,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_Top-Fill_V2_Pod_Cartridges.jpg?v=1790923566",
+   "rank_overall": 2,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "8050218926329",
+   "units": 16,
+   "title": "VooPoo ITO Replacement Pods | Voopoo ITO Pod Vape",
+   "handle": "voopoo-ito-replacement-pods",
+   "cat": "pod",
+   "inv": 3026,
+   "instock": 4,
+   "min": 4.99,
+   "max": 4.99,
+   "rating": 5.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-replacement-pods-or-voopoo-ito-pod-vape-55943.jpg?v=1745793244",
+   "rank_overall": 4,
+   "compare": [
+    6.99
+   ]
+  },
+  {
+   "pid": "8430347780345",
+   "units": 14,
+   "title": "VooPoo Argus E40 Pods | Pack Of 2",
+   "handle": "voopoo-argus-e40-pods",
+   "cat": "pod",
+   "inv": 1951,
+   "instock": 3,
+   "min": 6.99,
+   "max": 6.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-e40-pods-or-pack-of-2-79896.jpg?v=1745791504",
+   "rank_overall": 5,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7699298386169",
+   "units": 8,
+   "title": "Voopoo Argus Replacement Pods | Best Vape Pods Online",
+   "handle": "argus-replacement-pods-by-voopoo",
+   "cat": "pod",
+   "inv": 3501,
+   "instock": 8,
+   "min": 5.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-argus-replacement-pods-or-best-vape-pods-online-60990.jpg?v=1745795280",
+   "rank_overall": 8,
+   "compare": [
+    8.99
+   ]
+  },
+  {
+   "pid": "8070634307833",
+   "units": 6,
+   "title": "VooPoo PNP Replacement Pods | Pack Of 2",
+   "handle": "voopoo-pnp-replacement-pods",
+   "cat": "pod",
+   "inv": 1641,
+   "instock": 3,
+   "min": 6.99,
+   "max": 6.99,
+   "rating": 4.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-replacement-pods.jpg?v=1770187800",
+   "rank_overall": 11,
+   "compare": [
+    12.99
+   ]
+  },
+  {
+   "pid": "8052422508793",
+   "units": 4,
+   "title": "Voopoo Vinci Replacement Pods | Pack Of 3",
+   "handle": "voopoo-vinci-replacement-pods",
+   "cat": "pod",
+   "inv": 2864,
+   "instock": 4,
+   "min": 7.99,
+   "max": 8.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-replacement-pods-or-pack-of-3-71578.jpg?v=1745793153",
+   "rank_overall": 19,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7723567841529",
+   "units": 2,
+   "title": "VooPoo Vthru and Vmate Replacement Pods | Best Price",
+   "handle": "voopoo-vthru-pods-pack-of-2",
+   "cat": "pod",
+   "inv": 3947,
+   "instock": 2,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-vthru-and-vmate-replacement-pods.jpg?v=1770115813",
+   "rank_overall": 30,
+   "compare": [
+    8.99
+   ]
+  },
+  {
+   "pid": "7699170590969",
+   "units": 0,
+   "title": "Voopoo PnP-X Replacement Pod | Best Price In Uk",
+   "handle": "pnp-x-replacement-pod-by-voopoo",
+   "cat": "pod",
+   "inv": 9993,
+   "instock": 5,
+   "min": 7.95,
+   "max": 7.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-pnp-x-replacement-pod.jpg?v=1770109339",
+   "rank_overall": 41,
+   "compare": [
+    8.95
+   ]
+  },
+  {
+   "pid": "7699381256441",
+   "units": 0,
+   "title": "VooPoo ITO X Replacement Pod",
+   "handle": "voopoo-ito-x-pod",
+   "cat": "pod",
+   "inv": 3999,
+   "instock": 2,
+   "min": 5.49,
+   "max": 5.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-x-replacement-pod-28419.jpg?v=1745795264",
+   "rank_overall": 74,
+   "compare": [
+    6.49
+   ]
+  },
+  {
+   "pid": "8056209965305",
+   "units": 0,
+   "title": "Voopoo Vinci V2 Refillable Pods | Pack Of 3",
+   "handle": "voopoo-vinci-v2-refillable-pods",
+   "cat": "pod",
+   "inv": 2650,
+   "instock": 4,
+   "min": 7.49,
+   "max": 7.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-v2-refillable-pods-or-pack-of-3-37836.jpg?v=1745793057",
+   "rank_overall": 84,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "8374750609657",
+   "units": 14,
+   "title": "VooPoo PnP X Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-x-replacement-coils",
+   "cat": "coil",
+   "inv": 1696,
+   "instock": 4,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-x-replacement-coils-or-pack-of-5-30924.jpg?v=1745791821",
+   "rank_overall": 6,
+   "compare": [
+    15.99
+   ]
+  },
+  {
+   "pid": "8714099720441",
+   "units": 10,
+   "title": "VooPoo TM Replacement Vape Coils | Pack Of 5",
+   "handle": "voopoo-tm-replacement-vape-coils",
+   "cat": "coil",
+   "inv": 1653,
+   "instock": 5,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-tm-replacement-vape-coils-pack-of-5.jpg?v=1789022279",
+   "rank_overall": 7,
+   "compare": [
+    12.99
+   ]
+  },
+  {
+   "pid": "8709161451769",
+   "units": 7,
+   "title": "Voopoo Pnp DW60 Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-dw60-replacement-coils",
+   "cat": "coil",
+   "inv": 4862,
+   "instock": 5,
+   "min": 10.99,
+   "max": 11.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-dw60-replacement-coils-or-pack-of-5-83104.jpg?v=1745790248",
+   "rank_overall": 9,
+   "compare": [
+    9.49
+   ]
+  },
+  {
+   "pid": "7723601723641",
+   "units": 5,
+   "title": "VooPoo PnP Replacement Coils",
+   "handle": "voopoo-pnp-replacement-coils",
+   "cat": "coil",
+   "inv": 12938,
+   "instock": 13,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/all-voopoo-pnp-replacement-coils.jpg?v=1787495587",
+   "rank_overall": 12,
+   "compare": [
+    15.99
+   ]
+  },
+  {
+   "pid": "7723577442553",
+   "units": 4,
+   "title": "All VooPoo TPP Replacement Coils [PACK OF 3]",
+   "handle": "voopoo-tpp-coils-pack-of-3",
+   "cat": "coil",
+   "inv": 3972,
+   "instock": 4,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/all-voopoo-tpp-replacement-coils-pack-of-3-65724.jpg?v=1745794857",
+   "rank_overall": 17,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "7884765462777",
+   "units": 4,
+   "title": "Voopoo- PnP TW Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-tw-replacement-coil",
+   "cat": "coil",
+   "inv": 2982,
+   "instock": 3,
+   "min": 11.99,
+   "max": 11.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-tw-replacement-coils-or-pack-of-5-55786.jpg?v=1745793913",
+   "rank_overall": 18,
+   "compare": [
+    13.99
+   ]
+  },
+  {
+   "pid": "7723612012793",
+   "units": 0,
+   "title": "Voopoo UForce N1 Mesh Coil",
+   "handle": "voopoo-n1-coils-pack-of-5",
+   "cat": "coil",
+   "inv": 5999,
+   "instock": 3,
+   "min": 16.59,
+   "max": 16.59,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-uforce-n1-mesh-coil-59613.jpg?v=1745794852",
+   "rank_overall": 65,
+   "compare": [
+    18.59
+   ]
+  },
+  {
+   "pid": "7699145818361",
+   "units": 0,
+   "title": "TPP Replacement Coils By Voopoo",
+   "handle": "tpp-replacement-coils-by-voopoo",
+   "cat": "coil",
+   "inv": 4805,
+   "instock": 4,
+   "min": 9.95,
+   "max": 9.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/tpp-replacement-coils-by-voopoo.jpg?v=1787495464",
+   "rank_overall": 71,
+   "compare": [
+    10.95
+   ]
+  }
+ ],
+ "all_active_instock_ranked": [
+  {
+   "pid": "8050234523897",
+   "units": 54,
+   "title": "Voopoo Doric Q Pod Vape Kit Best Price | Voopoo Vape",
+   "handle": "voopoo-doric-q-pod-vape-kit",
+   "cat": "kit",
+   "inv": 6219,
+   "instock": 8,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": 4.43,
+   "rcount": 7,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-doric-q-pod-vape-kit-vos.jpg?v=1788491367",
+   "rank_overall": 1,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "9008768516345",
+   "units": 23,
+   "title": "VooPoo Argus Top-Fill V2 Pod Cartridges Pack of 3",
+   "handle": "voopoo-argus-top-fill-v2-pod-cartridges",
+   "cat": "pod",
+   "inv": 1633,
+   "instock": 3,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_Top-Fill_V2_Pod_Cartridges.jpg?v=1790923566",
+   "rank_overall": 2,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7670757392633",
+   "units": 17,
+   "title": "VooPoo Drag X PnP-x Pod Kit | Cheap Price",
+   "handle": "voopoo-drag-x-pod-kit",
+   "cat": "kit",
+   "inv": 16962,
+   "instock": 17,
+   "min": 22.99,
+   "max": 22.99,
+   "rating": 5.0,
+   "rcount": 2,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-pnp-x-pod-kit.jpg?v=1774816364",
+   "rank_overall": 3,
+   "compare": [
+    24.99
+   ]
+  },
+  {
+   "pid": "8050218926329",
+   "units": 16,
+   "title": "VooPoo ITO Replacement Pods | Voopoo ITO Pod Vape",
+   "handle": "voopoo-ito-replacement-pods",
+   "cat": "pod",
+   "inv": 3026,
+   "instock": 4,
+   "min": 4.99,
+   "max": 4.99,
+   "rating": 5.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-replacement-pods-or-voopoo-ito-pod-vape-55943.jpg?v=1745793244",
+   "rank_overall": 4,
+   "compare": [
+    6.99
+   ]
+  },
+  {
+   "pid": "8430347780345",
+   "units": 14,
+   "title": "VooPoo Argus E40 Pods | Pack Of 2",
+   "handle": "voopoo-argus-e40-pods",
+   "cat": "pod",
+   "inv": 1951,
+   "instock": 3,
+   "min": 6.99,
+   "max": 6.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-e40-pods-or-pack-of-2-79896.jpg?v=1745791504",
+   "rank_overall": 5,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "8374750609657",
+   "units": 14,
+   "title": "VooPoo PnP X Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-x-replacement-coils",
+   "cat": "coil",
+   "inv": 1696,
+   "instock": 4,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-x-replacement-coils-or-pack-of-5-30924.jpg?v=1745791821",
+   "rank_overall": 6,
+   "compare": [
+    15.99
+   ]
+  },
+  {
+   "pid": "8714099720441",
+   "units": 10,
+   "title": "VooPoo TM Replacement Vape Coils | Pack Of 5",
+   "handle": "voopoo-tm-replacement-vape-coils",
+   "cat": "coil",
+   "inv": 1653,
+   "instock": 5,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-tm-replacement-vape-coils-pack-of-5.jpg?v=1789022279",
+   "rank_overall": 7,
+   "compare": [
+    12.99
+   ]
+  },
+  {
+   "pid": "7699298386169",
+   "units": 8,
+   "title": "Voopoo Argus Replacement Pods | Best Vape Pods Online",
+   "handle": "argus-replacement-pods-by-voopoo",
+   "cat": "pod",
+   "inv": 3501,
+   "instock": 8,
+   "min": 5.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-argus-replacement-pods-or-best-vape-pods-online-60990.jpg?v=1745795280",
+   "rank_overall": 8,
+   "compare": [
+    8.99
+   ]
+  },
+  {
+   "pid": "8709161451769",
+   "units": 7,
+   "title": "Voopoo Pnp DW60 Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-dw60-replacement-coils",
+   "cat": "coil",
+   "inv": 4862,
+   "instock": 5,
+   "min": 10.99,
+   "max": 11.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-dw60-replacement-coils-or-pack-of-5-83104.jpg?v=1745790248",
+   "rank_overall": 9,
+   "compare": [
+    9.49
+   ]
+  },
+  {
+   "pid": "10144641089785",
+   "units": 6,
+   "title": "Voopoo Vinci Pod SE Vape Kit",
+   "handle": "voopoo-vinci-pod-se-vape-kit",
+   "cat": "kit",
+   "inv": 7999,
+   "instock": 8,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Vinci-Pod-SE-Kit.jpg?v=1790927472",
+   "rank_overall": 10,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "8070634307833",
+   "units": 6,
+   "title": "VooPoo PNP Replacement Pods | Pack Of 2",
+   "handle": "voopoo-pnp-replacement-pods",
+   "cat": "pod",
+   "inv": 1641,
+   "instock": 3,
+   "min": 6.99,
+   "max": 6.99,
+   "rating": 4.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-replacement-pods.jpg?v=1770187800",
+   "rank_overall": 11,
+   "compare": [
+    12.99
+   ]
+  },
+  {
+   "pid": "7723601723641",
+   "units": 5,
+   "title": "VooPoo PnP Replacement Coils",
+   "handle": "voopoo-pnp-replacement-coils",
+   "cat": "coil",
+   "inv": 12938,
+   "instock": 13,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/all-voopoo-pnp-replacement-coils.jpg?v=1787495587",
+   "rank_overall": 12,
+   "compare": [
+    15.99
+   ]
+  },
+  {
+   "pid": "8056348279033",
+   "units": 5,
+   "title": "Voopoo Vthru Pro 25W Pod Kit | Free E-Liquid",
+   "handle": "voopoo-vthru-pro-pod-kit",
+   "cat": "kit",
+   "inv": 11983,
+   "instock": 12,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": 1.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vthru-pro-25w-pod-kit-or-free-e-liquid-63242.jpg?v=1745793028",
+   "rank_overall": 13,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "10127469215993",
+   "units": 5,
+   "title": "VOOPOO Argus G4 Vape Kit",
+   "handle": "voopoo-argus-g4-vape-kit",
+   "cat": "kit",
+   "inv": 8994,
+   "instock": 9,
+   "min": 17.99,
+   "max": 17.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VOOPOO-Argus-G4-Vape-Kit.jpg?v=1790926995",
+   "rank_overall": 14,
+   "compare": [
+    19.99
+   ]
+  },
+  {
+   "pid": "8418271854841",
+   "units": 5,
+   "title": "Voopoo Argus Z Pod Vape Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-z-pod-kit",
+   "cat": "kit",
+   "inv": 5984,
+   "instock": 6,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-z-pod-vape-kit-or-free-10ml-e-liquid-13565.jpg?v=1745791527",
+   "rank_overall": 15,
+   "compare": [
+    15.0
+   ]
+  },
+  {
+   "pid": "10112567771385",
+   "units": 4,
+   "title": "VooPoo Drag 6 Vape Kit",
+   "handle": "voopoo-drag-6-vape-kit",
+   "cat": "kit",
+   "inv": 7988,
+   "instock": 8,
+   "min": 46.99,
+   "max": 46.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Drag-6-Vape-Kit.jpg?v=1790926857",
+   "rank_overall": 16,
+   "compare": [
+    49.99
+   ]
+  },
+  {
+   "pid": "7723577442553",
+   "units": 4,
+   "title": "All VooPoo TPP Replacement Coils [PACK OF 3]",
+   "handle": "voopoo-tpp-coils-pack-of-3",
+   "cat": "coil",
+   "inv": 3972,
+   "instock": 4,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/all-voopoo-tpp-replacement-coils-pack-of-3-65724.jpg?v=1745794857",
+   "rank_overall": 17,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "7884765462777",
+   "units": 4,
+   "title": "Voopoo- PnP TW Replacement Coils | Pack Of 5",
+   "handle": "voopoo-pnp-tw-replacement-coil",
+   "cat": "coil",
+   "inv": 2982,
+   "instock": 3,
+   "min": 11.99,
+   "max": 11.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-tw-replacement-coils-or-pack-of-5-55786.jpg?v=1745793913",
+   "rank_overall": 18,
+   "compare": [
+    13.99
+   ]
+  },
+  {
+   "pid": "8052422508793",
+   "units": 4,
+   "title": "Voopoo Vinci Replacement Pods | Pack Of 3",
+   "handle": "voopoo-vinci-replacement-pods",
+   "cat": "pod",
+   "inv": 2864,
+   "instock": 4,
+   "min": 7.99,
+   "max": 8.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-replacement-pods-or-pack-of-3-71578.jpg?v=1745793153",
+   "rank_overall": 19,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7662594294009",
+   "units": 4,
+   "title": "Voopoo Drag S Mod Pod Kit | Best Price",
+   "handle": "voopoo-drag-s-pod-kit",
+   "cat": "kit",
+   "inv": 1228,
+   "instock": 9,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-s-mod-pod-kit-or-best-price-20596.jpg?v=1745796345",
+   "rank_overall": 20,
+   "compare": []
+  },
+  {
+   "pid": "10119019725049",
+   "units": 3,
+   "title": "Voopoo Vinci S Vape Pod Kit",
+   "handle": "voopoo-vinci-s-vape-pod-kit",
+   "cat": "kit",
+   "inv": 8997,
+   "instock": 9,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Vinci-S-Vape-Pod-Kit.jpg?v=1790926893",
+   "rank_overall": 21,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "8622781726969",
+   "units": 3,
+   "title": "Voopoo Argus A Pod Vape Kit",
+   "handle": "voopoo-argus-a-pod-vape-kit",
+   "cat": "kit",
+   "inv": 7983,
+   "instock": 8,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-a-pod-vape-kit-or-free-e-liquid-included-10162.jpg?v=1790917948",
+   "rank_overall": 22,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "8418259894521",
+   "units": 3,
+   "title": "Voopoo Argus E40 Pod Vape Kit",
+   "handle": "voopoo-argus-e40-pod-kit",
+   "cat": "kit",
+   "inv": 6981,
+   "instock": 7,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-e40-pod-vape-kit-15477.jpg?v=1745791530",
+   "rank_overall": 23,
+   "compare": [
+    28.0
+   ]
+  },
+  {
+   "pid": "7716482744569",
+   "units": 3,
+   "title": "VooPoo TPP Pod Tank | Check Our Price",
+   "handle": "voopoo-tpp-tank",
+   "cat": "tank",
+   "inv": 5973,
+   "instock": 3,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-tpp-pod-tank.jpg?v=1787494398",
+   "rank_overall": 24,
+   "compare": [
+    21.99
+   ]
+  },
+  {
+   "pid": "8869379145977",
+   "units": 3,
+   "title": "VooPoo Argus G3 Pod Vape Kit",
+   "handle": "voopoo-argus-g3",
+   "cat": "kit",
+   "inv": 3322,
+   "instock": 10,
+   "min": 26.99,
+   "max": 26.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-G3-Pod-Vape-Kit.jpg?v=1751727521",
+   "rank_overall": 25,
+   "compare": [
+    28.99
+   ]
+  },
+  {
+   "pid": "7695954346233",
+   "units": 3,
+   "title": "Voopoo MAAT Replacement Tank",
+   "handle": "maat-vape-tank-by-voopoo",
+   "cat": "tank",
+   "inv": 1497,
+   "instock": 1,
+   "min": 16.99,
+   "max": 16.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/Voopoo_MAAT_Replacement_Tank.jpg?v=1790915134",
+   "rank_overall": 26,
+   "compare": [
+    21.95
+   ]
+  },
+  {
+   "pid": "8056571658489",
+   "units": 2,
+   "title": "VOOPOO Drag H80S Pod Kit",
+   "handle": "voopoo-drag-h80s-pod-kit",
+   "cat": "kit",
+   "inv": 46657,
+   "instock": 6,
+   "min": 21.99,
+   "max": 21.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-h80s-pod-kit-price-or-free-10ml-e-liquid-79701.jpg?v=1745793024",
+   "rank_overall": 27,
+   "compare": [
+    29.99
+   ]
+  },
+  {
+   "pid": "8957841015033",
+   "units": 2,
+   "title": "VooPoo Argus MT Vape Kit",
+   "handle": "voopoo-argus-mt-vape-kit",
+   "cat": "kit",
+   "inv": 5992,
+   "instock": 6,
+   "min": 25.99,
+   "max": 25.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_MT_Vape_Kit.jpg?v=1760992782",
+   "rank_overall": 28,
+   "compare": [
+    45.99
+   ]
+  },
+  {
+   "pid": "9017597722873",
+   "units": 2,
+   "title": "VooPoo Argus A Pod Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-a-pod-kit",
+   "cat": "kit",
+   "inv": 4993,
+   "instock": 9,
+   "min": 19.99,
+   "max": 19.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-A-Pod-Kit.jpg?v=1790923714",
+   "rank_overall": 29,
+   "compare": [
+    21.99
+   ]
+  },
+  {
+   "pid": "7723567841529",
+   "units": 2,
+   "title": "VooPoo Vthru and Vmate Replacement Pods | Best Price",
+   "handle": "voopoo-vthru-pods-pack-of-2",
+   "cat": "pod",
+   "inv": 3947,
+   "instock": 2,
+   "min": 7.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-vthru-and-vmate-replacement-pods.jpg?v=1770115813",
+   "rank_overall": 30,
+   "compare": [
+    8.99
+   ]
+  },
+  {
+   "pid": "8301474349305",
+   "units": 2,
+   "title": "VooPoo Drag X Pro Kit | All Colours And Best Price",
+   "handle": "voopoo-drag-x-pro-kit",
+   "cat": "kit",
+   "inv": 3879,
+   "instock": 7,
+   "min": 25.99,
+   "max": 25.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-pro-kit-or-all-colours-and-best-price-62995.jpg?v=1745792173",
+   "rank_overall": 31,
+   "compare": [
+    30.99
+   ]
+  },
+  {
+   "pid": "7886765818105",
+   "units": 2,
+   "title": "Voopoo RTA 2ml Replacement Pod Tank | Best Price",
+   "handle": "voopoo-rta-tanks",
+   "cat": "tank",
+   "inv": 1996,
+   "instock": 2,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-rta-replacement-2ml-pod-tanks.jpg?v=1787495051",
+   "rank_overall": 32,
+   "compare": [
+    26.99
+   ]
+  },
+  {
+   "pid": "8400472867065",
+   "units": 0,
+   "title": "VooPoo Drag S2 Pod Vape Kit | Best Price",
+   "handle": "voopoo-drag-s2-pod-kit",
+   "cat": "kit",
+   "inv": 19422,
+   "instock": 30,
+   "min": 30.99,
+   "max": 30.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-s2-pod-vape-kit.jpg?v=1787173175",
+   "rank_overall": 33,
+   "compare": [
+    35.99
+   ]
+  },
+  {
+   "pid": "8180538605817",
+   "units": 0,
+   "title": "Voopoo Drag X2 Vape Kit",
+   "handle": "voopoo-drag-x2-kit",
+   "cat": "kit",
+   "inv": 18528,
+   "instock": 28,
+   "min": 26.99,
+   "max": 26.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x2-vape-kit-52727.jpg?v=1745792431",
+   "rank_overall": 34,
+   "compare": [
+    31.99
+   ]
+  },
+  {
+   "pid": "8713290318073",
+   "units": 0,
+   "title": "VooPoo Drag X Plus Pod Vape Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-drag-x-plus-pod-vape-kit",
+   "cat": "kit",
+   "inv": 16982,
+   "instock": 27,
+   "min": 34.99,
+   "max": 43.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-plus-pod-vape-kit-or-free-10ml-e-liquid-54955.jpg?v=1745790198",
+   "rank_overall": 35,
+   "compare": [
+    37.99
+   ]
+  },
+  {
+   "pid": "7678734827769",
+   "units": 0,
+   "title": "Vmate Pod Vape Kit By Voopoo",
+   "handle": "vmate-pod-vape-kit-by-voopoo",
+   "cat": "kit",
+   "inv": 11998,
+   "instock": 6,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/vmate-pod-vape-kit-by-voopoo-60171.jpg?v=1745795827",
+   "rank_overall": 36,
+   "compare": []
+  },
+  {
+   "pid": "10245143429369",
+   "units": 0,
+   "title": "VooPoo Argus G3 Mini Pod Kit",
+   "handle": "voopoo-argus-g3-mini",
+   "cat": "kit",
+   "inv": 10000,
+   "instock": 10,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_G3_Mini_Pod_Kit.webp?v=1790927666",
+   "rank_overall": 37,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "7695976759545",
+   "units": 0,
+   "title": "TPP-X Pod Tank By Voopoo",
+   "handle": "tpp-x-pod-tank-by-voopoo",
+   "cat": "tank",
+   "inv": 10000,
+   "instock": 5,
+   "min": 9.95,
+   "max": 9.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/tpp-x-pod-tank-by-voopoo-88317.jpg?v=1745795722",
+   "rank_overall": 38,
+   "compare": [
+    10.95
+   ]
+  },
+  {
+   "pid": "7697424253177",
+   "units": 0,
+   "title": "Voopoo Argus GT 2 Vape Mod | Free UK Delivery",
+   "handle": "voopoo-argus-gt-2-vape-mod",
+   "cat": "mod",
+   "inv": 9999,
+   "instock": 5,
+   "min": 45.99,
+   "max": 45.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-gt-2-vape-mod-or-free-uk-delivery-38009.jpg?v=1745795540",
+   "rank_overall": 39,
+   "compare": [
+    61.99
+   ]
+  },
+  {
+   "pid": "7697330077945",
+   "units": 0,
+   "title": "Voopoo Drag X Plus 100w Box Mod",
+   "handle": "voopoo-drag-x-plus-mod",
+   "cat": "mod",
+   "inv": 9999,
+   "instock": 5,
+   "min": 47.99,
+   "max": 47.99,
+   "rating": 5.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-x-plus-100w-box-mod-73389.jpg?v=1745795578",
+   "rank_overall": 40,
+   "compare": [
+    51.99
+   ]
+  },
+  {
+   "pid": "7699170590969",
+   "units": 0,
+   "title": "Voopoo PnP-X Replacement Pod | Best Price In Uk",
+   "handle": "pnp-x-replacement-pod-by-voopoo",
+   "cat": "pod",
+   "inv": 9993,
+   "instock": 5,
+   "min": 7.95,
+   "max": 7.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-pnp-x-replacement-pod.jpg?v=1770109339",
+   "rank_overall": 41,
+   "compare": [
+    8.95
+   ]
+  },
+  {
+   "pid": "7697295835385",
+   "units": 0,
+   "title": "VooPoo Drag 3 Vape Mod | Free UK Delivery",
+   "handle": "voopoo-drag-3-mod",
+   "cat": "mod",
+   "inv": 9973,
+   "instock": 5,
+   "min": 29.99,
+   "max": 29.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-3-vape-mod-or-free-uk-delivery-29211.jpg?v=1745795589",
+   "rank_overall": 42,
+   "compare": []
+  },
+  {
+   "pid": "10127469936889",
+   "units": 0,
+   "title": "VOOPOO Argus G4 Mini Vape Kit",
+   "handle": "voopoo-argus-g4-mini-vape-kit",
+   "cat": "kit",
+   "inv": 8999,
+   "instock": 9,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VOOPOO-Argus-G4-Mini-Vape-Kit.jpg?v=1790927009",
+   "rank_overall": 43,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "9095117570297",
+   "units": 0,
+   "title": "Voopoo Argus P3 Vape Kit",
+   "handle": "voopoo-argus-p3-vape-kit",
+   "cat": "kit",
+   "inv": 8989,
+   "instock": 9,
+   "min": 22.99,
+   "max": 22.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Argus-P3-Vape-Kit.jpg?v=1790924181",
+   "rank_overall": 44,
+   "compare": [
+    28.99
+   ]
+  },
+  {
+   "pid": "8418283159801",
+   "units": 0,
+   "title": "Voopoo Argus G2 Mini Vape Kit",
+   "handle": "voopoo-argus-g2-mini-kit",
+   "cat": "kit",
+   "inv": 8980,
+   "instock": 9,
+   "min": 14.99,
+   "max": 14.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-g2-mini-vape-kit-77739.jpg?v=1745791525",
+   "rank_overall": 45,
+   "compare": [
+    18.0
+   ]
+  },
+  {
+   "pid": "8070622839033",
+   "units": 0,
+   "title": "Voopoo drag 4 177W Box Mod Replacement | Best Price",
+   "handle": "voopoo-drag-4-mod",
+   "cat": "mod",
+   "inv": 8657,
+   "instock": 12,
+   "min": 45.99,
+   "max": 57.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-4-177w-box-mod-replacement-or-best-price-23229.jpg?v=1745792921",
+   "rank_overall": 46,
+   "compare": []
+  },
+  {
+   "pid": "9008813015289",
+   "units": 0,
+   "title": "VooPoo Argus X Pod Mod Kit",
+   "handle": "voopoo-argus-x-pod-mod-kit",
+   "cat": "kit",
+   "inv": 8324,
+   "instock": 15,
+   "min": 32.99,
+   "max": 32.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-X-Pod-Mod-Kit.jpg?v=1790923571",
+   "rank_overall": 47,
+   "compare": [
+    37.99
+   ]
+  },
+  {
+   "pid": "8970338566393",
+   "units": 0,
+   "title": "VooPoo Argus P1S Pod Kit",
+   "handle": "voopoo-argus-p1s-pod-kit",
+   "cat": "kit",
+   "inv": 7992,
+   "instock": 8,
+   "min": 15.99,
+   "max": 15.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-P1S-Pod-Kit.jpg?v=1760992839",
+   "rank_overall": 48,
+   "compare": [
+    19.99
+   ]
+  },
+  {
+   "pid": "10112789971193",
+   "units": 0,
+   "title": "VooPoo Drag 5 Vape Kit",
+   "handle": "voopoo-drag-5-vape-kit",
+   "cat": "kit",
+   "inv": 7991,
+   "instock": 8,
+   "min": 45.99,
+   "max": 45.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Drag-5-Vape-Kit.jpg?v=1790926865",
+   "rank_overall": 49,
+   "compare": [
+    48.99
+   ]
+  },
+  {
+   "pid": "9012000948473",
+   "units": 0,
+   "title": "VooPoo Drag X3 Kit",
+   "handle": "voopoo-drag-x3-kit",
+   "cat": "kit",
+   "inv": 7991,
+   "instock": 8,
+   "min": 38.99,
+   "max": 38.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Drag-X3-Kit.jpg?v=1790923675",
+   "rank_overall": 50,
+   "compare": [
+    42.99
+   ]
+  },
+  {
+   "pid": "8622777041145",
+   "units": 0,
+   "title": "VooPoo VMate i2 Pod Kit",
+   "handle": "voopoo-vmate-i2-small-pod-kit",
+   "cat": "kit",
+   "inv": 7991,
+   "instock": 8,
+   "min": 14.99,
+   "max": 14.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vmate-i2-small-pod-kit-or-free-10ml-e-liquid-63910.jpg?v=1790917944",
+   "rank_overall": 51,
+   "compare": [
+    16.99
+   ]
+  },
+  {
+   "pid": "7677954556153",
+   "units": 0,
+   "title": "Doric 60 Pod Kit By VooPoo",
+   "handle": "doric-60-pod-kit-by-voopoo",
+   "cat": "kit",
+   "inv": 7991,
+   "instock": 8,
+   "min": 16.99,
+   "max": 16.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/doric-60-pod-kit-by-voopoo-25537.jpg?v=1745795951",
+   "rank_overall": 52,
+   "compare": []
+  },
+  {
+   "pid": "8758170747129",
+   "units": 0,
+   "title": "Voopoo Argus Z2 Vape Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-z2-vape-kit",
+   "cat": "kit",
+   "inv": 7984,
+   "instock": 8,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-z2-vape-kit-43979.jpg?v=1748960607",
+   "rank_overall": 53,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "8301521895673",
+   "units": 0,
+   "title": "VooPoo Drag S Pro Pod Vape Kit For Sale | Free 10ml E-Liquid",
+   "handle": "voopoo-drag-s-pro-pod-vape-kit",
+   "cat": "kit",
+   "inv": 7436,
+   "instock": 11,
+   "min": 25.99,
+   "max": 25.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-s-pro-pod-vape-kit-for-sale-or-free-10ml-e-liquid-76857.jpg?v=1745792168",
+   "rank_overall": 54,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "8622786380025",
+   "units": 0,
+   "title": "Voopoo Vmate Max 30W Pod Vape Kit",
+   "handle": "voopoo-vmate-max-pod-vape-kit",
+   "cat": "kit",
+   "inv": 7326,
+   "instock": 8,
+   "min": 19.99,
+   "max": 19.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vmate-max-pod-vape-kit-79963.jpg?v=1756606401",
+   "rank_overall": 55,
+   "compare": [
+    26.99
+   ]
+  },
+  {
+   "pid": "8476533293305",
+   "units": 0,
+   "title": "VooPoo Argus Pro 2 Pod Vape Kit",
+   "handle": "voopoo-argus-pro-2-pod-kit",
+   "cat": "kit",
+   "inv": 7319,
+   "instock": 8,
+   "min": 29.99,
+   "max": 29.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-pro-2.jpg?v=1770134174",
+   "rank_overall": 56,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "10317303120121",
+   "units": 0,
+   "title": "VooPoo Argus Z3 Pod Kit",
+   "handle": "voopoo-argus-z3-pod-kit",
+   "cat": "kit",
+   "inv": 7000,
+   "instock": 7,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_Z3_Pod_Kit.webp?v=1790183701",
+   "rank_overall": 57,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "9011959660793",
+   "units": 0,
+   "title": "Voopoo Drag S3 Vape Kit",
+   "handle": "voopoo-drag-s3-vape-kit",
+   "cat": "kit",
+   "inv": 6993,
+   "instock": 7,
+   "min": 37.99,
+   "max": 37.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Drag-S3-Vape-Kit.jpg?v=1790923643",
+   "rank_overall": 58,
+   "compare": [
+    39.99
+   ]
+  },
+  {
+   "pid": "8957866311929",
+   "units": 0,
+   "title": "VooPoo Argus XT Vape Kit",
+   "handle": "voopoo-argus-xt-vape-kit",
+   "cat": "kit",
+   "inv": 6992,
+   "instock": 7,
+   "min": 28.99,
+   "max": 28.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo_Argus_XT_Vape_Kit.jpg?v=1760992784",
+   "rank_overall": 59,
+   "compare": [
+    45.99
+   ]
+  },
+  {
+   "pid": "8622793294073",
+   "units": 0,
+   "title": "Voopoo Drag 5 Sub Ohm Vape Kit | Free 10ml E-Liquid Included",
+   "handle": "voopoo-drag-5-kit",
+   "cat": "kit",
+   "inv": 6992,
+   "instock": 7,
+   "min": 49.99,
+   "max": 49.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-5-sub-ohm-vape-kit.jpg?v=1790917952",
+   "rank_overall": 60,
+   "compare": [
+    52.99
+   ]
+  },
+  {
+   "pid": "8455534608633",
+   "units": 0,
+   "title": "VooPoo Drag Q Pod Kit",
+   "handle": "voopoo-drag-q-pod-kit",
+   "cat": "kit",
+   "inv": 6991,
+   "instock": 7,
+   "min": 22.99,
+   "max": 22.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-q-pod-kit-14654.jpg?v=1745791351",
+   "rank_overall": 61,
+   "compare": [
+    25.99
+   ]
+  },
+  {
+   "pid": "8776714420473",
+   "units": 0,
+   "title": "Voopoo Vinci E120 Pod Vape Kit | Just \u00a329.99 Only",
+   "handle": "voopoo-vinci-e120-pod-vape-kit",
+   "cat": "kit",
+   "inv": 6989,
+   "instock": 7,
+   "min": 29.99,
+   "max": 29.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Vinci-E120-Pod-Vape-Kt.jpg?v=1745791180",
+   "rank_overall": 62,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "8101269766393",
+   "units": 0,
+   "title": "VooPoo Musket Vape Mod Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-musket-vape-mod-kit",
+   "cat": "kit",
+   "inv": 6212,
+   "instock": 8,
+   "min": 26.99,
+   "max": 26.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-musket-vape-mod-kit-or-free-10ml-e-liquid-20259.jpg?v=1745792858",
+   "rank_overall": 63,
+   "compare": [
+    34.99
+   ]
+  },
+  {
+   "pid": "10144619331833",
+   "units": 0,
+   "title": "VooPoo Argus GT II Vape Kit",
+   "handle": "voopoo-argus-gt-2-kit",
+   "cat": "kit",
+   "inv": 6000,
+   "instock": 6,
+   "min": 23.99,
+   "max": 23.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-GT-II-Kit.jpg?v=1790927462",
+   "rank_overall": 64,
+   "compare": [
+    49.99
+   ]
+  },
+  {
+   "pid": "7723612012793",
+   "units": 0,
+   "title": "Voopoo UForce N1 Mesh Coil",
+   "handle": "voopoo-n1-coils-pack-of-5",
+   "cat": "coil",
+   "inv": 5999,
+   "instock": 3,
+   "min": 16.59,
+   "max": 16.59,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-uforce-n1-mesh-coil-59613.jpg?v=1745794852",
+   "rank_overall": 65,
+   "compare": [
+    18.59
+   ]
+  },
+  {
+   "pid": "7664894181625",
+   "units": 0,
+   "title": "Voopoo Vinci Q Pod Kit | Twin Pack",
+   "handle": "voopoo-vinci-q-pod-kit",
+   "cat": "kit",
+   "inv": 5994,
+   "instock": 6,
+   "min": 21.99,
+   "max": 21.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-q-pod-kit-or-twin-pack-23320.jpg?v=1745796223",
+   "rank_overall": 66,
+   "compare": []
+  },
+  {
+   "pid": "8970291577081",
+   "units": 0,
+   "title": "VooPoo Argus Pod SE Vape Kit",
+   "handle": "voopoo-argus-pod-se-vape-kit",
+   "cat": "kit",
+   "inv": 5994,
+   "instock": 6,
+   "min": 14.99,
+   "max": 14.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Argus-Pod-SE-Vape-Kit.jpg?v=1790922886",
+   "rank_overall": 67,
+   "compare": [
+    16.99
+   ]
+  },
+  {
+   "pid": "8929028276473",
+   "units": 0,
+   "title": "VooPoo Argus Matrix Pod Kit",
+   "handle": "voopoo-argus-matrix-pod-kit",
+   "cat": "kit",
+   "inv": 5994,
+   "instock": 6,
+   "min": 25.99,
+   "max": 25.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Argus-Matrix-Pod-Kit.jpg?v=1756607205",
+   "rank_overall": 68,
+   "compare": [
+    28.99
+   ]
+  },
+  {
+   "pid": "8970865180921",
+   "units": 0,
+   "title": "VooPoo Woolo 10ml Nic Salt E-Liquid",
+   "handle": "voopoo-woolo-10ml",
+   "cat": "other",
+   "inv": 5993,
+   "instock": 18,
+   "min": 2.99,
+   "max": 2.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VooPoo-Woolo-10ml-Nic-Salt-E-Liquid.jpg?v=1760992844",
+   "rank_overall": 69,
+   "compare": [
+    5.99
+   ]
+  },
+  {
+   "pid": "8512384434425",
+   "units": 0,
+   "title": "Voopoo Argus 20W Pod Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-pod-kit-1",
+   "cat": "kit",
+   "inv": 5993,
+   "instock": 6,
+   "min": 19.99,
+   "max": 19.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-20w-pod-kit-or-free-10ml-e-liquid-77763.jpg?v=1745790934",
+   "rank_overall": 70,
+   "compare": [
+    19.99
+   ]
+  },
+  {
+   "pid": "7699145818361",
+   "units": 0,
+   "title": "TPP Replacement Coils By Voopoo",
+   "handle": "tpp-replacement-coils-by-voopoo",
+   "cat": "coil",
+   "inv": 4805,
+   "instock": 4,
+   "min": 9.95,
+   "max": 9.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/tpp-replacement-coils-by-voopoo.jpg?v=1787495464",
+   "rank_overall": 71,
+   "compare": [
+    10.95
+   ]
+  },
+  {
+   "pid": "8056563794169",
+   "units": 0,
+   "title": "Voopoo Vinci Royal Edition Pod Starter Kit | Free E-Liquid",
+   "handle": "vinci-royal-edition-pod-starter-kit",
+   "cat": "kit",
+   "inv": 4661,
+   "instock": 6,
+   "min": 19.99,
+   "max": 19.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-royal-edition-pod-starter-kit-or-free-e-liquid-40479.jpg?v=1745793026",
+   "rank_overall": 72,
+   "compare": [
+    24.99
+   ]
+  },
+  {
+   "pid": "8180534903033",
+   "units": 0,
+   "title": "VooPoo Argus P1 Pod Vape Kit | Best Voopoo Kit",
+   "handle": "voopoo-argus-p1-pod-kit",
+   "cat": "kit",
+   "inv": 4434,
+   "instock": 8,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-p1-pod-vape-kit-or-best-voopoo-kit-60617.jpg?v=1745792433",
+   "rank_overall": 73,
+   "compare": [
+    25.99
+   ]
+  },
+  {
+   "pid": "7699381256441",
+   "units": 0,
+   "title": "VooPoo ITO X Replacement Pod",
+   "handle": "voopoo-ito-x-pod",
+   "cat": "pod",
+   "inv": 3999,
+   "instock": 2,
+   "min": 5.49,
+   "max": 5.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-x-replacement-pod-28419.jpg?v=1745795264",
+   "rank_overall": 74,
+   "compare": [
+    6.49
+   ]
+  },
+  {
+   "pid": "8300487311609",
+   "units": 0,
+   "title": "Voopoo Drag 3 TPP-X Vape Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-drag-3-vape-kit",
+   "cat": "kit",
+   "inv": 3995,
+   "instock": 9,
+   "min": 36.99,
+   "max": 36.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-3-tpp-x-vape-kit-or-free-10ml-e-liquid-94351.jpg?v=1745792188",
+   "rank_overall": 75,
+   "compare": [
+    45.99
+   ]
+  },
+  {
+   "pid": "8641025081593",
+   "units": 0,
+   "title": "VooPoo ARGUS G2 Pod Vape Kit | Free 10ml E-Liquid",
+   "handle": "argus-g2-pod-vape-kit",
+   "cat": "kit",
+   "inv": 3985,
+   "instock": 12,
+   "min": 23.99,
+   "max": 23.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-g2-pod-vape-kit-or-free-10ml-e-liquid-22230.jpg?v=1790918099",
+   "rank_overall": 76,
+   "compare": [
+    25.99
+   ]
+  },
+  {
+   "pid": "8640865337593",
+   "units": 0,
+   "title": "Voopoo Argus P2 Vape Pod Kit | Free 10ml E-Liquid",
+   "handle": "voopoo-argus-p2-vape-pod-kit",
+   "cat": "kit",
+   "inv": 3985,
+   "instock": 12,
+   "min": 24.99,
+   "max": 24.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-p2-vape-pod-kit-or-free-10ml-e-liquid-83196.jpg?v=1790918095",
+   "rank_overall": 77,
+   "compare": [
+    26.99
+   ]
+  },
+  {
+   "pid": "9017416286457",
+   "units": 0,
+   "title": "Voopoo Argus Klyc Vape Kit",
+   "handle": "voopoo-argus-klyc-vape-kit",
+   "cat": "kit",
+   "inv": 3884,
+   "instock": 7,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Voopoo-Argus-Klyc-Vape-Kit.jpg?v=1790923713",
+   "rank_overall": 78,
+   "compare": [
+    17.99
+   ]
+  },
+  {
+   "pid": "8050230460665",
+   "units": 0,
+   "title": "Voopoo Drag 4 Vape Kit For Sale | Voopoo Kits Cheap",
+   "handle": "voopoo-drag-4-vape-kit",
+   "cat": "kit",
+   "inv": 3878,
+   "instock": 5,
+   "min": 43.99,
+   "max": 43.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-4-vape-kit-for-sale-or-voopoo-kits-cheap-71228.jpg?v=1745793243",
+   "rank_overall": 79,
+   "compare": [
+    49.99
+   ]
+  },
+  {
+   "pid": "8050208637177",
+   "units": 0,
+   "title": "Voopoo Vinci 3 Vape Kit | Best Price",
+   "handle": "voopoo-vinci-3-vape-kit",
+   "cat": "kit",
+   "inv": 3869,
+   "instock": 5,
+   "min": 23.99,
+   "max": 23.99,
+   "rating": 1.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-3-vape-kit.jpg?v=1770093265",
+   "rank_overall": 80,
+   "compare": [
+    26.99
+   ]
+  },
+  {
+   "pid": "8070406701305",
+   "units": 0,
+   "title": "VOOPOO Drag H40 Pod Kit",
+   "handle": "voopoo-drag-h40-pod-kit",
+   "cat": "kit",
+   "inv": 3536,
+   "instock": 8,
+   "min": 21.99,
+   "max": 21.99,
+   "rating": 1.0,
+   "rcount": 1,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-h40-40w-pod-kit-or-voopoo-drag-vape-kits-25946.jpg?v=1745792935",
+   "rank_overall": 81,
+   "compare": [
+    32.99
+   ]
+  },
+  {
+   "pid": "7723619123449",
+   "units": 0,
+   "title": "VooPoo ITO Replacement Coils [PACK OF 5]",
+   "handle": "voopoo-ito-coils-pack-of-5",
+   "cat": "coil",
+   "inv": 2994,
+   "instock": 3,
+   "min": 12.99,
+   "max": 12.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-ito-replacement-coils-pack-of-5-98772.jpg?v=1745794850",
+   "rank_overall": 82,
+   "compare": [
+    14.99
+   ]
+  },
+  {
+   "pid": "8180550009081",
+   "units": 0,
+   "title": "Voopoo Drag E60 Vape Kit",
+   "handle": "voopoo-drag-e60-vape-kit",
+   "cat": "kit",
+   "inv": 2849,
+   "instock": 4,
+   "min": 31.99,
+   "max": 31.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-e60-vape-kit-or-voopoo-drag-kit-75737.jpg?v=1745792423",
+   "rank_overall": 83,
+   "compare": [
+    34.99
+   ]
+  },
+  {
+   "pid": "8056209965305",
+   "units": 0,
+   "title": "Voopoo Vinci V2 Refillable Pods | Pack Of 3",
+   "handle": "voopoo-vinci-v2-refillable-pods",
+   "cat": "pod",
+   "inv": 2650,
+   "instock": 4,
+   "min": 7.49,
+   "max": 7.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-v2-refillable-pods-or-pack-of-3-37836.jpg?v=1745793057",
+   "rank_overall": 84,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "7701843017977",
+   "units": 0,
+   "title": "MAAT 810 Drip Tip By Voopoo",
+   "handle": "maat-810-drip-tip-by-voopoo",
+   "cat": "other",
+   "inv": 2000,
+   "instock": 1,
+   "min": 2.95,
+   "max": 2.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/maat-810-drip-tip-by-voopoo-73693.jpg?v=1745795177",
+   "rank_overall": 85,
+   "compare": [
+    3.95
+   ]
+  },
+  {
+   "pid": "7698448613625",
+   "units": 0,
+   "title": "Voopoo Argus Air 0.8ohm  Replacement Pods",
+   "handle": "argus-air-replacement-pods-by-voopoo",
+   "cat": "pod",
+   "inv": 1998,
+   "instock": 1,
+   "min": 4.49,
+   "max": 4.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-argus-air-0-8ohm-replacement-pods-49099.jpg?v=1745795399",
+   "rank_overall": 86,
+   "compare": [
+    6.95
+   ]
+  },
+  {
+   "pid": "7699388399865",
+   "units": 0,
+   "title": "VooPoo ITO-X Replacement Pod | Voopoo Ito Pod UK",
+   "handle": "ito-replacement-pods-by-voopoo",
+   "cat": "pod",
+   "inv": 1998,
+   "instock": 2,
+   "min": 5.49,
+   "max": 5.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-ito-x-replacement-pod-or-voopoo-ito-pod-uk-84171.jpg?v=1745795254",
+   "rank_overall": 87,
+   "compare": [
+    6.49
+   ]
+  },
+  {
+   "pid": "7696495051001",
+   "units": 0,
+   "title": "Voopoo TPP 2 Pod Replacement Tank | Best Price",
+   "handle": "tpp-pod-tank-2-by-voopoo",
+   "cat": "tank",
+   "inv": 1994,
+   "instock": 1,
+   "min": 9.99,
+   "max": 9.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-tpp-2-pod-replacement-tank.jpg?v=1787494489",
+   "rank_overall": 88,
+   "compare": [
+    11.95
+   ]
+  },
+  {
+   "pid": "7723632492793",
+   "units": 0,
+   "title": "VooPoo Drag Nano 2 Replacement Pods",
+   "handle": "voopoo-drag-nano-2-pods-pack-of-3",
+   "cat": "pod",
+   "inv": 1991,
+   "instock": 1,
+   "min": 6.49,
+   "max": 6.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-nano-2-replacement-pods-76296.jpg?v=1745794847",
+   "rank_overall": 89,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "7678725062905",
+   "units": 0,
+   "title": "Voopoo Drag Nano 2 Pod Kit | Check Our Price",
+   "handle": "drag-nano-2-pod-kit-by-voopoo",
+   "cat": "kit",
+   "inv": 1580,
+   "instock": 8,
+   "min": 13.99,
+   "max": 13.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/voopoo-drag-nano-2-pod-kit-or-check-our-price-42652.jpg?v=1745795831",
+   "rank_overall": 90,
+   "compare": []
+  },
+  {
+   "pid": "8070629294329",
+   "units": 0,
+   "title": "VooPoo Drag Nano P1 Replacement Pods | Pack Of 4",
+   "handle": "voopoo-drag-nano-p1-replacement-pods",
+   "cat": "pod",
+   "inv": 1552,
+   "instock": 2,
+   "min": 9.49,
+   "max": 9.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-drag-nano-p1-replacement-pods-or-pack-of-4-18312.jpg?v=1745792919",
+   "rank_overall": 91,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "7886436172025",
+   "units": 0,
+   "title": "Voopoo PNP II Replacement Pods",
+   "handle": "voopoo-pnp-ii-replacement-pod",
+   "cat": "pod",
+   "inv": 1491,
+   "instock": 3,
+   "min": 5.99,
+   "max": 5.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-pod-II.jpg?v=1787497529",
+   "rank_overall": 92,
+   "compare": [
+    11.99
+   ]
+  },
+  {
+   "pid": "8070645678329",
+   "units": 0,
+   "title": "VooPoo PnP MTL Replacement Pods | Pack Of 2",
+   "handle": "voopoo-pnp-mtl-replacement-pods",
+   "cat": "pod",
+   "inv": 1324,
+   "instock": 2,
+   "min": 4.99,
+   "max": 7.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-mtl-replacement-pods-or-pack-of-2-11624.jpg?v=1745792915",
+   "rank_overall": 93,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "8374719512825",
+   "units": 0,
+   "title": "VooPoo PnP X Replacement Pod Cartridges | Pack Of 2",
+   "handle": "voopoo-pnp-x-replacement-pod-cartridges",
+   "cat": "pod",
+   "inv": 871,
+   "instock": 2,
+   "min": 6.99,
+   "max": 6.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pnp-x-replacement-pod-cartridges-or-pack-of-2-20452.jpg?v=1745791823",
+   "rank_overall": 94,
+   "compare": [
+    12.99
+   ]
+  },
+  {
+   "pid": "7655089766649",
+   "units": 0,
+   "title": "Voopoo Argus GT Vape kit | Cheap Price",
+   "handle": "voopoo-argus-gt-ll-vape-kit",
+   "cat": "kit",
+   "inv": 746,
+   "instock": 5,
+   "min": 69.95,
+   "max": 69.95,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-argus-gt-vape-kit-or-cheap-price-44874.jpg?v=1745796630",
+   "rank_overall": 95,
+   "compare": []
+  },
+  {
+   "pid": "7886526218489",
+   "units": 0,
+   "title": "Voopoo Panda Replacement Pods UK | Voopoo Pod Replacement",
+   "handle": "voopoo-panda-replacement-pod",
+   "cat": "pod",
+   "inv": 500,
+   "instock": 1,
+   "min": 5.99,
+   "max": 5.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-panda-replacement-pods-uk-or-voopoo-pod-replacement-33626.jpg?v=1745793870",
+   "rank_overall": 96,
+   "compare": [
+    9.99
+   ]
+  },
+  {
+   "pid": "8301184712953",
+   "units": 0,
+   "title": "VooPoo Vinci 3 Replacement XL Pods | Pack Of 2",
+   "handle": "voopoo-vinci-3-replacement-pods",
+   "cat": "pod",
+   "inv": 443,
+   "instock": 1,
+   "min": 5.49,
+   "max": 5.49,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-vinci-3-replacement-xl-pods-or-pack-of-2-16371.jpg?v=1745792179",
+   "rank_overall": 97,
+   "compare": [
+    6.99
+   ]
+  },
+  {
+   "pid": "8721150836985",
+   "units": 0,
+   "title": "VooPoo Pod-S1 Replacement Pods | Pack Of 4",
+   "handle": "voopoo-pod-s1-replacement-pods",
+   "cat": "pod",
+   "inv": 333,
+   "instock": 1,
+   "min": 8.99,
+   "max": 8.99,
+   "rating": null,
+   "rcount": null,
+   "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/voopoo-pod-s1-replacement-pods-pack-of-4.jpg?v=1790059598",
+   "rank_overall": 98,
+   "compare": [
+    10.99
+   ]
+  }
+ ]
+}
