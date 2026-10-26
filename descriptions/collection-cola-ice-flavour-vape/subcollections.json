@@ -1,0 +1,19 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "cherry-cola-vape-flavour",
+  "cherry-ice-flavour-vape",
+  "drink-inspired-e-liquids",
+  "prefilled-vape-pods",
+  "pre-filled-pod-vape-kits",
+  "e-liquid"
+ ],
+ "gids": [
+  "gid://shopify/Collection/433319117049",
+  "gid://shopify/Collection/433044783353",
+  "gid://shopify/Collection/475608023289",
+  "gid://shopify/Collection/440449794297",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/397201768697"
+ ]
+}

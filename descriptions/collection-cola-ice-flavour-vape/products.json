@@ -1,0 +1,237 @@
+{
+  "ranked_by": "ShopifyQL net_items_sold, last 120 days to 26 Oct 2026, product_title CONTAINS 'Cola'; ACTIVE, in-stock, cola-flavour products only",
+  "total_cola_units_120d": 131,
+  "table_rows": [
+    {
+      "rank": 1,
+      "units_120d": 30,
+      "format": "liquid",
+      "handle": "cola-elfliq-10ml-nic-salt",
+      "name": "Cola Elf Bar Elfliq 10ml Nic Salt",
+      "price_single": 2.59,
+      "per_unit": "26p/ml",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 2,
+      "units_120d": 22,
+      "format": "pod",
+      "handle": "raspberry-cola-hayati-25k-pods",
+      "name": "Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods",
+      "price_single": 7.99,
+      "per_unit": "32p per 1,000 puffs",
+      "rating": "★ 5.0 (1)",
+      "featured_block": true
+    },
+    {
+      "rank": 3,
+      "units_120d": 11,
+      "format": "liquid",
+      "handle": "cherry-cola-elfliq-10ml-nic-salt",
+      "name": "Cherry Cola Elf Bar Elfliq 10ml Nic Salt",
+      "price_single": 2.59,
+      "per_unit": "26p/ml",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 4,
+      "units_120d": 10,
+      "format": "pod",
+      "handle": "cherry-cola-elfa-refillable-pods-by-elf-bar",
+      "name": "Cherry Cola Elf Bar Elfa Prefilled Pods (2 pods)",
+      "price_single": 3.99,
+      "per_unit": "£2.00/pod",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 5,
+      "units_120d": 9,
+      "format": "kit",
+      "handle": "cola-lost-mary-bm6000",
+      "name": "Cola Lost Mary BM6000 Prefilled Pod Kit",
+      "price_single": 8.99,
+      "per_unit": "£1.50 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 6,
+      "units_120d": 8,
+      "format": "kit",
+      "handle": "cola-ice-ske-bar-600",
+      "name": "Cola Ice SKE Bar 600 Prefilled Pod Kit",
+      "price_single": 3.95,
+      "per_unit": "£6.58 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 7,
+      "units_120d": 6,
+      "format": "pod",
+      "handle": "cola-ice-hayati-6000-pods",
+      "name": "Cola Ice Hayati Pro Max Plus 6000 Refill Pods",
+      "price_single": 6.99,
+      "per_unit": "£1.17 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 8,
+      "units_120d": 6,
+      "format": "liquid",
+      "handle": "cola-ice-hayati-pro-max-10ml",
+      "name": "Cola Ice Hayati Pro Max 10ml Nic Salt",
+      "price_single": 2.59,
+      "per_unit": "26p/ml",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 9,
+      "units_120d": 5,
+      "format": "kit",
+      "handle": "cherry-cola-hayati-pro-max-plus-6000",
+      "name": "Cherry Cola Hayati Pro Max Plus 6000 Pod Kit",
+      "price_single": 8.99,
+      "per_unit": "£1.50 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 10,
+      "units_120d": 4,
+      "format": "kit",
+      "handle": "cola-lime-hayati-pro-max-plus-6k",
+      "name": "Cola Lime Hayati Pro Max Plus 6000 Pod Kit",
+      "price_single": 8.99,
+      "per_unit": "£1.50 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 11,
+      "units_120d": 4,
+      "format": "kit",
+      "handle": "cola-ice-hayati-6000",
+      "name": "Cola Ice Hayati Pro Max Plus 6000 Pod Kit",
+      "price_single": 8.99,
+      "per_unit": "£1.50 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": true
+    },
+    {
+      "rank": 12,
+      "units_120d": 3,
+      "format": "kit",
+      "handle": "red-bull-ice-cola-lime-maxfel-ultra-pro-35k",
+      "name": "Red Bull Ice / Cola Lime Maxfel Ultra Pro 35K Pod Kit",
+      "price_single": 10.99,
+      "per_unit": "31p per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 13,
+      "units_120d": 3,
+      "format": "liquid",
+      "handle": "cola-elux-legend-10ml-nic-salt",
+      "name": "Cola Elux Legend 10ml Nic Salt",
+      "price_single": 2.59,
+      "per_unit": "26p/ml",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 14,
+      "units_120d": 2,
+      "format": "kit",
+      "handle": "cola-ice-ivg-smart-max-10k",
+      "name": "Cola Ice IVG Smart Max 10K Vape Kit",
+      "price_single": 9.99,
+      "per_unit": "£1.00 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 15,
+      "units_120d": 2,
+      "format": "liquid",
+      "handle": "classic-cola-kingston-cola-100ml-e-liquid",
+      "name": "Classic Cola Kingston Cola 100ml Shortfill",
+      "price_single": 5.99,
+      "per_unit": "6p/ml",
+      "rating": "★ 1.0 (1)",
+      "featured_block": false
+    },
+    {
+      "rank": 16,
+      "units_120d": 2,
+      "format": "liquid",
+      "handle": "cherry-lime-hayati-pro-max-10ml",
+      "name": "Cola Lime Hayati Pro Max 10ml Nic Salt",
+      "price_single": 2.59,
+      "per_unit": "26p/ml",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 17,
+      "units_120d": 1,
+      "format": "liquid",
+      "handle": "cherry-cola-bar-juice-5000",
+      "name": "Cherry Cola Bar Juice 5000 10ml Nic Salt",
+      "price_single": 2.99,
+      "per_unit": "30p/ml",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 18,
+      "units_120d": 1,
+      "format": "pod",
+      "handle": "cherry-cola-hayati-6k-pods",
+      "name": "Cherry Cola Hayati Pro Max Plus 6000 Refill Pods",
+      "price_single": 6.99,
+      "per_unit": "£1.17 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 19,
+      "units_120d": 1,
+      "format": "kit",
+      "handle": "cola-elf-bar-600",
+      "name": "Cola Elf Bar 600 Prefilled Pod Kit",
+      "price_single": 4.99,
+      "per_unit": "£8.32 per 1,000 puffs",
+      "rating": "-",
+      "featured_block": false
+    },
+    {
+      "rank": 20,
+      "units_120d": 1,
+      "format": "liquid",
+      "handle": "cola-ice-ske-crystal-10ml-nic-salt",
+      "name": "Cola Ice SKE Crystal 10ml Nic Salt",
+      "price_single": 2.99,
+      "per_unit": "30p/ml",
+      "rating": "-",
+      "featured_block": false
+    }
+  ],
+  "brand_units_120d": {
+    "Elf Bar": 52,
+    "Hayati": 50,
+    "Lost Mary": 9,
+    "SKE": 9,
+    "Elux": 3,
+    "Maxfel": 3,
+    "IVG": 2,
+    "Kingston": 2,
+    "Bar Juice": 1
+  }
+}

@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "cola vape",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " flavour in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": cola ice, cola lime, raspberry cola and plain cola as pod kits, refill pods and 10ml nic salts, from £2.59."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from "
+    },
+    {
+     "type": "text",
+     "value": "Cola Elf Bar Elfliq 10ml",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.59, "
+    },
+    {
+     "type": "text",
+     "value": "Raspberry Cola Hayati Pro Ultra Plus 25000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99, "
+    },
+    {
+     "type": "text",
+     "value": "Cherry Cola Elf Bar Elfa pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £3.99, "
+    },
+    {
+     "type": "text",
+     "value": "Cola Lost Mary BM6000",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £8.99, "
+    },
+    {
+     "type": "text",
+     "value": "Cola Ice SKE Bar 600",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £3.95 and "
+    },
+    {
+     "type": "text",
+     "value": "Cola Ice Hayati Pro Max Plus 6000",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " kit £8.99, pods £6.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Genuine UK stock through UK distribution, next day delivery, free over £40. The guide below the grid compares cola ice, cola lime and plain cola and says which strength and format to pick."
+    }
+   ]
+  }
+ ]
+}

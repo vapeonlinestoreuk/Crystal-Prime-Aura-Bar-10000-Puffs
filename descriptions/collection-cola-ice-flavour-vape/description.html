@@ -1,0 +1,659 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>cola vape</strong> we stock is on this page: cola ice, cola lime, raspberry cola and plain cola, as prefilled pod kits, refill pods and 10ml nic salts from Elf Bar, Hayati, Lost Mary, SKE and Elux. Prices start at <strong>£2.59 a bottle</strong> for the Cola Elf Bar Elfliq 10ml nic salt as of October 2026, and £3.95 for a cola ice kit.</p>
+<p>Everything below is ranked by what sold over the last 120 days (131 cola units). The <a href="https://vapeonlinestore.co.uk/collections/cherry-cola-vape-flavour" rel="noopener" title="Cherry Cola Vape Flavour UK" target="_blank"><strong>cherry cola vape</strong></a> page lists the cherry versions on their own. Pods for every kit are on the <a href="https://vapeonlinestore.co.uk/collections/prefilled-vape-pods" rel="noopener" title="Prefilled Vape Pods UK" target="_blank"><strong>prefilled vape pods</strong></a> page, bottles only on the <a href="https://vapeonlinestore.co.uk/collections/e-liquid" rel="noopener" title="E-Liquid UK" target="_blank"><strong>e-liquid</strong></a> page.</p>
+<!-- ========================================= --> <!-- PRODUCT 1: Cola Elf Bar Elfliq 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/cola-elf-bar-elfliq-10ml-nic-salt.jpg?v=1787974597" alt="Cola Elf Bar Elfliq 10ml nic salt bottle in 5mg, 10mg and 20mg" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Cola Elf Bar Elfliq 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.59 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🏆 Best Seller: 30 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cola-elfliq-10ml-nic-salt" rel="noopener" title="Cola Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Cola Elf Bar Elfliq 10ml Nic Salt</strong></a> is the top cola product on the site by units and outsold the next bottle three to one: plain cola, 50/50 nic salt, made for mouth-to-lung pod kits.</p>
+<p><strong>Who's it for?</strong> Anyone with a refillable pod kit who wants cola without ice or fruit, from 5mg up to 20mg.</p>
+<p><strong>What's in the bottle?</strong> 10ml, childproof cap, easy-fill nozzle.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elf Bar</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Style:</strong> MTL pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.59 (26p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/cola-elfliq-10ml-nic-salt" rel="noopener" title="Cola Elf Bar Elfliq 10ml Nic Salt UK" class="vos-cta-button" target="_blank">View Cola Elf Bar Elfliq 10ml</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Raspberry-Cola-Hayati-25K-Pods.jpg?v=1790925844" alt="Raspberry Cola Hayati Pro Ultra Plus 25000 prefilled pods pack with two 10ml refill containers" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods</h3>
+<div class="vos-price-tag">£7.99 • 5 for £33.99 • 10 for £65.99</div>
+<div class="vos-sale-badge">🔥 Best-Selling Cola Pod Pack: 22 Packs in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/raspberry-cola-hayati-25k-pods" rel="noopener" title="Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods UK" target="_blank"><strong>Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods</strong></a> are the refill for the Hayati Pro Ultra Plus 25000 kit, the biggest-selling kit family on the site: two prefilled mesh pods and two 10ml containers, 20mg, rated at up to 25,000 puffs, twist-to-switch between the two.</p>
+<p><strong>Who's it for?</strong> Owners of that kit who want cola with a raspberry edge. The pods fit nothing else.</p>
+<p><strong>What's in the box?</strong> Two prefilled pods and two 10ml refill containers, no device.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Fits:</strong> Hayati Pro Ultra Plus 25000 kit</li>
+<li>
+<strong>E-liquid:</strong> 2 x 10ml containers plus two prefilled pods</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Rated puffs:</strong> up to 25,000</li>
+<li>
+<strong>Rating:</strong> 5.0 from 1 review</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single pack:</strong> £7.99 (32p per 1,000 rated puffs) • <strong>5 packs:</strong> £33.99 (£6.80 a pack) • <strong>10 packs:</strong> £65.99 (£6.60 a pack)</div>
+<a href="https://vapeonlinestore.co.uk/products/raspberry-cola-hayati-25k-pods" rel="noopener" title="Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods UK" class="vos-cta-button" target="_blank">View Hayati Pro Ultra Plus 25000 Raspberry Cola Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: Cherry Cola Elf Bar Elfa Prefilled Pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Cherry-Cola-Elfa-Pre-filled-Pods-By-Elf-Bar.jpg?v=1755190297" alt="Cherry Cola Elf Bar Elfa prefilled pods twin pack for the Elf Bar Elfa and Elfa Pro kits" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Cherry Cola Elf Bar Elfa Prefilled Pods</h3>
+<div class="vos-price-tag">£3.99 for 2 pods • 5 packs £18.99 • 10 packs £34.99</div>
+<div class="vos-sale-badge">⭐ Cheapest Cola Pod: £2.00 a Pod</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cherry-cola-elfa-refillable-pods-by-elf-bar" rel="noopener" title="Cherry Cola Elf Bar Elfa Prefilled Pods UK" target="_blank"><strong>Cherry Cola Elf Bar Elfa Prefilled Pods</strong></a> are 2ml prefilled pods for the Elf Bar Elfa and Elf Bar Elfa Pro kits: 20mg, 50/50, 1.2ohm mesh, up to 600 puffs each, and the product page calls the flavour a blend of cherry and cola.</p>
+<p><strong>Who's it for?</strong> Elf Bar Elfa owners who want the old 600-puff draw from a pod they click in. Ten packs sold in 120 days, the most of any cola pod under £5.</p>
+<p><strong>What's in the box?</strong> Two prefilled pods per pack.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elf Bar</li>
+<li>
+<strong>Fits:</strong> Elf Bar Elfa and Elf Bar Elfa Pro kits</li>
+<li>
+<strong>Pod:</strong> 2ml prefilled, two per pack</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Coil:</strong> 1.2ohm mesh</li>
+<li>
+<strong>Rated puffs:</strong> up to 600 per pod</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>1 pack:</strong> £3.99 (£2.00 a pod, £3.33 per 1,000 puffs) • <strong>5 packs:</strong> £18.99 (£1.90 a pod) • <strong>10 packs:</strong> £34.99 (£1.75 a pod)</div>
+<a href="https://vapeonlinestore.co.uk/products/cherry-cola-elfa-refillable-pods-by-elf-bar" rel="noopener" title="Cherry Cola Elf Bar Elfa Prefilled Pods UK" class="vos-cta-button" target="_blank">View Elf Bar Elfa Cherry Cola Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: Cola Lost Mary BM6000 Prefilled Pod Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Cola-Lost-Mary-BM6000-Pod-Kit.jpg?v=1790917340" alt="Cola Lost Mary BM6000 prefilled pod vape kit front view" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. Cola Lost Mary BM6000 Prefilled Pod Kit</h3>
+<div class="vos-price-tag">£8.99 • 5 for £40.00 • 10 for £79.99</div>
+<div class="vos-sale-badge">🔥 Best-Selling Cola Kit: 9 Kits in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cola-lost-mary-bm6000" rel="noopener" title="Cola Lost Mary BM6000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Cola Lost Mary BM6000 Prefilled Pod Kit</strong></a> is the cola kit that sold most: a 2ml prefilled pod plus a 10ml refill container for 12ml and up to 6,000 puffs at 20mg, on a 1000mAh USB-C battery.</p>
+<p><strong>Who's it for?</strong> Plain cola in a big-puff kit at £1.50 per 1,000 rated puffs. The Lost Mary BM6000 range runs to 38 flavours, so the device is not locked to cola.</p>
+<p><strong>What's in the box?</strong> The device, one 2ml pod and one 10ml container, no cable.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Lost Mary</li>
+<li>
+<strong>Rated puffs:</strong> up to 6,000</li>
+<li>
+<strong>Battery:</strong> 1000mAh rechargeable, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container (12ml)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Other:</strong> visible e-liquid level, detachable battery for recycling</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £8.99 (£1.50 per 1,000 rated puffs) • <strong>5 kits:</strong> £40.00 (£8.00 each) • <strong>10 kits:</strong> £79.99 (£8.00 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/cola-lost-mary-bm6000" rel="noopener" title="Cola Lost Mary BM6000 Prefilled Pod Vape Kit UK" class="vos-cta-button" target="_blank">View Lost Mary BM6000 Cola</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: Cola Ice SKE Bar 600 Prefilled Pod Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Cola-Ice-SKE-Bar-600.jpg?v=1790924299" alt="Cola Ice SKE Bar 600 prefilled pod kit in cola ice colourway" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Cola Ice SKE Bar 600 Prefilled Pod Kit</h3>
+<div class="vos-price-tag">£3.95 • 5 for £18.99 • 10 for £32.99</div>
+<div class="vos-sale-badge">💷 Cheapest Cola Ice Kit: 8 Sold in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cola-ice-ske-bar-600" rel="noopener" title="Cola Ice SKE Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Cola Ice SKE Bar 600 Prefilled Pod Kit</strong></a> is the lowest-priced cola ice vape on the page and the best-selling cola ice kit: a 2ml prefilled mesh pod at 20mg in a stainless steel and PCTG body, 600 puffs, mouth-to-lung draw.</p>
+<p><strong>Who's it for?</strong> Anyone who wants to try cola ice for under £4 before buying a 6,000-puff kit, or who prefers the small size.</p>
+<p><strong>What's in the box?</strong> The device with its 2ml cola ice pod fitted.</p>
+<ul>
+<li>
+<strong>Brand:</strong> SKE</li>
+<li>
+<strong>Rated puffs:</strong> 600</li>
+<li>
+<strong>E-liquid:</strong> 2ml prefilled pod</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Draw:</strong> MTL</li>
+<li>
+<strong>Body:</strong> stainless steel + PCTG</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £3.95 (£6.58 per 1,000 rated puffs) • <strong>5 kits:</strong> £18.99 (£3.80 each) • <strong>10 kits:</strong> £32.99 (£3.30 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/cola-ice-ske-bar-600" rel="noopener" title="Cola Ice SKE Bar 600 Prefilled Pod Kit UK" class="vos-cta-button" target="_blank">View SKE Bar 600 Cola Ice</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 6: Cola Ice Hayati Pro Max Plus 6000 Kit and Refill Pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Cola_Ice_Hayati_Pro_Max_Plus_6000.jpg?v=1790926267" alt="Cola Ice Hayati Pro Max Plus 6000 prefilled pod kit with digital display" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>6. Cola Ice Hayati Pro Max Plus 6000 Kit and Refill Pods</h3>
+<div class="vos-price-tag">Kit £8.99 • Pods £6.99 per 12ml set</div>
+<div class="vos-sale-badge">❄️ Best-Selling Cola Ice Family: 10 Units in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Cola Ice Hayati Pro Max Plus 6000 Pod Kit</strong></a> and its <a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000-pods" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Refill Pods UK" target="_blank"><strong>Cola Ice Hayati Pro Max Plus 6000 Refill Pods</strong></a> sold 4 kits and 6 pod sets between them. The product page describes smooth, lightly fizzy cola with a clean icy chill on the exhale and no fruit. A 10ml container auto-fills the 2ml pod for 12ml and up to 6,000 puffs on an 850mAh battery with a display.</p>
+<p><strong>Who's it for?</strong> The cola ice vaper who wants a kit they keep: buy the kit once, then the £6.99 pod sets, or click in Cherry Cola pods from the same range.</p>
+<p><strong>What's in the box?</strong> Kit: the device, one 2ml cola ice pod and one 10ml container, no cable. Pods: one 2ml pod and one 10ml container.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Rated puffs:</strong> up to 6,000 per pod set</li>
+<li>
+<strong>Battery:</strong> 850mAh, USB-C 1A fast charge</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container (12ml)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> 1.2ohm mesh, draw activated</li>
+<li>
+<strong>Display:</strong> battery and e-liquid level</li>
+<li>
+<strong>Pods fit:</strong> Hayati Pro Max Plus 6000 only</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Kit:</strong> £8.99 (£1.50 per 1,000 rated puffs), 5 for £37.99 (£7.60), 10 for £74.90 (£7.49) • <strong>Pods:</strong> £6.99 (£1.17 per 1,000), 5 for £28.99 (£5.80), 10 for £55.99 (£5.60)</div>
+<a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Puffs Pod Kit UK" class="vos-cta-button" target="_blank">View Hayati Pro Max Plus 6000 Cola Ice Kit</a> <a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000-pods" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Refill Pods UK" class="vos-cta-button" style="margin-left: 8px;" target="_blank">View Hayati Pro Max Plus 6000 Cola Ice Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: COLA KITS --> <!-- ========================================= -->
+<h2>Cola Vape Kits Ranked by Sales</h2>
+<p>Eight cola vape kits sold in the last 120 days, in <strong>sales order</strong>. Per unit is the single-kit price divided by the rated puff count.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per 1,000 puffs</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-lost-mary-bm6000" rel="noopener" title="Cola Lost Mary BM6000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Cola Lost Mary BM6000 Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-ske-bar-600" rel="noopener" title="Cola Ice SKE Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Cola Ice SKE Bar 600 Prefilled Pod Kit</strong></a></td>
+<td>£3.95</td>
+<td>£6.58 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-cola-hayati-pro-max-plus-6000" rel="noopener" title="Cherry Cola Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Cherry Cola Hayati Pro Max Plus 6000 Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-lime-hayati-pro-max-plus-6k" rel="noopener" title="Cola Lime Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Cola Lime Hayati Pro Max Plus 6000 Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Cola Ice Hayati Pro Max Plus 6000 Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-bull-ice-cola-lime-maxfel-ultra-pro-35k" rel="noopener" title="Red Bull Ice / Cola Lime Maxfel Ultra Pro 35K Puffs Pod Kit UK" target="_blank"><strong>Red Bull Ice / Cola Lime Maxfel Ultra Pro 35K Pod Kit</strong></a></td>
+<td>£10.99</td>
+<td>31p per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-ivg-smart-max-10k" rel="noopener" title="Cola Ice IVG Smart Max 10K Vape Kit UK" target="_blank"><strong>Cola Ice IVG Smart Max 10K Vape Kit</strong></a></td>
+<td>£9.99</td>
+<td>£1.00 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-elf-bar-600" rel="noopener" title="Cola Elf Bar 600 Puffs Prefilled Pod Kit UK" target="_blank"><strong>Cola Elf Bar 600 Prefilled Pod Kit</strong></a></td>
+<td>£4.99</td>
+<td>£8.32 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- COLA PODS TABLE --> <!-- ========================================= -->
+<h2>Cola Pods: Refill Packs Ranked by Sales</h2>
+<p>Four cola pod packs sold. The Elf Bar Elfa pack holds two 2ml pods; the Hayati packs hold a pod plus its 10ml container, so those are priced per 1,000 puffs.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/raspberry-cola-hayati-25k-pods" rel="noopener" title="Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods UK" target="_blank"><strong>Raspberry Cola Hayati Pro Ultra Plus 25000 Prefilled Pods</strong></a></td>
+<td>£7.99</td>
+<td>32p per 1,000 puffs</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-cola-elfa-refillable-pods-by-elf-bar" rel="noopener" title="Cherry Cola Elf Bar Elfa Prefilled Pods UK" target="_blank"><strong>Cherry Cola Elf Bar Elfa Prefilled Pods (2 pods)</strong></a></td>
+<td>£3.99</td>
+<td>£2.00/pod</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-6000-pods" rel="noopener" title="Cola Ice Hayati Pro Max Plus 6000 Refill Pods UK" target="_blank"><strong>Cola Ice Hayati Pro Max Plus 6000 Refill Pods</strong></a></td>
+<td>£6.99</td>
+<td>£1.17 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-cola-hayati-6k-pods" rel="noopener" title="Cherry Cola Hayati Pro Max Plus 6000 Refill Pods UK" target="_blank"><strong>Cherry Cola Hayati Pro Max Plus 6000 Refill Pods</strong></a></td>
+<td>£6.99</td>
+<td>£1.17 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- COLA LIQUIDS TABLE --> <!-- ========================================= -->
+<h2>Cola E-Liquid and Nic Salts Ranked by Bottles Sold</h2>
+<p>Eight cola bottles sold. Per ml is on the single-bottle price; the Elf Bar, Hayati and Elux 10ml lines drop to £2.00 a bottle on a five-pack. The tables show only what sold.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per ml</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-elfliq-10ml-nic-salt" rel="noopener" title="Cola Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Cola Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-cola-elfliq-10ml-nic-salt" rel="noopener" title="Cherry Cola Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Cherry Cola Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-hayati-pro-max-10ml" rel="noopener" title="Cola Ice Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Cola Ice Hayati Pro Max 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-elux-legend-10ml-nic-salt" rel="noopener" title="Cola Elux Legend 10ml Nic Salt UK" target="_blank"><strong>Cola Elux Legend 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/classic-cola-kingston-cola-100ml-e-liquid" rel="noopener" title="Classic Cola Kingston Cola 100ml E-Liquid Shortfill UK" target="_blank"><strong>Classic Cola Kingston Cola 100ml Shortfill</strong></a></td>
+<td>£5.99</td>
+<td>6p/ml</td>
+<td>★ 1.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-lime-hayati-pro-max-10ml" rel="noopener" title="Cola Lime Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Cola Lime Hayati Pro Max 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-cola-bar-juice-5000" rel="noopener" title="Cherry Cola Bar Juice 5000 Nic Salt E-Liquid UK" target="_blank"><strong>Cherry Cola Bar Juice 5000 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cola-ice-ske-crystal-10ml-nic-salt" rel="noopener" title="Cola Ice SKE Crystal 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Cola Ice SKE Crystal 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE --> <!-- ========================================= -->
+<h2>Which Cola Vape Should You Buy?</h2>
+<div class="vos-guide-box">
+<p><strong>🏆 The proven volume line: Cola Elf Bar Elfliq 10ml Nic Salt, £2.59</strong></p>
+<p>30 bottles in 120 days, more than the next two cola products combined. Three strengths, £2.00 a bottle on the five-pack.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>💷 The budget kit: Cola Ice SKE Bar 600, £3.95</strong></p>
+<p>The cheapest cola vape kit on the page and the best-selling cola ice kit, 8 sold, £3.30 a kit on the ten-pack. It costs more per 1,000 puffs than a Lost Mary BM6000, but nothing else gets you cola ice for under £4.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>❄️ Best for big-puff cola: Raspberry Cola Hayati Pro Ultra Plus 25000 Pods, £7.99</strong></p>
+<p>22 packs sold, the best cola pod result on the site, at 32p per 1,000 rated puffs. You need the Hayati Pro Ultra Plus 25000 kit to use them.</p>
+</div>
+<p> </p>
+<h3>Cola Ice Vape or Cola Lime Vape?</h3>
+<p>Our product pages put it like this. <strong>Cola ice</strong>: smooth, lightly fizzy cola with a clean icy chill on the exhale, cola in front (Cola Ice Hayati Pro Max Plus 6000 page). <strong>Cola lime</strong>: the ice is dropped and a sharp twist of lime takes its place, so the freshness is citrus, not menthol (Cola Lime Hayati Pro Max Plus 6000 page). <strong>Cherry cola</strong>: a blend of cherry and cola, the sweeter, fruit-led version next to cola ice (Cherry Cola Elf Bar Elfa pods and Hayati pages). For plain cola, pick the Cola Elf Bar Elfliq 10ml or the Cola Lost Mary BM6000 above.</p>
+<p> </p>
+<h3>Cola Disposable Vape Style Kit or 10ml Cola Nic Salt?</h3>
+<p>A prefilled kit needs no filling: £1.50 per 1,000 rated puffs on the Lost Mary BM6000 and Hayati Pro Max Plus 6000, 31p on the Maxfel Ultra Pro 35K, £6.58 on the SKE Bar 600. A 10ml cola nic salt is 20p per ml on a five-pack, so bottles win once you own a refillable kit. On strength: every prefilled cola kit and pod here is 20mg; bottles add 10mg, and the Cola Elf Bar Elfliq 10ml adds 5mg.</p>
+<p> </p>
+<h3>Which Brands Do Cola Best, by Sales</h3>
+<p>Cola units over the last 120 days: <strong>Elf Bar 52</strong>, <strong>Hayati 50</strong>, Lost Mary 9, SKE 9, Elux 3, Maxfel 3, IVG 2, Kingston 2. Elf Bar leads on bottles and small pods, Hayati on big-puff pods and kits. Other drink flavours are on the <a href="https://vapeonlinestore.co.uk/collections/drink-inspired-e-liquids" rel="noopener" title="Drink-Inspired E-Liquids UK" target="_blank"><strong>drink-inspired e-liquids</strong></a> page.</p>
+<p> </p>
+<h3>Why Buy Cola Vapes from Vape Online Store</h3>
+<p>Prices are on the page with no login, orders over £40 get free next day delivery, and stock comes through UK authorised distribution. A flavour drops off this page the moment it sells out, so what you see is what ships. Every kit above is also on the <a href="https://vapeonlinestore.co.uk/collections/pre-filled-pod-vape-kits" rel="noopener" title="Pre-Filled Pod Vape Kits UK" target="_blank"><strong>pre-filled pod vape kits</strong></a> page with its other flavours.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION --> <!-- ========================================= -->
+<h2>Cola Vape Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>Is cola ice vape good?</h4>
+<p>By demand, yes: cola ice is the most searched cola vape flavour in the UK after cherry cola, and Hayati, SKE and IVG each sell one here. By our sales the Cola Ice Hayati Pro Max Plus 6000 kit and pods lead with 10 units, then the Cola Ice SKE Bar 600 at 8.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is cola a good vape flavour?</h4>
+<p>Plain cola outsells every cola variant here: the Cola Elf Bar Elfliq 10ml sold 30 bottles in 120 days and the Cola Lost Mary BM6000 was the best-selling cola kit. No fruit, no ice, so it suits vapers who find fruit-and-menthol flavours blur together.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a Coke flavoured vape?</h4>
+<p>No vape is made by or licensed from Coca-Cola. Every cola vape here is a brand's own cola: Elf Bar Elfliq, Lost Mary BM6000, Elux Legend and Kingston Cola do a plain cola, and Hayati, SKE and IVG add ice, lime or raspberry.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which cola e liquid sells best?</h4>
+<p>The Cola Elf Bar Elfliq 10ml nic salt, 30 bottles in 120 days, then the Cherry Cola Elf Bar Elfliq 10ml at 11 and the Cola Ice Hayati Pro Max 10ml at 6, all £2.59 a bottle. For a sub-ohm tank, the Classic Cola Kingston Cola 100ml shortfill is 6p per ml.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does Lost Mary make a cola vape?</h4>
+<p>Yes. The Cola Lost Mary BM6000 (£8.99) is in stock and was the best-selling cola kit of the last 120 days with 9 sold: 6,000 rated puffs, 20mg, 1000mAh battery, £8.00 a kit on the five-pack or ten-pack.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a cola Elf Bar?</h4>
+<p>Yes: the Cola Elf Bar 600 prefilled pod kit (£4.99) and the Cola Elf Bar Elfliq 10ml nic salt (£2.59). The bottle is the one that sells, 30 in 120 days. For pods, the Cherry Cola Elf Bar Elfa pods (£3.99 for two) are the best-selling Elf Bar cola pod.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a cola ice disposable vape?</h4>
+<p>Not as a single-use bar any more; every cola ice vape here is a rechargeable kit with a 2ml pod. The Cola Ice SKE Bar 600 (£3.95) is closest to the old 600-puff size; the Cola Ice Hayati Pro Max Plus 6000 (£8.99) and Cola Ice IVG Smart Max 10K (£9.99) are the bigger ones.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does Hayati do a cola ice vape?</h4>
+<p>Yes. The Cola Ice Hayati Pro Max Plus 6000 kit (£8.99), its refill pods (£6.99) and the Cola Ice Hayati Pro Max 10ml nic salt (£2.59) are in stock. The Hayati Pro Ultra Plus 25000 pods come in Raspberry Cola, not cola ice.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA --> <!-- ========================================= -->
+<h2>Pick Your Cola and Check Out</h2>
+<p>Start with the <strong>Cola Elf Bar Elfliq 10ml</strong> at £2.59 if you refill, the <strong>Cola Ice SKE Bar 600</strong> at £3.95 if you want cola ice in a small prefilled kit, and the <strong>Cola Lost Mary BM6000</strong> at £8.99 if you want 6,000 puffs of plain cola.</p>
+</div>
