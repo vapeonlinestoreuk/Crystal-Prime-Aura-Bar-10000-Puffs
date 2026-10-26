@@ -1,0 +1,19 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "triple-mango-flavour-vape",
+  "peach-mango-vape",
+  "prefilled-vape-pods",
+  "pre-filled-pod-vape-kits",
+  "e-liquid",
+  "fruit-flavour-e-liquids"
+ ],
+ "gids": [
+  "gid://shopify/Collection/433044160761",
+  "gid://shopify/Collection/433318920441",
+  "gid://shopify/Collection/440449794297",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/397201768697",
+  "gid://shopify/Collection/475608187129"
+ ]
+}

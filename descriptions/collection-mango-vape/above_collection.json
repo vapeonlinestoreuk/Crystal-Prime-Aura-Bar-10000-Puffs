@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "mango vape",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": triple mango, peach mango and tropical blends as kits, pods, nic salts and shortfills, from £2.59."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from "
+    },
+    {
+     "type": "text",
+     "value": "Triple Mango Bar Juice 5000 10ml Nic Salt",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.99, "
+    },
+    {
+     "type": "text",
+     "value": "Triple Mango Oxva Xlim Prefilled Cartridges",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £6.99, "
+    },
+    {
+     "type": "text",
+     "value": "Mango Elf Bar Elfa Prefilled Pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.49, "
+    },
+    {
+     "type": "text",
+     "value": "Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £11.99, "
+    },
+    {
+     "type": "text",
+     "value": "Pineapple Mango Orange Elf Bar Elfliq 10ml",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.59 and "
+    },
+    {
+     "type": "text",
+     "value": "Triple Mango Hayati Pro Max 100ml Shortfill",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £6.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "In-stock mango lines only, ranked by sales. Genuine UK stock through UK distribution, next day delivery, free over £40. The guide below compares triple mango, peach mango and mango ice."
+    }
+   ]
+  }
+ ]
+}

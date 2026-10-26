@@ -1,0 +1,654 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>mango vape</strong> that is in stock today is on this page: triple mango, peach mango and the pineapple and orange blends that lead with mango, as prefilled pod kits, refill pods, 10ml nic salts and 100ml shortfills from Bar Juice, Elf Bar, Hayati, Oxva, Lost Mary, SKE, IVG and Elux. Prices start at <strong>£2.59 a bottle</strong> for the Elf Bar Elfliq and Hayati Pro Max 10ml nic salts as of October 2026.</p>
+<p>Everything below is ranked by what sold over the last 120 days (120 mango units). Want one profile only? The <a href="https://vapeonlinestore.co.uk/collections/triple-mango-flavour-vape" rel="noopener" title="Triple Mango Vape UK" target="_blank"><strong>triple mango vape</strong></a> page holds the three-mango blends and the <a href="https://vapeonlinestore.co.uk/collections/peach-mango-vape" rel="noopener" title="Peach Mango Vape UK" target="_blank"><strong>peach mango vape</strong></a> page holds the peach pairings. This page covers all of them, plus mango vape juice by the bottle and the plain mango pods.</p>
+<!-- ========================================= --> <!-- PRODUCT 1: Triple Mango Bar Juice 5000 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/triple-mango-bar-juice-5000-nic-salt-e-liquid.jpg?v=1780383182" alt="Triple Mango Bar Juice 5000 10ml nic salt e-liquid bottle" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Triple Mango Bar Juice 5000 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.99 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🏆 Best-Selling Mango Product: 30 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/triple-mango-bar-juice-5000" rel="noopener" title="Triple Mango Bar Juice 5000 Nic Salt E-Liquid UK" target="_blank"><strong>Triple Mango Bar Juice 5000 10ml Nic Salt</strong></a> outsold every other mango line on the site, by a distance. Bar Juice blends three mango varieties into one sweet, tropical 10ml nic salt for mouth-to-lung pod kits, and rates one bottle at about five 600-puff bars.</p>
+<p><strong>Who's it for?</strong> Anyone with a refillable pod kit who wants the Bar Juice take on triple mango at the lowest price per ml on this page once you buy five.</p>
+<p><strong>What's in the box?</strong> One 10ml bottle with a childproof cap; five or ten bottles on the multipacks.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Bar Juice</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg, 15mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 40/60</li>
+<li>
+<strong>Style:</strong> mouth to lung, pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10 bottles</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.99 (30p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/triple-mango-bar-juice-5000" class="vos-cta-button" rel="noopener" title="Triple Mango Bar Juice 5000 Nic Salt E-Liquid UK" target="_blank">View Triple Mango Bar Juice 5000 10ml</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Triple Mango Oxva Xlim Prefilled Cartridges --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/triple-mango-oxva-xlim-prefilled-cartridge-or-pack-of-3-28664.jpg?v=1745792685" alt="Triple Mango Oxva Xlim prefilled cartridge pack of three 2ml pods" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Triple Mango Oxva Xlim Prefilled Cartridges</h3>
+<div class="vos-price-tag">£6.99 for 3 pods</div>
+<div class="vos-sale-badge">⭐ Best-Selling Mango Pod Pack: 15 Packs in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/triple-mango-oxva-xlim-pods" rel="noopener" title="Triple Mango Oxva Xlim Prefilled Cartridge Pack Of 3 UK" target="_blank"><strong>Triple Mango Oxva Xlim Prefilled Cartridges</strong></a> are sealed 2ml pods for the Oxva Xlim kit family: 20mg nic salt, a 1.2 ohm mesh coil in each, three to a pack. Click one in and go.</p>
+<p><strong>Who's it for?</strong> Oxva Xlim owners who want the convenience of a prefilled pod without giving up the kit they already like.</p>
+<p><strong>What's in the box?</strong> Three prefilled Oxva Xlim cartridges, 2ml each, one flavour.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Oxva</li>
+<li>
+<strong>Fits:</strong> Oxva Xlim pod kits</li>
+<li>
+<strong>Pod:</strong> 2ml, PCTG body, 9g each</li>
+<li>
+<strong>Coil:</strong> 1.2 ohm mesh, built in</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Pack:</strong> 3 pods</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Pack of 3:</strong> £6.99, which is £2.33 a pod or £1.17 per ml of prefilled nic salt</div>
+<a href="https://vapeonlinestore.co.uk/products/triple-mango-oxva-xlim-pods" class="vos-cta-button" rel="noopener" title="Triple Mango Oxva Xlim Prefilled Cartridge Pack Of 3 UK" target="_blank">View Triple Mango Oxva Xlim Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: Mango Elf Bar Elfa Prefilled Pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Mango-Elfa-Pre-filled-Pods-By-Elf-Bar.jpg?v=1755190298" alt="Mango Elf Bar Elfa prefilled pods twin pack" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Mango Elf Bar Elfa Prefilled Pods</h3>
+<div class="vos-price-tag">£4.49 for 2 pods • 5 packs £20.99 • 10 packs £39.99</div>
+<div class="vos-sale-badge">⭐ Joint Best-Selling Mango Pods: 15 Packs in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/mango-elfa-refillable-pods-by-elf-bar" rel="noopener" title="Mango Elf Bar Elfa Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Elfa Prefilled Pods</strong></a> are the plain mango option: two 2ml pods per pack, 20mg nic salt at 50/50, rated at up to 600 puffs a pod, fitting both the Elf Bar Elfa and Elf Bar Elfa Pro kits.</p>
+<p><strong>Who's it for?</strong> Elf Bar Elfa kit owners who want a straight mango rather than a triple or tropical blend.</p>
+<p><strong>What's in the box?</strong> Two prefilled Elf Bar Elfa pods; ten or twenty pods on the multipacks.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elf Bar</li>
+<li>
+<strong>Fits:</strong> Elf Bar Elfa and Elf Bar Elfa Pro kits</li>
+<li>
+<strong>Pod:</strong> 2ml prefilled, up to 600 puffs each</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Packs:</strong> 2, 10 or 20 pods</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Twin pack:</strong> £4.49 (£2.25 a pod) • <strong>5 packs:</strong> £20.99 (£2.10 a pod) • <strong>10 packs:</strong> £39.99 (£2.00 a pod)</div>
+<a href="https://vapeonlinestore.co.uk/products/mango-elfa-refillable-pods-by-elf-bar" class="vos-cta-button" rel="noopener" title="Mango Elf Bar Elfa Prefilled Pods UK" target="_blank">View Mango Elf Bar Elfa Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Cherry-Ice_Peach-Mango-Hayati-Pro-Ultra-Plus-25000-Prefilled-Pod-Vape-Kit_3c6ac171-8850-4e03-9ef0-0caf1951b069.jpg?v=1748960928" alt="Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 prefilled pod vape kit with twin flavour tanks" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000</h3>
+<div class="vos-price-tag">£11.99 • 5 for £52.99 • 10 for £104.99</div>
+<div class="vos-sale-badge">🔥 Best-Selling Mango Kit: 10 Kits in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/cherry-ice-peach-mango-hayati-pro-ultra-plus-25000" rel="noopener" title="Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000</strong></a> is the top mango kit by units: two flavours in one device, each with its own mesh coil and 10ml container, switched with a twist. 850mAh battery, USB-C charging, rated at 25,000 puffs.</p>
+<p><strong>Who's it for?</strong> Someone who wants peach mango for the day and cherry ice when they fancy a change, at 48p per 1,000 rated puffs, second only to the Lost Mary Nera 30K on cost per puff.</p>
+<p><strong>What's in the box?</strong> One Hayati Pro Ultra Plus 25000 device with two prefilled pods and two 10ml containers.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Flavours:</strong> Cherry Ice / Peach Mango</li>
+<li>
+<strong>Rated puffs:</strong> 25,000</li>
+<li>
+<strong>Battery:</strong> 850mAh rechargeable, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2 pods + 2 x 10ml containers</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> 1.1 ohm mesh, one per flavour</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £11.99 (48p per 1,000 rated puffs) • <strong>5 kits:</strong> £52.99 (£10.60 each) • <strong>10 kits:</strong> £104.99 (£10.50 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/cherry-ice-peach-mango-hayati-pro-ultra-plus-25000" class="vos-cta-button" rel="noopener" title="Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 Prefilled Pod Vape Kit UK" target="_blank">View Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/pineapple-mango-orange-elfliq-10ml-nic-salt-or-5-for-pound10-18688.jpg?v=1745793440" alt="Pineapple Mango Orange Elf Bar Elfliq 10ml nic salt bottle" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.59 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">⭐ Best-Selling Tropical Mango Bottle: 8 in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/pineapple-mango-orange-elfliq-10ml-nic-salt" rel="noopener" title="Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt</strong></a> is Elf Bar's bottled tropical mix: pineapple, mango and orange in a 50/50 nic salt, in 5mg, 10mg or 20mg.</p>
+<p><strong>Who's it for?</strong> Pod kit users who like mango as part of a tropical blend rather than on its own, and anyone wanting a 5mg option.</p>
+<p><strong>What's in the box?</strong> One 10ml bottle with an easy-fill nozzle and childproof cap.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elf Bar</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Style:</strong> mouth to lung, pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10 bottles</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.59 (26p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/pineapple-mango-orange-elfliq-10ml-nic-salt" class="vos-cta-button" rel="noopener" title="Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt UK" target="_blank">View Pineapple Mango Orange Elf Bar Elfliq 10ml</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 6: Triple Mango Hayati Pro Max 100ml Shortfill --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/triple-mango-hayati-pro-max-100ml-e-liquid-vape-juice-or-full-stock-74764.jpg?v=1745792264" alt="Triple Mango Hayati Pro Max 100ml shortfill e-liquid bottle" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>6. Triple Mango Hayati Pro Max 100ml Shortfill</h3>
+<div class="vos-price-tag">£6.99 • £7.99 with 2 nic shots • £8.99 with 5</div>
+<div class="vos-sale-badge">⭐ Best-Selling Mango Shortfill: 4 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-100ml" rel="noopener" title="Triple Mango Hayati Pro Max 100ml E-Liquid Shortfill UK" target="_blank"><strong>Triple Mango Hayati Pro Max 100ml Shortfill</strong></a> is the same triple mango as the Hayati Pro Max kits, in a 100ml 0mg bottle. Pick 70/30 for a sub-ohm tank or 50/50 for a pod kit, and add 18mg nic shots at checkout if you want nicotine.</p>
+<p><strong>Who's it for?</strong> Anyone who gets through a 10ml bottle in a day or two. At 7p per ml it is a quarter of the price of the cheapest 10ml salt here.</p>
+<p><strong>What's in the box?</strong> One 100ml shortfill bottle with a childproof cap and tamper seal, plus the nic shots you choose.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Bottle:</strong> 100ml shortfill</li>
+<li>
+<strong>VG/PG:</strong> 70/30 or 50/50</li>
+<li>
+<strong>Nicotine:</strong> 0mg; 2 or 5 x 18mg shots optional</li>
+<li>
+<strong>Style:</strong> sub-ohm in 70/30, pod kits in 50/50</li>
+<li>
+<strong>Rating:</strong> 5.0 from 1 review</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>100ml:</strong> £6.99 (7p per ml) • <strong>With 2 shots:</strong> £7.99 for about 120ml at 3mg • <strong>With 5 shots:</strong> £8.99 for about 150ml at 6mg</div>
+<a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-100ml" class="vos-cta-button" rel="noopener" title="Triple Mango Hayati Pro Max 100ml E-Liquid Shortfill UK" target="_blank">View Triple Mango Hayati Pro Max 100ml</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: MANGO KITS --> <!-- ========================================= -->
+<h2>Mango Vape Kits Ranked by Sales</h2>
+<p>Five mango vape kits sold in the last 120 days, listed in <strong>sales order</strong>. Per unit is the single-kit price divided by the rated puff count, so a lower figure means more puffs for your money.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per 1,000 puffs</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/cherry-ice-peach-mango-hayati-pro-ultra-plus-25000" rel="noopener" title="Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000</strong></a></td>
+<td>£11.99</td>
+<td>48p per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/pineapple-peach-mango-ske-bar-600" rel="noopener" title="Pineapple Peach Mango SKE Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Pineapple Peach Mango SKE Bar 600</strong></a></td>
+<td>£3.95</td>
+<td>£6.58 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-plus-6000" rel="noopener" title="Triple Mango Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Triple Mango Hayati Pro Max Plus 6000</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-lost-mary-bm6000" rel="noopener" title="Triple Mango Lost Mary BM6000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Triple Mango Lost Mary BM6000</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-lost-mary-nera-30k" rel="noopener" title="Triple Mango Lost Mary Nera 30K Puffs Fullview Pod Kit UK" target="_blank"><strong>Triple Mango Lost Mary Nera 30K</strong></a></td>
+<td>£11.99</td>
+<td>40p per 1,000 puffs</td>
+<td>★ 5.0 (1)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- MANGO PODS TABLE --> <!-- ========================================= -->
+<h2>Mango Vape Pods: Refill Packs Ranked by Sales</h2>
+<p>Six mango pod packs sold. The Oxva Xlim, Elf Bar Elfa, Elf Bar Elfa Pro and Elf Bar Mate P1 packs hold 2ml pods, so they are priced per pod; the Hayati Pro Max Plus 6000 and IVG Pro 12 packs hold a 2ml pod plus a 10ml refill container, so they are priced per pack.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-oxva-xlim-pods" rel="noopener" title="Triple Mango Oxva Xlim Prefilled Cartridge Pack Of 3 UK" target="_blank"><strong>Triple Mango Oxva Xlim Prefilled Cartridges (3 pods)</strong></a></td>
+<td>£6.99</td>
+<td>£2.33/pod</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/mango-elfa-refillable-pods-by-elf-bar" rel="noopener" title="Mango Elf Bar Elfa Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Elfa Prefilled Pods (2 pods)</strong></a></td>
+<td>£4.49</td>
+<td>£2.25/pod</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-6k-pods" rel="noopener" title="Triple Mango Hayati Pro Max Plus 6000 Refill Pods UK" target="_blank"><strong>Triple Mango Hayati Pro Max Plus 6000 Refill Pods</strong></a></td>
+<td>£6.99</td>
+<td>£6.99/pack</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-mango-ivg-pro-12-pods" rel="noopener" title="Double Mango IVG Pro 12 Prefilled Replacement Pods UK" target="_blank"><strong>Double Mango IVG Pro 12 Prefilled Pods</strong></a></td>
+<td>£5.99</td>
+<td>£5.99/pack</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/mango-elf-bar-p1-prefilled-e-liquid-pods" rel="noopener" title="Mango Elf Bar Mate P1 Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Mate P1 Prefilled Pods (2 pods)</strong></a></td>
+<td>£4.99</td>
+<td>£2.50/pod</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/mango-elfa-pro-prefilled-pods" rel="noopener" title="Mango Elf Bar Elfa Pro Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Elfa Pro Prefilled Pods (2 pods)</strong></a></td>
+<td>£4.49</td>
+<td>£2.25/pod</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- MANGO LIQUIDS TABLE --> <!-- ========================================= -->
+<h2>Mango E-Liquid: Nic Salts and Shortfills Ranked by Bottles Sold</h2>
+<p>Eight mango e-liquid lines sold. Per ml is on the single-bottle price; every Bar Juice, Elf Bar Elfliq and Hayati Pro Max 10ml here drops to £2.00 a bottle on a five-pack. The collection holds 84 mango lines in all; these tables show only the ones that sold in the window.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per ml</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-bar-juice-5000" rel="noopener" title="Triple Mango Bar Juice 5000 Nic Salt E-Liquid UK" target="_blank"><strong>Triple Mango Bar Juice 5000 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/pineapple-mango-orange-elfliq-10ml-nic-salt" rel="noopener" title="Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>★ 3.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-10ml" rel="noopener" title="Triple Mango Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Triple Mango Hayati Pro Max 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-100ml" rel="noopener" title="Triple Mango Hayati Pro Max 100ml E-Liquid Shortfill UK" target="_blank"><strong>Triple Mango Hayati Pro Max 100ml Shortfill</strong></a></td>
+<td>£6.99</td>
+<td>7p/ml</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/triple-mango-elux-legend-10ml-nic-salt" rel="noopener" title="Triple Mango Elux Legend 10ml Nic Salt UK" target="_blank"><strong>Triple Mango Elux Legend 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/mango-elfliq-10ml-nic-salt" rel="noopener" title="Mango Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Mango Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/mango-peach-pineapple-hayati-pro-max-10ml" rel="noopener" title="Mango Peach Pineapple Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Mango Peach Pineapple Hayati Pro Max 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/pineapple-peach-mango-crystal-clear-10ml-nic-salt" rel="noopener" title="Pineapple Peach Mango Crystal Clear 10ml Nic Salt UK" target="_blank"><strong>Pineapple Peach Mango Crystal Clear 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE --> <!-- ========================================= -->
+<h2>Which Mango Vape Should You Buy?</h2>
+<div class="vos-guide-box">
+<p><strong>🏆 The proven volume line: Triple Mango Bar Juice 5000 10ml, £2.99</strong></p>
+<p>30 bottles in 120 days, double the next mango product. Four strengths from 5mg to 20mg and £2.00 a bottle on the five-pack.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>💷 The budget bottles: Elf Bar Elfliq and Hayati Pro Max 10ml, £2.59</strong></p>
+<p>The <a href="https://vapeonlinestore.co.uk/products/mango-elfliq-10ml-nic-salt" rel="noopener" title="Mango Elf Bar Elfliq 10ml Nic Salt UK" target="_blank"><strong>Mango Elf Bar Elfliq 10ml</strong></a>, the Pineapple Mango Orange Elf Bar Elfliq 10ml and the <a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-10ml" rel="noopener" title="Triple Mango Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Triple Mango Hayati Pro Max 10ml</strong></a> all cost £2.59 a bottle and all drop to 5 for £10.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>🔋 Best kit per puff: Triple Mango Lost Mary Nera 30K, £11.99</strong></p>
+<p>At 40p per 1,000 rated puffs the <a href="https://vapeonlinestore.co.uk/products/triple-mango-lost-mary-nera-30k" rel="noopener" title="Triple Mango Lost Mary Nera 30K Puffs Fullview Pod Kit UK" target="_blank"><strong>Triple Mango Lost Mary Nera 30K</strong></a> is the cheapest kit here to run: 800mAh battery, two 2ml pods and two 10ml containers, 20mg, with a 5.0 rating from its one review. The Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 sold five times as many at 48p.</p>
+</div>
+<p> </p>
+<h3>Mango Ice, Triple Mango or Peach Mango?</h3>
+<p>Our product pages put it like this. <strong>Triple mango</strong>: the Hayati Pro Max Plus 6000 page describes the ripe, honeyed sweetness of a soft mango, a brighter, slightly tangy green-mango edge and a deeper tropical base, with no ice. It is the profile behind the Bar Juice 5000, Oxva Xlim, Hayati and Lost Mary lines that top the tables. <strong>Peach mango</strong>: a mango base softened with peach, sold here inside the Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 and, with pineapple added, in the SKE Bar 600, Hayati Pro Max 10ml and Crystal Clear 10ml. <strong>Mango ice</strong>: a mango base with a cooling finish. None of the mango lines that sold in the last 120 days carries an ice finish, so the warm profiles above are the ones we can vouch for. <strong>Plain mango</strong>: the Elf Bar Elfa pods, Elf Bar Elfa Pro pods, Elf Bar Mate P1 pods and Elf Bar Elfliq bottle.</p>
+<p> </p>
+<h3>Mango Disposable Vape Style Kit or 10ml Mango Nic Salt?</h3>
+<p>A prefilled pod kit (Hayati Pro Ultra Plus 25000, Lost Mary Nera 30K, Lost Mary BM6000, Hayati Pro Max Plus 6000) needs no filling and costs 40p to £1.50 per 1,000 rated puffs; the Pineapple Peach Mango SKE Bar 600 is the closest thing to a mango disposable vape at £3.95, but at £6.58 per 1,000 puffs it is the dearest way to vape mango. A 10ml mango nic salt in a refillable kit is 20p per ml on a five-pack, and Bar Juice rates a bottle at about five 600-puff bars, so bottles win on cost once you own the kit. Prefilled pods sit between at £2.00 to £2.50 a pod. On strength: every prefilled kit and pod here is 20mg; bottles add 10mg, and Bar Juice, Elf Bar Elfliq and Elux Legend add 5mg.</p>
+<p> </p>
+<h3>Which Brands Do Mango Best, by Units Sold</h3>
+<p>Mango units over the last 120 days: <strong>Bar Juice 30</strong>, <strong>Hayati 29</strong>, <strong>Elf Bar 28</strong>, <strong>Oxva 15</strong>, SKE 6, Lost Mary 6, IVG 3, Elux 2, Crystal Clear 1. Bar Juice leads with one bottle; Hayati and Elf Bar get there by selling mango in every format, from pods to 100ml shortfills.</p>
+<p> </p>
+<h3>Why Buy Mango Vapes from Vape Online Store</h3>
+<p>Prices are on the page with no login, orders over £40 get free next day delivery, and stock comes through UK authorised distribution. This is a live collection: a mango flavour drops off the moment it sells out, so what you see is what ships.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION --> <!-- ========================================= -->
+<h2>Mango Vape Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>Is mango a good vape flavour?</h4>
+<p>By demand, yes: mango vape is searched about 800 times a month in the UK, and every brand here makes one. By our own sales, triple mango is the version people come back to: the Triple Mango Bar Juice 5000 10ml sold 30 bottles in 120 days and the Triple Mango Oxva Xlim pods 15 packs.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What does a triple mango vape taste like?</h4>
+<p>Three mango varieties layered into one: the Hayati Pro Max Plus 6000 page describes honeyed soft mango, a tangy green-mango edge and a rounded tropical base, with no ice. It tastes fuller than a single mango. Every triple mango line sits on the triple mango page linked at the top.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is the best mango vape juice in the UK?</h4>
+<p>By units here, the Triple Mango Bar Juice 5000 10ml (£2.99, 30 bottles), then the Pineapple Mango Orange Elf Bar Elfliq 10ml (£2.59, 8) and the Triple Mango Hayati Pro Max 10ml (£2.59, 7). For a sub-ohm tank, the Triple Mango Hayati Pro Max 100ml shortfill at £6.99 was the only mango shortfill that sold.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a mango ice vape juice?</h4>
+<p>Mango ice is a mango base with a cooling finish. None of the mango bottles that sold here in the last 120 days has an ice finish: the Bar Juice 5000, Elf Bar Elfliq, Hayati Pro Max and Elux Legend mango salts are all warm, no-ice profiles.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does Lost Mary make a mango vape?</h4>
+<p>Yes. The <a href="https://vapeonlinestore.co.uk/products/triple-mango-lost-mary-bm6000" rel="noopener" title="Triple Mango Lost Mary BM6000 Prefilled Pod Vape Kit UK" target="_blank"><strong>Triple Mango Lost Mary BM6000</strong></a> (£8.99, 1000mAh, 2ml pod plus 10ml container, up to 6,000 puffs) and the Triple Mango Lost Mary Nera 30K (£11.99, up to 30,000 puffs) are both in stock and both sold in the last 120 days, four and two units.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a mango Elf Bar?</h4>
+<p>Several. The Mango Elf Bar Elfa pods (£4.49) and <a href="https://vapeonlinestore.co.uk/products/mango-elfa-pro-prefilled-pods" rel="noopener" title="Mango Elf Bar Elfa Pro Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Elfa Pro pods</strong></a> (£4.49) fit the Elf Bar Elfa kits, the <a href="https://vapeonlinestore.co.uk/products/mango-elf-bar-p1-prefilled-e-liquid-pods" rel="noopener" title="Mango Elf Bar Mate P1 Prefilled Pods UK" target="_blank"><strong>Mango Elf Bar Mate P1 pods</strong></a> (£4.99) fit the Elf Bar Mate 500, and the Mango Elf Bar Elfliq 10ml (£2.59) is the bottle. The Elf Bar Elfa pods sold best, with 15 packs.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does Hayati do a mango vape?</h4>
+<p>Yes, in every format. The <a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-pro-max-plus-6000" rel="noopener" title="Triple Mango Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Triple Mango Hayati Pro Max Plus 6000</strong></a> kit (£8.99) with its <a href="https://vapeonlinestore.co.uk/products/triple-mango-hayati-6k-pods" rel="noopener" title="Triple Mango Hayati Pro Max Plus 6000 Refill Pods UK" target="_blank"><strong>Triple Mango Hayati Pro Max Plus 6000 refill pods</strong></a> (£6.99), the Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 (£11.99), the Triple Mango and <a href="https://vapeonlinestore.co.uk/products/mango-peach-pineapple-hayati-pro-max-10ml" rel="noopener" title="Mango Peach Pineapple Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Mango Peach Pineapple Hayati Pro Max 10ml</strong></a> salts (£2.59) and the Triple Mango Hayati Pro Max 100ml (£6.99). 29 Hayati mango units in 120 days.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which mango vape pods fit my kit?</h4>
+<p>Match the pod to the kit name: Triple Mango Oxva Xlim pods fit Oxva Xlim kits, Mango Elf Bar Elfa pods fit the Elf Bar Elfa and Elf Bar Elfa Pro, Mango Elf Bar Mate P1 pods fit the Elf Bar Mate 500, Triple Mango Hayati Pro Max Plus 6000 pods fit that kit only, and <a href="https://vapeonlinestore.co.uk/products/double-mango-ivg-pro-12-pods" rel="noopener" title="Double Mango IVG Pro 12 Prefilled Replacement Pods UK" target="_blank"><strong>Double Mango IVG Pro 12 pods</strong></a> (£5.99) fit the IVG Pro 12. None of them cross over.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a mango disposable vape?</h4>
+<p>Everything here is a rechargeable pod kit rather than a single-use bar. The closest match is the <a href="https://vapeonlinestore.co.uk/products/pineapple-peach-mango-ske-bar-600" rel="noopener" title="Pineapple Peach Mango SKE Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Pineapple Peach Mango SKE Bar 600</strong></a> at £3.95: the same 600-puff, 2ml, 20mg size as a classic bar, with a battery you charge. For a longer run, the Hayati Pro Ultra Plus 25000 at £11.99 sold best.</p>
+</div>
+<div class="vos-faq-item">
+<h4>How quickly do mango vape orders arrive?</h4>
+<p>Orders over £40 get free next day delivery, so five Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 kits (£52.99) or four five-for-£10 bottle bundles qualify on their own. Smaller orders ship on the options shown at checkout. Everything listed is in stock today.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA --> <!-- ========================================= -->
+<h2>Pick Your Mango Vape</h2>
+<p>For a bottle, the Triple Mango Bar Juice 5000 10ml at £2.99 is the one that sold 30 bottles in 120 days. For a pod, the Triple Mango Oxva Xlim pack or the Mango Elf Bar Elfa twin pack. For a kit, the Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 at £11.99. All in stock, all ranked by real sales, all shipped from UK stock.</p>
+<a href="https://vapeonlinestore.co.uk/products/triple-mango-bar-juice-5000" class="vos-cta-button" rel="noopener" title="Triple Mango Bar Juice 5000 Nic Salt E-Liquid UK" target="_blank">Shop Triple Mango Bar Juice 5000</a> <a href="https://vapeonlinestore.co.uk/products/cherry-ice-peach-mango-hayati-pro-ultra-plus-25000" class="vos-cta-button" rel="noopener" title="Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 Prefilled Pod Vape Kit UK" target="_blank">Shop Hayati Pro Ultra Plus 25000</a>
+</div>
+<!-- ============================================ --><!-- END: COLLECTION CONTENT                       --><!-- ============================================ -->

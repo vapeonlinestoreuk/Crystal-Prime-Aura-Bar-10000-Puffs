@@ -1,0 +1,215 @@
+{
+ "ranked_by": "ShopifyQL net_items_sold, last 120 days to 26 Oct 2026",
+ "total_units": 120,
+ "rows": [
+  {
+   "rank": 1,
+   "units": 30,
+   "type": "liquid",
+   "handle": "triple-mango-bar-juice-5000",
+   "name": "Triple Mango Bar Juice 5000 10ml Nic Salt",
+   "link_title": "Triple Mango Bar Juice 5000 Nic Salt E-Liquid UK",
+   "price": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-"
+  },
+  {
+   "rank": 2,
+   "units": 15,
+   "type": "pod",
+   "handle": "triple-mango-oxva-xlim-pods",
+   "name": "Triple Mango Oxva Xlim Prefilled Cartridges (3 pods)",
+   "link_title": "Triple Mango Oxva Xlim Prefilled Cartridge Pack Of 3 UK",
+   "price": 6.99,
+   "per_unit": "\u00a32.33/pod",
+   "rating": "-"
+  },
+  {
+   "rank": 3,
+   "units": 15,
+   "type": "pod",
+   "handle": "mango-elfa-refillable-pods-by-elf-bar",
+   "name": "Mango Elf Bar Elfa Prefilled Pods (2 pods)",
+   "link_title": "Mango Elf Bar Elfa Prefilled Pods UK",
+   "price": 4.49,
+   "per_unit": "\u00a32.25/pod",
+   "rating": "-"
+  },
+  {
+   "rank": 4,
+   "units": 10,
+   "type": "kit",
+   "handle": "cherry-ice-peach-mango-hayati-pro-ultra-plus-25000",
+   "name": "Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000",
+   "link_title": "Cherry Ice / Peach Mango Hayati Pro Ultra Plus 25000 Prefilled Pod Vape Kit UK",
+   "price": 11.99,
+   "per_unit": "48p per 1,000 puffs",
+   "rating": "-"
+  },
+  {
+   "rank": 5,
+   "units": 8,
+   "type": "liquid",
+   "handle": "pineapple-mango-orange-elfliq-10ml-nic-salt",
+   "name": "Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt",
+   "link_title": "Pineapple Mango Orange Elf Bar Elfliq 10ml Nic Salt UK",
+   "price": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "\u2605 3.0 (1)"
+  },
+  {
+   "rank": 6,
+   "units": 7,
+   "type": "liquid",
+   "handle": "triple-mango-hayati-pro-max-10ml",
+   "name": "Triple Mango Hayati Pro Max 10ml Nic Salt",
+   "link_title": "Triple Mango Hayati Pro Max 10ml Nic Salt E-Liquid UK",
+   "price": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-"
+  },
+  {
+   "rank": 7,
+   "units": 6,
+   "type": "kit",
+   "handle": "pineapple-peach-mango-ske-bar-600",
+   "name": "Pineapple Peach Mango SKE Bar 600",
+   "link_title": "Pineapple Peach Mango SKE Bar 600 Prefilled Pod Kit UK",
+   "price": 3.95,
+   "per_unit": "\u00a36.58 per 1,000 puffs",
+   "rating": "-"
+  },
+  {
+   "rank": 8,
+   "units": 4,
+   "type": "kit",
+   "handle": "triple-mango-hayati-pro-max-plus-6000",
+   "name": "Triple Mango Hayati Pro Max Plus 6000",
+   "link_title": "Triple Mango Hayati Pro Max Plus 6000 Puffs Pod Kit UK",
+   "price": 8.99,
+   "per_unit": "\u00a31.50 per 1,000 puffs",
+   "rating": "-"
+  },
+  {
+   "rank": 9,
+   "units": 4,
+   "type": "kit",
+   "handle": "triple-mango-lost-mary-bm6000",
+   "name": "Triple Mango Lost Mary BM6000",
+   "link_title": "Triple Mango Lost Mary BM6000 Prefilled Pod Vape Kit UK",
+   "price": 8.99,
+   "per_unit": "\u00a31.50 per 1,000 puffs",
+   "rating": "-"
+  },
+  {
+   "rank": 10,
+   "units": 4,
+   "type": "liquid",
+   "handle": "triple-mango-hayati-pro-max-100ml",
+   "name": "Triple Mango Hayati Pro Max 100ml Shortfill",
+   "link_title": "Triple Mango Hayati Pro Max 100ml E-Liquid Shortfill UK",
+   "price": 6.99,
+   "per_unit": "7p/ml",
+   "rating": "\u2605 5.0 (1)"
+  },
+  {
+   "rank": 11,
+   "units": 3,
+   "type": "pod",
+   "handle": "triple-mango-hayati-6k-pods",
+   "name": "Triple Mango Hayati Pro Max Plus 6000 Refill Pods",
+   "link_title": "Triple Mango Hayati Pro Max Plus 6000 Refill Pods UK",
+   "price": 6.99,
+   "per_unit": "\u00a36.99/pack",
+   "rating": "-"
+  },
+  {
+   "rank": 12,
+   "units": 3,
+   "type": "pod",
+   "handle": "double-mango-ivg-pro-12-pods",
+   "name": "Double Mango IVG Pro 12 Prefilled Pods",
+   "link_title": "Double Mango IVG Pro 12 Prefilled Replacement Pods UK",
+   "price": 5.99,
+   "per_unit": "\u00a35.99/pack",
+   "rating": "-"
+  },
+  {
+   "rank": 13,
+   "units": 2,
+   "type": "kit",
+   "handle": "triple-mango-lost-mary-nera-30k",
+   "name": "Triple Mango Lost Mary Nera 30K",
+   "link_title": "Triple Mango Lost Mary Nera 30K Puffs Fullview Pod Kit UK",
+   "price": 11.99,
+   "per_unit": "40p per 1,000 puffs",
+   "rating": "\u2605 5.0 (1)"
+  },
+  {
+   "rank": 14,
+   "units": 2,
+   "type": "pod",
+   "handle": "mango-elf-bar-p1-prefilled-e-liquid-pods",
+   "name": "Mango Elf Bar Mate P1 Prefilled Pods (2 pods)",
+   "link_title": "Mango Elf Bar Mate P1 Prefilled Pods UK",
+   "price": 4.99,
+   "per_unit": "\u00a32.50/pod",
+   "rating": "-"
+  },
+  {
+   "rank": 15,
+   "units": 2,
+   "type": "liquid",
+   "handle": "triple-mango-elux-legend-10ml-nic-salt",
+   "name": "Triple Mango Elux Legend 10ml Nic Salt",
+   "link_title": "Triple Mango Elux Legend 10ml Nic Salt UK",
+   "price": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-"
+  },
+  {
+   "rank": 16,
+   "units": 2,
+   "type": "liquid",
+   "handle": "mango-elfliq-10ml-nic-salt",
+   "name": "Mango Elf Bar Elfliq 10ml Nic Salt",
+   "link_title": "Mango Elf Bar Elfliq 10ml Nic Salt UK",
+   "price": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-"
+  },
+  {
+   "rank": 17,
+   "units": 1,
+   "type": "pod",
+   "handle": "mango-elfa-pro-prefilled-pods",
+   "name": "Mango Elf Bar Elfa Pro Prefilled Pods (2 pods)",
+   "link_title": "Mango Elf Bar Elfa Pro Prefilled Pods UK",
+   "price": 4.49,
+   "per_unit": "\u00a32.25/pod",
+   "rating": "-"
+  },
+  {
+   "rank": 18,
+   "units": 1,
+   "type": "liquid",
+   "handle": "mango-peach-pineapple-hayati-pro-max-10ml",
+   "name": "Mango Peach Pineapple Hayati Pro Max 10ml Nic Salt",
+   "link_title": "Mango Peach Pineapple Hayati Pro Max 10ml Nic Salt E-Liquid UK",
+   "price": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-"
+  },
+  {
+   "rank": 19,
+   "units": 1,
+   "type": "liquid",
+   "handle": "pineapple-peach-mango-crystal-clear-10ml-nic-salt",
+   "name": "Pineapple Peach Mango Crystal Clear 10ml Nic Salt",
+   "link_title": "Pineapple Peach Mango Crystal Clear 10ml Nic Salt UK",
+   "price": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-"
+  }
+ ]
+}
