@@ -5,7 +5,7 @@
   {
    "pid": "8941033881849",
    "units": 685,
-   "title": "Uwell Viscore Pro+ 40K \u2013 Best 40K Vape",
+   "title": "Uwell Viscore Pro+ 40K – Best 40K Vape",
    "handle": "uwell-viscore-pro-40k",
    "status": "ACTIVE",
    "inv": 8458,
@@ -17,8 +17,10 @@
    "rc": "13",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Viscore-Pro-Plus-40K-Prefilled-Vape-Kit.jpg?v=1757861456",
    "pack": null,
-   "price": "\u00a38.99",
-   "per": "\u00a38.99 per kit (\u00a38.00 on 3 for \u00a324)"
+   "price": "£8.99",
+   "per": "£8.99 per kit (£8.00 on 3 for £24)",
+   "featured": true,
+   "featured_block": "block 1 (kit + pods)"
   },
   {
    "pid": "8479782797561",
@@ -35,8 +37,10 @@
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3s-vape-pod-kit-26326.jpg?v=1745791076",
    "pack": null,
-   "price": "\u00a312.99",
-   "per": "\u00a312.99 per kit"
+   "price": "£12.99",
+   "per": "£12.99 per kit",
+   "featured": true,
+   "featured_block": "block 2"
   },
   {
    "pid": "10054416728313",
@@ -53,13 +57,15 @@
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G5-Pod-Kit.jpg?v=1790926279",
    "pack": null,
-   "price": "\u00a314.99",
-   "per": "\u00a314.99 per kit, 3 pods included"
+   "price": "£14.99",
+   "per": "£14.99 per kit, 3 pods included",
+   "featured": true,
+   "featured_block": "block 5 (kit + pods)"
   },
   {
    "pid": "8051467682041",
    "units": 15,
-   "title": "Uwell Caliburn AK3 Pod Kit Price | \u00a311.49 | Free 10ml",
+   "title": "Uwell Caliburn AK3 Pod Kit Price | £11.49 | Free 10ml",
    "handle": "uwell-caliburn-ak3-pod-kit",
    "status": "ACTIVE",
    "inv": 7971,
@@ -71,8 +77,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-ak3-pod-kit-price-or-uwell-uk-96080.jpg?v=1745793210",
    "pack": null,
-   "price": "\u00a311.49",
-   "per": "\u00a311.49 per kit, 10ml liquid included"
+   "price": "£11.49",
+   "per": "£11.49 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "8051460866297",
@@ -89,8 +96,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3-pod-kit.jpg?v=1787168285",
    "pack": "8 x ",
-   "price": "\u00a313.99",
-   "per": "\u00a313.99 per kit"
+   "price": "£13.99",
+   "per": "£13.99 per kit",
+   "featured": false
   },
   {
    "pid": "7665857757433",
@@ -107,8 +115,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-g2-pod-kit-or-free-10ml-e-liquid-24581.jpg?v=1745796137",
    "pack": null,
-   "price": "\u00a318.99",
-   "per": "\u00a318.99 per kit, 10ml liquid included"
+   "price": "£18.99",
+   "per": "£18.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "8508120269049",
@@ -125,8 +134,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-lite-vape-kit-with-free-10ml-e-liquid.jpg?v=1788495319",
    "pack": null,
-   "price": "\u00a39.99",
-   "per": "\u00a39.99 per kit, 10ml liquid included"
+   "price": "£9.99",
+   "per": "£9.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "8052673020153",
@@ -143,8 +153,9 @@
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-az3-pod-vape-kit-for-sale-or-free-10ml-e-liquid-61099.jpg?v=1745793084",
    "pack": "1 x ",
-   "price": "\u00a315.99",
-   "per": "\u00a315.99 per kit, 10ml liquid included"
+   "price": "£15.99",
+   "per": "£15.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "8687675932921",
@@ -161,8 +172,10 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-viscore-8000-puffs-prefilled-pod-kit.jpg?v=1788495095",
    "pack": null,
-   "price": "\u00a38.99",
-   "per": "\u00a38.99 per kit, 12ml liquid"
+   "price": "£8.99",
+   "per": "£8.99 per kit, 12ml liquid",
+   "featured": true,
+   "featured_block": "block 3 (kit + pods)"
   },
   {
    "pid": "9332091584761",
@@ -179,8 +192,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G5-Lite-Se-Vape-Kit.jpg?v=1790925948",
    "pack": null,
-   "price": "\u00a39.99",
-   "per": "\u00a39.99 per kit"
+   "price": "£9.99",
+   "per": "£9.99 per kit",
+   "featured": false
   },
   {
    "pid": "7665953669369",
@@ -197,8 +211,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-ak2-pod-kit.jpg?v=1760082319",
    "pack": null,
-   "price": "\u00a39.99",
-   "per": "\u00a39.99 per kit, 10ml liquid included"
+   "price": "£9.99",
+   "per": "£9.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "7651683533049",
@@ -215,8 +230,9 @@
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a2-pod-starter-vape-kit.jpg?v=1770111438",
    "pack": null,
-   "price": "\u00a39.99",
-   "per": "\u00a39.99 per kit, 10ml liquid included"
+   "price": "£9.99",
+   "per": "£9.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "7662089011449",
@@ -233,8 +249,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-pod-kit-or-free-10ml-e-liquid-30229.jpg?v=1745796382",
    "pack": null,
-   "price": "\u00a312.95",
-   "per": "\u00a312.95 per kit, 10ml liquid included"
+   "price": "£12.95",
+   "per": "£12.95 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "8512291078393",
@@ -251,8 +268,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-pro-pod-kit.jpg?v=1770209474",
    "pack": null,
-   "price": "\u00a322.99",
-   "per": "\u00a322.99 per kit, 10ml liquid included"
+   "price": "£22.99",
+   "per": "£22.99 per kit, 10ml liquid included",
+   "featured": false
   },
   {
    "pid": "9272918737145",
@@ -269,8 +287,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell_crown_m_pod_kit.webp?v=1792684784",
    "pack": "3 x ",
-   "price": "\u00a39.99",
-   "per": "\u00a39.99 per kit"
+   "price": "£9.99",
+   "per": "£9.99 per kit",
+   "featured": false
   },
   {
    "pid": "8174537244921",
@@ -287,8 +306,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-pod-vape-kit-or-free-10ml-e-liquid-included-15594.jpg?v=1745792520",
    "pack": null,
-   "price": "\u00a319.99",
-   "per": "\u00a319.99 per kit, 10ml liquid included"
+   "price": "£19.99",
+   "per": "£19.99 per kit, 10ml liquid included",
+   "featured": false
   }
  ],
  "table_pods": [
@@ -307,8 +327,10 @@
    "rc": "2",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Viscore-Pro-Plus-Pods.jpg?v=1757861457",
    "pack": null,
-   "price": "\u00a34.99",
-   "per": "\u00a30.42 per ml (12ml)"
+   "price": "£4.99",
+   "per": "£0.42 per ml (12ml)",
+   "featured": true,
+   "featured_block": "block 1 (kit + pods)"
   },
   {
    "pid": "8699697725689",
@@ -325,8 +347,10 @@
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-viscore-8000-puffs-prefilled-vape-pods-20mg-or-uwell-vape-uk-90496.jpg?v=1745790424",
    "pack": null,
-   "price": "\u00a35.49",
-   "per": "\u00a30.46 per ml (12ml)"
+   "price": "£5.49",
+   "per": "£0.46 per ml (12ml)",
+   "featured": true,
+   "featured_block": "block 3 (kit + pods)"
   },
   {
    "pid": "8182354673913",
@@ -343,8 +367,10 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3-replacement-pods-or-pack-of-4-86087.jpg?v=1745792352",
    "pack": "pack of 4",
-   "price": "\u00a310.99",
-   "per": "\u00a32.75 per pod"
+   "price": "£10.99",
+   "per": "£2.75 per pod",
+   "featured": true,
+   "featured_block": "block 4"
   },
   {
    "pid": "8400295297273",
@@ -361,8 +387,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-replacement-pods-or-pack-of-4-68855.jpg?v=1745791614",
    "pack": "pack of 4",
-   "price": "\u00a39.99",
-   "per": "\u00a32.50 per pod"
+   "price": "£9.99",
+   "per": "£2.50 per pod",
+   "featured": false
   },
   {
    "pid": "10097234936057",
@@ -379,8 +406,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G3-GPP-Pods-XL.jpg?v=1790926824",
    "pack": null,
-   "price": "\u00a310.99",
-   "per": "\u00a32.75 per pod"
+   "price": "£10.99",
+   "per": "£2.75 per pod",
+   "featured": false
   },
   {
    "pid": "8931974152441",
@@ -397,8 +425,10 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-GPP-Replacement-Pods.jpg?v=1757861428",
    "pack": null,
-   "price": "\u00a39.99",
-   "per": "\u00a32.50 per pod"
+   "price": "£9.99",
+   "per": "£2.50 per pod",
+   "featured": true,
+   "featured_block": "block 5 (kit + pods)"
   },
   {
    "pid": "8479739805945",
@@ -415,8 +445,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3s-replacement-pods-74851.jpg?v=1745791078",
    "pack": "4 x ",
-   "price": "\u00a39.99",
-   "per": "\u00a32.50 per pod"
+   "price": "£9.99",
+   "per": "£2.50 per pod",
+   "featured": false
   },
   {
    "pid": "7699270500601",
@@ -433,8 +464,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G2-Pods.jpg?v=1790915268",
    "pack": null,
-   "price": "\u00a34.99",
-   "per": "\u00a34.99 per pack"
+   "price": "£4.99",
+   "per": "£4.99 per pack",
+   "featured": false
   },
   {
    "pid": "8400305389817",
@@ -451,8 +483,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Whirl-S2-Replacement-Pod.jpg?v=1790917546",
    "pack": "pack of 2",
-   "price": "\u00a33.99",
-   "per": "\u00a32.00 per pod"
+   "price": "£3.99",
+   "per": "£2.00 per pod",
+   "featured": false
   },
   {
    "pid": "8182358409465",
@@ -469,8 +502,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-m-replacement-empty-pod-cartridges.jpg?v=1790589324",
    "pack": "2x ",
-   "price": "From \u00a34.99",
-   "per": "\u00a32.50 to \u00a32.75 per pod"
+   "price": "From £4.99",
+   "per": "£2.50 to £2.75 per pod",
+   "featured": false
   }
  ],
  "table_coils_tanks": [
@@ -489,8 +523,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-coils-pack-of-4-58570.jpg?v=1745794875",
    "pack": "pack of 4",
-   "price": "\u00a37.99",
-   "per": "\u00a32.00 per coil"
+   "price": "£7.99",
+   "per": "£2.00 per coil",
+   "featured": false
   },
   {
    "pid": "7886767227129",
@@ -507,8 +542,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-2-sub-ohm-tank-or-uwell-vape-tanks-uk-58433.jpg?v=1745793861",
    "pack": null,
-   "price": "\u00a312.99",
-   "per": "\u00a312.99 per tank"
+   "price": "£12.99",
+   "per": "£12.99 per tank",
+   "featured": false
   },
   {
    "pid": "7723548049657",
@@ -525,8 +561,9 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-2-replacement-coils-pack-of-2-68274.jpg?v=1745794879",
    "pack": "pack of 2",
-   "price": "\u00a38.99",
-   "per": "\u00a34.50 per coil"
+   "price": "£8.99",
+   "per": "£4.50 per coil",
+   "featured": false
   },
   {
    "pid": "7698441011449",
@@ -543,15 +580,16 @@
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-replacement-coils-or-0-6ohm-or-1-8ohm-or-pack-of-4-16600.jpg?v=1745795404",
    "pack": "pack of 4",
-   "price": "\u00a36.99",
-   "per": "\u00a31.75 per coil"
+   "price": "£6.99",
+   "per": "£1.75 per coil",
+   "featured": false
   }
  ],
  "all_ranked": [
   {
    "pid": "8941033881849",
    "units": 685,
-   "title": "Uwell Viscore Pro+ 40K \u2013 Best 40K Vape",
+   "title": "Uwell Viscore Pro+ 40K – Best 40K Vape",
    "handle": "uwell-viscore-pro-40k",
    "status": "ACTIVE",
    "inv": 8458,
@@ -562,7 +600,9 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"4.62\"}",
    "rc": "13",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Viscore-Pro-Plus-40K-Prefilled-Vape-Kit.jpg?v=1757861456",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 1 (kit + pods)"
   },
   {
    "pid": "8941074743545",
@@ -578,7 +618,9 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "2",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Viscore-Pro-Plus-Pods.jpg?v=1757861457",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 1 (kit + pods)"
   },
   {
    "pid": "8479782797561",
@@ -594,7 +636,9 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3s-vape-pod-kit-26326.jpg?v=1745791076",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 2"
   },
   {
    "pid": "8699697725689",
@@ -610,7 +654,9 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-viscore-8000-puffs-prefilled-vape-pods-20mg-or-uwell-vape-uk-90496.jpg?v=1745790424",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 3 (kit + pods)"
   },
   {
    "pid": "8182354673913",
@@ -626,7 +672,9 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3-replacement-pods-or-pack-of-4-86087.jpg?v=1745792352",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": true,
+   "featured_block": "block 4"
   },
   {
    "pid": "10054416728313",
@@ -642,7 +690,9 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G5-Pod-Kit.jpg?v=1790926279",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 5 (kit + pods)"
   },
   {
    "pid": "8400295297273",
@@ -658,7 +708,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-replacement-pods-or-pack-of-4-68855.jpg?v=1745791614",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "10097234936057",
@@ -674,12 +725,13 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G3-GPP-Pods-XL.jpg?v=1790926824",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8051467682041",
    "units": 15,
-   "title": "Uwell Caliburn AK3 Pod Kit Price | \u00a311.49 | Free 10ml",
+   "title": "Uwell Caliburn AK3 Pod Kit Price | £11.49 | Free 10ml",
    "handle": "uwell-caliburn-ak3-pod-kit",
    "status": "ACTIVE",
    "inv": 7971,
@@ -690,7 +742,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-ak3-pod-kit-price-or-uwell-uk-96080.jpg?v=1745793210",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8931974152441",
@@ -706,7 +759,9 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-GPP-Replacement-Pods.jpg?v=1757861428",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 5 (kit + pods)"
   },
   {
    "pid": "8479739805945",
@@ -722,7 +777,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3s-replacement-pods-74851.jpg?v=1745791078",
-   "pack": "4 x "
+   "pack": "4 x ",
+   "featured": false
   },
   {
    "pid": "8051460866297",
@@ -738,7 +794,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a3-pod-kit.jpg?v=1787168285",
-   "pack": "8 x "
+   "pack": "8 x ",
+   "featured": false
   },
   {
    "pid": "7723551686905",
@@ -754,7 +811,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-coils-pack-of-4-58570.jpg?v=1745794875",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7665857757433",
@@ -770,7 +828,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-g2-pod-kit-or-free-10ml-e-liquid-24581.jpg?v=1745796137",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7886767227129",
@@ -786,7 +845,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-2-sub-ohm-tank-or-uwell-vape-tanks-uk-58433.jpg?v=1745793861",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8508120269049",
@@ -802,7 +862,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-lite-vape-kit-with-free-10ml-e-liquid.jpg?v=1788495319",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7695947038969",
@@ -818,7 +879,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Valyrian-3-Tank.jpg?v=1790915131",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8052673020153",
@@ -834,7 +896,8 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-az3-pod-vape-kit-for-sale-or-free-10ml-e-liquid-61099.jpg?v=1745793084",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "7723548049657",
@@ -850,7 +913,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-2-replacement-coils-pack-of-2-68274.jpg?v=1745794879",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "8687675932921",
@@ -866,7 +930,9 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-viscore-8000-puffs-prefilled-pod-kit.jpg?v=1788495095",
-   "pack": null
+   "pack": null,
+   "featured": true,
+   "featured_block": "block 3 (kit + pods)"
   },
   {
    "pid": "9332091584761",
@@ -882,7 +948,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G5-Lite-Se-Vape-Kit.jpg?v=1790925948",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7665953669369",
@@ -898,7 +965,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-ak2-pod-kit.jpg?v=1760082319",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7651683533049",
@@ -914,7 +982,8 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a2-pod-starter-vape-kit.jpg?v=1770111438",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7699270500601",
@@ -930,7 +999,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G2-Pods.jpg?v=1790915268",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7662089011449",
@@ -946,7 +1016,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-pod-kit-or-free-10ml-e-liquid-30229.jpg?v=1745796382",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8400305389817",
@@ -962,12 +1033,13 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Whirl-S2-Replacement-Pod.jpg?v=1790917546",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "8101273338105",
    "units": 3,
-   "title": "Uwell Valyrian 2 Sub Ohm Tank | Just 19.99\u00a3 Only",
+   "title": "Uwell Valyrian 2 Sub Ohm Tank | Just 19.99£ Only",
    "handle": "uwell-valyrian-2-tank",
    "status": "ACTIVE",
    "inv": 0,
@@ -978,7 +1050,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-2-sub-ohm-tank-or-just-19-99pound-only-16954.jpg?v=1745792855",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8512291078393",
@@ -994,7 +1067,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-pro-pod-kit.jpg?v=1770209474",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7698441011449",
@@ -1010,7 +1084,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-replacement-coils-or-0-6ohm-or-1-8ohm-or-pack-of-4-16600.jpg?v=1745795404",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8182358409465",
@@ -1026,7 +1101,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-m-replacement-empty-pod-cartridges.jpg?v=1790589324",
-   "pack": "2x "
+   "pack": "2x ",
+   "featured": false
   },
   {
    "pid": "8301198999801",
@@ -1042,7 +1118,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-2-pro-replacement-tank.jpg?v=1787496913",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "9272918737145",
@@ -1058,7 +1135,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell_crown_m_pod_kit.webp?v=1792684784",
-   "pack": "3 x "
+   "pack": "3 x ",
+   "featured": false
   },
   {
    "pid": "8174537244921",
@@ -1074,7 +1152,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g3-pod-vape-kit-or-free-10ml-e-liquid-included-15594.jpg?v=1745792520",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "10143472189689",
@@ -1090,7 +1169,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Nunchaku-2-Vape-Kits.jpg?v=1790927449",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8988398420217",
@@ -1106,7 +1186,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G4-Pro-Koko-Pod-Vape-Kit.jpg?v=1790923434",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7723524260089",
@@ -1122,7 +1203,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g2-replacement-coils-pack-of-4.jpg?v=1789099250",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8457600860409",
@@ -1138,7 +1220,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-4-vape-kit-39424.jpg?v=1745791334",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "7699228000505",
@@ -1154,7 +1237,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-valyrian-replacement-pod-52749.jpg?v=1745795321",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "7699216072953",
@@ -1170,7 +1254,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-a2-replacement-pods.jpg?v=1770121409",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8709169709305",
@@ -1186,7 +1271,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-dillon-em-replacement-pod-cartridge-pack-of-4--19585.jpg?v=1754836599",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8709159518457",
@@ -1202,7 +1288,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g2-coil-1-2ohm-mesh-replacement-coils-or-pack-of-4-94966.jpg?v=1745790251",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "15295699386617",
@@ -1218,7 +1305,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Viscore_Neo_6000_Prefilled_Pods.webp?v=1791658966",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9272987320569",
@@ -1234,7 +1322,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_GK3_Kit.png?v=1792684971",
-   "pack": "8 x "
+   "pack": "8 x ",
+   "featured": false
   },
   {
    "pid": "15295654494457",
@@ -1250,7 +1339,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Viscore_Neo_6K_Prefilled_Pod_Kit.webp?v=1791658131",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9276084257017",
@@ -1266,7 +1356,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Sculptor_Kit.webp?v=1792685402",
-   "pack": "77 x "
+   "pack": "77 x ",
+   "featured": false
   },
   {
    "pid": "7696496132345",
@@ -1282,7 +1373,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-v-vape-tank-uwell-replacement-tank.jpg?v=1787497068",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9286688080121",
@@ -1298,7 +1390,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_G4_Classic_Vape_Pod_Kit.png?v=1790925589",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9280932872441",
@@ -1314,7 +1407,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Marsu_Pod_Kit.png?v=1772637938",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9274924859641",
@@ -1330,7 +1424,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_Tenant_KOKO_Kit.webp?v=1792685313",
-   "pack": "7 x "
+   "pack": "7 x ",
+   "featured": false
   },
   {
    "pid": "9274774651129",
@@ -1346,7 +1441,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Whirl_F_Pod_Kit.png?v=1772473217",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9332155318521",
@@ -1362,7 +1458,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_G5_Lite_Pod_Vape_Kit.webp?v=1792678952",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8929363689721",
@@ -1378,7 +1475,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G3-Pro-KOKO-Vape-Pod-Kit.jpg?v=1756607215",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8924913008889",
@@ -1394,7 +1492,8 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"1.0\"}",
    "rc": "1",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G4-Vape-Kit.jpg?v=1756607179",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7723527995641",
@@ -1410,7 +1509,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-3-coils-pack-of-4.jpg?v=1789098660",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7697933205753",
@@ -1426,7 +1526,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-nunchaku-coils-pack-of-4.jpg?v=1789098760",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8513219363065",
@@ -1442,7 +1543,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-koko-pod-kit-91577.jpg?v=1790917851",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9008493822201",
@@ -1458,7 +1560,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-g4-mini-pod-kit.jpg?v=1790923562",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9274862043385",
@@ -1474,7 +1577,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_GZ2_Kit.webp?v=1792685115",
-   "pack": "5 x "
+   "pack": "5 x ",
+   "featured": false
   },
   {
    "pid": "8974046757113",
@@ -1490,7 +1594,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell-Caliburn-G3-Lite-Koko-kit.jpg?v=1760992932",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "10217620209913",
@@ -1506,7 +1611,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Aeglos_P1_Pod_Kit.webp?v=1790927605",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "9274900906233",
@@ -1522,7 +1628,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_Ironfist_L_Kit.webp?v=1792685213",
-   "pack": "75 x "
+   "pack": "75 x ",
+   "featured": false
   },
   {
    "pid": "7723532419321",
@@ -1538,7 +1645,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-iv-coils-pack-of-4-or-check-price-92140.jpg?v=1745794887",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7723539038457",
@@ -1554,7 +1662,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-v-replacement-coils-pack-of-4-28890.jpg?v=1745794882",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8671505023225",
@@ -1570,7 +1679,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a2s-pod-kit-or-free-10ml-e-liquid-86882.jpg?v=1743772875",
-   "pack": "1x "
+   "pack": "1x ",
+   "featured": false
   },
   {
    "pid": "8512415629561",
@@ -1586,7 +1696,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Kalmia_Kit.webp?v=1792685500",
-   "pack": "109 x "
+   "pack": "109 x ",
+   "featured": false
   },
   {
    "pid": "8458806493433",
@@ -1602,7 +1713,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-x-pod-vape-kit-59691.jpg?v=1745791327",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "8457620095225",
@@ -1618,7 +1730,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-d-pod-vape-kit-82315.jpg?v=1745791332",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "8454819381497",
@@ -1634,7 +1747,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-iv-sub-ohm-tank.jpg?v=1787496984",
-   "pack": "1x "
+   "pack": "1x ",
+   "featured": false
   },
   {
    "pid": "7699221053689",
@@ -1650,7 +1764,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/caliburn-g-and-g2-replacement-coils-by-uwell-or-pack-of-4-20946.jpg?v=1745795324",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8051469451513",
@@ -1666,7 +1781,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-x-pod-kit-for-sale-or-uwell-vape-uk-17275.jpg?v=1745793205",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8989398106361",
@@ -1682,7 +1798,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/fantasy-pink--uwell-caliburn-g4-pro-pod-vape-kit_1.jpg?v=1772821130",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7664918298873",
@@ -1698,7 +1815,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-gk2-pod-kit-with-free-10ml-e-liquid.jpg?v=1788495484",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7699178389753",
@@ -1714,7 +1832,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/valyrian-coils-2-pack-by-uwell.jpg?v=1789099046",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "7698420433145",
@@ -1730,7 +1849,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-crown-replacement-pods-34522.jpg?v=1745795410",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7700847886585",
@@ -1746,7 +1866,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-pod-coils.jpg?v=1789098713",
-   "pack": "4 x "
+   "pack": "4 x ",
+   "featured": false
   },
   {
    "pid": "8458787979513",
@@ -1762,12 +1883,13 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-dillon-em-pod-vape-kit-14512.jpg?v=1745791330",
-   "pack": "6 x "
+   "pack": "6 x ",
+   "featured": false
   },
   {
    "pid": "7699228360953",
    "units": 0,
-   "title": "Uwell Caliburn Pod Pack \u2013 \u00a311.95 for Four Pods",
+   "title": "Uwell Caliburn Pod Pack – £11.95 for Four Pods",
    "handle": "uwell-caliburn-pod-pack",
    "status": "ACTIVE",
    "inv": 3994,
@@ -1778,7 +1900,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-pod-pack-16950.jpg?v=1745795320",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7677988765945",
@@ -1794,7 +1917,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-popreel-p1-pod-kit-or-online-vape-kit-store-cheap-93425.jpg?v=1745795939",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7699258507513",
@@ -1810,7 +1934,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-3-replacement-coils-or-pack-of-2-38073.jpg?v=1745795299",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "8174414430457",
@@ -1826,7 +1951,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-tenet-vape-kit-or-best-price-89325.jpg?v=1745792523",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7699389448441",
@@ -1842,7 +1968,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-whirl-t1-replacement-pod-70666.jpg?v=1745795250",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "9281064599801",
@@ -1858,7 +1985,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Uwell_Caliburn_Ironfist_L_Empty_Replacement.png?v=1772639024",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7723558011129",
@@ -1874,7 +2002,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-whirl-s-coil-0-8ohm-pack-of-4.jpg?v=1789098964",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7699142344953",
@@ -1890,7 +2019,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/yearn-neat-2-replacement-pods-by-uwell-25201.jpg?v=1743768962",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "7699067076857",
@@ -1906,7 +2036,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-amulet-pod-pack-71407.jpg?v=1745795385",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "7723515773177",
@@ -1922,7 +2053,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-aeglos-replacement-coils-or-pack-of-4-91020.png?v=1743769395",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7699145359609",
@@ -1938,7 +2070,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/caliburn-g-replacement-pods-by-uwell-68446.jpg?v=1745795368",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8366901657849",
@@ -1954,7 +2087,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-explorer-pod-vape-kit-or-free-10ml-e-liquids-92113.jpg?v=1745791856",
-   "pack": "2 x "
+   "pack": "2 x ",
+   "featured": false
   },
   {
    "pid": "8301187629305",
@@ -1970,7 +2104,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-2-replacement-tank-uk-or-best-price-74713.jpg?v=1743771559",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "8182367584505",
@@ -1986,7 +2121,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-pa-replacement-coils-pack-of-4.jpg?v=1789098916",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7661939556601",
@@ -2002,7 +2138,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-caliburn-g-pod-kit-price-or-best-vape-kit-store-94966.jpg?v=1745796406",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8182256959737",
@@ -2018,7 +2155,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-crown-b-empty-pod-cartridges-or-pack-of-2-74456.jpg?v=1745792359",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "8174387331321",
@@ -2034,7 +2172,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-x-empty-replacement-pods-or-pack-of-2-67113.jpg?v=1745792526",
-   "pack": "pack of 2"
+   "pack": "pack of 2",
+   "featured": false
   },
   {
    "pid": "8174593638649",
@@ -2050,7 +2189,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-a2s-side-fill-replacement-pods-or-pack-of-4-51909.jpg?v=1745792515",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "8182251651321",
@@ -2066,7 +2206,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-and-ironfist-l-empty-pod-cartridge-2-5ml-2pcspack-29339.jpg?v=1743771422",
-   "pack": "2pcs"
+   "pack": "2pcs",
+   "featured": false
   },
   {
    "pid": "8366915289337",
@@ -2082,7 +2223,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-caliburn-explorer-replacement-pods-or-pack-of-2-37469.jpg?v=1745791855",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7655244726521",
@@ -2098,7 +2240,8 @@
    "rating": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"5.0\"}",
    "rc": "11",
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-gabriel-respect-3500-puffs-69352.jpg?v=1743768019",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "8070408601849",
@@ -2114,7 +2257,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-popreel-n1-pod-kit-or-uwell-vape-uk-18126.jpg?v=1745792933",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   },
   {
    "pid": "7697339220217",
@@ -2130,7 +2274,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-valyrian-3-kit-uwell-vape-uk.jpg?v=1788495551",
-   "pack": null
+   "pack": null,
+   "featured": false
   },
   {
    "pid": "7697931796729",
@@ -2146,7 +2291,8 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/uwell-aeglos-p1-replacement-coils-or-pack-of-4-36273.jpg?v=1745795489",
-   "pack": "pack of 4"
+   "pack": "pack of 4",
+   "featured": false
   },
   {
    "pid": "7678577213689",
@@ -2162,7 +2308,16 @@
    "rating": null,
    "rc": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/uwell-aeglos-h2-pod-kit-32051.jpg?v=1743768612",
-   "pack": "1 x "
+   "pack": "1 x ",
+   "featured": false
   }
- ]
+ ],
+ "featured_blocks_26oct": {
+  "1": "Uwell Viscore Pro+ 40K Kit and Prefilled Pods",
+  "2": "Uwell Caliburn A3S Pod Kit",
+  "3": "Uwell Viscore 8000 Kit and Prefilled Pods",
+  "4": "Uwell Caliburn A3 Replacement Pods, Pack of 4",
+  "5": "Uwell Caliburn G5 Kit and Uwell Caliburn GPP Pods"
+ },
+ "restructured": "2026-10-26"
 }
