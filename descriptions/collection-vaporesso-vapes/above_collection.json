@@ -1,0 +1,131 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop the full "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " range in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": pod kits, prefilled kits, replacement pods, GTi coils and mods, from £2.59."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from the "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso XROS 3 Mini",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £9.99, the "
+    },
+    {
+     "type": "text",
+     "value": "XROS 5",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", "
+    },
+    {
+     "type": "text",
+     "value": "XROS 6",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " and "
+    },
+    {
+     "type": "text",
+     "value": "XROS Pro",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " pod kits, the "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso Dojo Blast 30K Pro",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " prefilled kit at £9.99 with its "
+    },
+    {
+     "type": "text",
+     "value": "Dojo Blast 10K pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", the "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso LUXE X",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " kits and pods, "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso Armour",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " mods and "
+    },
+    {
+     "type": "text",
+     "value": "GTi coils",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " for the iTank range."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Every product comes through UK distribution, so it is genuine Vaporesso stock, with next day delivery and free delivery over £40. Below the products you will find every kit, pod and coil ranked by what sold most, and the pods and coils each kit takes."
+    }
+   ]
+  }
+ ]
+}

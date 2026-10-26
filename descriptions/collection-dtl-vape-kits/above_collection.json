@@ -1,0 +1,95 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop "
+    },
+    {
+     "type": "text",
+     "value": "DTL vape kits",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": sub ohm mod kits and direct to lung pod kits from £19.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from the "
+    },
+    {
+     "type": "text",
+     "value": "Vaporesso Armour Max",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £47.99, the "
+    },
+    {
+     "type": "text",
+     "value": "Geekvape Aegis Legend 5",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", the "
+    },
+    {
+     "type": "text",
+     "value": "VooPoo Argus GT II",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £23.99, the "
+    },
+    {
+     "type": "text",
+     "value": "SMOK Mag V8",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " and the "
+    },
+    {
+     "type": "text",
+     "value": "Aspire Veynom EX",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ". Mod kits take external 18650 or 21700 batteries, sold separately."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Run them on 70/30 shortfill e-liquid at 3mg or 6mg rather than nic salts. Genuine UK stock through authorised distribution, next day delivery, free over £40. The guide below explains DTL against MTL and RDL, and which coil and wattage to start on."
+    }
+   ]
+  }
+ ]
+}

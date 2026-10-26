@@ -1,0 +1,113 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop "
+    },
+    {
+     "type": "text",
+     "value": "prefilled vape pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " for every pod kit in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ", from £1.49 a pod."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Ultra Plus 25000 refill pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99 a twin pack, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Max Plus 6000 pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " from £6.99, "
+    },
+    {
+     "type": "text",
+     "value": "Crystal Pro CP 10K pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.99, "
+    },
+    {
+     "type": "text",
+     "value": "IVG Pro 12 refill pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £5.99, "
+    },
+    {
+     "type": "text",
+     "value": "Lost Mary Nera 15K prefilled pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £5.99, "
+    },
+    {
+     "type": "text",
+     "value": "RELX MaxGo pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £4.99 and "
+    },
+    {
+     "type": "text",
+     "value": "Solo Bar refill pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.79, each in the flavours of its own kit."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Pods are never cross-compatible between brands, so match the pod to the kit you own. Every pack uses the 2ml pod and refill container format UK rules require. Genuine UK stock, next day delivery, free over £40. The tables below rank every pod by sales and show which kit it fits."
+    }
+   ]
+  }
+ ]
+}

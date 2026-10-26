@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "cherry vape",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " flavour in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": cherry ice, cherry cola, fizzy cherry and black cherry across kits, prefilled pods and e-liquids, from £2.59."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from "
+    },
+    {
+     "type": "text",
+     "value": "Bar Juice 5000 Strawberry Cherry Raspberry 10ml",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.99, "
+    },
+    {
+     "type": "text",
+     "value": "Elux Legend Cherry Sour Raspberry 10ml",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.59, "
+    },
+    {
+     "type": "text",
+     "value": "Hayati Pro Ultra Plus 25000 Cherry Berry pods",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99, "
+    },
+    {
+     "type": "text",
+     "value": "Kingston Cherry Chill 100ml shortfill",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £5.99, "
+    },
+    {
+     "type": "text",
+     "value": "RELX MaxGo Combo 33K Strawberry Raspberry Cherry",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £7.99 and "
+    },
+    {
+     "type": "text",
+     "value": "Elf Bar Elfliq Cherry Cola 10ml",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at £2.59."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Only in-stock cherry lines show here, ranked by what sold most. Genuine UK stock, next day delivery, free over £40. The guide below compares cherry ice, cherry cola and fizzy cherry and tells you which strength to pick."
+    }
+   ]
+  }
+ ]
+}
