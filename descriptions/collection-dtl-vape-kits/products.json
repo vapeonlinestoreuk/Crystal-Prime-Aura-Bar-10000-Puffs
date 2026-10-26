@@ -1,577 +1,357 @@
 {
- "sorted_by": "net_items_sold last 120 days (ShopifyQL, 24 Oct 2026), then price ascending",
- "tables": {
-  "external_battery_kits": [
-   {
-    "handle": "vaporesso-armour-max-vape-kit",
-    "clean": "Vaporesso Armour Max Vape Kit",
-    "status": "ACTIVE",
-    "inv": 9967,
-    "price": 47.99,
-    "price_max": 47.99,
-    "cap": 72.99,
-    "rating": "3.0",
-    "rcount": 2,
-    "units": 10,
-    "power": 220
-   },
-   {
-    "handle": "geekvape-aegis-legend-5-vape-kit",
-    "clean": "Geekvape Aegis Legend 5 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 8983,
-    "price": 47.99,
-    "price_max": 47.99,
-    "cap": 54.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 5,
-    "power": 200
-   },
-   {
-    "handle": "aspire-veynom-ex-vape-kit",
-    "clean": "Aspire Veynom EX Vape Kit",
-    "status": "ACTIVE",
-    "inv": 9000,
-    "price": 19.99,
-    "price_max": 19.99,
-    "cap": 21.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "uwell-aeglos-p1-pod-mod-kit",
-    "clean": "Uwell Aeglos P1 Pod Mod Kit",
-    "status": "ACTIVE",
-    "inv": 6000,
-    "price": 19.99,
-    "price_max": 19.99,
-    "cap": 21.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "voopoo-argus-gt-2-kit",
-    "clean": "VooPoo Argus GT II Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6000,
-    "price": 23.99,
-    "price_max": 23.99,
-    "cap": 49.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 200
-   },
-   {
-    "handle": "smok-mag-v8-vape-kit",
-    "clean": "SMOK Mag V8 Mod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 5000,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": 29.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 70
-   },
-   {
-    "handle": "vaporesso-armour-gs-pod-kit",
-    "clean": "Vaporesso Armour GS Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 5992,
-    "price": 25.99,
-    "price_max": 25.99,
-    "cap": 26.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "voopoo-drag-x2-kit",
-    "clean": "Voopoo Drag X2 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 18528,
-    "price": 26.99,
-    "price_max": 26.99,
-    "cap": 31.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "freemax-maxus-100w-vape-kit",
-    "clean": "Freemax Maxus 100W Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6996,
-    "price": 29.99,
-    "price_max": 29.99,
-    "cap": 34.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "uwell-nunchaku-2-vape-kit",
-    "clean": "Uwell Nunchaku 2 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 4999,
-    "price": 34.99,
-    "price_max": 34.99,
-    "cap": 39.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "voopoo-drag-x3-kit",
-    "clean": "VooPoo Drag X3 Kit",
-    "status": "ACTIVE",
-    "inv": 7991,
-    "price": 38.99,
-    "price_max": 38.99,
-    "cap": 42.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "innokin-force-kroma-217-z-vape-kit",
-    "clean": "Innokin Kroma 217 Z Force Vape Kit",
-    "status": "ACTIVE",
-    "inv": 725,
-    "price": 39.99,
-    "price_max": 39.99,
-    "cap": null,
-    "rating": "5.0",
-    "rcount": 1,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "voopoo-drag-5-vape-kit",
-    "clean": "VooPoo Drag 5 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 7991,
-    "price": 45.99,
-    "price_max": 45.99,
-    "cap": 48.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 177
-   },
-   {
-    "handle": "smok-scar-18-vape-kit",
-    "clean": "SMOK Scar 18 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 1369,
-    "price": 47.19,
-    "price_max": 47.19,
-    "cap": null,
-    "rating": "1.0",
-    "rcount": 1,
-    "units": 0,
-    "power": 230
-   },
-   {
-    "handle": "geekvape-aegis-legend-3-kit",
-    "clean": "GeekVape Aegis Legend 3 Kit",
-    "status": "ACTIVE",
-    "inv": 6104,
-    "price": 52.99,
-    "price_max": 52.99,
-    "cap": 54.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 200
-   }
-  ],
-  "built_in_battery_dtl_kits": [
-   {
-    "handle": "smok-nord-4-pod-kit",
-    "clean": "Smok Nord 4 Pod Kit",
-    "status": "ACTIVE",
-    "inv": 7989,
-    "price": 21.95,
-    "price_max": 21.95,
-    "cap": null,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "voopoo-argus-e40-pod-kit",
-    "clean": "Voopoo Argus E40 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6981,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": 28.0,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 40
-   },
-   {
-    "handle": "smok-nord-6-vape-kit",
-    "clean": "Smok Nord 6 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 8996,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": 34.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "geekvape-aegis-boost-3-pod-vape-kit",
-    "clean": "Geekvape Aegis Boost 3 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 2659,
-    "price": 25.99,
-    "price_max": 25.99,
-    "cap": 27.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 60
-   },
-   {
-    "handle": "smok-nord-5-vape-kit",
-    "clean": "Smok Nord 5 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 12986,
-    "price": 26.99,
-    "price_max": 26.99,
-    "cap": 29.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "geekvape-digi-max-pod-mod-kit",
-    "clean": "Geekvape Digi Max Pod Mod Kit",
-    "status": "ACTIVE",
-    "inv": 5326,
-    "price": 27.49,
-    "price_max": 27.49,
-    "cap": 30.49,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "geekvape-aegis-force-vape-kit",
-    "clean": "Geekvape Aegis Force Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6999,
-    "price": 29.99,
-    "price_max": 29.99,
-    "cap": 34.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "voopoo-argus-pro-2-pod-kit",
-    "clean": "VooPoo Argus Pro 2 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 7319,
-    "price": 29.99,
-    "price_max": 29.99,
-    "cap": 32.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "oxva-v-prime-kit-pod-kit",
-    "clean": "Oxva V Prime Kit Pod Kit 2600mAh",
-    "status": "ACTIVE",
-    "inv": 2980,
-    "price": 29.99,
-    "price_max": 29.99,
-    "cap": null,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 60
-   },
-   {
-    "handle": "voopoo-drag-s2-pod-kit",
-    "clean": "VooPoo Drag S2 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 19422,
-    "price": 30.99,
-    "price_max": 30.99,
-    "cap": 35.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 60
-   },
-   {
-    "handle": "vaporesso-luxe-xr-max-2-kit",
-    "clean": "Vaporesso LUXE XR Max 2 kit",
-    "status": "ACTIVE",
-    "inv": 8986,
-    "price": 32.99,
-    "price_max": 32.99,
-    "cap": 36.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "zelos-3-aspire-vape-kit",
-    "clean": "Aspire Zelos 3 Vape kit",
-    "status": "ACTIVE",
-    "inv": 2129,
-    "price": 37.99,
-    "price_max": 37.99,
-    "cap": null,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 80
-   },
-   {
-    "handle": "geekvape-aegis-mini-5",
-    "clean": "Geekvape Aegis Mini 5 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6999,
-    "price": 44.99,
-    "price_max": 44.99,
-    "cap": 49.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "vaporesso-armour-ultra-vape",
-    "clean": "Vaporesso Armour Ultra Vape Kit",
-    "status": "ACTIVE",
-    "inv": 7991,
-    "price": 45.99,
-    "price_max": 45.99,
-    "cap": 52.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 100
-   },
-   {
-    "handle": "voopoo-drag-6-vape-kit",
-    "clean": "VooPoo Drag 6 Vape Kit",
-    "status": "ACTIVE",
-    "inv": 7988,
-    "price": 46.99,
-    "price_max": 46.99,
-    "cap": 49.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 220
-   }
-  ],
-  "mtl_rdl_pod_kits_also_in_collection": [
-   {
-    "handle": "vaporesso-xros-pro-pod-kit",
-    "clean": "Vaporesso XROS PRO Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 6822,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": 26.99,
-    "rating": "5.0",
-    "rcount": 3,
-    "units": 26,
-    "power": 30
-   },
-   {
-    "handle": "oxva-xlim-pro-2-pod-vape-kit",
-    "clean": "Oxva Xlim Pro 2 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 15503,
-    "price": 19.99,
-    "price_max": 19.99,
-    "cap": 26.99,
-    "rating": "5.0",
-    "rcount": 2,
-    "units": 20,
-    "power": 30
-   },
-   {
-    "handle": "vaporesso-xros-4-pod-kit",
-    "clean": "Vaporesso XROS 4 Pod Kit",
-    "status": "ACTIVE",
-    "inv": 4421,
-    "price": 17.95,
-    "price_max": 24.99,
-    "cap": 29.99,
-    "rating": "5.0",
-    "rcount": 2,
-    "units": 18,
-    "power": 16
-   },
-   {
-    "handle": "oxva-xlim-go-pod-kit",
-    "clean": "Oxva Xlim Go Pod Starter Kit",
-    "status": "ACTIVE",
-    "inv": 5985,
-    "price": 10.99,
-    "price_max": 10.99,
-    "cap": 13.99,
-    "rating": "3.67",
-    "rcount": 3,
-    "units": 10,
-    "power": 30
-   },
-   {
-    "handle": "oxva-xlim-classic-edition-pod-vape-kit",
-    "clean": "OXVA Xlim Classic Edition Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 3305,
-    "price": 14.99,
-    "price_max": 14.99,
-    "cap": 16.99,
-    "rating": "1.0",
-    "rcount": 1,
-    "units": 6,
-    "power": 30
-   },
-   {
-    "handle": "innokin-ez-watt-kit",
-    "clean": "Innokin EZ.Watt Vape Starter Kit",
-    "status": "ACTIVE",
-    "inv": 13994,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": null,
-    "rating": null,
-    "rcount": 0,
-    "units": 6,
-    "power": 35
-   },
-   {
-    "handle": "dovpo-ayce-pro-pod-kit",
-    "clean": "Dovpo Ayce Pro Vape Kit",
-    "status": "ACTIVE",
-    "inv": 14205,
-    "price": 18.99,
-    "price_max": 18.99,
-    "cap": 19.95,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 30
-   },
-   {
-    "handle": "smok-rpm40-pod-vape-kit",
-    "clean": "Smok RPM40 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 7990,
-    "price": 21.99,
-    "price_max": 21.99,
-    "cap": 25.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 40
-   },
-   {
-    "handle": "uwell-caliburn-g3-pro-pod-kit",
-    "clean": "Uwell Caliburn G3 Pro Pod Kit",
-    "status": "ACTIVE",
-    "inv": 5976,
-    "price": 22.99,
-    "price_max": 22.99,
-    "cap": 26.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 35
-   },
-   {
-    "handle": "argus-g2-pod-vape-kit",
-    "clean": "VooPoo ARGUS G2 Pod Vape Kit",
-    "status": "ACTIVE",
-    "inv": 3985,
-    "price": 23.99,
-    "price_max": 23.99,
-    "cap": 25.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 30
-   },
-   {
-    "handle": "voopoo-argus-p2-vape-pod-kit",
-    "clean": "Voopoo Argus P2 Vape Pod Kit",
-    "status": "ACTIVE",
-    "inv": 3985,
-    "price": 24.99,
-    "price_max": 24.99,
-    "cap": 26.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 30
-   },
-   {
-    "handle": "vaporesso-luxe-x-pro-vape-kit",
-    "clean": "Vaporesso Luxe X Pro Vape Kit",
-    "status": "ACTIVE",
-    "inv": 5418,
-    "price": 29.99,
-    "price_max": 29.99,
-    "cap": 35.99,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 40
-   },
-   {
-    "handle": "innokin-gozee-vape-kit",
-    "clean": "Innokin Gozee Vape Kit",
-    "status": "ACTIVE",
-    "inv": 12987,
-    "price": 35.0,
-    "price_max": 35.0,
-    "cap": 40.0,
-    "rating": null,
-    "rcount": 0,
-    "units": 0,
-    "power": 60
-   }
-  ]
- },
- "featured_blocks": [
-  "vaporesso-armour-max-vape-kit",
-  "geekvape-aegis-legend-5-vape-kit",
-  "voopoo-argus-gt-2-kit",
-  "smok-mag-v8-vape-kit",
-  "aspire-veynom-ex-vape-kit"
+ "source": "ShopifyQL net_items_sold GROUP BY product_id, SINCE -120d UNTIL today, run 26 Oct 2026; price = live min variant price; inventory = totalInventory",
+ "products": [
+  {
+   "handle": "vaporesso-xros-pro-pod-kit",
+   "title": "Vaporesso XROS PRO Pod Vape Kit",
+   "status": "ACTIVE",
+   "units": 26,
+   "price": 24.99,
+   "inventory": 6822
+  },
+  {
+   "handle": "oxva-xlim-pro-2-pod-vape-kit",
+   "title": "Oxva Xlim Pro 2 Pod Vape Kit | Two Free 10ml E-Liquids",
+   "status": "ACTIVE",
+   "units": 22,
+   "price": 19.99,
+   "inventory": 15501
+  },
+  {
+   "handle": "vaporesso-xros-4-pod-kit",
+   "title": "Vaporesso XROS 4 Pod Kit | FREE 10ml E-liquid",
+   "status": "ACTIVE",
+   "units": 18,
+   "price": 17.95,
+   "inventory": 4421
+  },
+  {
+   "handle": "oxva-xlim-go-pod-kit",
+   "title": "Oxva Xlim Go Pod Starter Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 10,
+   "price": 10.99,
+   "inventory": 5985
+  },
+  {
+   "handle": "vaporesso-armour-max-vape-kit",
+   "title": "Vaporesso Armour Max Vape Kit | Free Next Day Delivery",
+   "status": "ACTIVE",
+   "units": 10,
+   "price": 47.99,
+   "inventory": 9967
+  },
+  {
+   "handle": "oxva-xlim-classic-edition-pod-vape-kit",
+   "title": "OXVA Xlim Classic Edition Pod Vape Kit",
+   "status": "ACTIVE",
+   "units": 6,
+   "price": 14.99,
+   "inventory": 3305
+  },
+  {
+   "handle": "innokin-ez-watt-kit",
+   "title": "Innokin EZ.Watt Vape Starter Kit",
+   "status": "ACTIVE",
+   "units": 6,
+   "price": 24.99,
+   "inventory": 13994
+  },
+  {
+   "handle": "freemax-maxus-100w-vape-kit",
+   "title": "Freemax Maxus 100W Vape Kit",
+   "status": "ACTIVE",
+   "units": 5,
+   "price": 29.99,
+   "inventory": 6995
+  },
+  {
+   "handle": "geekvape-aegis-legend-5-vape-kit",
+   "title": "Geekvape Aegis Legend 5 Vape Kit",
+   "status": "ACTIVE",
+   "units": 5,
+   "price": 47.99,
+   "inventory": 8983
+  },
+  {
+   "handle": "voopoo-drag-6-vape-kit",
+   "title": "VooPoo Drag 6 Vape Kit",
+   "status": "ACTIVE",
+   "units": 4,
+   "price": 46.99,
+   "inventory": 7988
+  },
+  {
+   "handle": "smok-nord-6-vape-kit",
+   "title": "Smok Nord 6 Vape Kit",
+   "status": "ACTIVE",
+   "units": 3,
+   "price": 24.99,
+   "inventory": 8996
+  },
+  {
+   "handle": "voopoo-argus-e40-pod-kit",
+   "title": "Voopoo Argus E40 Pod Vape Kit",
+   "status": "ACTIVE",
+   "units": 3,
+   "price": 24.99,
+   "inventory": 6981
+  },
+  {
+   "handle": "vaporesso-luxe-xr-max-2-kit",
+   "title": "Vaporesso LUXE XR Max 2 kit",
+   "status": "ACTIVE",
+   "units": 3,
+   "price": 32.99,
+   "inventory": 8986
+  },
+  {
+   "handle": "smok-nord-4-pod-kit",
+   "title": "Smok Nord 4 Pod Kit | Best Price UK",
+   "status": "ACTIVE",
+   "units": 2,
+   "price": 21.95,
+   "inventory": 7988
+  },
+  {
+   "handle": "uwell-caliburn-g3-pro-pod-kit",
+   "title": "Uwell Caliburn G3 Pro Pod Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 2,
+   "price": 22.99,
+   "inventory": 5976
+  },
+  {
+   "handle": "geekvape-aegis-boost-3-pod-vape-kit",
+   "title": "Geekvape Aegis Boost 3 Pod Vape Kit",
+   "status": "ACTIVE",
+   "units": 2,
+   "price": 25.99,
+   "inventory": 2659
+  },
+  {
+   "handle": "vaporesso-luxe-x-pro-vape-kit",
+   "title": "Vaporesso Luxe X Pro Vape Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 2,
+   "price": 29.99,
+   "inventory": 5418
+  },
+  {
+   "handle": "zelos-3-aspire-vape-kit",
+   "title": "Aspire Zelos 3 Vape kit | Best Online Vape Kit Store",
+   "status": "ACTIVE",
+   "units": 2,
+   "price": 37.99,
+   "inventory": 2129
+  },
+  {
+   "handle": "voopoo-argus-p2-vape-pod-kit",
+   "title": "Voopoo Argus P2 Vape Pod Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 24.99,
+   "inventory": 3985
+  },
+  {
+   "handle": "smok-nord-5-vape-kit",
+   "title": "Smok Nord 5 Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 26.99,
+   "inventory": 12986
+  },
+  {
+   "handle": "voopoo-drag-x2-kit",
+   "title": "Voopoo Drag X2 Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 26.99,
+   "inventory": 18528
+  },
+  {
+   "handle": "geekvape-digi-max-pod-mod-kit",
+   "title": "Geekvape Digi Max Pod Mod Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 27.49,
+   "inventory": 5326
+  },
+  {
+   "handle": "uwell-nunchaku-2-vape-kit",
+   "title": "Uwell Nunchaku 2 Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 34.99,
+   "inventory": 4999
+  },
+  {
+   "handle": "voopoo-drag-x3-kit",
+   "title": "VooPoo Drag X3 Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 38.99,
+   "inventory": 7991
+  },
+  {
+   "handle": "vaporesso-armour-ultra-vape",
+   "title": "Vaporesso Armour Ultra Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 45.99,
+   "inventory": 7991
+  },
+  {
+   "handle": "voopoo-drag-5-vape-kit",
+   "title": "VooPoo Drag 5 Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 45.99,
+   "inventory": 7991
+  },
+  {
+   "handle": "smok-scar-18-vape-kit",
+   "title": "SMOK Scar 18 Vape Kit",
+   "status": "ACTIVE",
+   "units": 1,
+   "price": 47.19,
+   "inventory": 1369
+  },
+  {
+   "handle": "dovpo-ayce-pro-pod-kit",
+   "title": "Dovpo Ayce Pro Vape Kit | Best Vape Kit Store",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 18.99,
+   "inventory": 14205
+  },
+  {
+   "handle": "aspire-veynom-ex-vape-kit",
+   "title": "Aspire Veynom EX Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 19.99,
+   "inventory": 9000
+  },
+  {
+   "handle": "uwell-aeglos-p1-pod-mod-kit",
+   "title": "Uwell Aeglos P1 Pod Mod Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 19.99,
+   "inventory": 6000
+  },
+  {
+   "handle": "smok-rpm40-pod-vape-kit",
+   "title": "Smok RPM40 Pod Vape Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 21.99,
+   "inventory": 7990
+  },
+  {
+   "handle": "argus-g2-pod-vape-kit",
+   "title": "VooPoo ARGUS G2 Pod Vape Kit | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 23.99,
+   "inventory": 3985
+  },
+  {
+   "handle": "voopoo-argus-gt-2-kit",
+   "title": "VooPoo Argus GT II Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 23.99,
+   "inventory": 6000
+  },
+  {
+   "handle": "smok-mag-v8-vape-kit",
+   "title": "SMOK Mag V8 Mod Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 24.99,
+   "inventory": 5000
+  },
+  {
+   "handle": "vaporesso-armour-gs-pod-kit",
+   "title": "Vaporesso Armour GS Pod Vape Kit | Free 10ml Nic Salt",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 25.99,
+   "inventory": 5992
+  },
+  {
+   "handle": "geekvape-aegis-force-vape-kit",
+   "title": "Geekvape Aegis Force Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 29.99,
+   "inventory": 6999
+  },
+  {
+   "handle": "oxva-v-prime-kit-pod-kit",
+   "title": "Oxva V Prime Kit Pod Kit 2600mAh | Free 10ml E-Liquid",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 29.99,
+   "inventory": 2980
+  },
+  {
+   "handle": "voopoo-argus-pro-2-pod-kit",
+   "title": "VooPoo Argus Pro 2 Pod Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 29.99,
+   "inventory": 7319
+  },
+  {
+   "handle": "voopoo-drag-s2-pod-kit",
+   "title": "VooPoo Drag S2 Pod Vape Kit | Best Price",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 30.99,
+   "inventory": 19422
+  },
+  {
+   "handle": "innokin-gozee-vape-kit",
+   "title": "Innokin Gozee Vape Kit | Best Deals",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 35.0,
+   "inventory": 12987
+  },
+  {
+   "handle": "innokin-force-kroma-217-z-vape-kit",
+   "title": "Innokin Kroma 217 Z Force Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 39.99,
+   "inventory": 725
+  },
+  {
+   "handle": "geekvape-aegis-mini-5",
+   "title": "Geekvape Aegis Mini 5 Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 44.99,
+   "inventory": 6999
+  },
+  {
+   "handle": "geekvape-aegis-legend-3-kit",
+   "title": "GeekVape Aegis Legend 3 Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 52.99,
+   "inventory": 6104
+  },
+  {
+   "handle": "geekvape-aegis-max-zeus-vape-kit",
+   "title": "Geekvape Aegis Max Zeus Vape Kit",
+   "status": "ACTIVE",
+   "units": 0,
+   "price": 52.99,
+   "inventory": 5993
+  }
  ]
 }
