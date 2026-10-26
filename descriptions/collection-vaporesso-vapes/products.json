@@ -15,7 +15,9 @@
    "rating": 3.43,
    "rating_count": 7,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Dojo-Blast-30K-Pod-Kit.jpg?v=1790926536",
-   "rank_overall": 3
+   "rank_overall": 3,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "8052659650809",
@@ -30,7 +32,9 @@
    "rating": 4.33,
    "rating_count": 6,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-mini-pod-vape-kit.jpg?v=1770087352",
-   "rank_overall": 7
+   "rank_overall": 7,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8799329026297",
@@ -45,7 +49,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-10k-prefilled-pod-vape-kit.jpg?v=1791222238",
-   "rank_overall": 9
+   "rank_overall": 9,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "8841291268345",
@@ -60,7 +66,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-5-Mini-Pod-Vape-Kit.jpg?v=1749657605",
-   "rank_overall": 11
+   "rank_overall": 11,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "7661821690105",
@@ -75,7 +83,9 @@
    "rating": 3.71,
    "rating_count": 14,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-mini-pod-kit-or-cheap-price-58263.jpg?v=1745796422",
-   "rank_overall": 13
+   "rank_overall": 13,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8939693080825",
@@ -90,7 +100,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Xros-5-Pod-Vape-Kit.jpg?v=1757861442",
-   "rank_overall": 15
+   "rank_overall": 15,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10122965483769",
@@ -105,7 +117,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-6-Pod-Vape-Kit.jpg?v=1790926928",
-   "rank_overall": 16
+   "rank_overall": 16,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8430380876025",
@@ -120,7 +134,9 @@
    "rating": 5.0,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-pro-pod-vape-kit-39978.jpg?v=1745791499",
-   "rank_overall": 17
+   "rank_overall": 17,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7696487284985",
@@ -135,7 +151,9 @@
    "rating": 5.0,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-itank-sub-ohm-tank-vape-online-store.jpg?v=1785288620",
-   "rank_overall": 18
+   "rank_overall": 18,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "8374424371449",
@@ -150,7 +168,9 @@
    "rating": 3.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-mini-vape-pod-kit.jpg?v=1780762924",
-   "rank_overall": 21
+   "rank_overall": 21,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8374392324345",
@@ -165,7 +185,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-pod-kit.jpg?v=1787310819",
-   "rank_overall": 24
+   "rank_overall": 24,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10188212699385",
@@ -180,7 +202,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Dojo_Blast_10K_10mg_Pod_Kit.webp?v=1790927527",
-   "rank_overall": 25
+   "rank_overall": 25,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8799337873657",
@@ -195,7 +219,9 @@
    "rating": 4.29,
    "rating_count": 7,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/dojo-blast-10k-pods.jpg?v=1790920250",
-   "rank_overall": 1
+   "rank_overall": 1,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "7723690492153",
@@ -210,7 +236,9 @@
    "rating": 4.06,
    "rating_count": 16,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso_xros_pods.jpg?v=1790927131",
-   "rank_overall": 2
+   "rank_overall": 2,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8979372179705",
@@ -225,7 +253,9 @@
    "rating": 4.67,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Xros-Corex-3.0-Pods.jpg?v=1790923047",
-   "rank_overall": 4
+   "rank_overall": 4,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8114430247161",
@@ -240,7 +270,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-replacement-pods.jpg?v=1770114865",
-   "rank_overall": 5
+   "rank_overall": 5,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "8758384918777",
@@ -255,7 +287,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-6000-prefilled-pods-or-3-for-pound15-only-60231.jpg?v=1745789976",
-   "rank_overall": 6
+   "rank_overall": 6,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8651935777017",
@@ -270,7 +304,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-pods-or-pack-of-4-53226.jpg?v=1790918116",
-   "rank_overall": 8
+   "rank_overall": 8,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10188213092601",
@@ -285,7 +321,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/dojo-blast-10k-10mg-pods.webp?v=1790927539",
-   "rank_overall": 10
+   "rank_overall": 10,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8629598748921",
@@ -300,7 +338,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-pro-pods.jpg?v=1790917985",
-   "rank_overall": 12
+   "rank_overall": 12,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8758324527353",
@@ -315,7 +355,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-2000-go-prefilled-replacement-pods-or-3-for-pound9-24967.jpg?v=1745789975",
-   "rank_overall": 14
+   "rank_overall": 14,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8668724789497",
@@ -330,7 +372,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-replacement-pods-or-pack-of-4-10397.jpg?v=1745790524",
-   "rank_overall": 20
+   "rank_overall": 20,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8845143441657",
@@ -345,7 +389,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Vibe-Dual-Smart-Replacement-Pods.jpg?v=1750839792",
-   "rank_overall": 23
+   "rank_overall": 23,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8665932759289",
@@ -360,7 +406,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-nano-replacement-pods-or-pack-of-4-97353.jpg?v=1745790537",
-   "rank_overall": 31
+   "rank_overall": 31,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7697938678009",
@@ -375,7 +423,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-GTi-Mesh-Coils.jpg?v=1790915222",
-   "rank_overall": 19
+   "rank_overall": 19,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "7699391217913",
@@ -390,7 +440,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/orca-solo-plus-replacement-coils-by-vaporesso-54269.jpg?v=1745795245",
-   "rank_overall": 22
+   "rank_overall": 22,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8625847337209",
@@ -405,7 +457,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-coils-or-pack-of-5-26650.jpg?v=1790917961",
-   "rank_overall": 27
+   "rank_overall": 27,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9194726457593",
@@ -420,7 +474,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_GTX_V2_Replacement_Coils.jpg?v=1790924659",
-   "rank_overall": 32
+   "rank_overall": 32,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7723717001465",
@@ -435,7 +491,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gt-core-coils.jpg?v=1770124871",
-   "rank_overall": 39
+   "rank_overall": 39,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7723708088569",
@@ -450,7 +508,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/gtx-coils.jpg?v=1770139291",
-   "rank_overall": 40
+   "rank_overall": 40,
+   "featured": false,
+   "featured_block": null
   }
  ],
  "all_active_ranked": [
@@ -467,7 +527,9 @@
    "rating": 4.29,
    "rating_count": 7,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/dojo-blast-10k-pods.jpg?v=1790920250",
-   "rank_overall": 1
+   "rank_overall": 1,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "7723690492153",
@@ -482,7 +544,9 @@
    "rating": 4.06,
    "rating_count": 16,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso_xros_pods.jpg?v=1790927131",
-   "rank_overall": 2
+   "rank_overall": 2,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "10071671701753",
@@ -497,7 +561,9 @@
    "rating": 3.43,
    "rating_count": 7,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Dojo-Blast-30K-Pod-Kit.jpg?v=1790926536",
-   "rank_overall": 3
+   "rank_overall": 3,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "8979372179705",
@@ -512,7 +578,9 @@
    "rating": 4.67,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Xros-Corex-3.0-Pods.jpg?v=1790923047",
-   "rank_overall": 4
+   "rank_overall": 4,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8114430247161",
@@ -527,7 +595,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-replacement-pods.jpg?v=1770114865",
-   "rank_overall": 5
+   "rank_overall": 5,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "8758384918777",
@@ -542,7 +612,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-6000-prefilled-pods-or-3-for-pound15-only-60231.jpg?v=1745789976",
-   "rank_overall": 6
+   "rank_overall": 6,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8052659650809",
@@ -557,7 +629,9 @@
    "rating": 4.33,
    "rating_count": 6,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-mini-pod-vape-kit.jpg?v=1770087352",
-   "rank_overall": 7
+   "rank_overall": 7,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8651935777017",
@@ -572,7 +646,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-pods-or-pack-of-4-53226.jpg?v=1790918116",
-   "rank_overall": 8
+   "rank_overall": 8,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8799329026297",
@@ -587,7 +663,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-10k-prefilled-pod-vape-kit.jpg?v=1791222238",
-   "rank_overall": 9
+   "rank_overall": 9,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "10188213092601",
@@ -602,7 +680,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/dojo-blast-10k-10mg-pods.webp?v=1790927539",
-   "rank_overall": 10
+   "rank_overall": 10,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8841291268345",
@@ -617,7 +697,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-5-Mini-Pod-Vape-Kit.jpg?v=1749657605",
-   "rank_overall": 11
+   "rank_overall": 11,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "8629598748921",
@@ -632,7 +714,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-pro-pods.jpg?v=1790917985",
-   "rank_overall": 12
+   "rank_overall": 12,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7661821690105",
@@ -647,7 +731,9 @@
    "rating": 3.71,
    "rating_count": 14,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-mini-pod-kit-or-cheap-price-58263.jpg?v=1745796422",
-   "rank_overall": 13
+   "rank_overall": 13,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8758324527353",
@@ -662,7 +748,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-2000-go-prefilled-replacement-pods-or-3-for-pound9-24967.jpg?v=1745789975",
-   "rank_overall": 14
+   "rank_overall": 14,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8939693080825",
@@ -677,7 +765,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Xros-5-Pod-Vape-Kit.jpg?v=1757861442",
-   "rank_overall": 15
+   "rank_overall": 15,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10122965483769",
@@ -692,7 +782,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-6-Pod-Vape-Kit.jpg?v=1790926928",
-   "rank_overall": 16
+   "rank_overall": 16,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8430380876025",
@@ -707,7 +799,9 @@
    "rating": 5.0,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-pro-pod-vape-kit-39978.jpg?v=1745791499",
-   "rank_overall": 17
+   "rank_overall": 17,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7696487284985",
@@ -722,7 +816,9 @@
    "rating": 5.0,
    "rating_count": 3,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-itank-sub-ohm-tank-vape-online-store.jpg?v=1785288620",
-   "rank_overall": 18
+   "rank_overall": 18,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "7697938678009",
@@ -737,7 +833,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-GTi-Mesh-Coils.jpg?v=1790915222",
-   "rank_overall": 19
+   "rank_overall": 19,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "8668724789497",
@@ -752,7 +850,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-replacement-pods-or-pack-of-4-10397.jpg?v=1745790524",
-   "rank_overall": 20
+   "rank_overall": 20,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8374424371449",
@@ -767,7 +867,9 @@
    "rating": 3.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-mini-vape-pod-kit.jpg?v=1780762924",
-   "rank_overall": 21
+   "rank_overall": 21,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7699391217913",
@@ -782,7 +884,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/orca-solo-plus-replacement-coils-by-vaporesso-54269.jpg?v=1745795245",
-   "rank_overall": 22
+   "rank_overall": 22,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8845143441657",
@@ -797,7 +901,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Vibe-Dual-Smart-Replacement-Pods.jpg?v=1750839792",
-   "rank_overall": 23
+   "rank_overall": 23,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8374392324345",
@@ -812,7 +918,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-pod-kit.jpg?v=1787310819",
-   "rank_overall": 24
+   "rank_overall": 24,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10188212699385",
@@ -827,7 +935,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Dojo_Blast_10K_10mg_Pod_Kit.webp?v=1790927527",
-   "rank_overall": 25
+   "rank_overall": 25,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8742111052025",
@@ -842,7 +952,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-2000-go-puffs-pod-kit-or-pound4-99-only-21178.jpg?v=1745789977",
-   "rank_overall": 26
+   "rank_overall": 26,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8625847337209",
@@ -857,7 +969,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-coils-or-pack-of-5-26650.jpg?v=1790917961",
-   "rank_overall": 27
+   "rank_overall": 27,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8052668203257",
@@ -872,7 +986,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-vape-kit.jpg?v=1770090370",
-   "rank_overall": 28
+   "rank_overall": 28,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10317454704889",
@@ -887,7 +1003,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Dojo_Blast_10K_Fresh_Prefilled_Pod_Kit.webp?v=1790927964",
-   "rank_overall": 29
+   "rank_overall": 29,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8971596628217",
@@ -902,7 +1020,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-Pro-2-Pod-Vape-Kit.jpg?v=1790922924",
-   "rank_overall": 30
+   "rank_overall": 30,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8665932759289",
@@ -917,7 +1037,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-nano-replacement-pods-or-pack-of-4-97353.jpg?v=1745790537",
-   "rank_overall": 31
+   "rank_overall": 31,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9194726457593",
@@ -932,7 +1054,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_GTX_V2_Replacement_Coils.jpg?v=1790924659",
-   "rank_overall": 32
+   "rank_overall": 32,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9009224548601",
@@ -947,7 +1071,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_LUXE_X_COREX_2.0_Pods.jpg?v=1790923582",
-   "rank_overall": 33
+   "rank_overall": 33,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8430390411513",
@@ -962,7 +1088,9 @@
    "rating": 3.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Armour-Max.jpg?v=1790917685",
-   "rank_overall": 34
+   "rank_overall": 34,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8668719939833",
@@ -977,7 +1105,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-4-mini-replacement-pods-or-pack-of-4-34164.jpg?v=1745790526",
-   "rank_overall": 35
+   "rank_overall": 35,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8512525533433",
@@ -992,7 +1122,9 @@
    "rating": 1.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gen-s-vape-kit-73120.jpg?v=1745790931",
-   "rank_overall": 36
+   "rank_overall": 36,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8419159212281",
@@ -1007,7 +1139,9 @@
    "rating": 5.0,
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-armour-max-220w-mod-63820.jpg?v=1745791519",
-   "rank_overall": 37
+   "rank_overall": 37,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10315780423929",
@@ -1022,7 +1156,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Dojo_Blast_7K_Fresh_Pod_Kit.webp?v=1790927931",
-   "rank_overall": 38
+   "rank_overall": 38,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7723717001465",
@@ -1037,7 +1173,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gt-core-coils.jpg?v=1770124871",
-   "rank_overall": 39
+   "rank_overall": 39,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7723708088569",
@@ -1052,7 +1190,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/gtx-coils.jpg?v=1770139291",
-   "rank_overall": 40
+   "rank_overall": 40,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10122965516537",
@@ -1067,7 +1207,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-6-Mini-Pod-Kit.jpg?v=1790926932",
-   "rank_overall": 41
+   "rank_overall": 41,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8665834651897",
@@ -1082,7 +1224,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-xr-max-coils-or-pack-of-5-81920.jpg?v=1745790539",
-   "rank_overall": 42
+   "rank_overall": 42,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7723699405049",
@@ -1097,7 +1241,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-x-moti-mini-coils-5-pack--19035.jpg?v=1745794836",
-   "rank_overall": 43
+   "rank_overall": 43,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8061004579065",
@@ -1112,7 +1258,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-xr-replacement-pods-or-cheap-price-34015.jpg?v=1745792974",
-   "rank_overall": 44
+   "rank_overall": 44,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8056000708857",
@@ -1127,7 +1275,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-and-xr-replacement-pods-or-pack-of-2-36571.jpg?v=1745793080",
-   "rank_overall": 45
+   "rank_overall": 45,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8182217048313",
@@ -1142,7 +1292,9 @@
    "rating": 4.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-eco-nano-replacement-pods.jpg?v=1770124967",
-   "rank_overall": 46
+   "rank_overall": 46,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10102132048121",
@@ -1157,7 +1309,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-XROS-Mini-Retro-Pod-Kit.jpg?v=1790926854",
-   "rank_overall": 47
+   "rank_overall": 47,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8641209860345",
@@ -1172,7 +1326,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-dojo-blast-6000-puffs-vape-kit-or-tpd-compliant-vape-36493.jpg?v=1790918102",
-   "rank_overall": 48
+   "rank_overall": 48,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7655992066297",
@@ -1187,7 +1343,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Sky_Solo_Plus_Vape_Kit.jpg?v=1790914828",
-   "rank_overall": 49
+   "rank_overall": 49,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7677993517305",
@@ -1202,7 +1360,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VAPORESSO_Zero_2_pod_kit.webp?v=1791290022",
-   "rank_overall": 50
+   "rank_overall": 50,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7664848273657",
@@ -1217,7 +1377,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-2-pod-kit-or-free-10ml-e-liquid-86574.jpg?v=1745796255",
-   "rank_overall": 51
+   "rank_overall": 51,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8625851793657",
@@ -1232,7 +1394,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-xr-coils-or-pack-of-5-50995.jpg?v=1790917965",
-   "rank_overall": 52
+   "rank_overall": 52,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7655929807097",
@@ -1247,7 +1411,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gen-200-vape-kit-or-best-price-97381.jpg?v=1745796547",
-   "rank_overall": 53
+   "rank_overall": 53,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7962329776377",
@@ -1262,7 +1428,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-pod-kit-or-best-price-92139.jpg?v=1745793681",
-   "rank_overall": 54
+   "rank_overall": 54,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "8797720281337",
@@ -1277,7 +1445,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Vibe-SE-Pod-Vape-Kit.jpg?v=1746744316",
-   "rank_overall": 55
+   "rank_overall": 55,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7655923384569",
@@ -1292,7 +1462,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-target-200-starter-kit-for-sale-24287.jpg?v=1745796553",
-   "rank_overall": 56
+   "rank_overall": 56,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9087671304441",
@@ -1307,7 +1479,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Rose-Pink-Vaporesso-XROS-3-Mini.jpg?v=1790924098",
-   "rank_overall": 57
+   "rank_overall": 57,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "15279166816505",
@@ -1322,7 +1496,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_Zero_S_Replacement_Pods.webp?v=1791619955",
-   "rank_overall": 58
+   "rank_overall": 58,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7698047860985",
@@ -1337,7 +1513,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/zero-2-replacement-pods-by-vaporesso-70601.jpg?v=1745795427",
-   "rank_overall": 59
+   "rank_overall": 59,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8625853923577",
@@ -1352,7 +1530,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-replacement-coils.jpg?v=1790917969",
-   "rank_overall": 60
+   "rank_overall": 60,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7699256148217",
@@ -1367,7 +1547,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-q-mesh-2ml-replacement-pod-18637.jpg?v=1745795307",
-   "rank_overall": 61
+   "rank_overall": 61,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8966030459129",
@@ -1382,7 +1564,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_LUXE_XR_Max_2_kit.jpg?v=1760992820",
-   "rank_overall": 62
+   "rank_overall": 62,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8665461096697",
@@ -1397,7 +1581,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gen-80-s-mod-or-vaporesso-18650-battery-mod-50523.jpg?v=1756606637",
-   "rank_overall": 63
+   "rank_overall": 63,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8512320536825",
@@ -1412,7 +1598,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x2-vape-kit-or-free-10ml-e-liquid-13740.jpg?v=1745790936",
-   "rank_overall": 64
+   "rank_overall": 64,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8058326483193",
@@ -1427,7 +1615,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-x-pro-vape-kit.jpg?v=1787311081",
-   "rank_overall": 65
+   "rank_overall": 65,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7658263871737",
@@ -1442,7 +1632,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-target-100-kit-for-sale-or-best-price-50503.jpg?v=1745796489",
-   "rank_overall": 66
+   "rank_overall": 66,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10248226144505",
@@ -1457,7 +1649,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_XROS_5_Nano_Pod_Kit.webp?v=1790927818",
-   "rank_overall": 67
+   "rank_overall": 67,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8709165777145",
@@ -1472,7 +1666,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-armour-g-gs-replacement-pods-or-pack-of-2-88355.jpg?v=1745790245",
-   "rank_overall": 68
+   "rank_overall": 68,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9254572589305",
@@ -1487,7 +1683,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Luxe-X3-Pod-Kit.jpg?v=1790925364",
-   "rank_overall": 69
+   "rank_overall": 69,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9255573094649",
@@ -1502,7 +1700,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_GTX_One_Mod.png?v=1790925408",
-   "rank_overall": 70
+   "rank_overall": 70,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10119017201913",
@@ -1517,7 +1717,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Armour-Ultra-Mod.jpg?v=1790926892",
-   "rank_overall": 71
+   "rank_overall": 71,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "10005522776313",
@@ -1532,7 +1734,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-Armour-Ultra-Vape-Kit.jpg?v=1790926022",
-   "rank_overall": 72
+   "rank_overall": 72,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9255546355961",
@@ -1547,7 +1751,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/VAPORESSO_GTX_One_Pro.png?v=1790925392",
-   "rank_overall": 73
+   "rank_overall": 73,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8708098425081",
@@ -1562,7 +1768,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-nano-1000mah-pod-kit-or-free-10ml-e-liquid-42377.jpg?v=1745790266",
-   "rank_overall": 74
+   "rank_overall": 74,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8056217993465",
@@ -1577,7 +1785,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-armour-s-kit-for-sale-or-free-next-day-delivery-45943.jpg?v=1745793045",
-   "rank_overall": 75
+   "rank_overall": 75,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8430275592441",
@@ -1592,7 +1802,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-cube-pod-vape-kit-97826.jpg?v=1745791506",
-   "rank_overall": 76
+   "rank_overall": 76,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "9234481185017",
@@ -1607,7 +1819,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso_QF_Coils.png?v=1790924717",
-   "rank_overall": 77
+   "rank_overall": 77,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8070618808569",
@@ -1622,7 +1836,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gen-nano-80w-2000mah-mod-89604.jpg?v=1745792925",
-   "rank_overall": 78
+   "rank_overall": 78,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7655384023289",
@@ -1637,7 +1853,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-gtx-0ne-vape-kit-or-best-price-25090.jpg?v=1745796597",
-   "rank_overall": 79
+   "rank_overall": 79,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8629575745785",
@@ -1652,7 +1870,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-nano-replacement-pods-or-pack-of-4-24810.jpg?v=1790917982",
-   "rank_overall": 80
+   "rank_overall": 80,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7678807441657",
@@ -1667,7 +1887,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-luxe-80-s-pod-kit-or-vaporesso-kits-for-sale-44187.jpg?v=1745795794",
-   "rank_overall": 81
+   "rank_overall": 81,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8455614857465",
@@ -1682,7 +1904,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-armour-s-vape-mod-100w-47514.jpg?v=1745791348",
-   "rank_overall": 82
+   "rank_overall": 82,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8622755315961",
@@ -1697,7 +1921,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-armour-g-vape-pod-kit-52843.jpg?v=1790917928",
-   "rank_overall": 83
+   "rank_overall": 83,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8936568553721",
@@ -1712,7 +1938,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Vaporesso-LUXE-XR-Max-Vape-Kit.jpg?v=1757861438",
-   "rank_overall": 84
+   "rank_overall": 84,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "7696453107961",
@@ -1727,7 +1955,9 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/products/vaporesso-x-tank-replacement-pod-11434.jpg?v=1745795649",
-   "rank_overall": 85
+   "rank_overall": 85,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8180546175225",
@@ -1742,7 +1972,9 @@
    "rating": 5.0,
    "rating_count": 1,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-eco-nano-pod-vape-kit-or-vaporesso-uk-55519.jpg?v=1745792429",
-   "rank_overall": 86
+   "rank_overall": 86,
+   "featured": false,
+   "featured_block": null
   },
   {
    "pid": "8052662960377",
@@ -1757,7 +1989,29 @@
    "rating": null,
    "rating_count": null,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/vaporesso-xros-3-nano-vape-kit-or-free-10ml-e-liquids-56053.jpg?v=1745793113",
-   "rank_overall": 87
+   "rank_overall": 87,
+   "featured": false,
+   "featured_block": null
   }
- ]
+ ],
+ "featured_blocks_26_oct_2026": {
+  "1": "Vaporesso Dojo Blast 10K Kit and Prefilled Pods",
+  "2": "Vaporesso XROS 3 Mini Kit and COREX 2.0 Pods",
+  "3": "Vaporesso Dojo Blast 30K Pro Pod Kit",
+  "4": "Vaporesso Luxe X Kit and Replacement Pods",
+  "5": "Vaporesso XROS 5 Mini Pod Vape Kit",
+  "6": "Vaporesso iTank and Vaporesso GTi Replacement Mesh Coils"
+ },
+ "live_prices_26_oct_2026": {
+  "vaporesso-dojo-blast-10k": 8.99,
+  "vaporesso-dojo-blast-10k-pods": 5.99,
+  "vaporesso-xros-3-mini-pod-kit": 9.99,
+  "vaporesso-xros-pods-pack-of-2": "4.49 to 8.99",
+  "vaporesso-dojo-blast-30k-pro-pod-kit": 9.99,
+  "vaporesso-luxe-x-pod-kit": 23.99,
+  "vaporesso-luxe-x-replacement-pods": "5.99 to 6.99",
+  "vaporesso-xros-5-mini": 15.99,
+  "itank-by-vaporesso": 9.95,
+  "gti-replacement-mesh-coils-5-pack-by-vaporesso": 9.95
+ }
 }
