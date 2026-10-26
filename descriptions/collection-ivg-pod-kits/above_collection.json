@@ -1,0 +1,104 @@
+{
+ "type": "root",
+ "children": [
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Shop every "
+    },
+    {
+     "type": "text",
+     "value": "IVG pod kit",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " in the UK at "
+    },
+    {
+     "type": "text",
+     "value": "Vape Online Store",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": ": IVG prefilled pod kits with the refill pods each one takes, plus boxes of 5 and 10, from \u00a32.49."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Choose from the "
+    },
+    {
+     "type": "text",
+     "value": "IVG Pro 12 10000",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at \u00a38.99 (any 3 for \u00a324), the "
+    },
+    {
+     "type": "text",
+     "value": "IVG Smart Max 10K",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at \u00a38.99, the "
+    },
+    {
+     "type": "text",
+     "value": "IVG SAVR 3000",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " from \u00a32.49, the four-flavour "
+    },
+    {
+     "type": "text",
+     "value": "IVG 2400",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at \u00a35.99, the 22ml "
+    },
+    {
+     "type": "text",
+     "value": "IVG XL 35K",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at \u00a310.99 and the "
+    },
+    {
+     "type": "text",
+     "value": "IVG Air 4-in-1",
+     "bold": true
+    },
+    {
+     "type": "text",
+     "value": " at \u00a38.99."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "children": [
+    {
+     "type": "text",
+     "value": "Genuine UK stock through UK distribution, next day delivery, free over \u00a340. The guide below the grid ranks every IVG kit and pod by sales, shows which IVG pod fits which IVG kit and works out the price per puff."
+    }
+   ]
+  }
+ ]
+}

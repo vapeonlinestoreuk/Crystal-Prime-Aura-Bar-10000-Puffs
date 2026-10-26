@@ -1,0 +1,766 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>IVG pod kit</strong> we stock is on this page: the IVG Pro 12, IVG Smart Max 10K, IVG XL 35K and IVG Nexio kits with a 2ml pod and a 10ml refill container, the four-pod IVG 2400 and IVG Air 4-in-1, the small IVG SAVR 3000 and IVG Reload Mini, and the refill pods each one takes. Prices start at £2.49 for the IVG SAVR 3000 kit, £2.99 for the IVG Reload Mini, £5.99 for the IVG 2400 and £8.99 for the IVG Pro 12 or IVG Smart Max 10K, with IVG refill pods from £1.49, as of October 2026.</p>
+<p>The six product sections below pair each best-selling IVG kit with its own refill pod, ranked by units sold here over the last four months from our own order data. The three tables after them list every in-stock IVG kit, pod and box in sales order with a per-ml price and the kit each pod fits. The guide then covers compatibility, puff ratings, 20mg against 10mg, per-puff value and the flavours that actually sell. For the IVG 10ml liquids and the older bar-style devices see the <a href="https://vapeonlinestore.co.uk/collections/ivg-disposable-vape-bars" rel="noopener" title="IVG Vapes UK" target="_blank"><strong>IVG vapes UK</strong></a> page.</p>
+<div class="vos-problem-box">
+<p><strong>Check the pod platform before you buy IVG refill pods</strong></p>
+<p>IVG pods are not interchangeable: seven kits, seven pod platforms. The IVG Pro 12, IVG Smart Max 10K and IVG XL 35K pods look alike, a 2ml pod on a 10ml container, but each fits only its own kit. Every pod listing names its kit; the compatibility guide below the tables lists all seven.</p>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 1: IVG Pro 12 kit and pods     --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-pro-10000-prefilled-pod-kit.jpg?v=1770115987" alt="IVG Pro 12 10000 prefilled pod kit in several flavour colours with its 2ml pod and 10ml refill container" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. IVG Pro 12 10000 Kit and IVG Pro 12 Refill Pods</h3>
+<div class="vos-price-tag">Kit £8.99 (any 3 for £24) • Pods £5.99 per 12ml set</div>
+<div class="vos-sale-badge">Best-selling IVG line: 668 kits and 3,793 refill pods in four months</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-pro-10000" rel="noopener" title="IVG Pro 12 10000 Prefilled Pod Kit UK" target="_blank"><strong>IVG Pro 12 10000 Prefilled Pod Kit</strong></a> is the IVG kit most people on this site buy and then keep feeding: <strong>668 kits</strong> and <strong>3,793 refill pods</strong> in the last four months. The kit is a 1000mAh USB-C battery with a battery indicator and a 2ml prefilled pod joined to a 10ml refill container, 12ml of 20mg nic salt rated for up to 10,000 puffs. It is inhale activated with no button. The kit scores 4.1 stars from 19 reviews; the <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" rel="noopener" title="IVG Pro 12 10K Refill Pods UK" target="_blank"><strong>IVG Pro 12 Refill Pods</strong></a> score <strong>4.5 stars from 38 reviews</strong>, the most reviewed IVG product here.</p>
+<p><strong>Who's it for?</strong> Anyone who wants one battery and a cheap refill in a lot of flavours: 38 at 20mg, plus a 10mg pod listing (178 sold) and a 0mg listing (662 sold). Best-selling pod flavours by units: Classic Menthol 241, Tobacco 187, Cola Frost 181. The pods also fit the IVG Pro 2 10K according to the VOS pod page.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG Pro 12 device with one 2ml prefilled pod and its 10ml refill container. Pod: one 2ml prefilled pod with a 10ml refill container attached.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> up to 10,000 per pod set</li>
+<li>
+<strong>Battery:</strong> 1000mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container, 12ml total</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt; 10mg and 0mg pods sold separately</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Draw:</strong> MTL, inhale activated</li>
+<li>
+<strong>Display:</strong> battery level indicator</li>
+<li>
+<strong>Refills:</strong> IVG Pro 12 pods at £5.99, 38 flavours</li>
+</ul>
+<div class="vos-tip-box">Value maths: £8.99 for 12ml is <strong>£0.75 per ml</strong>, or £0.90 per 1,000 rated puffs. On the 3 for £24 deal each kit is £8.00, £0.67 per ml. A refill pod at £5.99 is <strong>£0.50 per ml</strong>, £0.60 per 1,000 rated puffs, so once you own the battery the pod is the cheaper way to buy the next 10,000 puffs.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-pro-10000" class="vos-cta-button" title="IVG Pro 12 10000 Prefilled Pod Kit UK" rel="noopener" target="_blank">View IVG Pro 12 Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" class="vos-cta-button" title="IVG Pro 12 10K Refill Pods UK" rel="noopener" target="_blank">View IVG Pro 12 Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: IVG Smart Max 10K kit and pods--> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-smart-max-10k-prefilled-pod-vape-kit.jpg?v=1785567469" alt="IVG Smart Max 10K prefilled pod vape kit with its LED display, 2ml pod and 10ml refill container" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. IVG Smart Max 10K Kit and IVG Smart Max Refill Pods</h3>
+<div class="vos-price-tag">Kit £8.99 (any 3 for £24) • Pods £5.99 per 12ml set</div>
+<div class="vos-sale-badge">Best-selling IVG kit by units: 903 in four months</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-10k" rel="noopener" title="IVG Smart Max 10K Prefilled Pod Kit UK" target="_blank"><strong>IVG Smart Max 10K Prefilled Pod Kit</strong></a> outsold every other IVG kit here, <strong>903 units</strong> in four months, 4.3 stars from 16 reviews. It costs the same £8.99 as the IVG Pro 12 and uses the same 2ml pod plus 10ml container layout, but adds a button for <strong>Boost and Eco modes</strong> and an LED battery display. The <a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-pods" rel="noopener" title="IVG Smart Max 10K Prefilled Replacement Pods UK" target="_blank"><strong>IVG Smart Max 10K Refill Pods</strong></a> sold <strong>1,130 units</strong>, 5.0 stars from 14 reviews, and come in 20mg with a separate 10mg pod listing (55 sold).</p>
+<p><strong>Who's it for?</strong> Vapers who want control over the draw: Boost for a warmer hit, Eco to stretch the 12ml. Best-selling pod flavours by units: Classic Menthol 77, Triple Mango 62, Strawberry Ice 48. The IVG Smart Max 10K takes only IVG Smart Max pods; the VOS page states IVG Pro 12 and IVG SAVR pods do not fit.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG Smart Max 10K device, one 2ml prefilled pod, one 10ml refill container and a manual; no USB-C cable. Pod: one 2ml prefilled pod with a 10ml refill container.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> up to 10,000 per pod set</li>
+<li>
+<strong>Battery:</strong> 1000mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container, 12ml total</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt; 10mg kit and pods sold separately</li>
+<li>
+<strong>Modes:</strong> Boost and Eco, button selected</li>
+<li>
+<strong>Display:</strong> LED battery level</li>
+<li>
+<strong>Draw:</strong> MTL, inhale activated</li>
+<li>
+<strong>Refills:</strong> IVG Smart Max pods at £5.99</li>
+</ul>
+<div class="vos-tip-box">Value maths: £8.99 for 12ml is <strong>£0.75 per ml</strong>, £8.00 per kit on 3 for £24. Refill pods are £5.99, <strong>£0.50 per ml</strong>. The 10mg version of the kit is £9.99 (3 for £27) and its 10mg pods are £5.99, the same per-ml price as the 20mg pod.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-10k" class="vos-cta-button" title="IVG Smart Max 10K Prefilled Pod Kit UK" rel="noopener" target="_blank">View IVG Smart Max 10K Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-pods" class="vos-cta-button" title="IVG Smart Max 10K Prefilled Replacement Pods UK" rel="noopener" target="_blank">View IVG Smart Max Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: IVG SAVR 3000 kit and pods  --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-savr-3000-puffs-prefilled-pod-kit.jpg?v=1774656131" alt="IVG SAVR 3000 prefilled pod kit in several colours with its 2ml pod and 4ml refill container" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. IVG SAVR 3000 Kit and IVG SAVR Prefilled Pods</h3>
+<div class="vos-price-tag">Kit from £2.49 • Pods from £1.49 per 6ml pod</div>
+<div class="vos-sale-badge">Lowest price on the page: 448 kits and 846 pods in four months, 5.0 stars from 9 kit reviews</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-savr-3000" rel="noopener" title="IVG SAVR 3000 Prefilled Pod Kit UK" target="_blank"><strong>IVG SAVR 3000 Prefilled Pod Kit</strong></a> is the cheapest IVG kit we sell, <strong>from £2.49</strong> on 30 of its 31 flavours, with a 650mAh USB-C battery, a 1.0 ohm mesh coil and a 2ml pod with a 4ml refill container, 6ml of 20mg nic salt rated for up to 3,000 puffs. It sold <strong>448 kits</strong> in four months and holds a 5.0 rating from 9 reviews. The <a href="https://vapeonlinestore.co.uk/products/ivg-savr-prefilled-pods" rel="noopener" title="IVG SAVR Prefilled Pods UK" target="_blank"><strong>IVG SAVR Prefilled Pods</strong></a> are <strong>from £1.49</strong> each and sold 846 units.</p>
+<p><strong>Who's it for?</strong> Anyone who wants a rechargeable prefilled kit at a disposable-bar price, or a spare kit for a bag or car. Best-selling pod flavours by units: Classic Menthol 183, Tobacco 66, Blue Sour Raspberry 51, Cola Ice 48. The pods fit only the IVG SAVR 3000; the IVG SAVR 3000 takes only IVG SAVR pods.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG SAVR 3000 battery with one 2ml prefilled pod and its 4ml container; no USB-C cable. Pod: one 2ml prefilled pod with a 4ml refill container and a manual.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> up to 3,000 per pod</li>
+<li>
+<strong>Battery:</strong> 650mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 4ml container, 6ml total</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> 1.0 ohm mesh</li>
+<li>
+<strong>Draw:</strong> MTL, inhale activated</li>
+<li>
+<strong>Flavours:</strong> 31 kit flavours, 29 pod flavours</li>
+<li>
+<strong>Refills:</strong> IVG SAVR pods from £1.49</li>
+</ul>
+<div class="vos-tip-box">Value maths: £2.49 for 6ml is <strong>£0.42 per ml</strong>, £0.83 per 1,000 rated puffs. A £1.49 pod is <strong>£0.25 per ml</strong> and £0.50 per 1,000 rated puffs, the lowest per-puff figure on this page. Two pods for £2.98 give 6,000 rated puffs, less than the price of one IVG Pro 12 pod.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-savr-3000" class="vos-cta-button" title="IVG SAVR 3000 Prefilled Pod Kit UK" rel="noopener" target="_blank">View IVG SAVR 3000 Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-savr-prefilled-pods" class="vos-cta-button" title="IVG SAVR Prefilled Pods UK" rel="noopener" target="_blank">View IVG SAVR Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: IVG 2400 kit and Reload pods--> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-2400-Puffs-Rechargeable-Vape-Kit.jpg?v=1790916769" alt="IVG 2400 rechargeable 4-in-1 pod kit with its four 2ml prefilled pods in one flavour edition" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. IVG 2400 Kit and IVG 2400 Reload 4-in-1 Pods</h3>
+<div class="vos-price-tag">Kit £5.99 • Pods £5.99 per pack of 4</div>
+<div class="vos-sale-badge">Four flavours in one kit: 428 kits and 298 pod packs in four months</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-2400" rel="noopener" title="IVG 2400 Rechargeable 4-in-1 Pod Kit UK" target="_blank"><strong>IVG 2400 Rechargeable Pod Kit</strong></a> carries four 2ml pods on a twist mechanism, so one kit holds four flavours and you turn the base to switch. The VOS page lists a 1750mAh USB-C battery, 20mg nic salt, mesh coils and 2,400 puffs in total, about 600 per pod. It sold <strong>428 kits</strong> in four months, 4.1 stars from 19 reviews. The <a href="https://vapeonlinestore.co.uk/products/ivg-2400-reload-pods" rel="noopener" title="IVG 2400 Reload 4-in-1 Prefilled Pods UK" target="_blank"><strong>IVG 2400 Reload 4-in-1 Prefilled Pods</strong></a> are a pack of four pods in one edition at £5.99, 5.0 stars from 4 reviews, 298 packs sold.</p>
+<p><strong>Who's it for?</strong> Flavour switchers. Each edition is four related flavours, Blue Edition 36 packs, Strawberry Edition 28 and Banana Edition 26 being the best sellers by units. The same pods fit the <a href="https://vapeonlinestore.co.uk/products/ivg-reload-mini-prefilled-pod-kit" rel="noopener" title="IVG Reload Mini Prefilled Pod Kit UK" target="_blank"><strong>IVG Reload Mini Prefilled Pod Kit</strong></a>, a one-pod £2.99 kit that sold 112 units, which is the cheapest way into the IVG 2400 pod range.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG 2400 device loaded with four 2ml prefilled pods in one edition. Pod pack: four 2ml prefilled pods in one edition, 20mg.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> 2,400 in total, about 600 per pod</li>
+<li>
+<strong>Battery:</strong> 1750mAh, USB-C (VOS page figure)</li>
+<li>
+<strong>E-liquid:</strong> 4 x 2ml prefilled pods, 8ml</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Flavour system:</strong> 4-in-1, twist to switch</li>
+<li>
+<strong>Draw:</strong> MTL, inhale activated</li>
+<li>
+<strong>Refills:</strong> IVG 2400 Reload pods, £5.99 for 4; also fit the IVG Reload Mini</li>
+</ul>
+<div class="vos-tip-box">Value maths: £5.99 for 8ml is <strong>£0.75 per ml</strong>, or £2.50 per 1,000 rated puffs. The pod pack costs the same £5.99 for the same 8ml, <strong>£1.50 per pod</strong>, so the kit price buys the battery for nothing. The IVG Reload Mini at £2.99 holds one 2ml pod, £1.50 per ml, and then runs on the same £1.50 pods.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-2400" class="vos-cta-button" title="IVG 2400 Rechargeable 4-in-1 Pod Kit UK" rel="noopener" target="_blank">View IVG 2400 Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-2400-reload-pods" class="vos-cta-button" title="IVG 2400 Reload 4-in-1 Prefilled Pods UK" rel="noopener" target="_blank">View IVG 2400 Reload Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: IVG XL 35K kit and pods     --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-XL-35K-Prefilled-Pod-Kit.jpg?v=1757861470" alt="IVG XL 35K prefilled pod kit with its display, 2ml pod and two 10ml refill containers" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. IVG XL 35K Kit and IVG XL 35K Refill Pods</h3>
+<div class="vos-price-tag">Kit £10.99 • Pods £7.99 (3 for £21)</div>
+<div class="vos-sale-badge">Highest puff rating on the page: 35,000, 4.6 stars from 10 reviews</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-prefilled-pod-kit" rel="noopener" title="IVG XL 35K Prefilled Pod Kit UK" target="_blank"><strong>IVG XL 35K Prefilled Pod Kit</strong></a> is the long-run IVG kit: a 2ml pod with <strong>two</strong> 10ml containers, 22ml of 20mg nic salt rated for up to 35,000 puffs, on a 1000mAh USB-C battery with Eco and Boost modes and a display. It sold <strong>143 kits</strong> in four months and has the best kit rating here, <strong>4.6 stars from 10 reviews</strong>. The <a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-refill-pods" rel="noopener" title="IVG XL 35K Refill Pods UK" target="_blank"><strong>IVG XL 35K Refill Pods</strong></a> sold 379 units at £7.99, or 3 for £21; each holds a 2ml pod with one 10ml container, 12ml, on a dual mesh coil with a magnetic fit.</p>
+<p><strong>Who's it for?</strong> Heavy vapers who want to charge rather than rebuy. Best-selling pod flavours by units: Lemon &amp; Lime 49, Pineapple Ice 40, Blue Sour Raspberry 38, Peach Ice 35. The pods fit only the IVG XL 35K; 16 flavours on the kit, 16 on the pod.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG XL 35K device, one 2ml prefilled pod, two 10ml refill containers and a manual; no USB-C cable. Pod: one 2ml prefilled pod with one 10ml refill container.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> up to 35,000 per kit</li>
+<li>
+<strong>Battery:</strong> 1000mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 2 x 10ml containers, 22ml total</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> 1.1 ohm mesh on the kit; dual mesh on the refill pod</li>
+<li>
+<strong>Modes:</strong> Eco and Boost, with display</li>
+<li>
+<strong>Draw:</strong> MTL, inhale activated</li>
+<li>
+<strong>Refills:</strong> IVG XL 35K pods at £7.99, 12ml each</li>
+</ul>
+<div class="vos-tip-box">Value maths: £10.99 for 22ml is <strong>£0.50 per ml</strong>, or £0.31 per 1,000 rated puffs, the best kit-level figure on the page. A refill pod at £7.99 for 12ml is £0.67 per ml, £7.00 each on 3 for £21 (£0.58 per ml). The refill pod carries 10ml less liquid than the kit, so expect fewer puffs from it than the kit's 35,000 rating.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-prefilled-pod-kit" class="vos-cta-button" title="IVG XL 35K Prefilled Pod Kit UK" rel="noopener" target="_blank">View IVG XL 35K Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-refill-pods" class="vos-cta-button" title="IVG XL 35K Refill Pods UK" rel="noopener" target="_blank">View IVG XL 35K Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 6: IVG Air 4-in-1 kit and pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-air-4-in-1-prefilled-vape-pod-kit.jpg?v=1790918052" alt="IVG Air 4-in-1 prefilled pod vape kit in its colour editions with four 2ml pods" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>6. IVG Air 4-in-1 Kit and IVG Air Pods</h3>
+<div class="vos-price-tag">Kit £8.99 • Pods £3.99 per pack of 2</div>
+<div class="vos-sale-badge">Four 600-puff pods in the box, pods rated 5.0 from 7 reviews</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/ivg-air-4-in-1-prefilled-pod-vape-kit" rel="noopener" title="IVG Air 4-in-1 Prefilled Pod Vape Kit UK" target="_blank"><strong>IVG Air 4-in-1 Prefilled Pod Vape Kit</strong></a> is a 1100mAh USB-C kit with four 2ml prefilled pods in the box, each rated at about 600 puffs, 2,400 in total, 20mg nic salt on mesh coils at a fixed power. It sold 42 kits in four months, 4.2 stars from 5 reviews, and comes in 11 colour editions, each with its own set of four flavours. The <a href="https://vapeonlinestore.co.uk/products/ivg-air-pods" rel="noopener" title="IVG Air Pods 20mg Prefilled Pack of 2 UK" target="_blank"><strong>IVG Air Pods 20mg Prefilled</strong></a> sold <strong>233 packs</strong> at £3.99 for two, 5.0 stars from 7 reviews, in 28 flavours.</p>
+<p><strong>Who's it for?</strong> Anyone who wants single-flavour 2ml pods they can swap one at a time rather than a 10ml container. The IVG Air pods fit the IVG Air 4-in-1 and the <a href="https://vapeonlinestore.co.uk/products/ivg-air-2-in-1-pod-kit" rel="noopener" title="IVG Air 2 in 1 Prefilled Pod Vape Kit UK" target="_blank"><strong>IVG Air 2 in 1 Pre-Filled Pod Vape Kit</strong></a> (£8.99, 850mAh, two pods), according to the VOS pod page.</p>
+<p><strong>What's in the box?</strong> Kit: the IVG Air 4-in-1 device with four 2ml prefilled pods in one colour edition. Pods: two 2ml prefilled pods of one flavour.</p>
+<ul>
+<li>
+<strong>Puffs:</strong> about 600 per pod, 2,400 per kit</li>
+<li>
+<strong>Battery:</strong> 1100mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 4 x 2ml prefilled pods</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh, fixed power</li>
+<li>
+<strong>Draw:</strong> MTL</li>
+<li>
+<strong>Editions:</strong> 11 colours, four flavours each</li>
+<li>
+<strong>Refills:</strong> IVG Air pods at £3.99 for 2, 28 flavours</li>
+</ul>
+<div class="vos-tip-box">Value maths: £8.99 for 8ml is <strong>£1.12 per ml</strong>, or £3.75 per 1,000 rated puffs. A pack of two pods at £3.99 is <strong>£2.00 per pod</strong>, £1.00 per ml, £3.33 per 1,000 rated puffs. That is dearer per puff than the 10ml-container IVG kits above; what you buy is the single-pod flavour choice.</div>
+<a href="https://vapeonlinestore.co.uk/products/ivg-air-4-in-1-prefilled-pod-vape-kit" class="vos-cta-button" title="IVG Air 4-in-1 Prefilled Pod Vape Kit UK" rel="noopener" target="_blank">View IVG Air 4-in-1 Kit</a> <a href="https://vapeonlinestore.co.uk/products/ivg-air-pods" class="vos-cta-button" title="IVG Air Pods 20mg Prefilled Pack of 2 UK" rel="noopener" target="_blank">View IVG Air Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: KITS                    --> <!-- ========================================= -->
+<h2>Every IVG Prefilled Pod Kit in Stock, Ranked by Four-Month Sales</h2>
+<p>These three tables hold every in-stock IVG kit, pod and box that sold here in the last four months, in sales order: <strong>13 kits</strong>, 10 pods and 8 boxes. The per-unit column is the price per ml of liquid in the box, the fairest way to compare a 6ml IVG SAVR 3000 with a 22ml IVG XL 35K. Flavour-specific listings of the same kits are not repeated. The <a href="https://vapeonlinestore.co.uk/collections/pre-filled-pod-vape-kits" rel="noopener" title="Prefilled Pod Vape Kits UK" target="_blank"><strong>prefilled pod vape kits</strong></a> page lists every brand.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-10k" rel="noopener" title="IVG Smart Max 10K Prefilled Pod Kit UK" target="_blank"><strong>IVG Smart Max 10K Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£0.75 per ml (12ml), £8.00 on 3 for £24</td>
+<td>★ 4.2 (16)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-10000" rel="noopener" title="IVG Pro 12 10000 Prefilled Pod Kit UK" target="_blank"><strong>IVG Pro 12 10000 Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£0.75 per ml (12ml), £8.00 on 3 for £24</td>
+<td>★ 4.0 (19)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-savr-3000" rel="noopener" title="IVG SAVR 3000 Prefilled Pod Kit UK" target="_blank"><strong>IVG SAVR 3000 Prefilled Pod Kit</strong></a></td>
+<td>From £2.49</td>
+<td>£0.42 per ml (6ml)</td>
+<td>★ 5.0 (9)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-2400" rel="noopener" title="IVG 2400 Rechargeable 4-in-1 Pod Kit UK" target="_blank"><strong>IVG 2400 Rechargeable Pod Kit, 4-in-1</strong></a></td>
+<td>£5.99</td>
+<td>£0.75 per ml (4 x 2ml)</td>
+<td>★ 4.1 (19)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-prefilled-pod-kit" rel="noopener" title="IVG XL 35K Prefilled Pod Kit UK" target="_blank"><strong>IVG XL 35K Prefilled Pod Kit</strong></a></td>
+<td>£10.99</td>
+<td>£0.50 per ml (22ml)</td>
+<td>★ 4.6 (10)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-10k-puff-zero-nicotine-vape" rel="noopener" title="IVG Pro 12 10K Zero Nicotine Pod Kit UK" target="_blank"><strong>IVG Pro 12 10K Zero Nicotine Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£0.75 per ml (12ml), 0mg</td>
+<td>★ 3.8 (4)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-reload-mini-prefilled-pod-kit" rel="noopener" title="IVG Reload Mini Prefilled Pod Kit UK" target="_blank"><strong>IVG Reload Mini Prefilled Pod Kit</strong></a></td>
+<td>£2.99</td>
+<td>£1.50 per ml (2ml)</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-nexio-10000-pod-kit" rel="noopener" title="IVG Nexio 10000 Prefilled Pod Kit UK" target="_blank"><strong>IVG Nexio 10000 Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£0.90 per ml (10ml)</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-air-4-in-1-prefilled-pod-vape-kit" rel="noopener" title="IVG Air 4-in-1 Prefilled Pod Vape Kit UK" target="_blank"><strong>IVG Air 4-in-1 Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.12 per ml (4 x 2ml)</td>
+<td>★ 4.2 (5)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-2-10k" rel="noopener" title="IVG Pro 2 10K Prefilled Pod Kit UK" target="_blank"><strong>IVG Pro 2 10K Prefilled Pod Kit</strong></a></td>
+<td>£10.99</td>
+<td>£0.92 per ml (12ml)</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-2-10k-puffs" rel="noopener" title="IVG Pro 2 10K Vape Device UK" target="_blank"><strong>IVG Pro 2 10K Device, 1000mAh</strong></a></td>
+<td>£6.99</td>
+<td>£6.99 per device</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-10k-puffs-10mg-pod-kit" rel="noopener" title="IVG Pro 12 10000 10mg Prefilled Pod Kit UK" target="_blank"><strong>IVG Pro 12 10000 10mg Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£0.75 per ml (12ml), 10mg</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-10k-10mg" rel="noopener" title="IVG Smart Max 10000 10mg Prefilled Pod Kit UK" target="_blank"><strong>IVG Smart Max 10000 10mg Pod Kit</strong></a></td>
+<td>£9.99</td>
+<td>£0.83 per ml (12ml), 10mg</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: PODS                    --> <!-- ========================================= -->
+<p> </p>
+<h2>IVG Refill Pods by Sales, With the IVG Kit Each One Fits</h2>
+<p>Pods sell every week after the kit sells once: the IVG Pro 12 refill pod alone outsold every IVG kit combined. The Fits column comes from each pod's VOS listing. The full pod range, flavour by flavour, is on the <a href="https://vapeonlinestore.co.uk/collections/ivg-vape-pods" rel="noopener" title="IVG Vape Pods UK" target="_blank"><strong>IVG vape pods</strong></a> page, and every brand's refill pod is on the <a href="https://vapeonlinestore.co.uk/collections/prefilled-vape-pods" rel="noopener" title="Prefilled Vape Pods UK" target="_blank"><strong>prefilled vape pods</strong></a> page.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Fits</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods" rel="noopener" title="IVG Pro 12 10K Refill Pods UK" target="_blank"><strong>IVG Pro 12 Refill Pods, 20mg</strong></a></td>
+<td>£5.99</td>
+<td>£0.50 per ml (12ml)</td>
+<td>IVG Pro 12, IVG Pro 2</td>
+<td>★ 4.5 (38)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-pods" rel="noopener" title="IVG Smart Max 10K Prefilled Replacement Pods UK" target="_blank"><strong>IVG Smart Max 10K Refill Pods, 20mg</strong></a></td>
+<td>£5.99</td>
+<td>£0.50 per ml (12ml)</td>
+<td>IVG Smart Max 10K</td>
+<td>★ 5.0 (14)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-savr-prefilled-pods" rel="noopener" title="IVG SAVR Prefilled Pods UK" target="_blank"><strong>IVG SAVR Prefilled Pods</strong></a></td>
+<td>From £1.49</td>
+<td>£0.25 per ml (6ml)</td>
+<td>IVG SAVR 3000</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-12-zero-nicotine-refill-pods" rel="noopener" title="IVG Pro 12 Zero Nicotine Refill Pods UK" target="_blank"><strong>IVG Pro 12 Zero Nicotine Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£0.50 per ml (12ml), 0mg</td>
+<td>IVG Pro 12, IVG Pro 2</td>
+<td>★ 4.0 (10)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-xl-35k-refill-pods" rel="noopener" title="IVG XL 35K Refill Pods UK" target="_blank"><strong>IVG XL 35K Refill Pods</strong></a></td>
+<td>£7.99</td>
+<td>£0.67 per ml (12ml), £7.00 on 3 for £21</td>
+<td>IVG XL 35K</td>
+<td>★ 4.0 (4)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-2400-reload-pods" rel="noopener" title="IVG 2400 Reload 4-in-1 Prefilled Pods UK" target="_blank"><strong>IVG 2400 Reload 4-in-1 Pods, Pack of 4</strong></a></td>
+<td>£5.99</td>
+<td>£1.50 per 2ml pod</td>
+<td>IVG 2400, IVG Reload Mini</td>
+<td>★ 5.0 (4)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-air-pods" rel="noopener" title="IVG Air Pods 20mg Prefilled Pack of 2 UK" target="_blank"><strong>IVG Air Pods 20mg, Pack of 2</strong></a></td>
+<td>£3.99</td>
+<td>£2.00 per 2ml pod</td>
+<td>IVG Air 4-in-1, IVG Air 2 in 1</td>
+<td>★ 5.0 (7)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-pro-prefilled-10mg-pods" rel="noopener" title="IVG Pro 12 Prefilled Refill Pods 10mg UK" target="_blank"><strong>IVG Pro 12 Refill Pods, 10mg</strong></a></td>
+<td>£5.99</td>
+<td>£0.50 per ml (12ml), 10mg</td>
+<td>IVG Pro 12, IVG Pro 2</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-nexio-pods" rel="noopener" title="IVG Nexio 10K Refill Pods UK" target="_blank"><strong>IVG Nexio 10K Refill Pods</strong></a></td>
+<td>£5.99</td>
+<td>£0.60 per ml (10ml)</td>
+<td>IVG Nexio 10000</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/ivg-smart-max-10k-puffs-10mg-pods" rel="noopener" title="IVG Smart Max 10K 10mg Prefilled Pods UK" target="_blank"><strong>IVG Smart Max 10K Refill Pods, 10mg</strong></a></td>
+<td>£5.99</td>
+<td>£0.50 per ml (12ml), 10mg</td>
+<td>IVG Smart Max 10K</td>
+<td>★ 5.0 (1)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: BOXES                   --> <!-- ========================================= -->
+<p> </p>
+<h2>IVG Kit and Pod Boxes of 5 and 10</h2>
+<p>Eight IVG boxes sold in the window. The per-unit column divides the box price by its count. The <a href="https://vapeonlinestore.co.uk/collections/ivg-wholesale" rel="noopener" title="IVG Wholesale UK" target="_blank"><strong>IVG wholesale</strong></a> page covers every box with the mix-and-match notes.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-5-ivg-pro-refills-prefilled-pods" rel="noopener" title="Box of 5 IVG Pro 12 Refill Pods UK" target="_blank"><strong>Box of 5 IVG Pro 12 Refill Pods</strong></a></td>
+<td>£28.99</td>
+<td>£5.80 per pod</td>
+<td>★ 5.0 (2)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-10-ivg-pro-refills-prefilled-pods" rel="noopener" title="Box of 10 IVG Pro 12 Refill Pods UK" target="_blank"><strong>Box of 10 IVG Pro 12 Refill Pods</strong></a></td>
+<td>£55.99</td>
+<td>£5.60 per pod</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-10-ivg-2400" rel="noopener" title="Box of 10 IVG 2400 Rechargeable Pod Kit UK" target="_blank"><strong>Box of 10 IVG 2400 Rechargeable Pod Kit</strong></a></td>
+<td>From £35.99</td>
+<td>£7.00 per kit on the box of 10 (£69.99)</td>
+<td>★ 5.0 (4)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-5-ivg-smart-max-10k-pods" rel="noopener" title="Box of 5 IVG Smart Max 10K Refill Pods UK" target="_blank"><strong>Box of 5 IVG Smart Max 10K Refill Pods</strong></a></td>
+<td>£28.99</td>
+<td>£5.80 per pod</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-10-ivg-smart-max-10k" rel="noopener" title="Box of 10 IVG Smart Max 10K Pod Kit UK" target="_blank"><strong>Box of 10 IVG Smart Max 10K Pod Kit</strong></a></td>
+<td>£74.99</td>
+<td>£7.50 per kit</td>
+<td>–</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-5-ivg-2400" rel="noopener" title="Box of 5 IVG 2400 Rechargeable Pod Kit UK" target="_blank"><strong>Box of 5 IVG 2400 Rechargeable Pod Kit</strong></a></td>
+<td>£40.00</td>
+<td>£8.00 per kit</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-5-ivg-smart-max-10k" rel="noopener" title="Box of 5 IVG Smart Max 10K Pod Kit UK" target="_blank"><strong>Box of 5 IVG Smart Max 10K Pod Kit</strong></a></td>
+<td>£44.99</td>
+<td>£9.00 per kit</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/box-of-10-ivg-pro-2-10k" rel="noopener" title="Box of 10 IVG Pro 2 10K Pod Kit UK" target="_blank"><strong>Box of 10 IVG Pro 2 10K Pod Kit</strong></a></td>
+<td>£90.99</td>
+<td>£9.10 per kit</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE                              --> <!-- ========================================= -->
+<h2>How Much Is an IVG Vape Kit? Three Picks From the Sales Data</h2>
+<div class="vos-guide-box">
+<p><strong>The proven volume line: IVG Pro 12 10000, £8.99 kit, £5.99 pod</strong></p>
+<p>668 kits and 3,793 refill pods in four months, the pods rated 4.5 stars from 38 reviews, 38 flavours and three strengths (20mg, 10mg, 0mg). £0.75 per ml on the kit, £0.50 per ml on the pod. No other IVG line comes close on repeat purchases here.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>The budget pick: IVG SAVR 3000, from £2.49, pods from £1.49</strong></p>
+<p>A 650mAh rechargeable kit for the price of a bar, 5.0 stars from 9 reviews, and the cheapest puff on the page at £0.50 per 1,000 rated puffs from a £1.49 pod. The IVG Reload Mini at £2.99 is the other sub-£3 kit, with one 2ml pod and the IVG 2400 pod range behind it.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>Best for run time: IVG XL 35K, £10.99 with 22ml in the box</strong></p>
+<p>Two 10ml containers instead of one, a 35,000-puff rating, Eco and Boost modes and the highest kit rating here at 4.6 stars from 10 reviews. £0.50 per ml and £0.31 per 1,000 rated puffs on the kit; refill pods £7.99 or 3 for £21.</p>
+</div>
+<p> </p>
+<h3>IVG Pod Compatibility: Which IVG Pods Fit Which IVG Kit</h3>
+<p>Seven pod platforms, no cross-over. <strong>IVG Pro 12 pods</strong> (20mg, 10mg, 0mg) fit the IVG Pro 12 10000 and, per the VOS pod page, the IVG Pro 2 10K. <strong>IVG Smart Max pods</strong> (20mg, 10mg) fit the IVG Smart Max 10K only. <strong>IVG SAVR pods</strong> fit the IVG SAVR 3000 only. <strong>IVG 2400 Reload pods</strong> fit the IVG 2400 and the IVG Reload Mini. <strong>IVG XL 35K pods</strong> fit the IVG XL 35K only. <strong>IVG Air pods</strong> fit the IVG Air 4-in-1 and the IVG Air 2 in 1. <strong>IVG Nexio pods</strong> fit the IVG Nexio 10000 only. The IVG Smart Max 10K page states plainly that IVG Pro and IVG SAVR pods will not fit it, so buy by kit name.</p>
+<p> </p>
+<h3>IVG Rechargeable Vape Kits: Puff Ratings and the 2ml Plus Refill Format</h3>
+<p>Every kit on this page is rechargeable over USB-C and uses a 2ml pod. The puff rating follows the liquid: the IVG SAVR 3000 carries 6ml (2ml pod plus 4ml container) and is rated at 3,000 puffs; the IVG Pro 12, IVG Smart Max 10K and IVG Pro 2 carry 12ml (2ml plus 10ml) and are rated at 10,000; the IVG Nexio 10000 carries 10ml (2ml plus 8ml) for the same 10,000 rating; the IVG XL 35K carries 22ml (2ml plus two 10ml containers) and is rated at 35,000. The IVG 2400 and IVG Air 4-in-1 carry four separate 2ml pods, about 600 puffs each. IVG rates these on short MTL draws; the VOS product pages put real-world use at 6,000 to 8,000 puffs for the IVG Pro 12 and 20,000 to 28,000 for the IVG XL 35K. USB-C cables are not included with the IVG Smart Max 10K, IVG SAVR 3000, IVG XL 35K or IVG Reload Mini.</p>
+<p> </p>
+<h3>20mg or 10mg: Which IVG Kits Come in a Lower Strength</h3>
+<p>Most IVG kits are 20mg nic salt only. The exceptions are the IVG Pro 12 and IVG Smart Max 10K families. The IVG Pro 12 has a 20mg kit (£8.99), a 10mg kit (£8.99) and a 0mg kit (£8.99), with matching 20mg, 10mg and 0mg pods at £5.99 each; the 0mg pods sold 662 units in four months, more than most 20mg products on this page. The IVG Smart Max 10K has a 20mg kit (£8.99) and a 10mg kit (£9.99), with 20mg and 10mg pods at £5.99. If you want 10mg on a four-pod kit or on the IVG SAVR 3000, IVG XL 35K or IVG Nexio 10000, there is no option: those are 20mg only.</p>
+<p> </p>
+<h3>Per-Puff Value Across the IVG Range</h3>
+<p>Read the per-unit column with the puff rating. Per 1,000 rated puffs on the kit price: IVG XL 35K £0.31, IVG SAVR 3000 £0.83, IVG Pro 12 and IVG Smart Max 10K £0.90 (£0.80 on 3 for £24), IVG 2400 £2.50, IVG Air 4-in-1 £3.75. On the refill pod: IVG SAVR pod £0.50, IVG Pro 12 and IVG Smart Max pods £0.60, IVG 2400 Reload pods £2.50, IVG Air pods £3.33. The four-pod kits cost more per puff; what they give back is four flavours in one device. For a daily vaper the sums favour an IVG Pro 12 or IVG Smart Max 10K kit once and then £5.99 pods, or the IVG XL 35K to buy less often.</p>
+<p> </p>
+<h3>IVG Flavour Best Sellers by Units</h3>
+<p>From our order data for the last four months, pods first because pods are the repeat buy. IVG Pro 12 pods: Classic Menthol 241, Tobacco 187, Cola Frost 181, Blue Sour Raspberry 173, Blue Raspberry Ice 135, Grape Ice 122. IVG SAVR pods: Classic Menthol 183, Tobacco 66, Blue Sour Raspberry 51, Cola Ice 48, Banana Ice 47. IVG Smart Max pods: Classic Menthol 77, Triple Mango 62, Strawberry Ice 48, Banana Ice 48, Polar Mint 45. IVG XL 35K pods: Lemon &amp; Lime 49, Pineapple Ice 40, Blue Sour Raspberry 38, Peach Ice 35. IVG 2400 Reload pods: Blue Edition 36, Strawberry Edition 28, Banana Edition 26. Classic Menthol tops three of the five lists and Tobacco is second on two, so those two are the safe base for a mixed box. Every listing also has a Best Flavour option picked from current stock.</p>
+<p> </p>
+<h3>Why Buy IVG Kits UK Stock From Vape Online Store</h3>
+<p>Three plain reasons. The IVG kits and pods here come through authorised UK distribution, so they are the UK versions with 2ml pods and 20mg or lower nic salt. Orders over £40 get free next day delivery, which the 3 for £24 deal on the IVG Pro 12 or IVG Smart Max 10K plus a couple of pods reaches on its own. And every price on this page is live and dated October 2026, with the units sold taken from our own order data rather than a guess.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION                               --> <!-- ========================================= -->
+<h2>IVG Pod Kit Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>How long does the IVG Pro 12 last?</h4>
+<p>Up to 10,000 puffs per 12ml pod set on IVG's short-draw rating; the VOS product page puts real-world use at 6,000 to 8,000 puffs, which is one to two weeks for most daily vapers. The 1000mAh battery lasts one to two days per charge and the kit carries on with a £5.99 IVG Pro 12 refill pod when the liquid runs out.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is the IVG Pro 12 good?</h4>
+<p>On our data, yes: it is the IVG kit with the most repeat buyers, 668 kits and 3,793 refill pods in four months, and the pods are rated 4.5 stars from 38 reviews. It has no modes or screen beyond a battery indicator, so if you want Boost and Eco settings the IVG Smart Max 10K at the same £8.99 is the one to pick.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Can I refill an IVG Pro?</h4>
+<p>Not by hand. The IVG Pro 12 pod is sealed, prefilled with 20mg, 10mg or 0mg nic salt, and the 10ml container feeds the 2ml pod as you vape. When the pod is finished you pull it off and click a new IVG Pro 12 refill pod on; the battery is the part you keep. The same applies to every IVG kit on this page.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Can I buy IVG Pro refills at Tesco?</h4>
+<p>We cannot speak for supermarket shelves, and supermarket ranges rarely carry a full pod line. Here the IVG Pro 12 refill pods are £5.99 in 38 flavours at 20mg, plus 10mg and 0mg listings, with next day delivery, free over £40, so a box of five at £28.99 or any seven singles clears the delivery threshold.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Can you charge an IVG 2400?</h4>
+<p>Yes. The IVG 2400 is a rechargeable pod kit with a USB-C port and a 1750mAh battery on the VOS specification, so it keeps going until all four 2ml pods are empty, then takes a £5.99 pack of IVG 2400 Reload pods. The older sealed IVG bars could not be charged; the IVG 2400 on this page can.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Why is my IVG vape not working?</h4>
+<p>Four usual causes: a flat battery (charge it over USB-C), a pod not pushed fully home or, on the IVG 2400, not twisted to a pod position, an empty pod with liquid gone from the window, or the wrong pod platform forced onto a kit. Check the pod matches the kit name, reseat it and charge; if the kit is new and still dead, contact us for a replacement.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which IVG pod kit is the cheapest?</h4>
+<p>The IVG SAVR 3000 at £2.49 on 30 of its 31 flavours, a rechargeable 650mAh kit with 6ml of 20mg liquid and pods from £1.49. The IVG Reload Mini is next at £2.99 with one 2ml pod, then the IVG 2400 at £5.99 with four pods. For the lowest price per puff on a big kit it is the IVG XL 35K at £10.99 for 22ml.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is the difference between the IVG Smart Max 10K and the IVG Pro 12?</h4>
+<p>Same £8.99 price, same 1000mAh USB-C battery, same 2ml pod plus 10ml container at 20mg and the same 10,000-puff rating. The IVG Smart Max 10K adds a button for Boost and Eco modes and an LED battery display; the IVG Pro 12 is inhale only with a battery indicator and has the bigger pod range, 38 flavours in three strengths against the IVG Smart Max 10K's two.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does the IVG Reload Mini take IVG 2400 pods?</h4>
+<p>Yes. The IVG Reload Mini runs on the same IVG 2400 Reload pods as the IVG 2400, one 2ml pod at a time rather than four on a twist base, so a £5.99 pack of four pods is four refills for it. The VOS page lists one device, one 2ml pod and a manual in the box, 600 puffs to start, and no USB-C cable.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which pods fit the IVG Air 4-in-1 kit?</h4>
+<p>IVG Air pods, sold at £3.99 for a pack of two 2ml pods in 28 flavours. They fit the IVG Air 4-in-1 and the two-pod IVG Air 2 in 1, and no other IVG kit. IVG 2400 Reload pods look similar but are a different platform and will not fit an IVG Air.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA                                 --> <!-- ========================================= -->
+<h2>IVG Kits UK: Pick Your Anchor Product</h2>
+<p>Start with the <strong>IVG Pro 12 10000</strong> at £8.99 if you want the kit with the biggest pod range behind it, the <strong>IVG Smart Max 10K</strong> at £8.99 if you want Boost and Eco modes on the same pod format, and the <strong>IVG SAVR 3000</strong> from £2.49 if you want the cheapest rechargeable IVG kit with the cheapest pods. Every table links to the live price.</p>
+</div>

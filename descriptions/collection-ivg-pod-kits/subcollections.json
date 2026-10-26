@@ -1,0 +1,21 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "ivg-disposable-vape-bars",
+  "ivg-vape-pods",
+  "ivg-10ml",
+  "ivg-wholesale",
+  "pre-filled-pod-vape-kits",
+  "prefilled-vape-pods",
+  "2400-puff-vape"
+ ],
+ "gids": [
+  "gid://shopify/Collection/400684613881",
+  "gid://shopify/Collection/440569561337",
+  "gid://shopify/Collection/403831619833",
+  "gid://shopify/Collection/450913829113",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/440449794297",
+  "gid://shopify/Collection/444630892793"
+ ]
+}

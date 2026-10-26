@@ -1,0 +1,641 @@
+{
+ "ranking_basis": "ShopifyQL net_items_sold, last 120 days to 2026-10-26; ACTIVE, in-stock, sold >0 only; flavour-specific duplicate listings of the same kit or pod omitted; in_collection=false means the product lacks the 'IVG Pod Kits' / 'IVG Kit' trigger tag (flagged in report.md)",
+ "kits": [
+  {
+   "rank": 1,
+   "title": "IVG Smart Max 10K Prefilled Pod Kit",
+   "handle": "ivg-smart-max-10k",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-smart-max-10k",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a30.75 per ml (12ml), \u00a38.00 on 3 for \u00a324",
+   "rating": 4.25,
+   "rating_count": 16,
+   "units_sold_120d": 903,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    7.99,
+    9.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-smart-max-10k-prefilled-pod-vape-kit.jpg?v=1785567469"
+  },
+  {
+   "rank": 2,
+   "title": "IVG Pro 12 10000 Prefilled Pod Kit",
+   "handle": "ivg-pro-10000",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-10000",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a30.75 per ml (12ml), \u00a38.00 on 3 for \u00a324",
+   "rating": 4.05,
+   "rating_count": 19,
+   "units_sold_120d": 668,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    10.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-pro-10000-prefilled-pod-kit.jpg?v=1770115987"
+  },
+  {
+   "rank": 3,
+   "title": "IVG SAVR 3000 Prefilled Pod Kit",
+   "handle": "ivg-savr-3000",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-savr-3000",
+   "price_display": "From \u00a32.49",
+   "min_price_gbp": 2.49,
+   "per_unit": "\u00a30.42 per ml (6ml)",
+   "rating": 5.0,
+   "rating_count": 9,
+   "units_sold_120d": 448,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    4.49
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-savr-3000-puffs-prefilled-pod-kit.jpg?v=1774656131"
+  },
+  {
+   "rank": 4,
+   "title": "IVG 2400 Rechargeable Pod Kit, 4-in-1",
+   "handle": "ivg-2400",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-2400",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.75 per ml (4 x 2ml)",
+   "rating": 4.11,
+   "rating_count": 19,
+   "units_sold_120d": 428,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    7.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-2400-Puffs-Rechargeable-Vape-Kit.jpg?v=1790916769"
+  },
+  {
+   "rank": 5,
+   "title": "IVG XL 35K Prefilled Pod Kit",
+   "handle": "ivg-xl-35k-prefilled-pod-kit",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-xl-35k-prefilled-pod-kit",
+   "price_display": "\u00a310.99",
+   "min_price_gbp": 10.99,
+   "per_unit": "\u00a30.50 per ml (22ml)",
+   "rating": 4.6,
+   "rating_count": 10,
+   "units_sold_120d": 143,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    14.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-XL-35K-Prefilled-Pod-Kit.jpg?v=1757861470"
+  },
+  {
+   "rank": 6,
+   "title": "IVG Pro 12 10K Zero Nicotine Pod Kit",
+   "handle": "ivg-pro-12-10k-puff-zero-nicotine-vape",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-12-10k-puff-zero-nicotine-vape",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a30.75 per ml (12ml), 0mg",
+   "rating": 3.75,
+   "rating_count": 4,
+   "units_sold_120d": 126,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    10.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Pro_12_10k_Puff_Zero_Nicotine_Vape.jpg?v=1760992795"
+  },
+  {
+   "rank": 7,
+   "title": "IVG Reload Mini Prefilled Pod Kit",
+   "handle": "ivg-reload-mini-prefilled-pod-kit",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-reload-mini-prefilled-pod-kit",
+   "price_display": "\u00a32.99",
+   "min_price_gbp": 2.99,
+   "per_unit": "\u00a31.50 per ml (2ml)",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 112,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    3.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Reload_Mini_Prefilled_Pod_Kit.jpg?v=1760992813"
+  },
+  {
+   "rank": 8,
+   "title": "IVG Nexio 10000 Prefilled Pod Kit",
+   "handle": "ivg-nexio-10000-pod-kit",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-nexio-10000-pod-kit",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a30.90 per ml (10ml)",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 48,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    12.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Nexio-Prefilled-Pod-Kit.jpg?v=1790926951"
+  },
+  {
+   "rank": 9,
+   "title": "IVG Air 4-in-1 Prefilled Pod Kit",
+   "handle": "ivg-air-4-in-1-prefilled-pod-vape-kit",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-air-4-in-1-prefilled-pod-vape-kit",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a31.12 per ml (4 x 2ml)",
+   "rating": 4.2,
+   "rating_count": 5,
+   "units_sold_120d": 42,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    14.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-air-4-in-1-prefilled-vape-pod-kit.jpg?v=1790918052"
+  },
+  {
+   "rank": 10,
+   "title": "IVG Pro 2 10K Prefilled Pod Kit",
+   "handle": "ivg-pro-2-10k",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-2-10k",
+   "price_display": "\u00a310.99",
+   "min_price_gbp": 10.99,
+   "per_unit": "\u00a30.92 per ml (12ml)",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 24,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Pro-2-10K-Puffs.jpg?v=1790925625"
+  },
+  {
+   "rank": 11,
+   "title": "IVG Pro 2 10K Device, 1000mAh",
+   "handle": "ivg-pro-2-10k-puffs",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-2-10k-puffs",
+   "price_display": "\u00a36.99",
+   "min_price_gbp": 6.99,
+   "per_unit": "\u00a36.99 per device",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 22,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Pro-2-10K-Vape-Device.jpg?v=1790925627"
+  },
+  {
+   "rank": 12,
+   "title": "IVG Pro 12 10000 10mg Pod Kit",
+   "handle": "ivg-pro-12-10k-puffs-10mg-pod-kit",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-12-10k-puffs-10mg-pod-kit",
+   "price_display": "\u00a38.99",
+   "min_price_gbp": 8.99,
+   "per_unit": "\u00a30.75 per ml (12ml), 10mg",
+   "rating": null,
+   "rating_count": null,
+   "units_sold_120d": 14,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    10.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Pro_12_10mg_Disposable_Vape_10000_Puffs.jpg?v=1790924090"
+  },
+  {
+   "rank": 13,
+   "title": "IVG Smart Max 10000 10mg Pod Kit",
+   "handle": "ivg-smart-max-10k-10mg",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-smart-max-10k-10mg",
+   "price_display": "\u00a39.99",
+   "min_price_gbp": 9.99,
+   "per_unit": "\u00a30.83 per ml (12ml), 10mg",
+   "rating": null,
+   "rating_count": null,
+   "units_sold_120d": 3,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Smart-Max-10000-10mg-Vape-Kit.jpg?v=1790926345"
+  }
+ ],
+ "pods": [
+  {
+   "rank": 1,
+   "title": "IVG Pro 12 Refill Pods, 20mg",
+   "handle": "ivg-pro-12-prefilled-replacement-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-12-prefilled-replacement-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.50 per ml (12ml)",
+   "fits": "IVG Pro 12, IVG Pro 2",
+   "rating": 4.53,
+   "rating_count": 38,
+   "units_sold_120d": 3793,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    11.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Pro_Refills.jpg?v=1776513170"
+  },
+  {
+   "rank": 2,
+   "title": "IVG Smart Max 10K Refill Pods, 20mg",
+   "handle": "ivg-smart-max-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-smart-max-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.50 per ml (12ml)",
+   "fits": "IVG Smart Max 10K",
+   "rating": 5.0,
+   "rating_count": 14,
+   "units_sold_120d": 1130,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    8.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Smart-Max-10K-Refill-Pods.jpg?v=1749492597"
+  },
+  {
+   "rank": 3,
+   "title": "IVG SAVR Prefilled Pods",
+   "handle": "ivg-savr-prefilled-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-savr-prefilled-pods",
+   "price_display": "From \u00a31.49",
+   "min_price_gbp": 1.49,
+   "per_unit": "\u00a30.25 per ml (6ml)",
+   "fits": "IVG SAVR 3000",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 846,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    10.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-savr-prefilled-pods-30362.jpg?v=1746744256"
+  },
+  {
+   "rank": 4,
+   "title": "IVG Pro 12 Zero Nicotine Refill Pods",
+   "handle": "ivg-pro-12-zero-nicotine-refill-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-12-zero-nicotine-refill-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.50 per ml (12ml), 0mg",
+   "fits": "IVG Pro 12, IVG Pro 2",
+   "rating": 4.0,
+   "rating_count": 10,
+   "units_sold_120d": 662,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    11.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG_Pro_12_Zero_Nicotine_Refill_Pods.jpg?v=1760992799"
+  },
+  {
+   "rank": 5,
+   "title": "IVG XL 35K Refill Pods",
+   "handle": "ivg-xl-35k-refill-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-xl-35k-refill-pods",
+   "price_display": "\u00a37.99",
+   "min_price_gbp": 7.99,
+   "per_unit": "\u00a30.67 per ml (12ml), \u00a37.00 on 3 for \u00a321",
+   "fits": "IVG XL 35K",
+   "rating": 4.0,
+   "rating_count": 4,
+   "units_sold_120d": 379,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    6.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-XL-35K-Refill-Pods.jpg?v=1757861472"
+  },
+  {
+   "rank": 6,
+   "title": "IVG 2400 Reload 4-in-1 Pods, Pack of 4",
+   "handle": "ivg-2400-reload-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-2400-reload-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a31.50 per 2ml pod",
+   "fits": "IVG 2400, IVG Reload Mini",
+   "rating": 5.0,
+   "rating_count": 4,
+   "units_sold_120d": 298,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    6.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-2400-reload-4-in-1-multi-flavour-pods-16947.jpg?v=1745791180"
+  },
+  {
+   "rank": 7,
+   "title": "IVG Air Pods 20mg, Pack of 2",
+   "handle": "ivg-air-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-air-pods",
+   "price_display": "\u00a33.99",
+   "min_price_gbp": 3.99,
+   "per_unit": "\u00a32.00 per 2ml pod",
+   "fits": "IVG Air 4-in-1, IVG Air 2 in 1",
+   "rating": 5.0,
+   "rating_count": 7,
+   "units_sold_120d": 233,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    6.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg-air-pods-20mg.jpg?v=1770113938"
+  },
+  {
+   "rank": 8,
+   "title": "IVG Pro 12 Refill Pods, 10mg",
+   "handle": "ivg-pro-prefilled-10mg-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-pro-prefilled-10mg-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.50 per ml (12ml), 10mg",
+   "fits": "IVG Pro 12, IVG Pro 2",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 178,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    11.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ivg_pro_12_pods_10mg.jpg?v=1790924095"
+  },
+  {
+   "rank": 9,
+   "title": "IVG Nexio 10K Refill Pods",
+   "handle": "ivg-nexio-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-nexio-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.60 per ml (10ml)",
+   "fits": "IVG Nexio 10000",
+   "rating": null,
+   "rating_count": null,
+   "units_sold_120d": 73,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    6.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Nexio-10000-Refill-Pods.jpg?v=1790926942"
+  },
+  {
+   "rank": 10,
+   "title": "IVG Smart Max 10K Refill Pods, 10mg",
+   "handle": "ivg-smart-max-10k-puffs-10mg-pods",
+   "url": "https://vapeonlinestore.co.uk/products/ivg-smart-max-10k-puffs-10mg-pods",
+   "price_display": "\u00a35.99",
+   "min_price_gbp": 5.99,
+   "per_unit": "\u00a30.50 per ml (12ml), 10mg",
+   "fits": "IVG Smart Max 10K",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 55,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    9.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/IVG-Smart-Max-10K-10mg-Pods.jpg?v=1790926347"
+  }
+ ],
+ "boxes": [
+  {
+   "rank": 1,
+   "title": "Box of 5 IVG Pro 12 Refill Pods",
+   "handle": "box-of-5-ivg-pro-refills-prefilled-pods",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-5-ivg-pro-refills-prefilled-pods",
+   "price_display": "\u00a328.99",
+   "min_price_gbp": 28.99,
+   "per_unit": "\u00a35.80 per pod",
+   "rating": 5.0,
+   "rating_count": 2,
+   "units_sold_120d": 97,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    34.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Box_Of_5_IVG_Pro_Refill.jpg?v=1790925244"
+  },
+  {
+   "rank": 2,
+   "title": "Box of 10 IVG Pro 12 Refill Pods",
+   "handle": "box-of-10-ivg-pro-refills-prefilled-pods",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-10-ivg-pro-refills-prefilled-pods",
+   "price_display": "\u00a355.99",
+   "min_price_gbp": 55.99,
+   "per_unit": "\u00a35.60 per pod",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 54,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    59.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Box-Of-10-ivg-pro-12-prefilled-pod.jpg?v=1790925246"
+  },
+  {
+   "rank": 3,
+   "title": "Box of 10 IVG 2400 Rechargeable Pod Kit",
+   "handle": "box-of-10-ivg-2400",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-10-ivg-2400",
+   "price_display": "From \u00a335.99",
+   "min_price_gbp": 35.99,
+   "per_unit": "\u00a37.00 per kit on the box of 10 (\u00a369.99)",
+   "rating": 5.0,
+   "rating_count": 4,
+   "units_sold_120d": 19,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.95
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/box-of-5-ivg-2400-puffs-disposable-vape-wholesale-price.jpg?v=1790917973"
+  },
+  {
+   "rank": 4,
+   "title": "Box of 5 IVG Smart Max 10K Refill Pods",
+   "handle": "box-of-5-ivg-smart-max-10k-pods",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-5-ivg-smart-max-10k-pods",
+   "price_display": "\u00a328.99",
+   "min_price_gbp": 28.99,
+   "per_unit": "\u00a35.80 per pod",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 11,
+   "status": "ACTIVE",
+   "in_collection": false,
+   "compare_at_gbp": [
+    34.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Box-Of-5-IVG-Smart-Max-10K-Refill-Pods.jpg?v=1790925251"
+  },
+  {
+   "rank": 5,
+   "title": "Box of 10 IVG Smart Max 10K Pod Kit",
+   "handle": "box-of-10-ivg-smart-max-10k",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-10-ivg-smart-max-10k",
+   "price_display": "\u00a374.99",
+   "min_price_gbp": 74.99,
+   "per_unit": "\u00a37.50 per kit",
+   "rating": null,
+   "rating_count": null,
+   "units_sold_120d": 5,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    9.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/box_of_10_IVG-Smart-Max-10k.jpg?v=1748961066"
+  },
+  {
+   "rank": 6,
+   "title": "Box of 5 IVG 2400 Rechargeable Pod Kit",
+   "handle": "box-of-5-ivg-2400",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-5-ivg-2400",
+   "price_display": "\u00a340.00",
+   "min_price_gbp": 40.0,
+   "per_unit": "\u00a38.00 per kit",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 1,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.95
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/box-of-5-ivg-2400-puffs-rechargeable-pod-vape-kit.jpg?v=1784604213"
+  },
+  {
+   "rank": 7,
+   "title": "Box of 5 IVG Smart Max 10K Pod Kit",
+   "handle": "box-of-5-ivg-smart-max-10k",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-5-ivg-smart-max-10k",
+   "price_display": "\u00a344.99",
+   "min_price_gbp": 44.99,
+   "per_unit": "\u00a39.00 per kit",
+   "rating": 5.0,
+   "rating_count": 1,
+   "units_sold_120d": 1,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    9.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Box-Of-5-IVG-Smart-Max-10k.jpg?v=1790925608"
+  },
+  {
+   "rank": 8,
+   "title": "Box of 10 IVG Pro 2 10K Pod Kit",
+   "handle": "box-of-10-ivg-pro-2-10k",
+   "url": "https://vapeonlinestore.co.uk/products/box-of-10-ivg-pro-2-10k",
+   "price_display": "\u00a390.99",
+   "min_price_gbp": 90.99,
+   "per_unit": "\u00a39.10 per kit",
+   "rating": null,
+   "rating_count": null,
+   "units_sold_120d": 1,
+   "status": "ACTIVE",
+   "in_collection": true,
+   "compare_at_gbp": [
+    12.99
+   ],
+   "image": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Box-Of-10-IVG-Pro-2-10K.jpg?v=1790925630"
+  }
+ ],
+ "featured_blocks": [
+  [
+   "ivg-pro-10000",
+   "ivg-pro-12-prefilled-replacement-pods"
+  ],
+  [
+   "ivg-smart-max-10k",
+   "ivg-smart-max-pods"
+  ],
+  [
+   "ivg-savr-3000",
+   "ivg-savr-prefilled-pods"
+  ],
+  [
+   "ivg-2400",
+   "ivg-2400-reload-pods"
+  ],
+  [
+   "ivg-xl-35k-prefilled-pod-kit",
+   "ivg-xl-35k-refill-pods"
+  ],
+  [
+   "ivg-air-4-in-1-prefilled-pod-vape-kit",
+   "ivg-air-pods"
+  ]
+ ],
+ "flavour_best_sellers_120d": {
+  "ivg-pro-12-prefilled-replacement-pods": {
+   "Classic Menthol": 241,
+   "Tobacco": 187,
+   "Cola Frost": 181,
+   "Blue Sour Raspberry": 173,
+   "Blue Raspberry Ice": 135,
+   "Grape Ice": 122
+  },
+  "ivg-smart-max-pods": {
+   "Classic Menthol": 77,
+   "Triple Mango": 62,
+   "Strawberry Ice": 48,
+   "Banana Ice": 48,
+   "Best Flavour": 46,
+   "Polar Mint": 45
+  },
+  "ivg-savr-prefilled-pods": {
+   "Classic Menthol": 183,
+   "Tobacco": 66,
+   "Blue Sour Raspberry": 51,
+   "Cola Ice": 48,
+   "Banana Ice": 47
+  },
+  "ivg-2400-reload-pods": {
+   "Blue Edition": 36,
+   "Strawberry Edition": 28,
+   "Banana Edition": 26,
+   "Berry Edition": 20
+  },
+  "ivg-xl-35k-refill-pods": {
+   "Lemon & Lime": 49,
+   "Pineapple Ice": 40,
+   "Blue Sour Raspberry": 38,
+   "Peach Ice": 35
+  }
+ }
+}
