@@ -1,0 +1,261 @@
+{
+ "ranked_by": "ShopifyQL net_items_sold, last 120 days to 26 Oct 2026, product_title CONTAINS 'Apple', pineapple titles removed; ACTIVE and in stock on 26 Oct 2026",
+ "total_apple_units_120d": 70,
+ "lines_with_sales": 22,
+ "table_rows": [
+  {
+   "rank": 1,
+   "units_120d": 16,
+   "format": "kit",
+   "handle": "red-apple-ice-hayati-rubik-7000",
+   "name": "Red Apple Ice Hayati Rubik 7000 Pod Kit",
+   "price_single": 7.99,
+   "per_unit": "£1.14 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 2,
+   "units_120d": 11,
+   "format": "pod",
+   "handle": "sour-apple-juicy-peach-hayati-25k-pods",
+   "name": "Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Prefilled Pods",
+   "price_single": 7.99,
+   "per_unit": "£7.99/pack",
+   "rating": "★ 5.0 (1)",
+   "featured_block": true
+  },
+  {
+   "rank": 3,
+   "units_120d": 5,
+   "format": "liquid",
+   "handle": "red-apple-ice-bar-juice-5000",
+   "name": "Red Apple Ice Bar Juice 5000 10ml Nic Salt",
+   "price_single": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 4,
+   "units_120d": 4,
+   "format": "liquid",
+   "handle": "apple-peach-elux-legend-10ml-nic-salt",
+   "name": "Apple Peach Elux Legend 10ml Nic Salt",
+   "price_single": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 5,
+   "units_120d": 4,
+   "format": "liquid",
+   "handle": "double-apple-elux-legend-10ml-nic-salt",
+   "name": "Double Apple Elux Legend 10ml Nic Salt",
+   "price_single": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 6,
+   "units_120d": 4,
+   "format": "kit",
+   "handle": "double-apple-lost-mary-bm6000",
+   "name": "Double Apple Lost Mary BM6000 Prefilled Pod Kit",
+   "price_single": 8.99,
+   "per_unit": "£1.50 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 7,
+   "units_120d": 4,
+   "format": "kit",
+   "handle": "apple-edition-lost-mary-4-in-1",
+   "name": "Apple Edition Lost Mary 4 in 1 Pod Kit",
+   "price_single": 5.99,
+   "per_unit": "£1.87 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 8,
+   "units_120d": 4,
+   "format": "liquid",
+   "handle": "apple-peach-elfliq-10ml-nic-salt",
+   "name": "Apple Peach Elf Bar Elfliq 10ml Nic Salt",
+   "price_single": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 9,
+   "units_120d": 3,
+   "format": "kit",
+   "handle": "double-apple-hayati-pro-max-plus-6k",
+   "name": "Double Apple Hayati Pro Max Plus 6000 Pod Kit",
+   "price_single": 8.99,
+   "per_unit": "£1.50 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 10,
+   "units_120d": 2,
+   "format": "liquid",
+   "handle": "red-apple-ice-crystal-clear-10ml-nic-salt",
+   "name": "Red Apple Ice Crystal Clear 10ml Nic Salt",
+   "price_single": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 11,
+   "units_120d": 2,
+   "format": "kit",
+   "handle": "apple-peach-ske-bar-600",
+   "name": "Apple Peach SKE Bar 600 Prefilled Pod Kit",
+   "price_single": 3.95,
+   "per_unit": "£6.58 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 12,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "apple-blackcurrant-ice-fantango-kingston-100-ml-e-liquid",
+   "name": "Apple Blackcurrant Ice Kingston Fantango 100ml Shortfill",
+   "price_single": 5.99,
+   "per_unit": "6p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 13,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "red-apple-ice-hayati-pro-max-100ml",
+   "name": "Red Apple Ice Hayati Pro Max 100ml Shortfill",
+   "price_single": 6.99,
+   "per_unit": "7p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 14,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "green-apple-ice-lost-liq-nic-salt-10ml",
+   "name": "Green Apple Ice Lost LIQ 10ml Nic Salt",
+   "price_single": 2.99,
+   "per_unit": "30p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 15,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "apple-blackcurrant-elfliq-10ml-nic-salt",
+   "name": "Apple Blackcurrant Elf Bar Elfliq 10ml Nic Salt",
+   "price_single": 2.59,
+   "per_unit": "26p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 16,
+   "units_120d": 1,
+   "format": "kit",
+   "handle": "green-apple-ivg-smart-max-10k",
+   "name": "Green Apple IVG Smart Max 10k Pod Kit",
+   "price_single": 9.99,
+   "per_unit": "£1.00 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 17,
+   "units_120d": 1,
+   "format": "kit",
+   "handle": "double-apple-lost-mary-bm600",
+   "name": "Double Apple Lost Mary BM600 Prefilled Pod Kit",
+   "price_single": 4.99,
+   "per_unit": "£8.32 per 1,000 puffs",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 18,
+   "units_120d": 1,
+   "format": "pod",
+   "handle": "red-apple-elf-bar-p1-prefilled-e-liquid-pods",
+   "name": "Red Apple Elf Bar Mate P1 Prefilled Pods (2 pods)",
+   "price_single": 4.99,
+   "per_unit": "£2.50/pod",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 19,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "apple-kingston-gazillions-range-shortfill-100ml-e-liquid",
+   "name": "Apple Kingston Gazillions 100ml Shortfill",
+   "price_single": 5.99,
+   "per_unit": "6p/ml",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 20,
+   "units_120d": 1,
+   "format": "liquid",
+   "handle": "apple-sours-kingston-sweets-100-ml-e-liquid",
+   "name": "Apple Sours Kingston Sweets 100ml Shortfill",
+   "price_single": 5.99,
+   "per_unit": "6p/ml",
+   "rating": "-",
+   "featured_block": false
+  },
+  {
+   "rank": 21,
+   "units_120d": 1,
+   "format": "kit",
+   "handle": "sour-apple-juicy-peach-hayati-pro-ultra-plus-25000",
+   "name": "Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Pod Kit",
+   "price_single": 11.99,
+   "per_unit": "48p per 1,000 puffs",
+   "rating": "-",
+   "featured_block": true
+  },
+  {
+   "rank": 22,
+   "units_120d": 1,
+   "format": "pod",
+   "handle": "double-apple-hayati-6k-pods",
+   "name": "Double Apple Hayati Pro Max Plus 6000 Refill Pods",
+   "price_single": 6.99,
+   "per_unit": "£6.99/pack",
+   "rating": "-",
+   "featured_block": false
+  }
+ ],
+ "brand_units_120d": {
+  "Hayati": 33,
+  "Lost Mary": 9,
+  "Elux": 8,
+  "Elf Bar": 6,
+  "Bar Juice": 5,
+  "Kingston": 3,
+  "Crystal Clear": 2,
+  "SKE": 2,
+  "Lost LIQ": 1,
+  "IVG": 1
+ }
+}

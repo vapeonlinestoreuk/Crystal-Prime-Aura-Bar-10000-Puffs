@@ -1,0 +1,679 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>apple vape</strong> we stock is on this page: red apple ice, double apple, green apple, apple peach and sour apple, as prefilled pod kits, refill pods, 10ml nic salts and 100ml shortfills from Hayati, Lost Mary, Elux, Elf Bar, Bar Juice and Kingston. Prices start at <strong>£2.59 a bottle</strong> as of October 2026.</p>
+<p>Everything below is ranked by what sold over the last 120 days (70 apple units across 22 lines). Want one profile only? The <a href="https://vapeonlinestore.co.uk/collections/sour-apple-flavour-vape" rel="noopener" title="Sour Apple Vape UK" target="_blank"><strong>sour apple vape</strong></a> and <a href="https://vapeonlinestore.co.uk/collections/apple-peach-pear-flavour-vape" rel="noopener" title="Apple Peach Pear Vape UK" target="_blank"><strong>apple peach pear vape</strong></a> pages narrow it down, and the <a href="https://vapeonlinestore.co.uk/collections/10ml-e-liquids" rel="noopener" title="10ml E-Liquids UK" target="_blank"><strong>10ml e-liquids</strong></a> page lists bottles only.</p>
+<!-- ========================================= --> <!-- PRODUCT 1: Red Apple Ice Hayati Rubik 7000 Pod Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Red-Apple-Ice-Hayati-Rubik-7000-Puffs-Pod-Kit_e563078e-f1c2-4ad2-866a-06838e99c59e.jpg?v=1748960964" alt="Hayati Rubik 7000 Red Apple Ice prefilled pod kit, retail product photo of the device" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Red Apple Ice Hayati Rubik 7000 Pod Kit</h3>
+<div class="vos-price-tag">£7.99 • 5 for £38.99 • 10 for £77.95</div>
+<div class="vos-sale-badge">🏆 Best-Selling Apple Product: 16 Kits in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/red-apple-ice-hayati-rubik-7000" rel="noopener" title="Hayati Rubik 7000 Red Apple Ice Prefilled Pod Kit UK" target="_blank"><strong>Red Apple Ice Hayati Rubik 7000 Pod Kit</strong></a> outsold every other apple line here over the last 120 days. It is a prefilled pod kit rated at 7,000+ puffs: a 2ml pod fed by a 10ml container, 20mg nic salt, mesh coil, 850mAh USB-C battery and a battery and e-liquid screen.</p>
+<p><strong>Who's it for?</strong> Anyone who wants red apple with a cold finish in a kit under £8 that needs no filling. <strong>What's in the box?</strong> One Hayati Rubik 7000 device with a 2ml Red Apple Ice pod and its 10ml refill container.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Flavour:</strong> Red Apple Ice</li>
+<li>
+<strong>Rated puffs:</strong> 7,000+</li>
+<li>
+<strong>Battery:</strong> 850mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Size:</strong> 49 x 101 x 24.7mm</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £7.99 (£1.14 per 1,000 rated puffs) • <strong>5 kits:</strong> £38.99 (£7.80 each) • <strong>10 kits:</strong> £77.95 (£7.80 each, no cheaper than the five-pack)</div>
+<a href="https://vapeonlinestore.co.uk/products/red-apple-ice-hayati-rubik-7000" class="vos-cta-button" rel="noopener" title="Hayati Rubik 7000 Red Apple Ice Prefilled Pod Kit UK" target="_blank">View Hayati Rubik 7000 Red Apple Ice</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Kit and Prefilled Pods --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Sour-Apple-_-Juicy-Peach-Hayati-25K-Pods.jpg?v=1790925850" alt="Hayati Pro Ultra Plus 25000 Sour Apple and Juicy Peach prefilled pod twin pack with two 10ml refill containers" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Kit and Prefilled Pods</h3>
+<div class="vos-price-tag">Kit £11.99 • Pods £7.99 per twin pack</div>
+<div class="vos-sale-badge">⭐ Best-Selling Apple Pod Pack: 11 Packs in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-25k-pods" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pods UK" target="_blank"><strong>Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Prefilled Pods</strong></a> sold 11 packs in 120 days, more than any other apple refill, and the <a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-pro-ultra-plus-25000" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pod Kit UK" target="_blank"><strong>Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Pod Kit</strong></a> sells alongside them. The kit holds sour apple in one tank and juicy peach in the other, and you twist to switch: 25,000 rated puffs from two 10ml containers at 20mg, 850mAh USB-C battery, 1.1 ohm mesh coil in each tank.</p>
+<p><strong>Who's it for?</strong> Vapers who like sour apple but not all day: twist to peach when the apple gets too sharp. Kit owners buy the pod pack to keep the device and change flavour. For sour apple on its own, the <a href="https://vapeonlinestore.co.uk/collections/sour-apple-flavour-vape" rel="noopener" title="Sour Apple Vape UK" target="_blank"><strong>sour apple vape</strong></a> page lists every sour apple line.</p>
+<p><strong>What's in the box?</strong> Kit: one Hayati Pro Ultra Plus 25000 device, two 2ml prefilled pods and two 10ml containers. Pod pack: two prefilled pods with two 10ml containers, no device.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Flavours:</strong> Sour Apple / Juicy Peach, twist to switch</li>
+<li>
+<strong>Rated puffs:</strong> 25,000</li>
+<li>
+<strong>Battery:</strong> 850mAh, USB-C</li>
+<li>
+<strong>E-liquid:</strong> 2 x 2ml pods + 2 x 10ml containers</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> 1.1 ohm mesh, one per tank</li>
+<li>
+<strong>Pods fit:</strong> Hayati Pro Ultra Plus 25000 kit only</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Kit:</strong> £11.99 (48p per 1,000 rated puffs) • <strong>5 kits:</strong> £52.99 (£10.60 each) • <strong>Pod pack:</strong> £7.99 (32p per 1,000) • <strong>10 pod packs:</strong> £65.99 (£6.60 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-pro-ultra-plus-25000" class="vos-cta-button" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pod Kit UK" target="_blank">View Hayati Pro Ultra Plus 25000 Kit</a> <a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-25k-pods" class="vos-cta-button" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pods UK" target="_blank">View Hayati Pro Ultra Plus 25000 Pods</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: Red Apple Ice Bar Juice 5000 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/red-apple-ice-bar-juice-5000-nic-salt-e-liquid-or-4-for-pound10-50711.jpg?v=1745793572" alt="Bar Juice 5000 Red Apple Ice 10ml nic salt bottle, retail product photo" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Red Apple Ice Bar Juice 5000 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.99 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🔥 Best-Selling Apple Nic Salt: 5 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/red-apple-ice-bar-juice-5000" rel="noopener" title="Bar Juice 5000 Red Apple Ice 10ml Nic Salt UK" target="_blank"><strong>Red Apple Ice Bar Juice 5000 10ml Nic Salt</strong></a> is the best-selling apple bottle on the site. Bar Juice describes it as freshly picked red apples with a frosty twist: sweet and tangy apple first, then a menthol chill on the exhale. It is a 10ml nic salt at 40/60 VG/PG in four strengths from 5mg to 20mg, blended for mouth-to-lung pod kits.</p>
+<p><strong>Who's it for?</strong> Anyone refilling a pod kit who liked red apple ice in a prefilled device. Bar Juice rates one bottle at about five 600-puff bars.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Bar Juice</li>
+<li>
+<strong>Flavour:</strong> Red Apple Ice</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt, childproof cap</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg, 15mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 40/60</li>
+<li>
+<strong>Style:</strong> mouth to lung</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.99 (30p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/red-apple-ice-bar-juice-5000" class="vos-cta-button" rel="noopener" title="Bar Juice 5000 Red Apple Ice 10ml Nic Salt UK" target="_blank">View Bar Juice 5000 Red Apple Ice</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: Double Apple Lost Mary BM6000 Prefilled Pod Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Double-Apple-Lost-Mary-BM6000-Pod-Kit.jpg?v=1790917338" alt="Lost Mary BM6000 Double Apple prefilled pod kit, front view of the device" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. Double Apple Lost Mary BM6000 Prefilled Pod Kit</h3>
+<div class="vos-price-tag">£8.99 • 5 for £40.00 • 10 for £79.99</div>
+<div class="vos-sale-badge">⭐ Best-Selling Double Apple Kit: 4 in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/double-apple-lost-mary-bm6000" rel="noopener" title="Lost Mary BM6000 Double Apple Prefilled Pod Kit UK" target="_blank"><strong>Double Apple Lost Mary BM6000 Prefilled Pod Kit</strong></a> is the double apple kit that sold most here. It is rated up to 6,000 puffs from a 2ml pod plus a 10ml refill container, at 20mg nic salt through a mesh coil, with a 1000mAh battery on USB-C and a visible e-liquid level. The battery detaches for recycling.</p>
+<p><strong>Who's it for?</strong> Someone who wants double apple without ice in a kit with a bigger battery than the Hayati Rubik 7000. Lost Mary lists 38 flavours for the Lost Mary BM6000, so there is a next flavour when this one runs out. <strong>What's in the box?</strong> One Lost Mary BM6000 device with a 2ml Double Apple pod and a 10ml refill container.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Lost Mary</li>
+<li>
+<strong>Flavour:</strong> Double Apple</li>
+<li>
+<strong>Rated puffs:</strong> up to 6,000</li>
+<li>
+<strong>Battery:</strong> 1000mAh, USB-C, detachable</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Range:</strong> 38 Lost Mary BM6000 flavours</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £8.99 (£1.50 per 1,000 rated puffs) • <strong>5 kits:</strong> £40.00 (£8.00 each) • <strong>10 kits:</strong> £79.99 (£8.00 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/double-apple-lost-mary-bm6000" class="vos-cta-button" rel="noopener" title="Lost Mary BM6000 Double Apple Prefilled Pod Kit UK" target="_blank">View Lost Mary BM6000 Double Apple</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: Double Apple Elux Legend 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/double-apple-elux-legend-10ml-nic-salt-or-retail-and-wholesale-30023.jpg?v=1790918036" alt="Elux Legend Double Apple 10ml nic salt bottle, retail product photo" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Double Apple Elux Legend 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.59 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🔥 Best-Selling Double Apple Bottle: 4 in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/double-apple-elux-legend-10ml-nic-salt" rel="noopener" title="Elux Legend Double Apple 10ml Nic Salt UK" target="_blank"><strong>Double Apple Elux Legend 10ml Nic Salt</strong></a> is the double apple for refillable kits: a 10ml nic salt at 50/50 VG/PG in 5mg, 10mg and 20mg. It suits anyone who vaped that flavour in an Elux device and now refills.</p>
+<p><strong>Who's it for?</strong> Anyone who likes double apple and wants it at 26p per ml rather than in a prefilled kit. The 5mg bottle is one of the few apple liquids sold below 10mg.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elux</li>
+<li>
+<strong>Flavour:</strong> Double Apple</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt, childproof cap, tamper seal</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Style:</strong> mouth to lung</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.59 (26p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/double-apple-elux-legend-10ml-nic-salt" class="vos-cta-button" rel="noopener" title="Elux Legend Double Apple 10ml Nic Salt UK" target="_blank">View Elux Legend Double Apple</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 6: Apple Kingston Gazillions 100ml Shortfill --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/apple-kingston-gazillions-range-shortfill-100ml-e-liquid-75287.jpg?v=1745791189" alt="Kingston Gazillions Apple 100ml shortfill e-liquid bottle, retail product photo" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>6. Apple Kingston Gazillions 100ml Shortfill</h3>
+<div class="vos-price-tag">£5.99 • £6.99 with 2 nic shots • £7.99 with 5</div>
+<div class="vos-sale-badge">💷 Cheapest Apple Per ml: 6p</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/apple-kingston-gazillions-range-shortfill-100ml-e-liquid" rel="noopener" title="Kingston Gazillions Apple 100ml Shortfill UK" target="_blank"><strong>Apple Kingston Gazillions 100ml Shortfill</strong></a> is the apple for sub-ohm tanks: 100ml of 70/30 VG/PG at 0mg, made in the UK, with 18mg nic shots added at checkout if wanted. Kingston describes it as a crisp, refreshing apple for all-day vaping.</p>
+<p><strong>Who's it for?</strong> Direct-to-lung vapers who get through liquid quickly. The 10ml salts on this page cost 20p to 30p per ml; this is 6p. Two 18mg shots take the full bottle to about 3mg.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Kingston</li>
+<li>
+<strong>Range:</strong> Kingston Gazillions</li>
+<li>
+<strong>Flavour:</strong> Apple</li>
+<li>
+<strong>Bottle:</strong> 100ml shortfill, childproof cap, tamper seal</li>
+<li>
+<strong>VG/PG:</strong> 70/30</li>
+<li>
+<strong>Nicotine:</strong> 0mg; 2 or 5 x 18mg shots optional</li>
+<li>
+<strong>Style:</strong> sub-ohm, direct to lung</li>
+<li>
+<strong>Made in:</strong> UK</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>100ml:</strong> £5.99 (6p per ml) • <strong>With 2 shots:</strong> £6.99 for about 120ml at 3mg • <strong>With 5 shots:</strong> £7.99</div>
+<a href="https://vapeonlinestore.co.uk/products/apple-kingston-gazillions-range-shortfill-100ml-e-liquid" class="vos-cta-button" rel="noopener" title="Kingston Gazillions Apple 100ml Shortfill UK" target="_blank">View Kingston Gazillions Apple 100ml</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- COMPARISON TABLE: APPLE KITS --> <!-- ========================================= -->
+<h2>Apple Vape Kits Ranked by Sales</h2>
+<p>Eight apple vape kits sold over the last 120 days, listed in <strong>sales order</strong>. Per unit is the single-kit price divided by the rated puff count; the Lost Mary 4 in 1 figure uses its 3,200-puff ECO mode rating.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per 1,000 puffs</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-apple-ice-hayati-rubik-7000" rel="noopener" title="Hayati Rubik 7000 Red Apple Ice Prefilled Pod Kit UK" target="_blank"><strong>Red Apple Ice Hayati Rubik 7000 Pod Kit</strong></a></td>
+<td>£7.99</td>
+<td>£1.14 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-apple-lost-mary-bm6000" rel="noopener" title="Lost Mary BM6000 Double Apple Prefilled Pod Kit UK" target="_blank"><strong>Double Apple Lost Mary BM6000 Prefilled Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-edition-lost-mary-4-in-1" rel="noopener" title="Lost Mary 4 in 1 Apple Edition Pod Kit UK" target="_blank"><strong>Apple Edition Lost Mary 4 in 1 Pod Kit</strong></a></td>
+<td>£5.99</td>
+<td>£1.87 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-apple-hayati-pro-max-plus-6k" rel="noopener" title="Hayati Pro Max Plus 6000 Double Apple Prefilled Pod Kit UK" target="_blank"><strong>Double Apple Hayati Pro Max Plus 6000 Pod Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-peach-ske-bar-600" rel="noopener" title="SKE Bar 600 Apple Peach Prefilled Pod Kit UK" target="_blank"><strong>Apple Peach SKE Bar 600 Prefilled Pod Kit</strong></a></td>
+<td>£3.95</td>
+<td>£6.58 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/green-apple-ivg-smart-max-10k" rel="noopener" title="IVG Smart Max 10k Green Apple Prefilled Pod Kit UK" target="_blank"><strong>Green Apple IVG Smart Max 10k Pod Kit</strong></a></td>
+<td>£9.99</td>
+<td>£1.00 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-apple-lost-mary-bm600" rel="noopener" title="Lost Mary BM600 Double Apple Prefilled Pod Kit UK" target="_blank"><strong>Double Apple Lost Mary BM600 Prefilled Pod Kit</strong></a></td>
+<td>£4.99</td>
+<td>£8.32 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-pro-ultra-plus-25000" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pod Kit UK" target="_blank"><strong>Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Pod Kit</strong></a></td>
+<td>£11.99</td>
+<td>48p per 1,000 puffs</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- APPLE PODS TABLE --> <!-- ========================================= -->
+<h2>Apple Vape Pods: Refill Packs Ranked by Sales</h2>
+<p>Three apple pod packs sold. The Hayati packs hold their own kits' prefilled pods and refill containers, so they are priced per pack; an Elf Bar Mate P1 pack holds two 2ml pods.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per unit</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/sour-apple-juicy-peach-hayati-25k-pods" rel="noopener" title="Hayati Pro Ultra Plus 25000 Sour Apple Juicy Peach Prefilled Pods UK" target="_blank"><strong>Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 Prefilled Pods</strong></a></td>
+<td>£7.99</td>
+<td>£7.99/pack</td>
+<td>★ 5.0 (1)</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-apple-elf-bar-p1-prefilled-e-liquid-pods" rel="noopener" title="Elf Bar Mate P1 Red Apple Prefilled Pods UK" target="_blank"><strong>Red Apple Elf Bar Mate P1 Prefilled Pods (2 pods)</strong></a></td>
+<td>£4.99</td>
+<td>£2.50/pod</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-apple-hayati-6k-pods" rel="noopener" title="Hayati Pro Max Plus 6000 Double Apple Refill Pods UK" target="_blank"><strong>Double Apple Hayati Pro Max Plus 6000 Refill Pods</strong></a></td>
+<td>£6.99</td>
+<td>£6.99/pack</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- APPLE LIQUIDS TABLE --> <!-- ========================================= -->
+<h2>Apple E-Liquid and Apple Vape Juice Ranked by Bottles Sold</h2>
+<p>Eleven apple bottles sold, 10ml nic salts and 100ml shortfills together. Per ml is on the single-bottle price; every 10ml line from Bar Juice, Elux and Elf Bar drops to £2.00 a bottle on a five-pack.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per ml</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-apple-ice-bar-juice-5000" rel="noopener" title="Bar Juice 5000 Red Apple Ice 10ml Nic Salt UK" target="_blank"><strong>Red Apple Ice Bar Juice 5000 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-peach-elux-legend-10ml-nic-salt" rel="noopener" title="Elux Legend Apple Peach 10ml Nic Salt UK" target="_blank"><strong>Apple Peach Elux Legend 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/double-apple-elux-legend-10ml-nic-salt" rel="noopener" title="Elux Legend Double Apple 10ml Nic Salt UK" target="_blank"><strong>Double Apple Elux Legend 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-peach-elfliq-10ml-nic-salt" rel="noopener" title="Elf Bar Elfliq Apple Peach 10ml Nic Salt UK" target="_blank"><strong>Apple Peach Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-apple-ice-crystal-clear-10ml-nic-salt" rel="noopener" title="Crystal Clear Red Apple Ice 10ml Nic Salt UK" target="_blank"><strong>Red Apple Ice Crystal Clear 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-blackcurrant-ice-fantango-kingston-100-ml-e-liquid" rel="noopener" title="Kingston Fantango Apple Blackcurrant Ice 100ml Shortfill UK" target="_blank"><strong>Apple Blackcurrant Ice Kingston Fantango 100ml Shortfill</strong></a></td>
+<td>£5.99</td>
+<td>6p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/red-apple-ice-hayati-pro-max-100ml" rel="noopener" title="Hayati Pro Max Red Apple Ice 100ml Shortfill UK" target="_blank"><strong>Red Apple Ice Hayati Pro Max 100ml Shortfill</strong></a></td>
+<td>£6.99</td>
+<td>7p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/green-apple-ice-lost-liq-nic-salt-10ml" rel="noopener" title="Lost LIQ Green Apple Ice 10ml Nic Salt UK" target="_blank"><strong>Green Apple Ice Lost LIQ 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-blackcurrant-elfliq-10ml-nic-salt" rel="noopener" title="Elf Bar Elfliq Apple Blackcurrant 10ml Nic Salt UK" target="_blank"><strong>Apple Blackcurrant Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-kingston-gazillions-range-shortfill-100ml-e-liquid" rel="noopener" title="Kingston Gazillions Apple 100ml Shortfill UK" target="_blank"><strong>Apple Kingston Gazillions 100ml Shortfill</strong></a></td>
+<td>£5.99</td>
+<td>6p/ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/apple-sours-kingston-sweets-100-ml-e-liquid" rel="noopener" title="Kingston Sweets Apple Sours 100ml Shortfill UK" target="_blank"><strong>Apple Sours Kingston Sweets 100ml Shortfill</strong></a></td>
+<td>£5.99</td>
+<td>6p/ml</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE --> <!-- ========================================= -->
+<h2>Which Apple Vape Should You Buy?</h2>
+<div class="vos-guide-box">
+<p><strong>🏆 The proven volume line: Red Apple Ice Hayati Rubik 7000, £7.99</strong></p>
+<p>16 kits in 120 days, more than any other apple product on the site. 7,000+ rated puffs, 20mg, £7.80 a kit on the five-pack.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>💷 The budget pick: Apple Edition Lost Mary 4 in 1, £5.99</strong></p>
+<p>Four 2ml pods in one 850mAh device: Double Apple, Apple Pear, Red Apple Ice and Berry Apple Peach, 20mg, rated up to 3,200 puffs in ECO mode. The <a href="https://vapeonlinestore.co.uk/products/apple-edition-lost-mary-4-in-1" rel="noopener" title="Lost Mary 4 in 1 Apple Edition Pod Kit UK" target="_blank"><strong>Apple Edition Lost Mary 4 in 1</strong></a> works out at £1.50 a pod and sold 4 in 120 days.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>🍏 Best apple vape juice: Red Apple Ice Bar Juice 5000 10ml, £2.99</strong></p>
+<p>5 bottles in 120 days, the most of any apple liquid, in 5mg, 10mg, 15mg and 20mg. £2.00 a bottle on the five-pack, and Bar Juice rates one bottle at about five 600-puff bars.</p>
+</div>
+<p> </p>
+<h3>Red Apple Ice, Double Apple, Green Apple or Sour Apple?</h3>
+<p>Our product pages put it like this. <strong>Red apple ice</strong>: Bar Juice describes its Red Apple Ice as freshly picked red apples with a frosty twist, sweet and tangy with a menthol chill. <strong>Double apple</strong>: the Double Apple Hayati Pro Max Plus 6000 pages call it a crisp, tart apple blend, sweet up front with a tart snap, no ice, warmer and tangier than red apple ice. <strong>Green apple</strong> and <strong>apple ice</strong>: the Green Apple Ice Lost LIQ 10ml page carries no tasting note; the name means a green apple base with a cooling finish. <strong>Sour apple</strong>: none of our sour apple pages carry a tasting note either; on the Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 it sits in one tank with peach in the other, so you can switch when it gets too sharp.</p>
+<p> </p>
+<h3>Apple Prefilled Pod Kit or 10ml Apple Nic Salt?</h3>
+<p>A prefilled kit (Hayati Rubik 7000, Lost Mary BM6000, Hayati Pro Ultra Plus 25000) needs no filling and costs 48p to £1.50 per 1,000 rated puffs. A 10ml apple nic salt in a refillable kit is £2.00 a bottle on a five-pack, and Bar Juice rates a bottle at about five 600-puff bars, so bottles win on cost once you own the kit. On strength: every prefilled apple kit and pod here is 20mg. Bottles add 10mg across the board, 5mg from Bar Juice, Elux and Elf Bar Elfliq, and 15mg from Bar Juice. Shortfills are 0mg until you add shots. The <a href="https://vapeonlinestore.co.uk/collections/pre-filled-pod-vape-kits" rel="noopener" title="Prefilled Pod Vape Kits UK" target="_blank"><strong>prefilled pod vape kits</strong></a> page lists every kit and <a href="https://vapeonlinestore.co.uk/collections/prefilled-vape-pods" rel="noopener" title="Prefilled Vape Pods UK" target="_blank"><strong>prefilled vape pods</strong></a> every refill pack.</p>
+<p> </p>
+<h3>Which Brands Do Apple Best, by Units Sold</h3>
+<p>Apple units over the last 120 days: <strong>Hayati 33</strong>, <strong>Lost Mary 9</strong>, <strong>Elux 8</strong>, <strong>Elf Bar 6</strong>, Bar Juice 5, Kingston 3, then Crystal Clear and SKE on 2 each. Hayati leads because it sells apple in every format: the Hayati Rubik 7000 kit, Hayati Pro Ultra Plus 25000 pods, Hayati Pro Max Plus 6000 kit and pods, and a 100ml shortfill. The <a href="https://vapeonlinestore.co.uk/collections/hayati-pro-max-disposable-vapes" rel="noopener" title="Hayati Pro Max Vapes UK" target="_blank"><strong>Hayati Pro Max</strong></a> and <a href="https://vapeonlinestore.co.uk/collections/lost-mary" rel="noopener" title="Lost Mary Vapes UK" target="_blank"><strong>Lost Mary</strong></a> pages hold the full ranges.</p>
+<p> </p>
+<h3>Why Buy Apple Vapes from Vape Online Store</h3>
+<p>Prices are on the page with no login, orders over £40 get free next day delivery, and stock comes through UK authorised distribution. The tables above only list lines that sold in the last four months, so what you see is what ships.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION --> <!-- ========================================= -->
+<h2>Apple Vape Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>What is the best apple flavour vape?</h4>
+<p>By units sold here, the Red Apple Ice Hayati Rubik 7000 kit (£7.99), with 16 in 120 days. For a refill pack it is the Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 pods (£7.99, 11 packs), and for a bottle the Red Apple Ice Bar Juice 5000 10ml (£2.99, 5 sold).</p>
+</div>
+<div class="vos-faq-item">
+<h4>How much does an apple vape cost?</h4>
+<p>From £2.59 for a 10ml apple nic salt (Elux Legend or Elf Bar Elfliq) to £11.99 for the Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 kit. Prefilled apple kits sit between £3.95 (Apple Peach SKE Bar 600) and £9.99 (Green Apple IVG Smart Max 10k); 100ml apple shortfills are £5.99.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What does double apple vape taste like?</h4>
+<p>Our Double Apple Hayati Pro Max Plus 6000 pages describe it as a crisp, tart apple blend: sweet up front with a tart snap, no ice and no menthol, warmer and tangier than red apple ice. The Double Apple Elux Legend 10ml (£2.59) and Double Apple Lost Mary BM6000 kit (£8.99) are the double apple lines that sell most.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What does sour apple vape taste like?</h4>
+<p>None of our sour apple pages carry a tasting note, so the name is the guide: apple with the sharpness pushed forward. The best-selling sour apple line here is the Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 pod pack (£7.99), which pairs it with peach. Every sour apple line is on the <a href="https://vapeonlinestore.co.uk/collections/sour-apple-flavour-vape" rel="noopener" title="Sour Apple Vape UK" target="_blank"><strong>sour apple vape</strong></a> page.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Does Lost Mary make a double apple vape?</h4>
+<p>Yes. The Double Apple Lost Mary BM6000 kit (£8.99, up to 6,000 puffs, 1000mAh) sold 4 in 120 days, the Double Apple Lost Mary BM600 (£4.99, 600 puffs) is the small version, and the Apple Edition Lost Mary 4 in 1 (£5.99) carries a Double Apple pod among its four.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there an apple peach Elf Bar?</h4>
+<p>Yes: the Apple Peach Elf Bar Elfliq 10ml nic salt (£2.59, 5mg, 10mg or 20mg, 50/50) sold 4 bottles in 120 days and drops to £2.00 a bottle on a five-pack. Apple Peach also comes from Elux Legend (10ml, £2.59) and as the Apple Peach SKE Bar 600 kit (£3.95).</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which Hayati apple flavours sell best?</h4>
+<p>Hayati sold 33 apple units in 120 days, more than any other brand here. The Red Apple Ice Hayati Rubik 7000 kit led with 16, then the Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 pods with 11. Double Apple comes as a Hayati Pro Max Plus 6000 kit (£8.99) and refill pod (£6.99).</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there an apple rechargeable vape pod?</h4>
+<p>Every apple kit on this page is a rechargeable pod kit with a 2ml prefilled pod and, on the bigger kits, a 10ml refill container. The Red Apple Ice Hayati Rubik 7000 (£7.99), Double Apple Lost Mary BM6000 (£8.99) and Green Apple IVG Smart Max 10k (£9.99) all charge over USB-C and take replacement pods.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there a green apple vape in stock?</h4>
+<p>Yes. The Green Apple IVG Smart Max 10k kit (£9.99, 1000mAh, 2ml pod plus 10ml refill, 20mg) and the Green Apple Ice Lost LIQ 10ml nic salt (£2.99, 10mg or 20mg) are both in stock. Green apple is a small seller here next to red apple ice and double apple.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA --> <!-- ========================================= -->
+<h2>Pick Your Apple and Check Out</h2>
+<p>Start with the <strong>Red Apple Ice Hayati Rubik 7000</strong> at £7.99 if you want it prefilled, the <strong>Red Apple Ice Bar Juice 5000 10ml</strong> at £2.99 if you refill, and the <strong>Sour Apple / Juicy Peach Hayati Pro Ultra Plus 25000 pods</strong> at £7.99 if you already own the kit.</p>
+</div>

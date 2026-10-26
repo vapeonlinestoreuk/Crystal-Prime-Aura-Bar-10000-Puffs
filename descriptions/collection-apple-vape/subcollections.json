@@ -1,0 +1,21 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "sour-apple-flavour-vape",
+  "apple-peach-pear-flavour-vape",
+  "prefilled-vape-pods",
+  "pre-filled-pod-vape-kits",
+  "10ml-e-liquids",
+  "hayati-pro-max-disposable-vapes",
+  "lost-mary"
+ ],
+ "gids": [
+  "gid://shopify/Collection/433044357369",
+  "gid://shopify/Collection/433045111033",
+  "gid://shopify/Collection/440449794297",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/411562279161",
+  "gid://shopify/Collection/409055789305",
+  "gid://shopify/Collection/446532485369"
+ ]
+}
