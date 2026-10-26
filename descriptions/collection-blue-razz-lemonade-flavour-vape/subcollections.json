@@ -1,0 +1,19 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "blue-razz-ice-vape",
+  "pink-lemonade-flavour-vape",
+  "blue-razz-cherry-flavour-vape",
+  "blue-razz-gummy-bear-flavour-vape",
+  "pre-filled-pod-vape-kits",
+  "prefilled-vape-pods"
+ ],
+ "gids": [
+  "gid://shopify/Collection/445178315001",
+  "gid://shopify/Collection/433044390137",
+  "gid://shopify/Collection/433045012729",
+  "gid://shopify/Collection/433044979961",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/440449794297"
+ ]
+}

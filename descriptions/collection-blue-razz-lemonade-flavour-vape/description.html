@@ -1,0 +1,516 @@
+<style>
+.vos-collection .vos-compare-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.vos-collection .vos-compare-table-wrap table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.vos-collection .vos-compare-table-wrap th {
+  background: #1a2634;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.vos-collection .vos-compare-table-wrap td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.vos-collection .vos-compare-table-wrap tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.vos-collection .vos-faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.vos-collection .vos-faq-item:last-child {
+  border-bottom: none;
+}
+
+.vos-collection .vos-faq-item h4 {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.vos-collection .vos-faq-item p {
+  margin: 0;
+  color: #333;
+}
+
+.vos-collection .vos-cta-button {
+  display: inline-block;
+  background: #1a2634;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vos-collection .vos-cta-button:hover {
+  background: #2c3a4a;
+  text-decoration: none !important;
+}
+
+.vos-collection .vos-product-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  align-items: stretch;
+}
+
+.vos-collection .vos-product-image {
+  flex: 0 0 400px;
+  max-width: 400px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vos-collection .vos-product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.vos-collection .vos-product-details {
+  flex: 1;
+  min-width: 280px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.vos-collection .vos-product-details::-webkit-scrollbar {
+  width: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.vos-collection .vos-product-details::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.vos-collection .vos-product-details h3 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.vos-collection .vos-price-tag {
+  display: inline-block;
+  background: #e6f7e6;
+  color: #0a7e0a;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 6px 0 12px 0;
+}
+
+.vos-collection .vos-sale-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #d97706;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 2px 4px 2px 0;
+}
+
+.vos-collection .vos-guide-box {
+  background: #f0f4f8;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #1a2634;
+}
+
+.vos-collection .vos-guide-box ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.vos-collection .vos-problem-box {
+  background: #fef9e7;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #f39c12;
+}
+
+.vos-collection .vos-tip-box {
+  background: #f0faf0;
+  padding: 18px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .vos-collection .vos-product-block {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .vos-collection .vos-product-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .vos-collection .vos-product-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .vos-collection .vos-product-details {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 650px;
+  }
+
+  .vos-collection .vos-compare-table-wrap th,
+  .vos-collection .vos-compare-table-wrap td {
+    padding: 8px 12px;
+  }
+
+  .vos-collection .vos-cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vos-collection .vos-product-block {
+    padding: 12px;
+  }
+  .vos-collection .vos-product-image img {
+    max-width: 240px;
+  }
+  .vos-collection .vos-compare-table-wrap table {
+    min-width: 560px;
+  }
+}
+</style>
+<!-- ============================================ --><!-- START: COLLECTION CONTENT                     --><!-- ============================================ -->
+<div class="vos-collection">
+<p>Every <strong>blue razz lemonade vape</strong> we stock is on this page: tangy blue raspberry with a fizzy lemonade finish, as prefilled pod kits and 10ml nic salts from Hayati, Elf Bar, Bar Juice and Al Fakher. Prices start at <strong>£2.59 a bottle</strong> as of October 2026, and the 10ml lines drop to £2.00 a bottle on a five-pack.</p>
+<p>The product sections and tables below are ranked by what sold over the last 120 days. Want the plain or iced version instead? The <a href="https://vapeonlinestore.co.uk/collections/blue-razz-ice-vape" rel="noopener" title="Blue Razz Ice Vape UK" target="_blank"><strong>blue razz ice vape</strong></a> page holds every blue raspberry line with a cooling finish, and the <a href="https://vapeonlinestore.co.uk/collections/blue-razz-cherry-flavour-vape" rel="noopener" title="Blue Razz Cherry Flavour Vape UK" target="_blank"><strong>blue razz cherry vape</strong></a>, <a href="https://vapeonlinestore.co.uk/collections/blue-razz-gummy-bear-flavour-vape" rel="noopener" title="Blue Razz Gummy Bear Flavour Vape UK" target="_blank"><strong>blue razz gummy bear vape</strong></a> and <a href="https://vapeonlinestore.co.uk/collections/pink-lemonade-flavour-vape" rel="noopener" title="Pink Lemonade Flavour Vape UK" target="_blank"><strong>pink lemonade vape</strong></a> pages cover the other twists on the same base.</p>
+<!-- ========================================= --> <!-- PRODUCT 1: Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/blue-razz-lemonade-hayati-pro-max-10ml-nic-salt-e-liquid.jpg?v=1778796314" alt="Blue Razz Lemonade Hayati Pro Max 10ml nic salt e-liquid bottle and box" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>1. Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.59 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🏆 Best Seller: 5 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-10ml" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</strong></a> is the top blue razz lemonade product on the site by units: the bottled Hayati Pro Max flavour, 50/50 VG/PG, in 10mg or 20mg.</p>
+<p><strong>Who's it for?</strong> Anyone refilling a mouth-to-lung pod kit. Pick 10mg for a lighter hit, 20mg for the strength the prefilled kits use.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt, childproof cap</li>
+<li>
+<strong>Nicotine:</strong> 10mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Style:</strong> MTL pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.59 (26p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-10ml" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank" class="vos-cta-button">View Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 2: Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/blue-razz-lemonade-elfliq-10ml-nic-salt.jpg?v=1787974314" alt="Blue Razz Lemonade Elf Bar Elfliq 10ml nic salt e-liquid bottle" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>2. Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.59 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">🔥 Second by Units: 4 Bottles in 120 Days</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elfliq-10ml-nic-salt" rel="noopener" title="Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt</strong></a> is Elf Bar's bottling of its Elf Bar 600 flavour for refillable kits: 50/50 VG/PG in 5mg, 10mg or 20mg, with an easy-fill nozzle.</p>
+<p><strong>Who's it for?</strong> Former Elf Bar 600 users who now refill, and anyone who wants a 5mg option. Same price and five-for-£10 deal as the Hayati bottle above.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Elf Bar</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt, easy-fill nozzle, childproof cap</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 50/50</li>
+<li>
+<strong>Style:</strong> MTL pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.59 (26p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elfliq-10ml-nic-salt" rel="noopener" title="Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt E-Liquid UK" target="_blank" class="vos-cta-button">View Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 3: Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/blue-razz-lemonade-bar-juice-5000-nic-salt-e-liquid.jpg?v=1780382938" alt="Blue Razz Lemonade Bar Juice 5000 10ml nic salt e-liquid bottle" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>3. Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt</h3>
+<div class="vos-price-tag">£2.99 • 5 for £10 • 10 for £19.99</div>
+<div class="vos-sale-badge">⭐ Widest Strength Choice: 5mg to 20mg</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-bar-juice-5000" rel="noopener" title="Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt</strong></a> is ripe blue raspberry with the zest of lemonade, in a 40/60 VG/PG nic salt that Bar Juice rates at roughly five 600-puff bars per bottle.</p>
+<p><strong>Who's it for?</strong> Anyone who wants the 15mg middle step, or a slightly thinner liquid for small-pod kits. £2.00 a bottle on a five-pack, like the other two.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Bar Juice</li>
+<li>
+<strong>Bottle:</strong> 10ml nic salt, childproof cap</li>
+<li>
+<strong>Nicotine:</strong> 5mg, 10mg, 15mg or 20mg</li>
+<li>
+<strong>VG/PG:</strong> 40/60</li>
+<li>
+<strong>Style:</strong> MTL pod kits</li>
+<li>
+<strong>Packs:</strong> 1, 5 or 10</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £2.99 (30p per ml) • <strong>5 for £10:</strong> £2.00 a bottle (20p per ml) • <strong>10 for £19.99:</strong> £2.00 a bottle</div>
+<a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-bar-juice-5000" rel="noopener" title="Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt E-Liquid UK" target="_blank" class="vos-cta-button">View Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 4: Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Blue-Razz-Lemonade-Al-Fakher-Crown-Bar-30K.jpg?v=1790923209" alt="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax prefilled pod kit with LED display" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>4. Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</h3>
+<div class="vos-price-tag">£9.99 • 5 for £44.99 • 10 for £89.99</div>
+<div class="vos-sale-badge">⚡ Biggest Puff Count on the Page: 30,000</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-al-fakher-crown-bar-30k" rel="noopener" title="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Vape Kit UK" target="_blank"><strong>Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</strong></a> is the long-run option: two 2ml pods, two 10ml refill containers, an 850mAh USB-C battery, mesh coils and an LED display, rated at up to 30,000 puffs.</p>
+<p><strong>Who's it for?</strong> Heavy users who want to buy once and forget it for weeks. At 33p per 1,000 rated puffs it is the cheapest per puff of the three kits here.</p>
+<p><strong>What's in the box?</strong> One Al Fakher Crown Bar 30K Hypermax device with two prefilled pods and two 10ml refill containers fitted.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Al Fakher</li>
+<li>
+<strong>Rated puffs:</strong> up to 30,000</li>
+<li>
+<strong>Battery:</strong> 850mAh, USB-C charging</li>
+<li>
+<strong>E-liquid:</strong> 2 x 2ml pods + 2 x 10ml containers</li>
+<li>
+<strong>Coil:</strong> mesh</li>
+<li>
+<strong>Display:</strong> LED</li>
+<li>
+<strong>Style:</strong> MTL, draw activated</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £9.99 (33p per 1,000 rated puffs, 45p per ml) • <strong>5 kits:</strong> £44.99 (£9.00 each) • <strong>10 kits:</strong> £89.99 (£9.00 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-al-fakher-crown-bar-30k" rel="noopener" title="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Vape Kit UK" target="_blank" class="vos-cta-button">View Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- PRODUCT 5: Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit --> <!-- ========================================= -->
+<div class="vos-product-block">
+<div class="vos-product-image"><img src="https://cdn.shopify.com/s/files/1/0652/2630/9881/files/Blue-Razz-Lemonade-Hayati-Pro-Max-Plus-6000-Puffs-Pod-Kit.jpg?v=1748960844" alt="Blue Razz Lemonade Hayati Pro Max Plus 6000 prefilled pod kit and box" loading="lazy"></div>
+<div class="vos-product-details">
+<h3>5. Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit</h3>
+<div class="vos-price-tag">£8.99 • 5 for £37.99 • 10 for £74.90</div>
+<div class="vos-sale-badge">🔍 Most Searched Kit: "hayati blue razz lemonade", 150 searches a month</div>
+<p>The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-plus-6000" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit</strong></a> is the mid-size prefilled kit: a 2ml pod topped up by a 10ml internal container, 850mAh USB-C battery, 20mg nic salt, rated at 6,000 puffs. Its page describes tangy blue raspberry with a sherbet-like lemonade fizz and no menthol.</p>
+<p><strong>Who's it for?</strong> Anyone who wants the Hayati flavour in a kit rather than a bottle, with a battery display so you are not caught flat.</p>
+<p><strong>What's in the box?</strong> One Hayati Pro Max Plus 6000 device with the 2ml pod and 10ml container fitted. No cable.</p>
+<ul>
+<li>
+<strong>Brand:</strong> Hayati</li>
+<li>
+<strong>Rated puffs:</strong> 6,000+</li>
+<li>
+<strong>Battery:</strong> 850mAh, USB-C 1A fast charge</li>
+<li>
+<strong>E-liquid:</strong> 2ml pod + 10ml container (12ml)</li>
+<li>
+<strong>Nicotine:</strong> 20mg nic salt</li>
+<li>
+<strong>Extras:</strong> smart battery display, transparent tank</li>
+</ul>
+<div class="vos-tip-box">💡 <strong>Single:</strong> £8.99 (£1.50 per 1,000 rated puffs, 75p per ml) • <strong>5 kits:</strong> £37.99 (£7.60 each) • <strong>10 kits:</strong> £74.90 (£7.49 each)</div>
+<a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-plus-6000" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank" class="vos-cta-button">View Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit</a>
+</div>
+</div>
+<!-- ========================================= --> <!-- LIQUIDS TABLE --> <!-- ========================================= -->
+<h2>Blue Razz Lemonade Vape Juice: 10ml Nic Salts Ranked by Bottles Sold</h2>
+<p>Three blue razz lemonade e liquid lines sold over the last 120 days, listed in <strong>sales order</strong>. Per ml is on the single-bottle price; all three drop to £2.00 a bottle on a five-pack or ten-pack.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per ml</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-10ml" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p per ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elfliq-10ml-nic-salt" rel="noopener" title="Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt</strong></a></td>
+<td>£2.59</td>
+<td>26p per ml</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-bar-juice-5000" rel="noopener" title="Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt</strong></a></td>
+<td>£2.99</td>
+<td>30p per ml</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- KITS TABLE --> <!-- ========================================= -->
+<h2>Blue Razz Lemonade Vape Kits Ranked by Sales</h2>
+<p>Three prefilled blue razz lemonade pod kits sold over the last 120 days, one unit each, so they are listed by price per 1,000 rated puffs. All are rechargeable and draw activated. The wider <a href="https://vapeonlinestore.co.uk/collections/pre-filled-pod-vape-kits" rel="noopener" title="Pre-Filled Pod Vape Kits UK" target="_blank"><strong>pre-filled pod vape kits</strong></a> and <a href="https://vapeonlinestore.co.uk/collections/prefilled-vape-pods" rel="noopener" title="Prefilled Vape Pods UK" target="_blank"><strong>prefilled vape pods</strong></a> pages list every device family we stock.</p>
+<div class="vos-compare-table-wrap">
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Per 1,000 puffs</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-al-fakher-crown-bar-30k" rel="noopener" title="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Vape Kit UK" target="_blank"><strong>Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</strong></a></td>
+<td>£9.99</td>
+<td>33p per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-plus-6000" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit</strong></a></td>
+<td>£8.99</td>
+<td>£1.50 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elf-bar-600" rel="noopener" title="Blue Razz Lemonade Elf Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Elf Bar 600 Kit</strong></a></td>
+<td>£4.99</td>
+<td>£8.32 per 1,000 puffs</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<!-- ========================================= --> <!-- EXPERT GUIDE --> <!-- ========================================= -->
+<h2>Which Blue Razz Lemonade Vape Should You Buy?</h2>
+<div class="vos-guide-box">
+<p><strong>🏆 The proven volume line: Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt, £2.59</strong></p>
+<p>Five bottles in 120 days, more than any other blue razz lemonade product here. 10mg or 20mg, £2.00 a bottle on the five-pack. The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-10ml" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</strong></a> is the one to start with if you refill.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>💷 The budget kit: Blue Razz Lemonade Elf Bar 600, £4.99</strong></p>
+<p>The cheapest way to try the flavour prefilled: a 2ml pod on a 500mAh battery with a QUAQ mesh coil, about 600 puffs, 20mg, £4.20 a kit on the five-pack and £4.00 on the ten-pack. The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elf-bar-600" rel="noopener" title="Blue Razz Lemonade Elf Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Elf Bar 600 Kit</strong></a> costs more per puff than the bigger kits, so treat it as a taster.</p>
+</div>
+<div class="vos-guide-box">
+<p><strong>⚡ Best for long-run puffs: Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax, £9.99</strong></p>
+<p>Up to 30,000 rated puffs from 22ml of liquid for £9.99, or 33p per 1,000 puffs. The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-al-fakher-crown-bar-30k" rel="noopener" title="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Vape Kit UK" target="_blank"><strong>Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</strong></a> is £9.00 a kit on a five-pack or ten-pack.</p>
+</div>
+<p> </p>
+<h3>Blue Razz Lemonade, Blue Razz Ice or Pink Lemonade?</h3>
+<p>Our product pages put it like this. <strong>Blue razz lemonade</strong>: the Hayati Pro Max Plus 6000 page describes sweet-and-sour blue raspberry lifted by a sherbet-like lemonade fizz, with no menthol. <strong>Blue razz ice</strong>: the same blue raspberry base with a cooling finish instead of the citrus lift, on the <a href="https://vapeonlinestore.co.uk/collections/blue-razz-ice-vape" rel="noopener" title="Blue Razz Ice Vape UK" target="_blank"><strong>blue razz ice vape</strong></a> page. <strong>Pink lemonade</strong>: our pink lemonade pages carry no tasting note; by the usual convention it is a lighter red-fruit lemonade without the blue raspberry candy edge, on its own <a href="https://vapeonlinestore.co.uk/collections/pink-lemonade-flavour-vape" rel="noopener" title="Pink Lemonade Flavour Vape UK" target="_blank"><strong>pink lemonade vape</strong></a> page.</p>
+<p> </p>
+<h3>Blue Razz Lemonade Disposable Style Kit or 10ml Nic Salt?</h3>
+<p>A prefilled pod kit needs no filling and costs 33p (Al Fakher Crown Bar 30K Hypermax) to £8.32 (Elf Bar 600) per 1,000 rated puffs. A 10ml blue razz lemonade nic salt is 20p per ml on a five-pack, and Bar Juice rates a bottle at about five 600-puff bars, so bottles win once you own a refillable kit. On strength: the Hayati Pro Max Plus 6000 and Elf Bar 600 kits are 20mg only; bottles add 10mg, and Elf Bar Elfliq and Bar Juice 5000 go down to 5mg.</p>
+<p> </p>
+<h3>Which Brands Do Blue Razz Lemonade Best, by Sales</h3>
+<p>Blue razz lemonade units over the last 120 days: <strong>Hayati 6</strong>, <strong>Elf Bar 5</strong>, Bar Juice 2, Al Fakher 1. Hayati and Elf Bar lead because each sells the flavour as both a bottle and a kit. It is a small flavour here next to blue razz gummy bear and blue razz cherry.</p>
+<p> </p>
+<h3>Why Buy Blue Razz Lemonade Vapes from Vape Online Store</h3>
+<p>Prices are on the page with no login, orders over £40 get free next day delivery, and stock comes through UK authorised distribution. This is a live collection: a line drops off the moment it sells out, so what you see is what ships.</p>
+<p> </p>
+<!-- ========================================= --> <!-- FAQ SECTION --> <!-- ========================================= -->
+<h2>Blue Razz Lemonade Vape Questions, Answered</h2>
+<div class="vos-faq-item">
+<h4>What flavour is blue razz lemonade?</h4>
+<p>Blue razz lemonade is blue raspberry with a lemonade finish. Our Hayati Pro Max Plus 6000 page describes a sweet-and-sour blue raspberry candy note lifted by a sherbet-like fizz, with no menthol; the Bar Juice 5000 page calls it ripe blue raspberry with the zest of lemonade.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is blue razz lemonade vape good?</h4>
+<p>By demand, yes: it is searched about 700 times a month in the UK, and Hayati, Elf Bar, Bar Juice and Al Fakher all make one. By our sales it is a small flavour, 14 units in 120 days, led by the Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt with 5 bottles.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is in blue raspberry lemonade?</h4>
+<p>Two parts: the blue raspberry candy flavour every blue razz vape is built on, and a lemonade note that adds citrus and fizz. The Hayati Pro Max Plus 6000 page states there is no menthol; the fresh finish comes from the lemonade, not from ice.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there an Elf Bar blue razz lemonade?</h4>
+<p>Yes, two. The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-elf-bar-600" rel="noopener" title="Blue Razz Lemonade Elf Bar 600 Prefilled Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Elf Bar 600 Kit</strong></a> is the prefilled 600-puff kit at £4.99, 20mg, and the Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt is the bottle for refillable kits at £2.59 in 5mg, 10mg or 20mg. The bottle sold more here, with 4 in 120 days.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which Hayati blue razz lemonade should I buy?</h4>
+<p>The Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt (£2.59, 10mg or 20mg) if you refill, or the <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-hayati-pro-max-plus-6000" rel="noopener" title="Blue Razz Lemonade Hayati Pro Max Plus 6000 Puffs Pod Kit UK" target="_blank"><strong>Blue Razz Lemonade Hayati Pro Max Plus 6000 Kit</strong></a> (£8.99, 20mg, 6,000 puffs) if you want it prefilled. The bottle is the best seller on this page with 5 in 120 days.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Is there an Al Fakher Crown Bar in blue razz lemonade?</h4>
+<p>Yes. The <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-al-fakher-crown-bar-30k" rel="noopener" title="Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Vape Kit UK" target="_blank"><strong>Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax Kit</strong></a> is £9.99 for up to 30,000 rated puffs, with two 2ml pods, two 10ml refill containers, an 850mAh USB-C battery and an LED display. It is the biggest puff count and the lowest cost per puff on this page.</p>
+</div>
+<div class="vos-faq-item">
+<h4>Which blue razz lemonade vape juice sells best?</h4>
+<p>The Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt, with 5 bottles in 120 days, then the Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt at 4 and the <a href="https://vapeonlinestore.co.uk/products/blue-razz-lemonade-bar-juice-5000" rel="noopener" title="Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt E-Liquid UK" target="_blank"><strong>Blue Razz Lemonade Bar Juice 5000 10ml Nic Salt</strong></a> at 2. All three are £2.00 a bottle on a five-pack; the Bar Juice bottle is the only one with 15mg.</p>
+</div>
+<div class="vos-faq-item">
+<h4>What is a blue razz vape?</h4>
+<p>A blue razz vape is any kit, pod or liquid built on the blue raspberry candy flavour. Blue razz lemonade adds lemonade, blue razz ice adds a cooling finish, and blue razz gummy bear and blue razz cherry add sweets or fruit. The plain and iced lines are on the <a href="https://vapeonlinestore.co.uk/collections/blue-razz-ice-vape" rel="noopener" title="Blue Razz Ice Vape UK" target="_blank"><strong>blue razz ice vape</strong></a> page.</p>
+</div>
+<!-- ========================================= --> <!-- FINAL CTA --> <!-- ========================================= -->
+<h2>Pick Your Blue Razz Lemonade and Check Out</h2>
+<p>Start with the <strong>Blue Razz Lemonade Hayati Pro Max 10ml Nic Salt</strong> at £2.59 if you refill, the <strong>Blue Razz Lemonade Elf Bar Elfliq 10ml Nic Salt</strong> at £2.59 if you want 5mg, and the <strong>Blue Razz Lemonade Al Fakher Crown Bar 30K Hypermax</strong> at £9.99 if you want it prefilled and long lasting.</p>
+</div>
