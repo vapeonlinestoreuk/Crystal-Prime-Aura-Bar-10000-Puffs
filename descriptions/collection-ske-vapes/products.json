@@ -16,7 +16,9 @@
    "rating_count": 5,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ske-crystal-cl6000-prefilled-pod-vape-kit.jpg?v=1783281496",
    "compare": [],
-   "rank_overall": 5
+   "rank_overall": 5,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "8771179577593",
@@ -34,7 +36,9 @@
    "compare": [
     7.99
    ],
-   "rank_overall": 6
+   "rank_overall": 6,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "9011974144249",
@@ -52,7 +56,9 @@
    "compare": [
     12.99
    ],
-   "rank_overall": 8
+   "rank_overall": 8,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "7739850948857",
@@ -70,7 +76,9 @@
    "compare": [
     40.99
    ],
-   "rank_overall": 9
+   "rank_overall": 9,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "8955122548985",
@@ -88,7 +96,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 10
+   "rank_overall": 10,
+   "featured": false
   },
   {
    "pid": "8974910816505",
@@ -106,7 +115,9 @@
    "compare": [
     14.99
    ],
-   "rank_overall": 12
+   "rank_overall": 12,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "7716554998009",
@@ -124,7 +135,9 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 13
+   "rank_overall": 13,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "8553616572665",
@@ -142,7 +155,8 @@
    "compare": [
     10.99
    ],
-   "rank_overall": 18
+   "rank_overall": 18,
+   "featured": false
   },
   {
    "pid": "8116156596473",
@@ -160,7 +174,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 21
+   "rank_overall": 21,
+   "featured": false
   },
   {
    "pid": "9118495473913",
@@ -178,7 +193,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 22
+   "rank_overall": 22,
+   "featured": false
   },
   {
    "pid": "9118492393721",
@@ -196,7 +212,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 23
+   "rank_overall": 23,
+   "featured": false
   },
   {
    "pid": "8949859287289",
@@ -214,7 +231,8 @@
    "compare": [
     9.99
    ],
-   "rank_overall": 24
+   "rank_overall": 24,
+   "featured": false
   },
   {
    "pid": "8771209756921",
@@ -232,7 +250,9 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 2
+   "rank_overall": 2,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8716020547833",
@@ -250,7 +270,9 @@
    "compare": [
     9.66
    ],
-   "rank_overall": 3
+   "rank_overall": 3,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "9011983352057",
@@ -266,7 +288,9 @@
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/SKE-Bar-15000-Puff-Refill-Pod.jpg?v=1790923664",
    "compare": [],
-   "rank_overall": 4
+   "rank_overall": 4,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "8835860955385",
@@ -284,7 +308,8 @@
    "compare": [
     5.99
    ],
-   "rank_overall": 7
+   "rank_overall": 7,
+   "featured": false
   },
   {
    "pid": "9044743094521",
@@ -302,7 +327,9 @@
    "compare": [
     9.99
    ],
-   "rank_overall": 11
+   "rank_overall": 11,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "9088682361081",
@@ -320,7 +347,8 @@
    "compare": [
     5.99
    ],
-   "rank_overall": 14
+   "rank_overall": 14,
+   "featured": false
   },
   {
    "pid": "8814821572857",
@@ -338,7 +366,8 @@
    "compare": [
     7.99
    ],
-   "rank_overall": 15
+   "rank_overall": 15,
+   "featured": false
   },
   {
    "pid": "8882743902457",
@@ -356,7 +385,8 @@
    "compare": [
     62.99
    ],
-   "rank_overall": 17
+   "rank_overall": 17,
+   "featured": false
   },
   {
    "pid": "8882734334201",
@@ -374,7 +404,8 @@
    "compare": [
     62.99
    ],
-   "rank_overall": 20
+   "rank_overall": 20,
+   "featured": false
   },
   {
    "pid": "8182402941177",
@@ -392,7 +423,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 28
+   "rank_overall": 28,
+   "featured": false
   },
   {
    "pid": "7953341710585",
@@ -410,7 +442,9 @@
    "compare": [
     4.0
    ],
-   "rank_overall": 1
+   "rank_overall": 1,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "8461039829241",
@@ -428,7 +462,8 @@
    "compare": [
     4.0
    ],
-   "rank_overall": 16
+   "rank_overall": 16,
+   "featured": false
   },
   {
    "pid": "8313005342969",
@@ -446,7 +481,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 19
+   "rank_overall": 19,
+   "featured": false
   },
   {
    "pid": "8112243114233",
@@ -464,7 +500,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 29
+   "rank_overall": 29,
+   "featured": false
   },
   {
    "pid": "8117587542265",
@@ -482,7 +519,8 @@
    "compare": [
     10.0
    ],
-   "rank_overall": 31
+   "rank_overall": 31,
+   "featured": false
   },
   {
    "pid": "8112242327801",
@@ -500,7 +538,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 32
+   "rank_overall": 32,
+   "featured": false
   },
   {
    "pid": "8117587280121",
@@ -518,7 +557,8 @@
    "compare": [
     10.0
    ],
-   "rank_overall": 33
+   "rank_overall": 33,
+   "featured": false
   },
   {
    "pid": "8313000853753",
@@ -536,7 +576,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 37
+   "rank_overall": 37,
+   "featured": false
   }
  ],
  "all_active_ranked": [
@@ -556,7 +597,9 @@
    "compare": [
     4.0
    ],
-   "rank_overall": 1
+   "rank_overall": 1,
+   "featured": true,
+   "featured_block": 1
   },
   {
    "pid": "8771209756921",
@@ -574,7 +617,9 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 2
+   "rank_overall": 2,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8716020547833",
@@ -592,7 +637,9 @@
    "compare": [
     9.66
    ],
-   "rank_overall": 3
+   "rank_overall": 3,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "9011983352057",
@@ -608,7 +655,9 @@
    "rating_count": 2,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/SKE-Bar-15000-Puff-Refill-Pod.jpg?v=1790923664",
    "compare": [],
-   "rank_overall": 4
+   "rank_overall": 4,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "8514727346425",
@@ -624,7 +673,9 @@
    "rating_count": 5,
    "img": "https://cdn.shopify.com/s/files/1/0652/2630/9881/files/ske-crystal-cl6000-prefilled-pod-vape-kit.jpg?v=1783281496",
    "compare": [],
-   "rank_overall": 5
+   "rank_overall": 5,
+   "featured": true,
+   "featured_block": 3
   },
   {
    "pid": "8771179577593",
@@ -642,7 +693,9 @@
    "compare": [
     7.99
    ],
-   "rank_overall": 6
+   "rank_overall": 6,
+   "featured": true,
+   "featured_block": 2
   },
   {
    "pid": "8835860955385",
@@ -660,7 +713,8 @@
    "compare": [
     5.99
    ],
-   "rank_overall": 7
+   "rank_overall": 7,
+   "featured": false
   },
   {
    "pid": "9011974144249",
@@ -678,7 +732,9 @@
    "compare": [
     12.99
    ],
-   "rank_overall": 8
+   "rank_overall": 8,
+   "featured": true,
+   "featured_block": 4
   },
   {
    "pid": "7739850948857",
@@ -696,7 +752,9 @@
    "compare": [
     40.99
    ],
-   "rank_overall": 9
+   "rank_overall": 9,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "8955122548985",
@@ -714,7 +772,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 10
+   "rank_overall": 10,
+   "featured": false
   },
   {
    "pid": "9044743094521",
@@ -732,7 +791,9 @@
    "compare": [
     9.99
    ],
-   "rank_overall": 11
+   "rank_overall": 11,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "8974910816505",
@@ -750,7 +811,9 @@
    "compare": [
     14.99
    ],
-   "rank_overall": 12
+   "rank_overall": 12,
+   "featured": true,
+   "featured_block": 6
   },
   {
    "pid": "7716554998009",
@@ -768,7 +831,9 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 13
+   "rank_overall": 13,
+   "featured": true,
+   "featured_block": 5
   },
   {
    "pid": "9088682361081",
@@ -786,7 +851,8 @@
    "compare": [
     5.99
    ],
-   "rank_overall": 14
+   "rank_overall": 14,
+   "featured": false
   },
   {
    "pid": "8814821572857",
@@ -804,7 +870,8 @@
    "compare": [
     7.99
    ],
-   "rank_overall": 15
+   "rank_overall": 15,
+   "featured": false
   },
   {
    "pid": "8461039829241",
@@ -822,7 +889,8 @@
    "compare": [
     4.0
    ],
-   "rank_overall": 16
+   "rank_overall": 16,
+   "featured": false
   },
   {
    "pid": "8882743902457",
@@ -840,7 +908,8 @@
    "compare": [
     62.99
    ],
-   "rank_overall": 17
+   "rank_overall": 17,
+   "featured": false
   },
   {
    "pid": "8553616572665",
@@ -858,7 +927,8 @@
    "compare": [
     10.99
    ],
-   "rank_overall": 18
+   "rank_overall": 18,
+   "featured": false
   },
   {
    "pid": "8313005342969",
@@ -876,7 +946,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 19
+   "rank_overall": 19,
+   "featured": false
   },
   {
    "pid": "8882734334201",
@@ -894,7 +965,8 @@
    "compare": [
     62.99
    ],
-   "rank_overall": 20
+   "rank_overall": 20,
+   "featured": false
   },
   {
    "pid": "8116156596473",
@@ -912,7 +984,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 21
+   "rank_overall": 21,
+   "featured": false
   },
   {
    "pid": "9118495473913",
@@ -930,7 +1003,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 22
+   "rank_overall": 22,
+   "featured": false
   },
   {
    "pid": "9118492393721",
@@ -948,7 +1022,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 23
+   "rank_overall": 23,
+   "featured": false
   },
   {
    "pid": "8949859287289",
@@ -966,7 +1041,8 @@
    "compare": [
     9.99
    ],
-   "rank_overall": 24
+   "rank_overall": 24,
+   "featured": false
   },
   {
    "pid": "8056337793273",
@@ -984,7 +1060,8 @@
    "compare": [
     15.99
    ],
-   "rank_overall": 25
+   "rank_overall": 25,
+   "featured": false
   },
   {
    "pid": "9118641619193",
@@ -1002,7 +1079,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 26
+   "rank_overall": 26,
+   "featured": false
   },
   {
    "pid": "9118110187769",
@@ -1020,7 +1098,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 27
+   "rank_overall": 27,
+   "featured": false
   },
   {
    "pid": "8182402941177",
@@ -1038,7 +1117,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 28
+   "rank_overall": 28,
+   "featured": false
   },
   {
    "pid": "8112243114233",
@@ -1056,7 +1136,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 29
+   "rank_overall": 29,
+   "featured": false
   },
   {
    "pid": "8621484310777",
@@ -1074,7 +1155,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 30
+   "rank_overall": 30,
+   "featured": false
   },
   {
    "pid": "8117587542265",
@@ -1092,7 +1174,8 @@
    "compare": [
     10.0
    ],
-   "rank_overall": 31
+   "rank_overall": 31,
+   "featured": false
   },
   {
    "pid": "8112242327801",
@@ -1110,7 +1193,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 32
+   "rank_overall": 32,
+   "featured": false
   },
   {
    "pid": "8117587280121",
@@ -1128,7 +1212,8 @@
    "compare": [
     10.0
    ],
-   "rank_overall": 33
+   "rank_overall": 33,
+   "featured": false
   },
   {
    "pid": "9114255884537",
@@ -1146,7 +1231,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 34
+   "rank_overall": 34,
+   "featured": false
   },
   {
    "pid": "7962509607161",
@@ -1164,7 +1250,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 35
+   "rank_overall": 35,
+   "featured": false
   },
   {
    "pid": "9118638342393",
@@ -1182,7 +1269,8 @@
    "compare": [
     4.99
    ],
-   "rank_overall": 36
+   "rank_overall": 36,
+   "featured": false
   },
   {
    "pid": "8313000853753",
@@ -1200,7 +1288,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 37
+   "rank_overall": 37,
+   "featured": false
   },
   {
    "pid": "8406202712313",
@@ -1218,7 +1307,8 @@
    "compare": [
     6.99
    ],
-   "rank_overall": 38
+   "rank_overall": 38,
+   "featured": false
   },
   {
    "pid": "8313001705721",
@@ -1236,7 +1326,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 39
+   "rank_overall": 39,
+   "featured": false
   },
   {
    "pid": "8313002852601",
@@ -1254,7 +1345,8 @@
    "compare": [
     24.99
    ],
-   "rank_overall": 40
+   "rank_overall": 40,
+   "featured": false
   },
   {
    "pid": "9026340716793",
@@ -1272,7 +1364,8 @@
    "compare": [
     8.99
    ],
-   "rank_overall": 41
+   "rank_overall": 41,
+   "featured": false
   }
  ],
  "sales_rows_not_in_collection": [
@@ -1281,5 +1374,6 @@
    "units": 17,
    "note": "not in collection"
   }
- ]
+ ],
+ "restructured": "2026-10-26: 6 blocks, kit and own pods share one block"
 }
