@@ -1,0 +1,19 @@
+{
+ "metafield": "custom.subcollections",
+ "handles": [
+  "ske-pods",
+  "ske-crystal-nic-salts",
+  "crystal-vapes-box-of-10-wholesale",
+  "crystal-vape",
+  "pre-filled-pod-vape-kits",
+  "prefilled-vape-pods"
+ ],
+ "gids": [
+  "gid://shopify/Collection/452477649145",
+  "gid://shopify/Collection/419019096313",
+  "gid://shopify/Collection/450913927417",
+  "gid://shopify/Collection/412292907257",
+  "gid://shopify/Collection/450992242937",
+  "gid://shopify/Collection/440449794297"
+ ]
+}
